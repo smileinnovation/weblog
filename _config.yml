@@ -49,6 +49,14 @@ paginate_path: "/page:num/"
 feed:
   posts_limits: 20
   excerpt_only: false
+
+jekyll-archives:
+    enabled:
+        - year
+        - month
+        - categories
+        - tags
+    layout: archive
 markdown: kramdown
 kramdown:
   input: GFM
