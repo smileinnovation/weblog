@@ -42,10 +42,19 @@ timezone: Europe/Luxembourg
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-archives
 
 feed:
     posts_limits: 20
     excerpt_only: false
+
+jekyll-archives:
+    enabled:
+        - year
+        - month
+        - categories
+        - tags
+    layout: archive
 # Have a per category feed
 #    categories:
 #        - techwatch
