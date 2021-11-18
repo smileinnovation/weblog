@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem "jekyll-youtube"
   gem "jekyll-maps"
   gem "jekyll-gist"
+  gem "jekyll-twitter-plugin"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

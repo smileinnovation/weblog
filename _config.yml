@@ -46,6 +46,7 @@ plugins:
   - jekyll-youtube
   - jekyll-maps
   - jekyll-gist
+  - jekyll-twitter-plugin
 
 feed:
     posts_limits: 20
