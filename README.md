@@ -23,3 +23,7 @@ location:
     longitude: -0.2416807
 ```
 Then, in your content `{% google_map %}`
+
+**Gist**
+
+In your content `{% gist c08ee0f2726fd0e3909d %}` or `{% gist c08ee0f2726fd0e3909d test.md %}`
