@@ -43,6 +43,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-archives
+  - jekyll-youtube
 
 feed:
     posts_limits: 20
