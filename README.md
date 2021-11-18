@@ -27,3 +27,7 @@ Then, in your content `{% google_map %}`
 **Gist**
 
 In your content `{% gist c08ee0f2726fd0e3909d %}` or `{% gist c08ee0f2726fd0e3909d test.md %}`
+
+**Twitter**
+
+In your content `{% twitter https://twitter.com/rubygems/status/518821243320287232 %}`
