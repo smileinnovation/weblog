@@ -44,6 +44,7 @@ plugins:
   - jekyll-feed
   - jekyll-archives
   - jekyll-youtube
+  - jekyll-maps
 
 feed:
     posts_limits: 20
@@ -56,6 +57,10 @@ jekyll-archives:
         - categories
         - tags
     layout: archive
+
+maps:
+    google:
+        api_key: <YOUR_KEY>
 # Have a per category feed
 #    categories:
 #        - techwatch
