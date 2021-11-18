@@ -53,6 +53,7 @@ paginate_path: "/page:num/"
   - jekyll-youtube
   - jekyll-maps
   - jekyll-gist
+  - jekyll-twitter-plugin
 
 >>>>>>> fc33393 (Add google map filter)
 feed:
