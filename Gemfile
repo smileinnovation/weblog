@@ -19,7 +19,6 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-archives"
   gem "jekyll-youtube"
-<<<<<<< HEAD
   gem "jekyll-maps"
   gem "jekyll-gist"
   gem "jekyll-twitter-plugin"
@@ -29,9 +28,6 @@ group :jekyll_plugins do
   gem 'rouge'
   gem 'jekyll-seo-tag'
   gem "jekyll-menus"
-=======
-  gem 'jekyll-maps'
->>>>>>> fc33393 (Add google map filter)
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

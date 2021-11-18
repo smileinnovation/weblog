@@ -23,7 +23,6 @@ location:
     longitude: -0.2416807
 ```
 Then, in your content `{% google_map %}`
-<<<<<<< HEAD
 
 **Gist**
 
@@ -32,5 +31,3 @@ In your content `{% gist c08ee0f2726fd0e3909d %}` or `{% gist c08ee0f2726fd0e390
 **Twitter**
 
 In your content `{% twitter https://twitter.com/rubygems/status/518821243320287232 %}`
-=======
->>>>>>> fc33393 (Add google map filter)
