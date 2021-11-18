@@ -43,6 +43,15 @@ theme: minima
 plugins:
   - jekyll-feed
 
+feed:
+    posts_limits: 20
+    excerpt_only: false
+# Have a per category feed
+#    categories:
+#        - techwatch
+# Generate a feed for all tags
+#    tags: true
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
