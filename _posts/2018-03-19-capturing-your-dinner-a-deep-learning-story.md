@@ -158,18 +158,15 @@ def augmentation(im, fact=.0):
         fact = 1.0
     # get HSV
     hsv = cv2.cvtColor(im, cv2.COLOR_RGB2HSV)
-
     # set it to numpy array
     hsv = np.array(hsv)
     h = hsv[:,:,0]
     s = hsv[:,:,1]
     v = hsv[:,:,2]
-
     # fact * channel
     hsv[:,:,0] = np.where(h*fact <= 255, fact*h, h)
     hsv[:,:,1] = np.where(s*fact <= 255, fact*s, s)
     hsv[:,:,2] = np.where(v*fact <= 255, fact*v, v)
-
     # return hsv and rgb
     return hsv, cv2.cvtColor(hsv, cv2.COLOR_HSV2RGB)
 ```
@@ -229,7 +226,6 @@ def extract_features(im,
     # kind of dilatation of the first one
     mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, ellipses)
     mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, ellipses)
-
     # binarize that !
     _, contour = cv2.threshold(mask,
                                threshold,

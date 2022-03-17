@@ -295,7 +295,6 @@ from keras.layers import TimeDistributed, GRU, Dense, Dropout
 def action_model(shape=(5, 112, 112, 3), nbout=3):
     # Create our convnet with (112, 112, 3) input shape
     convnet = build_convnet(shape[1:])
-
     # then create our final model
     model = keras.Sequential()
 ```
@@ -475,7 +474,6 @@ And for our function that builds the action model, now use `build_mobilenet` :
 def action_model(shape=(5, 112, 112, 3), nbout=3):
     # Create our convnet with (112, 112, 3) input shape
     convnet = build_mobilenet(shape[1:])
-
     # then create our final model
     model = keras.Sequential()
     # ...
