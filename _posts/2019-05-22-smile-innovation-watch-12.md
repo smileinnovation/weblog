@@ -22,7 +22,7 @@ This is Smile’s Innovation Watch.
 
 # Innovation • /ˌɪnəˈveɪʃən/
 
-![](/assets/images/posts//images/posts/images/posts/0*OjnSUGkbjYb1poOa.jpg)
+![](/assets/images/posts/0*OjnSUGkbjYb1poOa.jpg)
 
 ### [This person does not exist](https://thispersondoesnotexist.com/)
 
@@ -36,13 +36,13 @@ The new trained model in their text generation research is too powerful and coul
 
 ### [JP Morgan launched the first US banked-backed cryptocurrency](https://www.cnbc.com/2019/02/13/jp-morgan-is-rolling-out-the-first-us-bank-backed-cryptocurrency-to-transform-payments--.html)
 
-![](/assets/images/posts//images/posts/images/posts/0*a6PYyoe4Ck997C-V.jpg)
+![](/assets/images/posts/0*a6PYyoe4Ck997C-V.jpg)
 
 Creating the “JPM Coin”, a **#digitaltoken** that you’ll use to instantly settle transaction between clients of its wholesale payment business. That’s an interesting turnover of a **#Big4** that was the most aggressively against any form of **#cryptocurrency** in the past. That’s not the first backed by an institution coin either but the first of its kind by US bank. Maybe owning the bank that supports it has helped …
 
 ### [ABN Amro, the first bank to offer using a connected object as payment support](http://www.larevuedudigital.com/abn-amro-premiere-banque-a-proposer-lusage-des-objets-de-paiement-sans-contact/)
 
-![](/assets/images/posts//images/posts/images/posts/0*fxk6QJe3xC5lgbgA.jpg)
+![](/assets/images/posts/0*fxk6QJe3xC5lgbgA.jpg)
 
 (reads in 🇫🇷) The Dutch #b**ank A**BN Amro with 6.8 million clients offer a new way to pay every day: with a ring, a watch or a quantify self bracelet. Deploying it widely after testing it for a year with 500 clients, more than 80% of the users prefer that kind of new way of payment to their traditional credit/debit card. Sadly, Garmin watch & Fitbit bracelets require the user to input a code on their device every 24h to keep the device “enabled”. But they are not the only brands offering this kind of services and the bank have already 6 different manufacturers enrolled in their program.
 
@@ -64,7 +64,7 @@ Back in 2016, the company moved some of its R&D operations to Ukraine and it see
 
 # Openness • /ˈəʊ.pən/ + /nəs/
 
-![](/assets/images/posts//images/posts/images/posts/0*FWNOzQ2ki3J0XEw8.jpg)
+![](/assets/images/posts/0*FWNOzQ2ki3J0XEw8.jpg)
 
 ### [EU Tax Link and upload filter are moving to a final vote](https://www.theverge.com/2019/2/13/18223815/eu-copyright-directive-article-11-13-trilogues-finished-final-vote-parliament)
 
@@ -74,7 +74,7 @@ All the effort to remove or affect the articles 11 & 13 of the EU Copyright Dire
 
 ### [The hotel room of tomorrow: on wheels and autonomous](https://siecledigital.fr/2019/01/02/hotel-futur-autonome-sur-roues/)
 
-![](/assets/images/posts//images/posts/images/posts/0*vLueBBOIBqGwH0nx.jpg)
+![](/assets/images/posts/0*vLueBBOIBqGwH0nx.jpg)
 
 (reads in 🇫🇷) That’s an insane project which just won the title of “radical Innovation”: the ATS (Autonomous Travel Suite). This crazy idea isn’t new, Ikea already thought about it with their Space10 project but the idea of being able to sleep, work a bit and even have a meal while being transported to your client meeting is just something really appealing to us (who travels a lot all across Europe to help you with your clients projects 😅).
 

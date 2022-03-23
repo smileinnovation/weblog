@@ -12,7 +12,7 @@ username: fabien.gasser
 
 # Where do I start my journey to headless commerce?
 
-![An open road to create a unique way to interact with your customers.](/assets/images/posts//images/posts/0*7OYfxSA16zi39izZ)
+![An open road to create a unique way to interact with your customers.](/assets/images/posts/0*7OYfxSA16zi39izZ)
 
 You shouldn’t think about an e-commerce platform as a one-fit-all solution because there is no such thing; the devil hides in the details and your margin and profit. As you may know, the headless approach is a clear separation of concern between the frontend and backend relying on API.
 
@@ -24,11 +24,11 @@ Building a commerce platform is a long journey, and you should put your effort i
 
 If it’s key to your business, you should build your own solutions, but buy a COTS (Commercial off-the-shelf) if it's a commodity.
 
-![](/assets/images/posts//images/posts/images/posts/1*s7cWGI1QJFmAmjbJ3YWrZQ.png)
+![](/assets/images/posts/1*s7cWGI1QJFmAmjbJ3YWrZQ.png)
 
 There is always a cost: either a costly license, an internal resource needs, or the need of an external provider to complete your task! So choose wisely if you should own it or buy it.
 
-![The age-old question for software ownership.](/assets/images/posts//images/posts/1*SIOoTXXwis_FynmHTGPT6Q.png)
+![The age-old question for software ownership.](/assets/images/posts/1*SIOoTXXwis_FynmHTGPT6Q.png)
 
 # Headless commerce ecosystem
 
@@ -43,7 +43,7 @@ Many solutions can answer your needs, from headless [Adobe Commerce](https://bus
 
 It’s a complete paradigm shift focusing on a best-of-breed approach, leaving monolith solutions far behind in terms of agility and time to market.
 
-![Commerce layer user interface.](/assets/images/posts//images/posts/0*beBlzO0i6Y-0BPsd)
+![Commerce layer user interface.](/assets/images/posts/0*beBlzO0i6Y-0BPsd)
 
 ### Commerce services are deeply linked to a content-first strategy
 
@@ -51,17 +51,17 @@ It’s a complete paradigm shift focusing on a best-of-breed approach, leaving m
 
 You’ve created a product page with your favorite CMS/headless cms; an async call to price and stock will allow getting fresh and mandatory information of the selected product.
 
-![](/assets/images/posts//images/posts/images/posts/0*v7tFr9gkrZYjvTX-)
+![](/assets/images/posts/0*v7tFr9gkrZYjvTX-)
 
 The checkout process is what a customer must go through when purchasing the items in their shopping cart. The customer can be either a *guest* — i.e., they proceed by just providing an email address — or *logged* — i.e., they authenticate themselves with a password. When logged in, the customer gains access to their private data, such as their saved addresses and credit cards, making the process faster.
 
-![](/assets/images/posts//images/posts/images/posts/0*-T8z6_Lm-EXwpRFb)
+![](/assets/images/posts/0*-T8z6_Lm-EXwpRFb)
 
 ### A headless commerce architecture
 
 Unlike the traditional platforms, headless commerce doesn’t lock your creativity into any rigid templating system. Allowing you to build unique and blazing-fast eCommerce without worrying about servers, security, and all the boring stuff.
 
-![](/assets/images/posts//images/posts/images/posts/1*USyFhCF_9WC_n3U8QePjUw.png)
+![](/assets/images/posts/1*USyFhCF_9WC_n3U8QePjUw.png)
 
 # A land of services
 

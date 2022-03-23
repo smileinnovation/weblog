@@ -30,7 +30,7 @@ Artificial intelligence (AI) technology improves the ability of brain imaging to
 
 Spatial turns the space around you into a 3d shared AR workplace. Remote users can collaborate, search, brainstorm and share content as if they were in the same room with an augmented reality headset.
 
-![](/assets/images/posts//images/posts/images/posts/0*7Gr3KgSpL15c0LK1)
+![](/assets/images/posts/0*7Gr3KgSpL15c0LK1)
 
 ### [**Dubaï: police is testing flying motorbike**](https://www.rtl.fr/actu/futur/video-dubai-les-policiers-essayent-une-moto-volante-7795614069?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 

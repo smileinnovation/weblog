@@ -14,7 +14,7 @@ username: patrice.ferlet
 
 ### With the help of Docker, you will be able to customize training and infering models using other frameworks that those provided by SageMaker
 
-![Photo by chuttersnap on Unsplash](/assets/images/posts//images/posts/0*ETsqASs_Q-MBcDv9)
+![Photo by chuttersnap on Unsplash](/assets/images/posts/0*ETsqASs_Q-MBcDv9)
 
 You may already know what Amazon SageMaker is. We can name it as “Machine Learning as a Service” providing [Jupyter notebook](https://jupyter.org/), Python API to launch model training on huge servers with CPU or GPU, then store model and data on S3. Finally *deploy and serve* that model with a REST API. In order to help you, SageMaker provides several built-in models and frameworks like MXNet, Tensorflow, …
 
@@ -24,7 +24,7 @@ To play fair, you may be able to train models with built-in for many cases. But 
 
 Yes, Docker one more time! Really, SageMaker starts Docker container on an instance to have a working environment suitable for your needs. If you use the built-in frameworks, SageMaker provides the right Docker image without the need to specify it. But when you want your own, it’s easy to build, push and use it.
 
-![SageMaker train, deploy and use](/assets/images/posts//images/posts/1*AAcRTH4SoYreT-j2E78QLg.png)
+![SageMaker train, deploy and use](/assets/images/posts/1*AAcRTH4SoYreT-j2E78QLg.png)
 
 # **Create Docker image**
 
@@ -244,7 +244,7 @@ This is pretty simple, the only thing we need is to create an “Estimator”, a
 
 Of course, that API is **not **public** **so you need to be authenticated to AWS with a correct user (or in a group). This snippet works in Jupyter and in a distant computer as soon as you setup AWS configuration (install `awscli`and use`aws configure` to create `~/.aws/config` file)
 
-![Burger and Salad recognition](/assets/images/posts//images/posts/1*iOe8qcXHfgRGMNeYaEPQlw.png)
+![Burger and Salad recognition](/assets/images/posts/1*iOe8qcXHfgRGMNeYaEPQlw.png)
 
 # Winding up
 

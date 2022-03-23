@@ -28,13 +28,13 @@ This is Smile’s Innovation Watch.
 
 Goggles with a smart display are something Cédric Ravalec, our convergence wizard, and we have been talking for some times. We first came to think about it first for cyclists while working on the Sun Trip Tour / Smile Trip Tour project. We are looking forward to seeing this object emerging in other sports with such a bright idea.
 
-![](/assets/images/posts//images/posts/images/posts/0*qszZdSM1qYRPoxF3.jpg)
+![](/assets/images/posts/0*qszZdSM1qYRPoxF3.jpg)
 
 ### [Alexa, I feel like sh*t](https://usbeketrica.com/article/la-securite-sociale-britannique-s-allie-a-amazon-pour-conseiller-les-malades)
 
 (Read in 🇫🇷) NHS team up with Amazon to develop Alexa skills to help British people “get control over their health again” instead of going straight to the doctor, you can ask Alexa to guide you through auto medication. As expected, the General Medical Council is not very happy about this, auto medication is never a good choice, and they point out that will reinforce the two-speed medical system, where human interaction will be a luxury. We should note that it is not the first time that the NHS partners with a private company. They already advertise on a have a chatbot when you are calling the emergency number…
 
-![](/assets/images/posts//images/posts/images/posts/0*BeA7d2xDVplj0y2T.jpg)
+![](/assets/images/posts/0*BeA7d2xDVplj0y2T.jpg)
 
 ### [The optimistic guide to the robot apocalypse](https://qz.com/904285/the-optimists-guide-to-the-robot-apocalypse/)
 
@@ -42,19 +42,19 @@ Maybe like when Queen Elizabeth I denied a patent to an English inventor for the
 
 # Privacy •/ˈpɹaɪ. və. si/
 
-![](/assets/images/posts//images/posts/images/posts/0*QBwCnUy7Awc25k3a.jpg)
+![](/assets/images/posts/0*QBwCnUy7Awc25k3a.jpg)
 
 ### [Data isn’t the new oil, it’s the new CO2](https://luminategroup.com/posts/blog/data-isnt-the-new-oil-its-the-new-co2)
 
 [“even if you deny consent to ‘your’ data being used, an organisation can use data about other people to make statistical extrapolations that affect you.”](https://www.technologyreview.com/s/612588/its-time-for-a-bill-of-data-rights/) We are bound by other people’s consent. Our own consent (or lack thereof) is becoming increasingly irrelevant. We won’t solve the societal problems pervasive data surveillance is causing by rushing through online consent forms.
 
-![](/assets/images/posts//images/posts/images/posts/0*FaC2lYNvZNVN7OUQ.jpg)
+![](/assets/images/posts/0*FaC2lYNvZNVN7OUQ.jpg)
 
 ### [Google is training its face-unlock algorithm with random people in the street](https://usbeketrica.com/article/pour-google-votre-visage-a-un-prix-5-dollars)
 
 (Read in 🇫🇷) Unlike using video feeds of people, Google is offering 5$ coupons to passersby in exchange for recording their face under different exposures and angles, using a dedicated smartphone and app. To avoid gender and racial bias, Google wants to improve its algorithm to work for all kinds of faces and skin colours by not simply relying on biometric data this time.
 
-![](/assets/images/posts//images/posts/images/posts/0*5GzMeceWu3ol5R-8.jpeg)
+![](/assets/images/posts/0*5GzMeceWu3ol5R-8.jpeg)
 
 ### [Microsoft is listening to you too](https://www.vice.com/en_us/article/xweqbq/microsoft-contractors-listen-to-skype-calls)…
 
@@ -62,7 +62,7 @@ Finally, it seems **EVERYONE** is listening to you through their hardware or sof
 
 # Acquisition •/ˌakwɪˈzɪʃ (ə) n/
 
-![](/assets/images/posts//images/posts/images/posts/0*IPi3rW9NMy9BdZoa.png)
+![](/assets/images/posts/0*IPi3rW9NMy9BdZoa.png)
 
 ### [Disney, after acquiring ESPN & 21st Century Fox, launches its streaming service, cheaper than any competitors](https://www.theverge.com/2019/8/6/20757626/disney-plus-espn-hulu-bundle-price-date-streaming-service)
 
@@ -70,13 +70,13 @@ For 12,99$ a month, Disney launches bundled services including ESPN+ (the sports
 
 # Openness • /ˈəʊ.pən/+/nəs/
 
-![](/assets/images/posts//images/posts/images/posts/0*Oms1JqtmavdwVpTq.png)
+![](/assets/images/posts/0*Oms1JqtmavdwVpTq.png)
 
 ### [Yelp is doing something very shady with over Restaurant](https://www.vice.com/en_us/article/wjwebw/yelp-is-sneakily-replacing-restaurants-phone-numbers-so-grubhub-can-take-a-cut)
 
 Yelp is a well known and used service operating worldwide but mostly in the USA, while Europe is using Foursquare or Google Maps. It lists nice places, like restaurants, and allow you yo rate them, know their opening hours, menu and phone number to make an order or book sits. But they also partnered with Grubhub which is an Uber Eat like platform (which pays more fairly the delivery men and women) and which offers services to restaurants like delivery (obviously) and also “marketing”. The thin is, Yelp now replaced all restaurants phone number with the Grubhub one, which operates a transparent call forwarding for the user but will end up in charging 15 to 20% of your order to the restaurant. 😈
 
-![](/assets/images/posts//images/posts/images/posts/0*TtkCNegMxU6oIbgh.png)
+![](/assets/images/posts/0*TtkCNegMxU6oIbgh.png)
 
 ### [Apple Card is rolling out, but what’s its level of awesomeness?](https://www.theverge.com/2019/8/6/20756048/apple-card-availability-sign-up-cancel-apr-iphone-goldman-sachs)
 
@@ -84,19 +84,19 @@ Let’s start by telling you that Apple Card is only available in the US. Mainly
 
 # Fun • /fʌn/
 
-[![](/assets/images/posts//images/posts/images/posts/0*_tK2A-pLcM9K5WFS.png)](https://getbadnews.com/)
+[![](/assets/images/posts/0*_tK2A-pLcM9K5WFS.png)](https://getbadnews.com/)
 
 ### [FAKE NEWS!](https://getbadnews.com/)
 
 Is your biggest dream to be the next Donald Trump, raise your cohort of fanatics following you in all your battle against BigPharma and the government? Here’s a game for you. Learn all the mechanism of fake news and build your own empire of conspiracies. Behind this serious game, the idea is to give you the knowledge on how it works to better spot them in the wild and sharpen your self-judgment compass.
 
-![](/assets/images/posts//images/posts/images/posts/0*CCQQZfNZQJ9QshQ3.png)
+![](/assets/images/posts/0*CCQQZfNZQJ9QshQ3.png)
 
 ### [Train neural network to recognise Rock Paper Scissors](https://heartbeat.fritz.ai/using-tensorflow-js-to-train-a-rock-paper-scissors-model-b5f393b548eb)
 
 Using Tensorflow.js (the Javascript version of the tool we are using to train neural network) you can, under 10 minutes, **without any knowledge**, train your own neural net and play with it. Follow us through this step by step guide to understand the basics of computer vision and AI training.
 
-![](/assets/images/posts//images/posts/images/posts/0*Mdz_ebuJpOgW0SYt.jpg)
+![](/assets/images/posts/0*Mdz_ebuJpOgW0SYt.jpg)
 
 ### [How do the 3 seashells works?](https://www.raspberrypi.org/blog/build-demolition-mans-verbal-morality-ticketing-machine/)
 
@@ -104,6 +104,6 @@ OK, so you want to be that cool guy playing with a raspberry pi zero but don’t
 
 # That’s all folks!
 
-Did you enjoy it? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoy it? If so don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube](http://www.youtube.com/user/SmileOpenSource).
 
 

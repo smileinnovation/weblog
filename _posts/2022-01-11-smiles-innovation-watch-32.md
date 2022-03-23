@@ -20,13 +20,13 @@ In this edition, some fresh story about innovation topics (haptic gloves, AI and
 
 # 💡Innovation
 
-![](/assets/images/posts//images/posts/images/posts/0*B8fPmRf-ng3dQmzC.jpg)
+![](/assets/images/posts/0*B8fPmRf-ng3dQmzC.jpg)
 
 ### [Microsoft’s SpaceEye Uses AI to “See” Through Cloud Cover](https://www.extremetech.com/extreme/329765-microsofts-spaceeye-uses-ai-to-see-through-cloud-cover)
 
 Azure Space, one of Microsoft’s latest additions to its Azure cloud computing suite, now has the power to “see” through clouds with a new ability called SpaceEye.
 
-![](/assets/images/posts//images/posts/images/posts/0*dJorJpg38rjFtUJe.jpg)
+![](/assets/images/posts/0*dJorJpg38rjFtUJe.jpg)
 
 ### [Meta haptic glove prototype lets you feel VR objects using air pockets](https://www.theverge.com/2021/11/16/22782860/meta-facebook-reality-labs-soft-robotics-haptic-glove-prototype)
 
@@ -46,7 +46,7 @@ The UK regulator prevent Meta (Facebook) from acquiring Giphy. Founded in 2013, 
 
 PayPal is reportedly in late-stage talks to acquire Pinterest. According to Reuters, the payment company made a $45 billion offer on Wednesday to buy the social network.
 
-![](/assets/images/posts//images/posts/images/posts/0*_mYnmlTqDKHe5PeW.jpg)
+![](/assets/images/posts/0*_mYnmlTqDKHe5PeW.jpg)
 
 ### [Toyota is buying Lyft’s autonomous car division for $550 million](https://www.theverge.com/2021/4/26/22404406/toyota-lyft-autonomous-vehicle-acquisition-amount-deal)
 
@@ -82,6 +82,6 @@ Stockholm’s official app was a disaster. So annoyed parents developed their ow
 
 # That’s all folks!
 
-Did you enjoy it? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoy it? If so don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube](http://www.youtube.com/user/SmileOpenSource).
 
 

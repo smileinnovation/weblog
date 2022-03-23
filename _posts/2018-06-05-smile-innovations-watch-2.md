@@ -16,7 +16,7 @@ For this second edition of our watch, we wanted to show you an amazing picture f
 
 This is Smile’s Innovation’s watch 🤓
 
-![TIME’s Latest Cover Photo is a Drone Photo of 958 Drones](/assets/images/posts//images/posts/0*ohc_XZ3g6XHXWBHd)
+![TIME’s Latest Cover Photo is a Drone Photo of 958 Drones](/assets/images/posts/0*ohc_XZ3g6XHXWBHd)
 
 ### [Read about the last TIME’s cover photo](https://petapixel.com/2018/05/31/times-latest-cover-photo-is-a-drone-photo-of-958-drones/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
@@ -30,18 +30,18 @@ Photography and Camera News, Reviews, and Inspiration. Behind the scene of the 9
 
 Fitness tracker, Payments, SOS/Help Button, Sleep Tracker, Identification or activity & mobile alerts, when jewellery meets technology
 
-![](/assets/images/posts//images/posts/images/posts/0*MGBHt_OsRj6mCvB6)
+![](/assets/images/posts/0*MGBHt_OsRj6mCvB6)
 
 [**Google’s Duplex Assistant phone call**](https://www.youtube.com/watch?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch&v=ijwHj2HaOT0)
 
 Google introduced Duplex, a new technology for Google Assistant that enable natural speaking over the phone. In other terms, Google Assistant will call people for you to take an appointment or book a table, and no ones can distinguish it from a genuine human conversation.
 
-![](/assets/images/posts//images/posts/images/posts/0*GgiRLom_y4cH7JR_)
+![](/assets/images/posts/0*GgiRLom_y4cH7JR_)
 
 [**Lobe : Deep Learning Made Simple**](https://lobe.ai/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
  Lobe is an easy-to-use visual tool that lets you build custom deep learning models, quickly train them, and ship them directly in your app without writing any code.
 
-![](/assets/images/posts//images/posts/images/posts/0*biY8911aSCyOHZZw)
+![](/assets/images/posts/0*biY8911aSCyOHZZw)
 
 [**Introducing CloudEvents 0.1**](https://medium.com/@austencollins/introducing-cloudevents-a758c62c76bf?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
@@ -55,7 +55,7 @@ Once a year Apple invites all iOS, TVOS, MacOS developers to gather on a big eve
 
 > From Middle English, borrowed from Old French *acquisicion*, from Latin *acquisītiō*, from *acquirere*. The act or process of acquiring.
 
-![](/assets/images/posts//images/posts/images/posts/0*jE-xXBDy6bPDYf-i)
+![](/assets/images/posts/0*jE-xXBDy6bPDYf-i)
 
 [**Adobe to acquire Magento for $1.68B**](https://techcrunch.com/2018/05/21/adobe-to-acquire-magento-for-1-6-b/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
@@ -69,7 +69,7 @@ Adobe is consolidating its power in the field of website production by filling t
 
 If you are familiar with *La quadrature du net* you will not be surprised by the tone of the article. Nevertheless, it’s interesting to (re)think how we are building our products, especially when they are handling so much (very) private user data. That’s why we, at Smile, we also chose to work with open-source technology and work to teach our customers about privacy issues.
 
-![](/assets/images/posts//images/posts/images/posts/0*5kajIPoSRenA5wz0)
+![](/assets/images/posts/0*5kajIPoSRenA5wz0)
 
 [**Snips : Privacy by design voice assistant, running off-cloud**](https://snips.ai/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
@@ -81,7 +81,7 @@ Recently Snips announced an upcoming ICO to build an ecosystem where contributor
 
 > Accommodating attitude or opinion, as in receptivity to new ideas, behaviors, cultures, peoples, environments, experiences, etc., different from the familiar, conventional, traditional, or one’s own.
 
-![](/assets/images/posts//images/posts/images/posts/0*3u2JqUp36jooxvf1)
+![](/assets/images/posts/0*3u2JqUp36jooxvf1)
 
 [**Google Home vs Alexa — Startup Grind — Medium**](https://medium.com/startup-grind/google-home-vs-alexa-56e26f69ac77?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
@@ -91,7 +91,7 @@ It’s interesting how I (Fabrice) feel exactly like this. What refrains me the 
 
 > Utterly new, as new as possible
 
-![](/assets/images/posts//images/posts/images/posts/0*W-PlZzfoe3kD46uR)
+![](/assets/images/posts/0*W-PlZzfoe3kD46uR)
 
 [**Introducing Places — Now on Tinder**](https://blog.gotinder.com/introducing-places/?ref=producthunt&utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
@@ -101,7 +101,7 @@ Following the SO-LO-MO (stands for Social, Local & Mobile), Tinder release Place
 
 Airbnb Stories let the user create their own mini-trip journal whenever they stay at a place booked on their platform. Using User Generated Content to improve the quality of picture & genuine stories that will make you want to book the same trip than other people.
 
-![](/assets/images/posts//images/posts/images/posts/0*PjX_hugAc0fGXT7t)
+![](/assets/images/posts/0*PjX_hugAc0fGXT7t)
 
 [**Coinbase Pro | Digital Asset Exchange**](https://pro.coinbase.com/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 

@@ -14,7 +14,7 @@ username: fabien.gasser
 
 AI allows us to understand and measure codebase in a new way, and those last years have been exciting with startups trying to get the best of what AI on code could do.
 
-![Generative art by Eric Davidson](/assets/images/posts//images/posts/0*kPWj7mUpWc1GfVUn.jpg)
+![Generative art by Eric Davidson](/assets/images/posts/0*kPWj7mUpWc1GfVUn.jpg)
 
 # Why should I be interested?
 
@@ -49,7 +49,7 @@ This what the next-gen development part could be like.
 [Github Copilot ](https://copilot.github.com/)
 You get suggestions for whole lines or entire functions right inside your editor.
 
-![One of the biggest news on the subject, let’s see how it goes.](/assets/images/posts//images/posts/0*7aVhfwVVEfnPUKi8.png)
+![One of the biggest news on the subject, let’s see how it goes.](/assets/images/posts/0*7aVhfwVVEfnPUKi8.png)
 
 ### Unit test generation & code documentation
 
@@ -57,7 +57,7 @@ Units testing is a cornerstone for software delivery and a bottleneck that autom
 
 A french company lead made [Ponicode](https://www.ponicode.com/) VSCode extension by Patrick Joubert ex recast founder, who decided to turn his NLP knowledge to code, especially Unit test generation, as a starter and much more are coming.
 
-![Ponicode raises $3.4 million to develop AI that automates code testing](/assets/images/posts//images/posts/0*9trx1nKl3RdvNm1b)
+![Ponicode raises $3.4 million to develop AI that automates code testing](/assets/images/posts/0*9trx1nKl3RdvNm1b)
 
 [Diffblue](https://www.diffblue.com/) IntelliJ extension for Java to catch regressions earlier in your pipeline with Java unit tests that are automatically created by Diffblue Cover
 
@@ -65,7 +65,7 @@ A french company lead made [Ponicode](https://www.ponicode.com/) VSCode extensio
 
 [Codist.ai](https://codist-ai.com/) Your projets deserve to be 100% documented and you don’t need to think twice about it 🧠 CodistAI helps document source code faster.
 
-![](/assets/images/posts//images/posts/images/posts/0*4ElimCQZCPPgZo7k)
+![](/assets/images/posts/0*4ElimCQZCPPgZo7k)
 
 ### Code metrics
 
@@ -73,7 +73,7 @@ During the last year, Covid emphasized the need to have clear metrics on code an
 
 It’s not their first attempt, as members used to work for Source{d}.
 
-![](/assets/images/posts//images/posts/images/posts/0*kh00ft4NX5oU6MgQ.png)
+![](/assets/images/posts/0*kh00ft4NX5oU6MgQ.png)
 
 https://www.athenian.co/
 

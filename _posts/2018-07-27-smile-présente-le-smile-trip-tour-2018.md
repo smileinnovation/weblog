@@ -10,7 +10,7 @@ author: Marie Thibaut
 username: thibaut.marie89
 ---
 
-![](/assets/images/posts//images/posts/images/posts/1*9A3Ybsv3U3scfrOjvVj9ag.png)
+![](/assets/images/posts/1*9A3Ybsv3U3scfrOjvVj9ag.png)
 
 # Smile présente : le Smile Trip Tour 2018
 
@@ -24,7 +24,7 @@ En 2017, sur une idée de Cédric Ravalec, grand passionné de vélo, Smile part
 
 Un vélo solaire, c’est avant tout un vélo à assistance électrique (ou VAE), qui dispose donc d’un petit moteur et d’une batterie pour aider le cycliste, sans pour autant retirer le plaisir de pédaler. Ce vélo est en plus équipé d’un panneau solaire permettant de recharger la batterie pendant que le cycliste évolue sur les routes, augmentant ainsi l’autonomie de l’assistance électrique.
 
-![Exemples de vélos solaires pendant le Sun Trip Tour 2017. Source : Lauriane Havard pour Radio France.](/assets/images/posts//images/posts/0*d7pZuhWY3z__iwAs.jpg)
+![Exemples de vélos solaires pendant le Sun Trip Tour 2017. Source : Lauriane Havard pour Radio France.](/assets/images/posts/0*d7pZuhWY3z__iwAs.jpg)
 
 Ce sont des Smiliens qui ont pédalé pendant toutes les étapes de la course : David et Louis de l’agence de Grenoble et Thomas et Adrien de l’agence de Paris.
 
@@ -40,7 +40,7 @@ Il faut dire que chez Smile, nous sommes nombreux à être passionnés de vélo 
 
 Initialement, ce sont les valeurs de *The Sun Trip* telles que l’ouverture d’esprit, le caractère inclusif de l’évènement (tout le monde peut participer avec un vélo solaire, même bricolé en amateur), le dépassement de soi, le côté humain et le partage qui ont attiré les Smiliens. Ce sont des vertus que l’on retrouve communément chez nous et qui sont largement partagées parmi nos équipes. Mention spéciale pour l’aspect “vélo DIY fait par des passionnés” qui résume assez bien l’état d’esprit des passionnées que nous sommes !
 
-![Logo Smile pour le Sun Trip Tour 2017](/assets/images/posts//images/posts/0*eME8j0rF5MAXvCfO.png)
+![Logo Smile pour le Sun Trip Tour 2017](/assets/images/posts/0*eME8j0rF5MAXvCfO.png)
 
 # Un retour en 2019
 
@@ -52,7 +52,7 @@ Pour Smile, rendre les vélos « connectés » permet montrer son savoir-faire d
 
 De plus en plus, on nous demande d’apporter des solutions complètes sur des projets embarqués : acquisition de données, prétraitement éventuel, transmission des données (envoi sur le Cloud, envoi vers d’autres appareils connectés en Bluetooth…), traitement externe, analyse et restitution sous forme d’interface utilisateur.
 
-![Chaîne d’acquisition du vélo solaire connecté de Smile](/assets/images/posts//images/posts/0*BkHF0Bry5vPlEdno.png)
+![Chaîne d’acquisition du vélo solaire connecté de Smile](/assets/images/posts/0*BkHF0Bry5vPlEdno.png)
 
 Chez Smile, nous développons cette chaîne d’acquisition en utilisant des technologies Open Source comme [*bootstrap*](https://getbootstrap.com/), [*yocto*](https://www.yoctoproject.org/), [*KiCad*](http://kicad-pcb.org/),* [FreeRTOS](https://www.freertos.org/)…*
 

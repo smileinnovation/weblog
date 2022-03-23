@@ -14,7 +14,7 @@ username: patrice.ferlet
 
 ### We have chosen Rancher, Harbor, Gitea, and Drone on a real production Kubernetes cluster. We reduced CPU and memory usage as well as the storage, and of course carbon footprint.
 
-![https://pixabay.com/fr/photos/devops-affaires-3155972/](/assets/images/posts//images/posts/0*yuJaY3WauFTB6GnN.jpg)
+![https://pixabay.com/fr/photos/devops-affaires-3155972/](/assets/images/posts/0*yuJaY3WauFTB6GnN.jpg)
 
 Kubernetes is now the most used Container platform. It is complete, effective, productive and offers a lot of control. Furthermore, while Kubernetes is a “low-level platform”, it is possible to append tools like service mesh, ingress controllers, plugins to add more objects (e.g. Velero add Backup object), storage classes, and many more. And Kubernetes is an orchestrator, so you can manage “Deployment” objects to control application version, service links, and replications. Of course, you can control that deployment with a Continuous Delivery tool.
 
@@ -52,7 +52,7 @@ So, we need:
 
 Spoiler alert! That’s the stack we decided to use:
 
-![General installation](/assets/images/posts//images/posts/1*6TfzVBOziBI3if6k-ny-PQ.png)
+![General installation](/assets/images/posts/1*6TfzVBOziBI3if6k-ny-PQ.png)
 
 The stack is composed by:
 
@@ -144,7 +144,7 @@ It is fast, lightweight, and very closed to the GitHub interface. Gitea is compa
 
 We love Jenkins, really we love it. Nowadays, this is probably the best CI service that exists. It is not restrictive, proposes pipeline integration in a lot of cluster managers, and we appreciate the “pipeline syntax” language.
 
-![A finalized Docker image build and deployment on Rancher with Drone](/assets/images/posts//images/posts/1*pGATVjReN4a1-KpWMCRDAQ.png)
+![A finalized Docker image build and deployment on Rancher with Drone](/assets/images/posts/1*pGATVjReN4a1-KpWMCRDAQ.png)
 
 But, we have discussed a lot about the usage of Jenkins and about what we “really” need. That’s a bit philosophic, but let’s take a second to think about that:
 
@@ -212,7 +212,7 @@ https://github.com/metal3d/drone-plugin-rancher
 
 Finally, the following diagram gives a more detailed point of view.
 
-![Detailed diagram of the full CI/CD stack](/assets/images/posts//images/posts/1*98mgc2nj-DYBpPFxXhqDiw.png)
+![Detailed diagram of the full CI/CD stack](/assets/images/posts/1*98mgc2nj-DYBpPFxXhqDiw.png)
 
 Note that even if the previous diagram shows “Kubernetes” as a separate block, Harbor, Drone, and Gitea can (and are) deployed inside Kubernetes. You can see the Dev/Ops parts.
 
@@ -226,6 +226,6 @@ That stack is used in a production environment with a large platform (more than 
 
 # That’s all folks!
 
-Did you enjoy it? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoy it? If so don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube](http://www.youtube.com/user/SmileOpenSource).
 
 

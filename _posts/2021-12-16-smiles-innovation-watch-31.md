@@ -26,7 +26,7 @@ Sustainability, fun, and trends only. Less technical, more inspiring. Food for y
 
 WISAMO is an innovation initiative from Michelin Group. It develops an inflated, foldable, and automated wing using wind propulsion as a hybrid solution to reduce fuel consumption and greenhouse emissions like CO². The wing can be adapted to any vessel, new ones or the ones already operating: Ro-Ro, bulk cargos, oil and gas tankers, containers, and sailing and yacht boats. Thanks to WISAMO, Michelin aims to contribute to maritime transport decarbonization.
 
-![](/assets/images/posts//images/posts/images/posts/1*FNLpfv57FMm3H0Zbo-RMUA.jpeg)
+![](/assets/images/posts/1*FNLpfv57FMm3H0Zbo-RMUA.jpeg)
 
 ### [The French army is testing Boston Dynamics’ robot dog Spot in combat scenarios](https://www.theverge.com/2021/4/7/22371590/boston-dynamics-spot-robot-military-exercises-french-army)
 
@@ -62,6 +62,6 @@ Apple is ready to launch “Apple Pay Later”. A monthly instamment with 0% fin
 
 # That’s all folks!
 
-Did you enjoy it? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoy it? If so don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube](http://www.youtube.com/user/SmileOpenSource).
 
 

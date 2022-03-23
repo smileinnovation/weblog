@@ -14,7 +14,7 @@ username: dagar.smile
 
 🇫🇷 This article is available in French only, part of our cross-post series from our friends at Li[nux embedded.
 
-![Photo by Harrison Broadbent on Unsplash](/assets/images/posts//images/posts/0*TCVzCRqxXLRrBwoY)
+![Photo by Harrison Broadbent on Unsplash](/assets/images/posts/0*TCVzCRqxXLRrBwoY)
 
 Xvisor est un hyperviseur open source en licence GPLv2. Cet hyperviseur est de type-1 ou natif, c’est-à-dire qu’il s’exécute directement sur la cible sans couche d’abstraction intermédiaire. Il existe un autre type d’hyperviseur, de type-2, qui s’exécute au-dessus d’un système d’exploitation.
 

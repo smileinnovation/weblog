@@ -30,7 +30,7 @@ Using this lambda, the typical round trip for one inference is about 2 seconds w
 
 The final step was to use this API from the ElasticSuite product to allow end-users to submit their images to trigger an automatic search based on recognized objects.
 
-![Visual search results](/assets/images/posts//images/posts/1*NUC03THTnMV6aE1EakIrXA.png)
+![Visual search results](/assets/images/posts/1*NUC03THTnMV6aE1EakIrXA.png)
 
 # What can we conclude?
 
@@ -67,6 +67,6 @@ All the steps
 As part of this product road map, we have to test and experiment with new features.
 
 **That’s all, folks!**
-Did you enjoy it? If so, don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoy it? If so, don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter](https://www.twitter.com/GroupeSmile) & [Youtube.](http://www.youtube.com/user/SmileOpenSource)
 
 

@@ -18,19 +18,19 @@ Our first techwatch of 2021. I can’t believe it’s already July, and we miss 
 
 # 💡Innovation
 
-![](/assets/images/posts//images/posts/images/posts/0*crrCcajm7r24zEUC.png)
+![](/assets/images/posts/0*crrCcajm7r24zEUC.png)
 
 ### [Masten Space Systems to develop a GPS-like network for the moon](https://techcrunch.com/2021/07/13/masten-space-systems-to-develop-a-gps-like-network-for-the-moon/)
 
 Marten Space Systems is a startup that plans to land on the moon in 2023 and start developing a lunar navigation system, just like GPS, but for the moon 🤯
 
-![](/assets/images/posts//images/posts/images/posts/0*Kt4xcp0mLI60dDbp.png)
+![](/assets/images/posts/0*Kt4xcp0mLI60dDbp.png)
 
 ### [GitHub Copilot: Your AI pair programmer](https://copilot.github.com/)
 
 Github released an AI pair programmer for vscode. And we are truly amazed by the tour de force, even if we can clearly see all the difficulties in terms of intellectual property that will result from this tool. And all the code repositories used for training the model.
 
-![](/assets/images/posts//images/posts/images/posts/0*XRBSps_eTHg61xnM.jpg)
+![](/assets/images/posts/0*XRBSps_eTHg61xnM.jpg)
 
 ### [Google’s Find My Device might soon work](https://www.theverge.com/2021/6/18/22540625/google-find-my-device-android-spot-location-network).
 
@@ -96,6 +96,6 @@ Stripe is going after the automated identity verification with Stripe Identity, 
 
 # That’s all folks!
 
-Did you enjoy it? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoy it? If so don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube](http://www.youtube.com/user/SmileOpenSource).
 
 

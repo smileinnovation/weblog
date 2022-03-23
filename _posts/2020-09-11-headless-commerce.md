@@ -12,7 +12,7 @@ username: fabien.gasser
 
 # Headless Commerce
 
-![](/assets/images/posts//images/posts/images/posts/0*wo70DlNLIqDJGnIj)
+![](/assets/images/posts/0*wo70DlNLIqDJGnIj)
 
 The eCommerce industry is full of challenges and the first one is the need to build a strong yet adaptive solution: robust to handle traffic peaks/seasonality and adaptive enough to provide a personalized interface to seduce the customer with a unique customer journey.
 
@@ -26,7 +26,7 @@ As a result, we may observe a new wave of Commerce solutions emerging or previou
 
 Many of our clients are now mature and they are not looking at global platforms anymore but at expert components allowing them to target each of their clients in a special way with an expert solution.
 
-![From monolithic architecture to headless architecture.](/assets/images/posts//images/posts/1*yGkEKkiOqH0nTnHVWghobg.png)
+![From monolithic architecture to headless architecture.](/assets/images/posts/1*yGkEKkiOqH0nTnHVWghobg.png)
 
 Separating the head from the back eases the integration of specialized components but as a reminder splitting down a monolith into different services increases the technical debt and governance cost.
 
@@ -40,7 +40,7 @@ Headless commerce allows empowering all initiatives from local teams, partners, 
 
 Thus according to the market, you can change the business logic without changing the user interface or API contract.
 
-![](/assets/images/posts//images/posts/images/posts/1*pKfacdjy8fLSyb2gj8DEAQ.png)
+![](/assets/images/posts/1*pKfacdjy8fLSyb2gj8DEAQ.png)
 
 # Experience first
 
@@ -90,13 +90,13 @@ So retailers can now focus on two key activities: personalization of the custome
 
 ### **Few examples of Headless Commerce**
 
-![Me + Em — Magento + bespoke headless framework](/assets/images/posts//images/posts/0*LTDxMQX9anL65YBs)
+![Me + Em — Magento + bespoke headless framework](/assets/images/posts/0*LTDxMQX9anL65YBs)
 
-![Victoria Beckham Beauty — Commerce service & Netlify](/assets/images/posts//images/posts/0*A8E6jhLBBzATR6JS.jpeg)
+![Victoria Beckham Beauty — Commerce service & Netlify](/assets/images/posts/0*A8E6jhLBBzATR6JS.jpeg)
 
 The project had an ambitious timeline of just 3 months for its design and implementation and needed to accommodate some very specific design requirements, as well as deliver an efficient shopping experience.
 
-![Richard Ginori decided to build its new website with Drupal and Commerce Layer.](/assets/images/posts//images/posts/1*ihgy6zQ94XpdPO7hMFBjSw.png)
+![Richard Ginori decided to build its new website with Drupal and Commerce Layer.](/assets/images/posts/1*ihgy6zQ94XpdPO7hMFBjSw.png)
 
 **Do you have headless commerce?**
 

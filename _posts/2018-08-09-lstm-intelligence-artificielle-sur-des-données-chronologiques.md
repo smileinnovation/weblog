@@ -16,7 +16,7 @@ username: khlemess
 
 Si vous avez un tant soit peu travaillé avec des réseaux de neurones, vous avez certainement remarqué que, généralement, nous travaillons avec des données “d’entrée” ponctuelle. En d’autres termes, une image, un jeu de valeurs… mais il est possible de travailler avec des données temporelles telles que des valeurs boursières sur un laps de temps, des “frames” de vidéo, etc… Pour cela, la reine des topologies se nomme LSTM. Dans cet article, nous allons tenter de vulgariser son fonctionnement afin que vous puissiez vous pencher sur le sujet plus sereinement à l’avenir.
 
-![](/assets/images/posts//images/posts/images/posts/1*NMzhN3iG7iQgWvu3NQfMzw.jpeg)
+![](/assets/images/posts/1*NMzhN3iG7iQgWvu3NQfMzw.jpeg)
 
 L’intelligence artificielle est un domaine actuellement en pleine effervescence, et des découvertes incroyables émergent chaque jour, avec de nouveaux domaines d’application. Nous avons, par exemple, déjà étudié les réseaux de neurones et les crypto-monnaies dans un article que nous vous conseillons de parcourir également.
 
@@ -40,7 +40,7 @@ En termes d’expériences, deux cas de figures s’offrent à nous :
 
 Un réseau de neurones classique permet de gérer les cas ou les expériences sont indépendantes les unes des autres. Lorsque les expériences sont sous la forme de séquences temporelles, une nouvelle structure a été inventée : les réseaux de neurones récurrents. Cette nouvelle structure introduit un mécanisme de mémoire des entrées précédentes qui persiste dans les états internes du réseau et peut ainsi impacter toutes ses sorties futures. Le réseau de neurones **L**ong **S**hort **T**erm **M**emory (LSTM) est l’un des plus connu.
 
-![](/assets/images/posts//images/posts/images/posts/1*fMmK00klYnPN7xMl-R9Flw@2x.png)
+![](/assets/images/posts/1*fMmK00klYnPN7xMl-R9Flw@2x.png)
 
 # Un peu d’histoire
 
@@ -73,15 +73,15 @@ Le premier agent sera en charge de s’occuper exclusivement des anciens clients
 
 Les anciens clients se présentent à la porte d’entrée et exposent leur carte d’identité à l’agent de sécurité, il vérifie sa liste et refuse ou accepte l’accès au club des anciens. En fin de soirée, l’agent de sécurité met à jour sa liste d’anciens clients qui servira aux prochaines soirées.
 
-![](/assets/images/posts//images/posts/images/posts/1*mGMD3FquVQ-H4of-pfmPIQ@2x.png)
+![](/assets/images/posts/1*mGMD3FquVQ-H4of-pfmPIQ@2x.png)
 
 Le second agent de sécurité est moins sélectif à l’entrée, mais il va être bien plus strict à l’intérieur. Les nouveaux clients se présentent à l’entrée, l’agent de sécurité laisse passer tout le monde peu importe leur tenue, ici le mot d’ordre est *“ laissons-leur une chance“*. Une fois que tous les nouveaux clients sont à l’intérieur du club, l’agent de sécurité décide, à son tour, de rentrer dans le club. Lors de la soirée, tout les clients sont scrutés et leur comportement scrupuleusement évalué par l’agent de sécurité. La notoriété du club est en jeu, les clients qui vont être agressifs, éméchés, ou peu respectueux vont être rappelés à l’ordre par l’agent de sécurité. Les nouveaux clients qui consomment et qui contribuent à une bonne ambiance vont être notés sur une liste. Les clients présents sur cette liste auront le privilège d’être considérés comme bons clients.
 
-![](/assets/images/posts//images/posts/images/posts/1*kHK5TgPFGgirSCaxpBPUxw@2x.png)
+![](/assets/images/posts/1*kHK5TgPFGgirSCaxpBPUxw@2x.png)
 
 En fin de soirée, les deux agents de sécurité se réunissent afin de fusionner les deux listes pour n’en former qu’une seule qui fera office de nouvelle liste pour les prochaines soirées.
 
-![La liste à été mise à jour](/assets/images/posts//images/posts/1*0LxVjGduh99tkqPcwC5mYg@2x.png)
+![La liste à été mise à jour](/assets/images/posts/1*0LxVjGduh99tkqPcwC5mYg@2x.png)
 
 ### Club = LSTM ? (Où veulent-ils en venir ? )
 
@@ -91,29 +91,29 @@ La gestion de la mémoire d’un bloc LSTM à l’autre fonctionne de la même m
 
 Une couche LSTM est donc plus ou moins illustrable de cette manière :
 
-![](/assets/images/posts//images/posts/images/posts/1*zL2bxCq32YCPiXoTZv1MJQ.png)
+![](/assets/images/posts/1*zL2bxCq32YCPiXoTZv1MJQ.png)
 
 ### Porte d’oubli
 
-![Porte d’oubli](/assets/images/posts//images/posts/1*-batepYVu8MlxZEpyEemvg.png)
+![Porte d’oubli](/assets/images/posts/1*-batepYVu8MlxZEpyEemvg.png)
 
 La porte d’oubli va se charger de filtrer les informations contenues dans la cellule mémoire précédente. Parmis ces informations, certaines vont être plus pertinentes que d’autre. Pour décider quelles valeurs vont être autorisées à passer, nous allons utiliser différents calculs mathématiques :
 
-![](/assets/images/posts//images/posts/images/posts/1*s0Whizedv39uY274AwWgvA@2x.jpeg)
+![](/assets/images/posts/1*s0Whizedv39uY274AwWgvA@2x.jpeg)
 
 *xt* correspond aux données entrantes dans le réseau de neurones, *ht-1 *correspond à la valeur de sortie qui a été prédite par la couche LSTM précedente. D’un point de vue mathématique, *[ht-1,xt]* désigne la concaténation des tableaux *xt *et *ht-1. *Comme dans un réseau de neurones classique, Wf correspond au poids des neurones et bf correspond au biais (le biais est considéré comme un degré de liberté supplémentaire) d’un réseau de neurones. Tout ce beau monde est passé comme paramètre à une fonction de transfert nommée sigmoïde. En sortie, la fonction sigmoïde nous renvoie un entier compris entre 0 et 1.
 
-![formule mathématique de la fonction sigmoïde](/assets/images/posts//images/posts/1*BLvRJO6olfp59A5n7NViSQ@2x.png)
+![formule mathématique de la fonction sigmoïde](/assets/images/posts/1*BLvRJO6olfp59A5n7NViSQ@2x.png)
 
-![courbe représentative de la fonction sigmoïde](/assets/images/posts//images/posts/1*wXKWMlxnfDUhH1be197lVA@2x.png)
+![courbe représentative de la fonction sigmoïde](/assets/images/posts/1*wXKWMlxnfDUhH1be197lVA@2x.png)
 
 Si vous vous demandez pourquoi une fonction sigmoïde est utilisée, la réponse est : juste parce qu’elle est sympa et par simple hasard… trêve de plaisanteries ! En vérité c’est bien plus compliqué. Je vais vous donner quelques pistes et à vos claviers pour les recherches : Elle représente la fonction de répartition de la loi logistique et est souvent utilisée dans les réseaux de neurones parce qu’elle est dérivable en tout point, ce qui est une contrainte pour l’algorithme de rétro-propagation qui a permis de créer des réseaux multicouches. Et enfin, chose intéressante, cette fonction a une tendance à lisser les valeurs de sortie.
 
 *ft* est donc un tableau de valeurs comprises entre 0 et 1. Pour savoir quelles valeurs de la cellule mémoire précédente *Ct-1* vont être autorisées à passer, nous allons appliquer la multiplication terme à terme entre* ft* et *Ct-1*. Si, lors de cette multiplication la valeur de sortie est proche de 1 alors la valeur en question (valeur contenue dans Ct-1) est autorisée à passer. Dans le cas contraire, l’information contenue dans Ct-1 est ignorée si la multiplication donne une valeur proche de 0. Toutes les valeurs qui ont réussis à passer sont stockées dans C1.
 
-![mise à jour de la cellule mémoire](/assets/images/posts//images/posts/1*tfztpeN2yhyxOTTurA7EWQ@2x.png)
+![mise à jour de la cellule mémoire](/assets/images/posts/1*tfztpeN2yhyxOTTurA7EWQ@2x.png)
 
-![agent de sécurité en charge des anciens clients](/assets/images/posts//images/posts/1*ZSUo0qVNfzdOO4VSy17XWA.png)
+![agent de sécurité en charge des anciens clients](/assets/images/posts/1*ZSUo0qVNfzdOO4VSy17XWA.png)
 
 **Avez-vous compris ?**
 
@@ -123,25 +123,25 @@ La porte d’oubli se charge uniquement de filtrer les anciennes valeurs contenu
 
 Après avoir mis à jour les valeurs présentes dans la cellule mémoire précédente, il est temps de décider quelles nouvelles informations (nouveaux clients) vont être autorisées à être stockées dans la cellule mémoire.
 
-![porte d’entrée](/assets/images/posts//images/posts/1*wkBEvbAdps9n91cuAZ6j-w.png)
+![porte d’entrée](/assets/images/posts/1*wkBEvbAdps9n91cuAZ6j-w.png)
 
 La porte d’entrée va se charger de décider quelles nouvelles valeurs provenant de *xt *(valeurs entrantes du LSTM) vont être autorisées à passer.
 
 Certaines entrées vont être plus pertinentes que d’autres. Celles qui sont pertinentes vont être stockées dans la cellule mémoire qui va servir à la prise de décision à l’instant t et peut-être pour l’instant *t+1 *si la porte d’oubli lui autorise l’accès. Comme pour la porte d’oubli, différentes formules mathématiques vont être nécessaires pour savoir quelles informations vont être autorisées à passer :
 
-![](/assets/images/posts//images/posts/images/posts/1*YFZpCWwMxm_qCE-r3L9kgg@2x.png)
+![](/assets/images/posts/1*YFZpCWwMxm_qCE-r3L9kgg@2x.png)
 
 Dans un premier temps, une fonction sigmoïde est nécessaire pour décider quelles nouvelles entrées seront susceptibles d’être stockées dans la cellule mémoire. *it*** **sera un tableau et chacune de ses valeurs sera comprise entre 0 et 1. Dans un second temps, nous allons faire la même chose sauf que la fonction d’activation utilisée est la fonction tangente hyperbolique (c’est une sigmoïde centré entre -1 et 1).
 
-![formule mathématique de la tangente hyperbolique](/assets/images/posts//images/posts/1*L0BULNKuf86dTjg9Tq6Wnw@2x.png)
+![formule mathématique de la tangente hyperbolique](/assets/images/posts/1*L0BULNKuf86dTjg9Tq6Wnw@2x.png)
 
-![Courbe représentative de la tangente hyperbolique](/assets/images/posts//images/posts/1*9d3Vdv1NANKd3XtV0dqL0Q@2x.png)
+![Courbe représentative de la tangente hyperbolique](/assets/images/posts/1*9d3Vdv1NANKd3XtV0dqL0Q@2x.png)
 
 *C~* est un tableau dont chaque valeur sera comprise entre -1 et 1. *C~* contient les valeurs candidates à être stockées dans la cellule mémoire. La multiplication terme à terme entre *it* et *C~* nous permettra de savoir quelles valeurs vont devoir être stockées dans la cellule mémoire. Si le résultat est proche de 1 alors nous allons stocker la valeur correspondante dans la cellule mémoire, au contraire si le résultat est proche de 0, l’information sera bloquée. La nouvelle mémoire sera donc :
 
-![mémoire mise à jour](/assets/images/posts//images/posts/1*wm9LF6vMMe2ECA1M2FRoCQ@2x.png)
+![mémoire mise à jour](/assets/images/posts/1*wm9LF6vMMe2ECA1M2FRoCQ@2x.png)
 
-![agent de sécurité en charge des nouveaux clients](/assets/images/posts//images/posts/1*wLq9Q18rIgatF6uNCpK0tg.png)
+![agent de sécurité en charge des nouveaux clients](/assets/images/posts/1*wLq9Q18rIgatF6uNCpK0tg.png)
 
 **En bref**
 
@@ -149,11 +149,11 @@ La porte d’entrée va, parmi les nouvelles entrées, laisser passer les inform
 
 ### Porte de sortie
 
-![porte de sortie](/assets/images/posts//images/posts/1*ZSOd-zBJhnbmksiasiFv_g.png)
+![porte de sortie](/assets/images/posts/1*ZSOd-zBJhnbmksiasiFv_g.png)
 
 Il est temps, en fonction de l’entrée (*xt*), de fournir une décision *ht* à la fois pour le bloc LSTM suivant ainsi que pour l’utilisateur. La prise de décision *ht *est calculée de la sorte :
 
-![](/assets/images/posts//images/posts/images/posts/1*hOuuwRCFGd3QnF6uvH4T4w@2x.png)
+![](/assets/images/posts/1*hOuuwRCFGd3QnF6uvH4T4w@2x.png)
 
 La sortie* ht* va dépendre des informations présentes dans la cellule mémoire *Ct *ainsi que des informations entrantes *xt* dans la couche LSTM.
 
@@ -161,7 +161,7 @@ La sortie* ht* va dépendre des informations présentes dans la cellule mémoire
 
 Dans un soucis de chronologie, ils est important d’assembler plusieurs bloc LSTM afin de créer une série temporelle qui servira à la prédiction d’une action.
 
-![](/assets/images/posts//images/posts/images/posts/1*qfPsBPv9zo8gBAPav_hb5w@2x.png)
+![](/assets/images/posts/1*qfPsBPv9zo8gBAPav_hb5w@2x.png)
 
 # Conclusion
 

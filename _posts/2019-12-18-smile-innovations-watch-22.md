@@ -23,7 +23,7 @@ We hope this new categorization will offer, all of you, meaningful content that 
 
 # 💡 Innovation
 
-![](/assets/images/posts//images/posts/images/posts/0*lupjGJtyDGvh0IeJ.jpg)
+![](/assets/images/posts/0*lupjGJtyDGvh0IeJ.jpg)
 
 ### [This ‘robot lawyer’ can take the mystery out of license agreements](https://www.theverge.com/2019/11/20/20973830/robot-lawyer-donotpay-ai-startup-license-agreements-sign-arbitration-clauses)
 
@@ -33,7 +33,7 @@ It’s called DoNotPay & DoNotSign and it’s a $3/month subscription-based serv
 
 Waymo, an Alphabet (Reads Google) company launched in 2016, which works on creating an autonomous driving car since, in Arizona. So far, they operate an Uber-like hailing service called Waymo One. Meaning, now, they are running without any trained safety driver or operator with a kill switch. Completely driverless.
 
-![](/assets/images/posts//images/posts/images/posts/0*YcMatDUSbMN8GitC.jpg)
+![](/assets/images/posts/0*YcMatDUSbMN8GitC.jpg)
 
 ### [Self-driving semi makes the first cross-country trip](https://www.cnet.com/roadshow/news/self-driving-semi-plus-ai-cross-country/)
 
@@ -46,13 +46,13 @@ It took a little bit more than 3 days of driving and it’s the very first level
 
 (Reads in 🇫🇷) Equipped with machine fun which can fire 200 bullets at 200 meters, and with a range of operation of 10kms, the “Songar” is developed in the country. With 2 cameras, it** still requires a pilot t**o operate in an immersive environment with an optical zoom of 30x. Australia also communicates about acquiring some other drone requiring human remote command, while the USA, already operating such devices, announce they will follow China and use now 100% automated drone, allowed to terminate people based on their judgment algorithm.
 
-![](/assets/images/posts//images/posts/images/posts/0*CwUmHTQmSd-7-9Sq.jpg)
+![](/assets/images/posts/0*CwUmHTQmSd-7-9Sq.jpg)
 
 ### [Massachusetts State Police is experimenting with Boston Dynamics Robot dog](https://www.bbc.com/news/technology-50559976)
 
 For 3 months now, “Spot” robot docs are used alongside officers by the State Police, both on training scenarios and real-life accidents. The American Civil Liberties Union (ACLU) isn’t pleased of course. They ask for more transparency about how the technology is deployed and used. Police answers they use it as “mobile remote observations devices”, just like bomb quad robots, but in a more general frame where the location might be hazardous or dangerous for human officers. Boston Dynamics just **lease** the robots to the Police and guarantee they are not used to physically harm or intimidate people. Our advice? Free data to train AI algorithms in real-life situations for Boston Dynamics. On public money.
 
-![](/assets/images/posts//images/posts/images/posts/0*KjUeL8ZE3ExupHbN.jpg)
+![](/assets/images/posts/0*KjUeL8ZE3ExupHbN.jpg)
 
 ### [India shut down AGAIN their entire internet access, at a country level](https://www.technologyreview.com/f/614926/india-internet-shutdown-assam-citizenship-amendment-bill-modi-politics/)
 
@@ -60,7 +60,7 @@ Last Wednesday, India’s government approved a bill to let minorities from Afgh
 
 # 🔓 OpenSource
 
-![](/assets/images/posts//images/posts/images/posts/0*a9Hed43zgEKosmSS.png)
+![](/assets/images/posts/0*a9Hed43zgEKosmSS.png)
 
 ### [Netflix open-source Metaflow, their end to end machine learning lib to manipulate AWS](https://metaflow.org/)
 
@@ -68,19 +68,19 @@ Think about Metaflow as the tool to help you orchestrate all you need on a machi
 
 # 🌱 Sustainability & Society
 
-![](/assets/images/posts//images/posts/images/posts/0*grM9kFVujTSGsS3H.jpg)
+![](/assets/images/posts/0*grM9kFVujTSGsS3H.jpg)
 
 ### [Tesla Virtual Power Plant is a strange but practical implementation of smart grid](https://www.tesla.com/en_AU/sa-virtual-power-plant)
 
 Imagine you provide solar panels to most of your citizens (being a city), with a power pack (here a Tesla Powerwall). You have so hundreds, thousands of small energy producers. Connected to the grid. And we all know the grid is just a transportation layer right? That’s why we have meters at home. So if you have all those little producers, what prevents them to inject power into the grid? You’re right, nothing. Here comes Tesla’s virtual power plant. Metering the production and consumption of all the people, it can sell people unused power back into the grid and help prevent power outage due to coal power grid malfunction. And with only 2% of their virtual power plant installed, [they already success to prevent several outages](https://www.teslarati.com/tesla-virtual-power-plant-rescues-grid-2-percent-complete)…
 
-![](/assets/images/posts//images/posts/images/posts/0*6kjL5ERBuL7Yyz2J.jpg)
+![](/assets/images/posts/0*6kjL5ERBuL7Yyz2J.jpg)
 
 ### [Google has made a garbage sorting robot](https://blog.x.company/introducing-the-everyday-robot-project-27860f3461a4)
 
 In a total #tech4good spirit, Google is training robots to recognize then sort trash at one of their premisses. Contamination, the act of making a mistake into sorting trash, is about 20% in a real-world environment. We are human, we make mistakes. So X trained robots, first hundred of them in a virtual environment on cloud instances to identify then pick up trash and sort them. Then they move the model onto real robots in real life. Train them too. And share the result to the virtual robots. And do all of this again and again. Now robots are sorting trash at their offices and they are now under 5% of contamination. That’s a practical example of where AI and robotics can have a meaningful, positive impact.
 
-![](/assets/images/posts//images/posts/images/posts/0*_CMK7Pvk_Du4rhXY.jpg)
+![](/assets/images/posts/0*_CMK7Pvk_Du4rhXY.jpg)
 
 ### [Vice spoke with Uber drivers who have taken over the company’s offices in France](https://www.vice.com/en_us/article/zmjadx/we-spoke-to-uber-drivers-who-have-taken-over-the-companys-offices-in-france)
 
@@ -88,19 +88,19 @@ After trying to make their Uber-like app (with a very … substantial success), 
 
 # 😁 Fun & WTF
 
-![](/assets/images/posts//images/posts/images/posts/0*4iGN7KwMmWsQ1waN.jpg)
+![](/assets/images/posts/0*4iGN7KwMmWsQ1waN.jpg)
 
 ### [Cows wearing VR headsets might produce better milk](https://www.engadget.com/2019/11/26/cows-with-vr-headsets/)
 
 They’re happier in virtual fields than confined farms. Using VR leads to improve their mood, so their milk production. The project subjected cattle to a simulated summer field with colors tuned for the animals’ eyes, giving them a decidedly more pleasing landscape than a plain, confining farm. And yes, the headsets were adapted to the “structural features” of cows’ heads so that they could see properly.
 
-![](/assets/images/posts//images/posts/images/posts/0*tyAleKGsxHBOP2rI.jpg)
+![](/assets/images/posts/0*tyAleKGsxHBOP2rI.jpg)
 
 ### [Aeroslider](https://manyone.com/case/exploration-aeroslider/)
 
 Air transportation pollution is a real struggle. And even with all the effort made to optimize the consumption, the regulation about how much fuel they can carry… it still a big pollution emitter. That’s why Anyone comes with this concept of a super-high-speed train, taking the idea of what would be Hyperloop, but removing the vacuum tube and use pylon instead. Making it easy to install between the existing infrastructure. They imagine a planetary transportation system. Nothing less.
 
-![](/assets/images/posts//images/posts/images/posts/0*rVXEWgzcBYwN8f6l.jpg)
+![](/assets/images/posts/0*rVXEWgzcBYwN8f6l.jpg)
 
 ### [Facebook gets into the meme-making biz with experimental Whale app](https://www.theverge.com/2019/11/19/20972076/facebook-whale-meme-photo-making-app-npe-new-product-experimentation-ios)
 
@@ -108,13 +108,13 @@ Launched in the Canadian app-store only so far, it’s part of Facebook’s New 
 
 # 🛠 Tools
 
-![](/assets/images/posts//images/posts/images/posts/0*eghxQEUyvSR9MJYL.png)
+![](/assets/images/posts/0*eghxQEUyvSR9MJYL.png)
 
 ### [Diagram.Codes](https://www.diagram.codes/)
 
 Diagrams. You always have to make some at some points in your work. You can do it on [draw.io](http://draw.io/) but maybe it’s not your cup of tea. Maybe you don’t like to spend time moving the elements and would prefer the auto-adjusting layout and being able to describe your diagram with an intuitive text. Meet Diagram.codes. Sequences, Flowchart, Graph, Onion layers, Tree Layout (even horizontal ones), System Layers, Layer stack, and timeline.
 
-![](/assets/images/posts//images/posts/images/posts/0*97u-bKwB0wCvc74B.png)
+![](/assets/images/posts/0*97u-bKwB0wCvc74B.png)
 
 ### [EasyDB](https://easydb.io/)
 
@@ -126,6 +126,6 @@ With this tool, you can very easily save, restore and archive snapshots of your 
 
 # That’s all folks!
 
-Did you enjoy it? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoy it? If so don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube](http://www.youtube.com/user/SmileOpenSource).
 
 

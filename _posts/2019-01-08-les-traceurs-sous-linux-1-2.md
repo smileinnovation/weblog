@@ -14,7 +14,7 @@ username: jugurtha.belkalem
 
 🇫🇷 This article is available in French only, part of our cross-post series from our friends at Li[nux embedded.
 
-![Photo by Maxim Dužij on Unsplash](/assets/images/posts//images/posts/0*6bFaIh6COl4vBKVm)
+![Photo by Maxim Dužij on Unsplash](/assets/images/posts/0*6bFaIh6COl4vBKVm)
 
 L’analyse des **performances** est essentiel pour tout processus de développement d’une application logicielle.
 
@@ -32,7 +32,7 @@ Les traceurs capturent tous les événements qui se produisent dans le noyau (*c
 
 De nombreux traceurs existent sous **Linux**, les plus répandus figurent dans l’image suivante.
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 Tous ces traceurs nous permettent d’obtenir des données comme la latence de l’ordonnanceur ou de l’écriture sur disque, d’être alerté quand une primitive noyau est exécutée ou même modifier le comportement de cette dernière (*changer le contenu des paramètres ou la valeur retournée par la fonction*).
 
@@ -60,7 +60,7 @@ Un exemple serai le suivant (*depuis t = 0 à t = 5*) :
 
 Un **traceur** s’intéresse au *moment de l’émission de l’événement* :
 
-![](/assets/images/posts//images/posts/images/posts/1*vYv5b_vnF7TENdlCk9TZBQ.png)
+![](/assets/images/posts/1*vYv5b_vnF7TENdlCk9TZBQ.png)
 
 **Remarque :** Une trace détaillé permet de reconstituer un rapport du profilage.
 
@@ -95,11 +95,11 @@ Procédons comme un *guide étape par étape* pour comprendre le fonctionnement 
 
 1. **Fichiers et paramètres Ftrace :** c’est la partie la plus importante dans la compréhension de **Ftrace**, il faut configurer plusieurs fichiers pour l’utiliser. Nous pouvons lister les différents fichiers et dossiers qui composent **Ftrace** (voir l’image ci-dessous).
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 Le tableau suivant résume la fonction des fichiers fondamentaux qui constituent **Ftrace** :
 
-![](/assets/images/posts//images/posts/images/posts/1*EcqYx_MC8DKZlODhCWqxzg.png)
+![](/assets/images/posts/1*EcqYx_MC8DKZlODhCWqxzg.png)
 
 # Bien utiliser Ftrace
 
@@ -109,39 +109,39 @@ La façon la plus simple d’utiliser **Ftrace** est démontrée ci dessous :
 
 * **Liste des types de traceurs disponibles dans Ftrace :** **Ftrace** inclut plusieurs traceurs que l’on peut lister comme suit :
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 * **Choisir un type de traceur :** Une fois que nous connaissons les types de **traceurs**disponibles, nous devons en choisir un. Nous allons sélectionner le type « **function** » comme exemple :
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 * **Vérifiez quel traceur est utilisé :** il est préférable de toujours vérifier si nous avions bien sélectionner le bon type de traceur (*voir l’image ci-dessous*) :
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 2.** Sauvegarder la trace dans le tampon noyau: **Au moment où un **traceur** est sélectionné, **Ftrace**est **activé** mais il *n’a pas encore été autorisé à stocker ce qu’il trace*. Nous devons accorder à **Ftrace** l’accès au tampon comme suit :
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 **Remarque :** **Ftrace** commencera immédiatement à tracer lors de l’émission de la commande ci-dessus.
 
 3. **Lancer le programme à tracer :** Nous pouvons tracer n’importe quel programme, nous allons illustrer avec la commande **sleep**.
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 4. **Arrêter la sauvegarde vers le tampon :** une fois que le programme que nous voulons tracer à fini son exécution, nous devons bloquer l’accès au tampon par **Ftrace** *(ce qui arrête l’enregistrement des événements)*.
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 5. **Lire la trace :** Il est temps de voir la trace produite par **Ftrace** (*voir l’image ci-dessous*).
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 **Remarque : **Le résultat de la trace est obtenu par une lecture du fichier **trace**.
 
 6. **Arrêter Ftrace :** **Ftrace** n’a plus d’accès au tampon noyau *(mais il est toujours en exécution)*, il faut l’arrêter :
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 # Optimiser l’usage de Ftrace
 
@@ -157,7 +157,7 @@ Nous pouvons afficher la liste des points de traces (*fonctions pouvant être tr
 
 * A titre d’exemple, nous pouvons choisir de suivre la fonction **SyS_nanosleep** comme indiqué ci-dessous :
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 * **set_ftrace_notrace :** Les fonctions définies dans ce fichier ne seront pas tracées.
 **Important :** Si une fonction apparaît à la fois dans **set_ftrace_filter** et dans **set_ftrace_notrace**, elle ne sera pas tracée car **set_ftrace_notrace** a une priorité plus élevée.
@@ -178,15 +178,15 @@ int main(){
 
 * **Obtenir le PID du processus :** Nous pouvons utiliser la commande `$ ps -aux`, mais parce que nous utilisons une console série, on préfère mettre le processus en arrière-plan et obtenir en retour son **PID** *(voir l’image ci dessous)*.
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 * **set_ftrace_pid :** à présent, nous avons le PID du processus, affinons **Ftrace** pour suivre notre processus comme indiqué ci-dessous :
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 Maintenant, nous pouvons **démarrer**/**arrêter** la **trace** et lire le fichier de rapport comme suit:
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 # Trace-cmd
 
@@ -215,13 +215,13 @@ Commençons avec Trace-cmd :
 
 * **evenement1, evenement2, …, evenementN :** fonction à tracer *(doit être disponible à partir de la liste retournée par « trace-cmd list »)*
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 **Remarque :** si aucun programme n’est fournis en paramètre. « **trace-cmd** » va tracer tous le système.
 
 3. **Lire la trace : **Trace-cmd peut lire le fichier « **trace.dat** » qui a été généré après la fin du traçage. la trace peut être lu comme suit :
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 4. **Arrêter trace-cmd :** même si **trace-cmd** a arrêté l’enregistrement, il est toujours en cours d’exécution*. Nous devons complètement arrêter le traceur* :
 
@@ -248,11 +248,11 @@ Une fois que le serveur d’écoute sur l’ordinateur distant est démarré, on
 
 1. **Arrêter le serveur distant :** Attendez que le programme sur le **Raspberry PI** soit terminé ou forcez-le à se terminer. Vous devriez voir quelques informations du coté du serveur *(qu’on peut arrêter maintenant)*.
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 4. **Lecture et analyse du rapport trace-cmd :** on peut lire le rapport en utilisant la commande « **trace-cmd report** » que nous connaissons déjà :
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 # KernelShark
 
@@ -286,7 +286,7 @@ $ sudo kernelshark
 
 La commande ci-dessus ouvre l’interface graphique « **KernelShark**« , qui montre l’activité enregistré sur chaque CPU.
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 ### L’IHM de kernelshark
 
@@ -296,27 +296,27 @@ Même s’il est facile de naviguer dans **KernelShark**, il regorge de fonction
 
 * **Zone d’information :** C’est le haut de la fenêtre de **KernelShark**. Elle contient des informations constamment mises à jour.
 
-![](/assets/images/posts//images/posts/images/posts/0*QaKhvrFAaaC9DzOQ.png)
+![](/assets/images/posts/0*QaKhvrFAaaC9DzOQ.png)
 
 Le champ « **pointer** » suit le curseur de la souris. Il indique le timestamp de l’évènement survolé par le curseur.
 
 * **Zone de titre :** par défaut, montre tous les processeurs qui ont été tracés avec **trace-cmd**.
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 * **La listview : **qui affiche les événements capturés *(1 millions par page)*.
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 2. **Appeler les marqueurs :** **KernelShark** prend en charge 3 marqueurs différents :
 
 * **Marqueur vert — Marqueur A :** appelé avec un clic gauche de la souris sur la zone centrale.
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 * **Marqueur rouge — Marqueur B :** utilisez **Maj + clic gauche de la souris** pour l’afficher.
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 Comme pour **le marqueur A**, nous remarquons que la **zone d’information** graphique est mise à jour avec la position du **marqueur B**.
 
@@ -324,21 +324,21 @@ Si le **marqueur A** est présent, **KernelShark** mesurera la différence de po
 
 * **Marqueur noir — Marqueur de Zoom :** s’affiche si le **bouton gauche de la souris** est maintenu pendant une **longue période**. Il permet de **zoomer** ou **dézoomer** selon le sens de déplacement (*un message explicatif sur le zoom s’affiche avec ce marqueur comme le montre l’image ci-dessous*).
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 En effectuant un zoom, on peux visualiser la chronologie des événements comme sur la figure suivante :
 
-![](/assets/images/posts//images/posts/images/posts/0*clfUrCskP4hSUrMH.png)
+![](/assets/images/posts/0*clfUrCskP4hSUrMH.png)
 
 3. **Affichage des processeurs et des tâches :**
 
 * **les CPU :** Lors du démarrage de **KernelShark**, tous les processeurs sont affichés. Il se peut que nous ne soyons intéressés qu’à visualiser les évènements sur un CPU en particulier. Cliquez sur **plots** dans la **barre de menu**, puis sélectionnez **CPUs**. Décochez les CPU que vous voulez cacher. A titre d’exemple, gardons seulement CPU0 et CPU3 dans la zone centrale (*voir l’image ci-dessous*).
 
-![](/assets/images/posts//images/posts/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
+![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
 * **les tâches :** Contrairement aux processeurs, les tâches ne sont pas affichées par défaut dans la **zone centrale**. Nous pouvons changer ce comportement, Cliquez sur **plots** dans la **barre de menu**, puis sélectionnez **Tasks**. Sélectionnez les ***tâches*** à ajouter à la **Zone centrale** (*voir l’image ci-dessous*).
 
-![](/assets/images/posts//images/posts/images/posts/0*w5R_z4JrRXuQAF9x.png)
+![](/assets/images/posts/0*w5R_z4JrRXuQAF9x.png)
 
 # Conclusion
 

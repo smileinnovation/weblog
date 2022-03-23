@@ -23,7 +23,7 @@ This is Smile’s Innovation Watch.
 
 # Innovation •/ˌɪnəˈveɪʃən/
 
-![](/assets/images/posts//images/posts/images/posts/0*BRytxaXfO_S9msVb.png)
+![](/assets/images/posts/0*BRytxaXfO_S9msVb.png)
 
 ### [NYC Subway rides will be able to swipe in with Apple Pay starting Friday](https://techcrunch.com/2019/05/29/nyc-subway-riders-will-be-able-to-swipe-in-with-apple-pay-starting-friday/)
 
@@ -55,17 +55,17 @@ Working with Alphabet’s [project Replica](https://medium.com/sidewalk-talk/int
 
 ### [Don’t want to be tracked by computer vision? Wear this](https://www.theverge.com/2019/4/23/18512472/fool-ai-surveillance-adversarial-example-yolov2-person-detection)
 
-![](/assets/images/posts//images/posts/images/posts/0*-Gs0pVGz_LI4eNaO.png)
+![](/assets/images/posts/0*-Gs0pVGz_LI4eNaO.png)
 
 While people in London have been forced by police to show their face in front of a face-tracking camera in order to participate against their will to a giant testing face of computer vision x tracking software, the end of public anonymity is a topic that is gaining more and more importance. In a paper shared a few weeks ago, students show how just a printed image hanging around your neck can act as an invisibility cloak while you’re still complying with the more and more law that prohibits you to cover your face in public area, even if face tracking experiments are running.
 
 ### [There is no privacy breach at Facebook, because there’s no privacy at all on Facebook](https://twitter.com/linamkhan/status/1134155195494129670)
 
-![](/assets/images/posts//images/posts/images/posts/0*lrFRqZuqcu1bkRmY.png)
+![](/assets/images/posts/0*lrFRqZuqcu1bkRmY.png)
 
 # Openness • /ˈəʊ.pən/+/nəs/
 
-![](/assets/images/posts//images/posts/images/posts/0*hjfmIdqtf0Pj2QUW.gif)
+![](/assets/images/posts/0*hjfmIdqtf0Pj2QUW.gif)
 
 ### [Doggo, the open-source legged robot from Stanford](https://www.theverge.com/2019/5/20/18632562/doggo-stanford-open-source-robot-four-legged-cute)
 
@@ -75,7 +75,7 @@ The estimated total cost of this robot: less than $3,000. This still a bit pricy
 
 # Fun • /fʌn/
 
-![](/assets/images/posts//images/posts/images/posts/0*je5T91dHKZ9iHm6c.png)
+![](/assets/images/posts/0*je5T91dHKZ9iHm6c.png)
 
 ### [Samsung’s new AI can create talking avatars with a single photo](http://%28https//thenextweb.com/artificial-intelligence/2019/05/23/samsungs-new-ai-can-create-talking-avatars-with-a-single-photo/)
 

@@ -20,7 +20,7 @@ Hope you’ll enjoy the reading, this is Smile’s Innovation watch.
 
 # Innovation • /ˌɪnəˈveɪʃən/
 
-![](/assets/images/posts//images/posts/images/posts/0*2N7hWVVXwmd2PL0V)
+![](/assets/images/posts/0*2N7hWVVXwmd2PL0V)
 
 ### [**LTE Beacon for asset tracking**](https://blog.estimote.com/post/177348177680/estimote-lte-m-beacon?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -30,7 +30,7 @@ Estimote believes app of the future won’t be downloaded to phones, computers o
 
 Apple introduced a lot of new features in their last major update of iOS. But the iMessage app, its ecosystem and mini app remains nearly untouched. A user experience expert decides to go after it and try to improve the global usability of all of this.
 
-![](/assets/images/posts//images/posts/images/posts/0*WNVtS5fGsGvnpHa6)
+![](/assets/images/posts/0*WNVtS5fGsGvnpHa6)
 
 ### [**Conversational interface for chatbot & voicebot: the French touch**](https://blog.prototypr.io/conversational-interface-for-chatbot-voicebot-the-french-touch-28a1d5522ec3?gi=8e5a5a5661ce&utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -38,7 +38,7 @@ Amina Esselimani has designed customized vocal experiences and bots for platform
 
 # Aquisition • /ˌakwɪˈzɪʃ(ə)n/
 
-![](/assets/images/posts//images/posts/images/posts/0*ToqKzgx0kXisJBhV)
+![](/assets/images/posts/0*ToqKzgx0kXisJBhV)
 
 ### [**Trillion**](https://500ish.com/trillion-8ae442c32fa?gi=a7c354db69e3&utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -46,13 +46,13 @@ You couldn’t had missed this. Apple became the first modern tech company to va
 
 # Privacy • /ˈpɹaɪ.və.si/
 
-![](/assets/images/posts//images/posts/images/posts/0*KCRlPadBm3ah1iD-)
+![](/assets/images/posts/0*KCRlPadBm3ah1iD-)
 
 ### [**🇫🇷23andMe sells all your genetic data to GSK labs
 
 Glaxosmithkline announced they acquired the data of 23andMe, the leading company of self-genetic testing for $ 300 million. 5 million clients are concerned.
 
-![](/assets/images/posts//images/posts/images/posts/0*iejzFTpSHyI9yhBX)
+![](/assets/images/posts/0*iejzFTpSHyI9yhBX)
 
 ### [**The death of Don Draper**](https://www.newstatesman.com/science-tech/internet/2018/07/death-don-draper?utm_campaign=newsletter&utm_medium=email&utm_source=densediscovery)
 
@@ -60,7 +60,7 @@ Advertising, once a creative industry, is now a data-driven business reliant on 
 
 # Openness • /ˈəʊ.pən/ + /nəs/
 
-![](/assets/images/posts//images/posts/images/posts/0*EyQF7p8BsN0mPA5k)
+![](/assets/images/posts/0*EyQF7p8BsN0mPA5k)
 
 ### [**The ZeroPhone, a Linux Smartphone Powered by the Raspberry Pi Zero**](https://blog.hackster.io/the-zerophone-a-linux-smartphone-powered-by-the-raspberry-pi-zero-286f36a25fd4?gi=74504f884f6c&utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 

@@ -24,13 +24,13 @@ This is Smile’s Innovation Watch.
 
 # Innovation •/ˌɪnəˈveɪʃən/
 
-![](/assets/images/posts//images/posts/images/posts/0*oeZObMi4ZL-vzZA4.png)
+![](/assets/images/posts/0*oeZObMi4ZL-vzZA4.png)
 
 ### [Amazon will order 100 000 ⚡️ electric vans by 2024](https://www.theverge.com/2019/9/19/20873947/amazon-electric-delivery-van-rivian-jeff-bezos-order)
 
 The company behind the competitors of Tesla’s first car, the Lotus-based Roadster, called Rivian, went stealth for a few years and is coming back with major investments. This announcement came when Bezos unveiled Amazon’s effort to tackle climate change.
 
-![](/assets/images/posts//images/posts/images/posts/0*jPv7QlRxRWzSavUF.png)
+![](/assets/images/posts/0*jPv7QlRxRWzSavUF.png)
 
 ### [Walgreens and FedEx will test drone delivery with Wing](https://techcrunch.com/2019/09/19/wing-will-test-drone-delivery-in-the-us-with-walgreens-and-fedex/)
 
@@ -44,19 +44,19 @@ Talking to your voice assistant on your phone, headphones or on your pixel buds 
 
 # Privacy •/ˈpɹaɪ. və. si/
 
-![](/assets/images/posts//images/posts/images/posts/0*n2yaJlf1miTDuaGJ.png)
+![](/assets/images/posts/0*n2yaJlf1miTDuaGJ.png)
 
 ### [Facebook introduces PortalTV, a video chat accessory for your TV](https://www.theverge.com/2019/9/18/20871173/facebook-portal-camera-price-release-date-availability)
 
 For $149, you’ll have a wide-angle camera which let you sign-in with your Facebook account and make video-calls over Messenger and WhatsApp. WhatApps calls are still end-to-end encrypted. It looks like a small Kinect and it’s able to follow people’s faces and zoom or pan if needed. You can disable the camera and microphone with a sliding switch but Facebook said upfront they’ll use a small part of your voice and video-recording to enhance the product skills. As a Facebook’s product, it will obviously be flagged as something bad for our privacy but, at this point, it’s just as bad as all the other competitors (Amazon and Google). As Facebook is seamlessly integrated into your network of friends and family and brings you yet a new way to communicate with them. This is a domain Facebook has been trying to master for a few months with their Portal devices.
 
-![](/assets/images/posts//images/posts/images/posts/0*CTQVDyAY7txSZSey.jpg)
+![](/assets/images/posts/0*CTQVDyAY7txSZSey.jpg)
 
 ### [India is going for China-style facial recognition without even the hint of a start of a privacy law](https://www.scmp.com/news/asia/south-asia/article/3029574/india-plans-adopt-china-style-facial-recognition-policing)
 
 India will open bids this month to build a facial recognition system, in an attempt to assist its understaffed police force. Obviously, the project is raising concerns in a nation with no data privacy laws and which just shut down the Internet for the last seven weeks in Kashmir (as we reported in our latest edition).
 
-![](/assets/images/posts//images/posts/images/posts/0*17QiXVkblBzVdC6Y.jpg)
+![](/assets/images/posts/0*17QiXVkblBzVdC6Y.jpg)
 
 ### [NXP + Snips teams up for local offline recognition](https://snips.ai/blog/snips-collaborates-with-nxp-to-add-local-and-offline-voice-recognition-to-i-mx-rt-crossover-mcu/)
 
@@ -64,13 +64,13 @@ We have been eagerly waiting for this announcement since January after Thibault 
 
 # Acquisition •/ˌakwɪˈzɪʃ (ə) n/
 
-![](/assets/images/posts//images/posts/images/posts/0*PGkcx38cVNshB_5P.jpg)
+![](/assets/images/posts/0*PGkcx38cVNshB_5P.jpg)
 
 ### [Tesla is buying computer vision startup Deepscale](https://www.cnbc.com/2019/10/01/tesla-acquiring-deepscale-computer-vision-start-up-for-self-driving.html)
 
 The idea is obviously to faster penetrate the market of self-driving vehicles. Tesla stopped hiding their ambitions for autonomous robotaxis while reducing power consumption.
 
-![](/assets/images/posts//images/posts/images/posts/0*fvzpTYCcUYa72eko.jpg)
+![](/assets/images/posts/0*fvzpTYCcUYa72eko.jpg)
 
 ### [WeWork paused their IPO](https://www.cnbc.com/2019/09/30/wework-says-it-will-file-request-to-withdraw-its-ipo-prospectus-after-roadshow-management-turmoil.html)
 
@@ -78,7 +78,7 @@ You may have heard about WeWork going public on the stock exchange but failing t
 
 # Openness • /ˈəʊ.pən/+/nəs/
 
-![](/assets/images/posts//images/posts/images/posts/0*IFXIPKi_hYL4GXsv.jpg)
+![](/assets/images/posts/0*IFXIPKi_hYL4GXsv.jpg)
 
 ### [Twitter took down nearly 1000 accounts controlled by mainland China to discredit Hong Kong protesters](https://www.nytimes.com/interactive/2019/09/18/world/asia/hk-twitter.html)
 
@@ -88,7 +88,7 @@ NY Times made a really nice piece of infographic and journalism about one of the
 
 That’s not the first time [Microsoft + Open Source]() is sharing nice stuff under open-source licences. Today it’s a nice monospaced font for developers with programming ligatures. What does it mean? Arrow, ***, ++, >= and != will be rendered in a specific way.
 
-![](/assets/images/posts//images/posts/images/posts/0*Juyxj2GPhljUkq5b.jpg)
+![](/assets/images/posts/0*Juyxj2GPhljUkq5b.jpg)
 
 ### [Google creates a VR version of Versailles Castle](https://www.engadget.com/2019/09/30/google-used-photogrammetry-to-create-a-detailed-vr-tour-of-versa/)
 
@@ -102,13 +102,13 @@ In an effort to make culture accessible to everyone, the Château de Versailles 
 
 Whether or not you agree with the author’s opinion, his article is quite interesting. First, because he worked on Uber’s distributed payment system, designed and shipped Skype on Xbox One and one source Uber’s mobile framework. So he may be not a mere stranger going for a rant against developers. Instead, you’ll find an interesting experience sharing about the common culture in startups and online pure players in the tech industry when it comes to software architecture.
 
-![](/assets/images/posts//images/posts/images/posts/0*lvtkBJec7uAFt36h.png)
+![](/assets/images/posts/0*lvtkBJec7uAFt36h.png)
 
 ### [Using deep learning for cracking WIFI password](https://github.com/evilsocket/pwnagotchi)
 
 Own&gotcha is an A2C-based “AI” leveraging *bettercap* that learns from its surrounding WIFI environment in order to maximise the crackable WPA key material it captures. Why does this project exist? For hackers to learn reinforcement learning, WIFI networking and have an excuse to get out for more walks. Also, it’s super cute (check out the README).
 
-![](/assets/images/posts//images/posts/images/posts/0*EyQftMBWGuErQWGZ.png)
+![](/assets/images/posts/0*EyQftMBWGuErQWGZ.png)
 
 ### [Stoop, a newsletter reader app](https://stoopinbox.com/)
 
@@ -130,6 +130,6 @@ Do you know “Can I use…”? Well, that’s basically the same tool, which le
 
 # That’s all folks!
 
-Did you enjoy it? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoy it? If so don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube](http://www.youtube.com/user/SmileOpenSource).
 
 

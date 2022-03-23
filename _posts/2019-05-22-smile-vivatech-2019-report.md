@@ -14,7 +14,7 @@ username: fabien_gasser
 
 ### Vivatech was everywhere for 3 days, all the cutting technology was here, accessible to the tech-savvy person you are.
 
-![](/assets/images/posts//images/posts/images/posts/1*N4aqvpzH5nrk1C-8PWASdw.png)
+![](/assets/images/posts/1*N4aqvpzH5nrk1C-8PWASdw.png)
 
 ### Welcome to our Vivatech 2019 overview.
 
@@ -28,7 +28,7 @@ According to me, it goes by :
 
 * **Working with the AfricaTech** market growing stronger every day and probably **the best ally of European growth**.
 
-![](/assets/images/posts//images/posts/images/posts/1*kbUwtEqeSup4liKODq4bZg.png)
+![](/assets/images/posts/1*kbUwtEqeSup4liKODq4bZg.png)
 
 CAC 40 and the public institution has occupied all the good spots with an impressive demonstration of the glory of open innovation and promoting their champions.
 
@@ -36,34 +36,34 @@ Some happy few startups were absorbing the sun received by the giants, leaving c
 
 # **Few innovations from the giants**
 
-![L’Oréal is now a data-driven company relying on personalization, recommendations (choosing the right skin care with Modiface), and digital expansion to reach new territories.](/assets/images/posts//images/posts/1*477z9c4JdN6o83fw_vvysw.png)
+![L’Oréal is now a data-driven company relying on personalization, recommendations (choosing the right skin care with Modiface), and digital expansion to reach new territories.](/assets/images/posts/1*477z9c4JdN6o83fw_vvysw.png)
 
-![Matmut sponsoring Plastic Odyssey boat powered solely by plastic waste.](/assets/images/posts//images/posts/1*rPKxSA5GftsQ74h-O4h0OA.png)
+![Matmut sponsoring Plastic Odyssey boat powered solely by plastic waste.](/assets/images/posts/1*rPKxSA5GftsQ74h-O4h0OA.png)
 
-![Klaxoon was here to embodies the future of work by promoting collaborative innovation.](/assets/images/posts//images/posts/1*WAVUPATKQHkW-rse9XCPHA.png)
+![Klaxoon was here to embodies the future of work by promoting collaborative innovation.](/assets/images/posts/1*WAVUPATKQHkW-rse9XCPHA.png)
 
 **SmartWear with Google and Levi’s 
 **The beginning of a long trend for smart wear finally available to everybody.
 
-![Project Jacquard: Levi’s smart jacket first look — https://www.youtube.com/watch?v=OqimqTf6EP8](/assets/images/posts//images/posts/1*KnSKwogKeWai6J55uolkoA.png)
+![Project Jacquard: Levi’s smart jacket first look — https://www.youtube.com/watch?v=OqimqTf6EP8](/assets/images/posts/1*KnSKwogKeWai6J55uolkoA.png)
 
 **Dreem is dreaming big with a huge corner
 **Collecting sleeping data, to improve your life.
 
-![](/assets/images/posts//images/posts/images/posts/1*que7RblmFLqSGCIBVZMq4g.png)
+![](/assets/images/posts/1*que7RblmFLqSGCIBVZMq4g.png)
 
 **OuiBot by SNCF is driven by the voice.**
 
-![You can now talk to Ouibot to book your train tickets.](/assets/images/posts//images/posts/1*tPdm7t5kiVGGRkPluwcAWg.png)
+![You can now talk to Ouibot to book your train tickets.](/assets/images/posts/1*tPdm7t5kiVGGRkPluwcAWg.png)
 
 **Pole Emploi
 **What more simple way to express you than in a natural language. In collaboration, we have realized an edge assistant to look for a new job using voice.
 
-![](/assets/images/posts//images/posts/images/posts/1*gWMMBK97s2Ry4B1dSmzWyg.png)
+![](/assets/images/posts/1*gWMMBK97s2Ry4B1dSmzWyg.png)
 
 ### Amazon
 
-![AWS with Deepracer vehicle driven with machine learning!](/assets/images/posts//images/posts/1*CJZJTOelp9YeK1OB4ReQJA.png)
+![AWS with Deepracer vehicle driven with machine learning!](/assets/images/posts/1*CJZJTOelp9YeK1OB4ReQJA.png)
 
 # The land of Startups
 
@@ -205,9 +205,9 @@ Vaonis refines and simplifies telescope design, making them easier to use and op
 [Gamebuino
 ](https://gamebuino.com/)You will love learning to code on Gamebuino, the first portable game console made in France. Create your first game in no time, independently and without any experience. You’re code on your computer and see the result directly on the console.
 
-![](/assets/images/posts//images/posts/images/posts/1*meXVLSEzWwbiS5r1v8kgZw.png)
+![](/assets/images/posts/1*meXVLSEzWwbiS5r1v8kgZw.png)
 
-![See you my hover taxi is waiting for me!](/assets/images/posts//images/posts/1*N4Y7z2vFzTPQd9jqqPtXmg.png)
+![See you my hover taxi is waiting for me!](/assets/images/posts/1*N4Y7z2vFzTPQd9jqqPtXmg.png)
 
 # That’s all folks!
 
