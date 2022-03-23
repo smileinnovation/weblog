@@ -18,25 +18,29 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+name: Smile's Cornerstone weblog
 title: Smile's Cornerstone weblog
 email: thibault.milan@smile.eu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-
-
+  Smile's weblog about tech. Cuting edge tech popularization, hightly technical walkthrougt 
+  in an open sharing with the world mindset.
+logo: 'assets/images/logo.png'
+favicon: assets/images/logo.png'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: ''
+disqus: ''
+mailchimp-list: ''
+
+include: ["_pages"]
+
 
 # Conversion
 excerpt_separator: '<br class="exceprt_separator">'
 
 # Outputting
-permalink: date
-paginate_path: /page:num
+permalink: /:title/
 timezone: Europe/Luxembourg
-
-  Google search results) and in your feed.xml site description.
 
 # Build settings
 theme: minima
@@ -48,22 +52,48 @@ plugins:
   - jekyll-gist
   - jekyll-twitter-plugin
   - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
 
 feed:
     posts_limits: 20
     excerpt_only: false
 
-jekyll-archives:
-    enabled:
-        - year
-        - month
-        - categories
-        - tags
-    layout: archive
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, _posts/assets]
 
 maps:
     google:
-        api_key: <YOUR_KEY>
+        api_key: ''
 # Have a per category feed
 #    categories:
 #        - techwatch
