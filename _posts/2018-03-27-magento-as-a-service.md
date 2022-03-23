@@ -130,11 +130,11 @@ What happens when developer need to push sources ?
 
 That’s the power of *BuildConfig* and *DeploymentConfig* which are provided by OpenShift that gives advantages. Let’s check what I mean.
 
-![](/assets/images/posts//images/posts/images/posts/1*XlppZAstcxT6vl-68BQzzQ.png)
+![](/assets/images/posts/1*XlppZAstcxT6vl-68BQzzQ.png)
 
 The “builder” takes sources from the right branch or tag (following the given *BuildConfig* in OpenShift), then it uses initialisation scripts, build and compile translation, templates and so on… Image is pushed in *ImageStream* and then deployed as container following the “deployment configuration” (aka *DeploymentConfig* in OpenShift) taking the right image in the internal registry. What is very important to understand now is that **the base image used to build an Application Image on OpenShift is the same one used by developpers**.
 
-![CI-CD with Gitlab, OpenShift Containers Platform and how Developer is implied](/assets/images/posts//images/posts/1*ESVn123PDX0l_fHMmZPqcg.png)
+![CI-CD with Gitlab, OpenShift Containers Platform and how Developer is implied](/assets/images/posts/1*ESVn123PDX0l_fHMmZPqcg.png)
 
 Everything is automated. Developers and Administrators can check build logs, get images, and can monitor deployment logs. All that is almost without a hitch.
 
@@ -148,7 +148,7 @@ We are going to speak about Magento 2 : we need it to be containerized and to be
 
 Actually, we need to have High Availability for **the whole services list**. That means : database, cache, http server, file-system… And of course everything has to be resilient and scalable.
 
-![Magento2 Stack on our OpenShift containers platform](/assets/images/posts//images/posts/1*UtEkWRE3MkK5MX1m-MYXDQ.png)
+![Magento2 Stack on our OpenShift containers platform](/assets/images/posts/1*UtEkWRE3MkK5MX1m-MYXDQ.png)
 
 Quickly, that’s what we can list:
 
@@ -170,7 +170,7 @@ Ok, do you remember that I said that developer side we will have *more or less *
 
 And you’re right ! We decided to reduce container number to only what the developer will work, that means that we only propose to developer to get php and nginx images **from our OpenShift registry**. The others containers are only the monolithic version.
 
-![Container stack on developer computer](/assets/images/posts//images/posts/1*kypxw3_hn9wfQfuoUzsiBQ.png)
+![Container stack on developer computer](/assets/images/posts/1*kypxw3_hn9wfQfuoUzsiBQ.png)
 
 ### Magento2 as a ready-to-use image on a bookshelf
 
@@ -220,7 +220,7 @@ That tool allows to prepare environment at the “build time” (image creation)
 
 So, what we did is pretty simple. We created a list of scripts that should be launched at certain condition (is Magento already deployed ? Are we on OpenShift ?). Locally, we detect if Magento sources are already present, if not we call “composer” to install requirements. Then the script continues and install Magento 2 with given parameters (name of the site, admin password, …)
 
-![The full process of image building and deployment](/assets/images/posts//images/posts/1*-me-MnZmKosjppFfYx8lJg.png)
+![The full process of image building and deployment](/assets/images/posts/1*-me-MnZmKosjppFfYx8lJg.png)
 
 After a couple of seconds we can see a local website that is ok to work.
 
@@ -234,7 +234,7 @@ First, Magento 2 initialisation is not able to use Redis Sentinels — we opened
 
 The problem is that we can’t do that on OpenShift as easily as they say. The Redis masters and sentinels are started “as is”. We can’t change Pod topology afterward, we need to make deployment in “one shot”.
 
-![](/assets/images/posts//images/posts/images/posts/0*PDeNAnehX08_X22n.png)
+![](/assets/images/posts/0*PDeNAnehX08_X22n.png)
 
 To fix that little problem, we decided to build a little “proxy” that makes the job. As soon as Magento 2 is able to let us work with Redis Sentinels at startup so we will remove that part. Magento 2 connect to that proxy as if it is Redis. The proxy find master and sentinels and knows if an election was made. That’s **fast and scaled**.
 

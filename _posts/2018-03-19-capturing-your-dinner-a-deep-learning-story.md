@@ -14,7 +14,7 @@ username: patrice.ferlet
 
 ### A naive approach to features extraction and R-CNN
 
-![“Overlay of neatly organized dragon fruit, flowers, and tropical fruit” by Brooke Lark on Unsplash](/assets/images/posts//images/posts/1*h3jepQ3TqoQ3rNBnpO3wxA.jpeg)
+![“Overlay of neatly organized dragon fruit, flowers, and tropical fruit” by Brooke Lark on Unsplash](/assets/images/posts/1*h3jepQ3TqoQ3rNBnpO3wxA.jpeg)
 
 Working for [Smile innovation](https://medium.com/smileinnovation) can lead to funny pre-sales research. Few weeks ago I was involved in a discussion to find out if it could be possible to recognise (and so to bill) plates and all others food items on a lunch tray.
 
@@ -84,13 +84,13 @@ Convolutional Neural Network is a Neural Network that have several layers, the i
 
 As we are making a classifier, the outputs represent categories.
 
-![Typical CNN architecture (source: wikipedia)](/assets/images/posts//images/posts/0*KcG2GEe5zNOWqHHt.png)
+![Typical CNN architecture (source: wikipedia)](/assets/images/posts/0*KcG2GEe5zNOWqHHt.png)
 
 That’s pretty simple to make that CNN from scratch with [Keras](https://keras.io/). But as you can see, that kind of network is only efficient for **one object** in the image.
 
 Looking at our food tray, the extraction should be like the image below:
 
-![Feature extraction to features map](/assets/images/posts//images/posts/1*p8Trd-eBxg66teTDLhAaIw.png)
+![Feature extraction to features map](/assets/images/posts/1*p8Trd-eBxg66teTDLhAaIw.png)
 
 So, I tried to extract regions myself using OpenCV functions, and planned to use some R-CNN to suggest regions to be extracted.
 
@@ -106,7 +106,7 @@ The rules of thumb when you are in a project that has to manage data: **analyze 
 
 Take a look at the following sample image of a tray with foods:
 
-![Foodplate taken from http://www.lycee-freyssinet.fr/1-60-Restauration.php](/assets/images/posts//images/posts/1*KmAF-a5cDEtfpoIooi0Qfg.png)
+![Foodplate taken from http://www.lycee-freyssinet.fr/1-60-Restauration.php](/assets/images/posts/1*KmAF-a5cDEtfpoIooi0Qfg.png)
 
 The question is: how **you**, I mean, **your brain**, is able to detect where is the food even if you don’t know what “food” means ? You should notice that you are making two distinct extractions: shapes, and colors.
 
@@ -175,7 +175,7 @@ def augmentation(im, fact=.0):
 
 That function is very helpful, for example here is an image where we changed HSV channels with a factor of 1, without changing image to RGB
 
-![HSV image — channels values increased by 10%](/assets/images/posts//images/posts/1*GaaKoEwnfwGNP3_q8rM9iA.png)
+![HSV image — channels values increased by 10%](/assets/images/posts/1*GaaKoEwnfwGNP3_q8rM9iA.png)
 
 As you can see, food is already well augmented. As we are displaying HSV in RGB, the green channel corresponds to the saturation, and so you can see that, in my case, I can help food region extraction using saturation (and some other image processing I will do later).
 
@@ -250,7 +250,7 @@ Note that I also tried to make threshold before eroding and dilating the map, bu
 
 An example of output using Jupyter with widgets to find nice parameters, keep in mind that we will tweak parameters afterwards:
 
-![Jupyter widget that allows us to find good values to extract a features map](/assets/images/posts//images/posts/1*Lbwm5kK4iKC3PYD0YrHZ7w.png)
+![Jupyter widget that allows us to find good values to extract a features map](/assets/images/posts/1*Lbwm5kK4iKC3PYD0YrHZ7w.png)
 
 On the left, there is the structure ellipsis result that helps creating some “blobs”. Merged together, those blobs yield bigger and simpler shapes. On the right, you can see that erosion and dilatation with threshold can split regions. I will now use that features map to get bounding boxes. Of course, we will change some values to fine tune element separation. But we now have Region of Interest (or RoI for short) and we will be able to make contour detection with OpenCV that natively proposes functions for that kind of operation.
 
@@ -304,17 +304,17 @@ for (i, c) in enumerate(contours):
 
 One more time, Jupyter and widgets were used to check results, and we can now see a result close to the expected one:
 
-![Extracted content from our own convolution](/assets/images/posts//images/posts/1*_9MIzeo0s_xzubqdjw_SmQ.png)
+![Extracted content from our own convolution](/assets/images/posts/1*_9MIzeo0s_xzubqdjw_SmQ.png)
 
 So, because it’s a mastered environment, I could refine filters values to get better regions. After a while, I found good values that works with several shots. One more time Jupyter helps a lot to make tests:
 
-![Tweaked values to get nice bounding boxes](/assets/images/posts//images/posts/1*ehR5GtsHdwIWlM8BCd4xQA.gif)
+![Tweaked values to get nice bounding boxes](/assets/images/posts/1*ehR5GtsHdwIWlM8BCd4xQA.gif)
 
 The function is very fast. OpenCV computes matrices and region calculation in 5-10ms.
 
 Instead of drawing regions, you will be able to crop images to get RoI and send them one by one (or in parallel with multiprocessing) to the CNN to check which categories are detected. I only kept the best results.
 
-![OpenCV detection on 2 classes](/assets/images/posts//images/posts/1*mX_3LOgYaWR5I_vk7Nfdag.png)
+![OpenCV detection on 2 classes](/assets/images/posts/1*mX_3LOgYaWR5I_vk7Nfdag.png)
 
 On the left, I sent 2 boxes to the CNN that learned what are tangerines and gnocchi — and as expected, it found the right class for each of that boxes.
 
@@ -360,7 +360,7 @@ https://medium.com/@smallfishbigsea/faster-r-cnn-explained-864d4fb7e3f8
 
 As a reminder, R-CNN, either simple, fast or faster, are neural networks that makes back links from layer to upper layers.
 
-![Backward links to send output to previous neurons](/assets/images/posts//images/posts/1*cCldOYv45Cdlaw3CryEzZg.png)
+![Backward links to send output to previous neurons](/assets/images/posts/1*cCldOYv45Cdlaw3CryEzZg.png)
 
 That way, Neural Network can propagate values to be retreated and get higher accuracy about extracted features that comes from the convolutional layers. Also, layers are not all fully connected but locally connected. The extraction region is connected to some neurons, other regions to other neurons, and so on.
 
@@ -380,11 +380,11 @@ https://medium.com/@siddharthdas_32104/cnns-architectures-lenet-alexnet-vgg-goog
 
 There were two majors upgrades for the R-CNN: Fast R-CNN and Faster-R-CNN. While the first was an big improvement of accuracy and speed detection time, the last one is very impressive. Faster R-CNN makes use of several treatments as getting multiple scales, pyramid image and features map, and anchor boxes.
 
-![Different schemes for addressing multiple scales and sizes. ( a ) Pyramids of images and feature maps are built, and the classifier is run at all scales. ( b ) Pyramids of filters with multiple scales/sizes are run on the feature map. ( c ) We use pyramids of reference boxes in the regression functions. Source: https://arxiv.org/pdf/1506.01497.pdf — Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun](/assets/images/posts//images/posts/1*EldjWaOp2U-k6AHlSKZbBQ.png)
+![Different schemes for addressing multiple scales and sizes. ( a ) Pyramids of images and feature maps are built, and the classifier is run at all scales. ( b ) Pyramids of filters with multiple scales/sizes are run on the feature map. ( c ) We use pyramids of reference boxes in the regression functions. Source: https://arxiv.org/pdf/1506.01497.pdf — Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun](/assets/images/posts/1*EldjWaOp2U-k6AHlSKZbBQ.png)
 
 The result proposed in the paper shows how it can be efficient and accurate.
 
-![Detected objects and precision from 0 (low) to 1.0 (high) (source https://arxiv.org/pdf/1506.01497.pdf)](/assets/images/posts//images/posts/1*K_Ia0sKguiQceA6YoeX_Fw.png)
+![Detected objects and precision from 0 (low) to 1.0 (high) (source https://arxiv.org/pdf/1506.01497.pdf)](/assets/images/posts/1*K_Ia0sKguiQceA6YoeX_Fw.png)
 
 The counterpart is that you’ll need a very dense image set to train the model which is not only to separate images per categories. You’ll need to get bounding boxes in a file for each object and categories. But, by the way, you can use a transfer learning implementation to use pre-trained models adding you own categories. That’s what I did with Retinanet implementation with ResNet model.
 
@@ -482,7 +482,7 @@ model.fit_generator(train_gen,
 
 And after a while (several hours), we finally get a model that works. Because of the lack of train data, results were not so impressive but the boxes were well placed and categorization was promising.
 
-![Keras RetinaNet result on 2 classes](/assets/images/posts//images/posts/1*IIVvw1j3-dw9mmC5DcQzQg.png)
+![Keras RetinaNet result on 2 classes](/assets/images/posts/1*IIVvw1j3-dw9mmC5DcQzQg.png)
 
 **Please, take the given result image with caution**: we needed to tweak the results to get proper bounding boxes as we didn’t have enough images to train, and so the result was not as reliable as the image may let you believe. Keep in mind that we needed to fix returned detection matrices and filter some that were not what we wanted. Taking all this into account, the precision we ended up with for tangerine was ~88% and salad ~65% which confirms the lack of training data and surely that we didn’t made enough learning epochs (I used 500 epochs for this test).
 

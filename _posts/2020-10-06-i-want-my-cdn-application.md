@@ -12,7 +12,7 @@ username: fabien.gasser
 
 # I want my CDN Application!
 
-![Access your application around the world!](/assets/images/posts//images/posts/0*rqiej0HCGx0WpDyW)
+![Access your application around the world!](/assets/images/posts/0*rqiej0HCGx0WpDyW)
 
 *Performance* and *time to interaction* are key to increase conversion and retention. And for that, [PWA](https://en.wikipedia.org/wiki/Progressive_web_application) has done an amazing job promoting a new way of building applications. But pages can be rendered way faster using static page generation, fetching only what’s need to be fresh.
 
@@ -26,7 +26,7 @@ A static site allows better performance, SEO, and scalability. I think we forgot
 
 # Jamstack, the cool gang
 
-![](/assets/images/posts//images/posts/images/posts/0*B5exEvFSbgGXL3Xa)
+![](/assets/images/posts/0*B5exEvFSbgGXL3Xa)
 
 [JAMstack ](https://jamstack.org/)stands for *JavaScript*, *APIs*, and *Markup*. Jamstack.org defines each component as the following.
 
@@ -42,7 +42,7 @@ Let’s see now how we can migrate from using it.
 
 The JAMstack is a complete paradigm shift focusing on a best-of-breed approach, leaving monolith solutions far behind in terms of agility and time to market.
 
-![](/assets/images/posts//images/posts/images/posts/0*Gp4grzvBHUbVZWDU)
+![](/assets/images/posts/0*Gp4grzvBHUbVZWDU)
 
 **Pro**
 
@@ -60,7 +60,7 @@ The JAMstack is a complete paradigm shift focusing on a best-of-breed approach, 
 
 JAMstack's approach relies on HTML being rendered at build time or in the web browser to serve static content to the client; different frameworks exist to do so.
 
-![Adam Sturrock analysis of the market.](/assets/images/posts//images/posts/0*BcC2LgVLplVvHbaJ)
+![Adam Sturrock analysis of the market.](/assets/images/posts/0*BcC2LgVLplVvHbaJ)
 
 Some are more business-oriented such as [*vuestorefront.io*](https://www.vuestorefront.io/), based on the e-commerce domain (Category, Product list page, Product detail page).
 
@@ -78,7 +78,7 @@ Some Server Site Generator is more framework oriented like:
 
 This growing ecosystem provides few services to start building your application: they do one thing, and they do it well.
 
-![Jamstack conference partner networks.](/assets/images/posts//images/posts/0*S4ZBsRXTs1xQL5lm.png)
+![Jamstack conference partner networks.](/assets/images/posts/0*S4ZBsRXTs1xQL5lm.png)
 
 To focus on your product, you should leverage their services; let’s pick the right product for you.
 
@@ -182,13 +182,13 @@ Also, if your Lambda function writes, by example, in a Dynamo DB, your bottlenec
 
 Comparison between different as-a-Service models and traditional IT, where the whole stack is hosted on-premise. The longer the arrow, the more management is required by and/or on behalf of the client.
 
-![Pablo Iorio accurate vision of infrastructure](/assets/images/posts//images/posts/0*-rLczLcR2MRsuIyb)
+![Pablo Iorio accurate vision of infrastructure](/assets/images/posts/0*-rLczLcR2MRsuIyb)
 
 # Let’s wrap it up!
 
 Now we are aligned on the requirement to start composable commerce with a CDN application; you can start building your own ecosystem based on the challenge inherent to your industry: stocks, delivery, services…
 
-![Large overview of a classic headless commerce ecosystem.](/assets/images/posts//images/posts/1*HfDX1J2Lk7oGp6gE8Jjr9A.png)
+![Large overview of a classic headless commerce ecosystem.](/assets/images/posts/1*HfDX1J2Lk7oGp6gE8Jjr9A.png)
 
 # **🙋‍♂️ Since you’re here
 

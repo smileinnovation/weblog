@@ -34,7 +34,7 @@ In my opinion, those extensions were a good option for people that did want to b
 
 A lot of search engine extensions will become less relevant because Magento now embeds a search technology that performs better. I think about all those SolR or Sphinx integrations but also to some commercial SaaS engines.
 
-![](/assets/images/posts//images/posts/images/posts/1*WATj-MWqAZ-fljJEEIZqVA.png)
+![](/assets/images/posts/1*WATj-MWqAZ-fljJEEIZqVA.png)
 
 # What about ElasticSuite ?
 

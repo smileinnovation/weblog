@@ -22,7 +22,7 @@ username: thibaut.marie89
 
 En faisant un rapide inventaire du matériel présent sur le vélo solaire, on se rend compte qu’il existe quatre éléments principaux permettant son bon fonctionnement : le panneau solaire, le contrôleur MPPT, la batterie et le moteur dans le pédalier.
 
-![Eléments principaux d’un vélo solaire.](/assets/images/posts//images/posts/1*MA-PcPvUx4Ab5kI23qPTyA.png)
+![Eléments principaux d’un vélo solaire.](/assets/images/posts/1*MA-PcPvUx4Ab5kI23qPTyA.png)
 
 Le panneau convertit le rayonnement solaire en énergie électrique qui est dans un premier temps envoyée sur le MPPT.
 
@@ -34,13 +34,13 @@ Le moteur a également besoin d’une tension d’alimentation constante en prov
 
 La principale fonction du wattmètre connecté est d’effectuer des mesures de courant et tension afin de produire diverses statistiques — notamment de puissances instantanées consommées par le moteur et produites par le panneau solaire — en deux points de prélèvement différents. Sur le vélo, il faut le brancher en série entre le MPPT du panneau solaire et la batterie d’une part, et entre la batterie et le moteur d’autre part, pour mesurer les courants entrant et sortant. Il faut également pouvoir désactiver la mesure côté panneau solaire pour rendre le wattmètre adaptable aux VAE classiques.
 
-![Positionnement du WMC (cadre vert) dans la structure du vélo solaire.](/assets/images/posts//images/posts/1*bke5-F-bLxby3nhfKqL2kg.png)
+![Positionnement du WMC (cadre vert) dans la structure du vélo solaire.](/assets/images/posts/1*bke5-F-bLxby3nhfKqL2kg.png)
 
 Une fois que l’acquisition des données (toutes les 0,25 s) s’est bien passée, il faut pouvoir les stocker dans la mémoire du WMC pour les transmettre toutes les 0,5 s en Bluetooth Low Energy (BLE) à la *Gateway* (la carte électronique gérant le tableau de bord du coureur pour afficher les données et les envoyer dans le Cloud pour analyse). Afin de garantir la cohérence et l’exploitation des données, le wattmètre connecté devra leur associer une date et une heure, qui correspondra au moment où la mesure a été prise. C’est l’horloge temps réel du microcontrôleur (real time clock, ou RTC en anglais) qui se chargera de la gestion du temps pour l’appareil.
 
 Enfin, le dispositif devra être alimenté par la batterie du vélo solaire et consommer un minimum d’énergie en fonctionnement normal. Le budget énergétique du WMC est donc restreint à 0.5W continus et 1 W crête lorsque tous les composants sont utilisés en même temps.
 
-![Le WMC au coeur de l’architecture du projet.](/assets/images/posts//images/posts/1*BexfSkcLtSBnXKrYSeBIbA.png)
+![Le WMC au coeur de l’architecture du projet.](/assets/images/posts/1*BexfSkcLtSBnXKrYSeBIbA.png)
 
 Au niveau des contraintes techniques, une étude du marché des batteries de VAE a montré que les tensions mises en jeu varient entre 36 V et 48 V continus en fonctionnement normal, tandis que les courants délivrés par les batteries les plus puissantes ne dépassent pas 20 A en continu (et environ 30 A crête). Des batteries plus puissantes existent, mais ne concernent pas les VAE — en fait, la législation impose aux VAE d’avoir un moteur d’au maximum 250W et pouvant offrir une vitesse de 25 km/h. Au-delà de cette vitesse, le moteur d’assistance doit cesser de fonctionner. Les véhicules deux-roues équipés de batterie plus puissante ne sont pas considérés comme des vélos, mais comme des cyclomoteurs et ne font pas l’objet du Smile Trip Tour.
 
@@ -50,9 +50,9 @@ Sur la route du Smile Trip Tour, le wattmètre connecté sera soumis à des vibr
 
 La figure ci-dessous présente le schéma de principe pour l’architecture fonctionnelle et matérielle du WMC :
 
-![Schéma électrique simplifié du WMC.](/assets/images/posts//images/posts/1*GEPFvK3ZxbF9z6oiVCOqTA.png)
+![Schéma électrique simplifié du WMC.](/assets/images/posts/1*GEPFvK3ZxbF9z6oiVCOqTA.png)
 
-![Schéma de principe d’un tore de mesure.](/assets/images/posts//images/posts/1*UFLgVfz-Ju47kNA1FsPAbg.png)
+![Schéma de principe d’un tore de mesure.](/assets/images/posts/1*UFLgVfz-Ju47kNA1FsPAbg.png)
 
 Le choix de la technologie des capteurs de courants (symboles « A » représentés en rouge sur le schéma) s’est porté sur des [capteurs à Effet Hall ](https://fr.wikipedia.org/wiki/Capteur_%C3%A0_effet_Hall)soudables sur PCB (Printed Circuit Board, l’acronyme anglais courant pour dire « circuit imprimé ») ; cette solution permet d’éviter de fragiliser la connectique ou de compromettre l’étanchéité du boîtier, contrairement à l’utilisation d’une [bobine de Rogowski](https://fr.wikipedia.org/wiki/Enroulement_de_Rogowski) ou d’un tore de mesure. Un [ACS722KMA-40AB](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiL1r3Zk6jcAhWG2qQKHTANCgoQFggsMAA&url=https%3A%2F%2Fwww.allegromicro.com%2F~%2Fmedia%2FFiles%2FDatasheets%2FACS722KMA-Datasheet.ashx%3Fla%3Den%26hash%3D5474B5C571D7FEE83E60A608FED45A5FCC5BCDC6&usg=AOvVaw3RUOj4sTAXkTmWMCdR44dF) d’Allegro (soutenant 40 A maximum) fera l’affaire.
 
@@ -62,7 +62,7 @@ Le module Bluetooth RN4871-V/RM118 permet ensuite la transmission des données �
 
 Le wattmètre est alimenté par la batterie du vélo (« Power supply » figurant en jaune sur les schémas). Lorsque la batterie est débranchée (à la fin de la course ou à cause d’un choc pendant que le vélo roule), une pile de secours permet de conserver l’horloge temps réel et quelques registres de contexte sous tension (1,8 V suffisent sur un microcontrôleur STM32). Au niveau du développement, il est intéressant d’avoir accès à un port USB capable d’alimenter la carte afin de tester le software plus facilement (communication sur le bus [I²C](https://fr.wikipedia.org/wiki/I2C) entre le microcontrôleur et les convertisseurs analogique-numérique pour récupérer les mesures des capteurs de courant, configuration du module Bluetooth). Ce port ne sera pas accessible par l’utilisateur final.
 
-![Schéma de principe montrant la gestion de l’alimentation vue par l’utilisateur.](/assets/images/posts//images/posts/1*0w22I55-ZVXcWLhRV5nuIQ.png)
+![Schéma de principe montrant la gestion de l’alimentation vue par l’utilisateur.](/assets/images/posts/1*0w22I55-ZVXcWLhRV5nuIQ.png)
 
 Enfin, des précautions sont prises pour protéger le boîtier des surtensions transitoires typiques des ESD (décharges électrostatiques), qui peuvent arriver en branchant les câbles. Le but est de coller au maximum au niveau 2 de la norme [IEC 61000–4–2](https://en.wikipedia.org/wiki/IEC_61000-4-2) relative aux ESD : même si le wattmètre ne résistera pas à la foudre, il doit pouvoir être manipulé et branché/débranché sans précautions particulières de l’utilisateur. Les composants de protection utilisés sont des TVS (transient voltage suppressors), aussi appelées « diodes transil » : sous tension nominale, elles sont en circuit ouvert et n’affectent pas le fonctionnement du montage. En revanche, en cas de pic de tension indésirable, elles deviennent passantes et redirigent le courant directement à la masse, tout en présentant une tension beaucoup plus faible (phénomène d’écrêtage des surtensions transitoires). Les composants du wattmètre sont ainsi protégés !
 
@@ -74,11 +74,11 @@ Ce dernier point vient étayer le partenariat privilégié que Smile entretient 
 
 L’architecture logicielle sera basée sur un kernel préemptif gérant des tâches périodiques ayant un niveau de priorité et un accès aux ressources matérielles bien définies. Parmi elles, on trouve automatiquement :
 
-![](/assets/images/posts//images/posts/images/posts/1*7fFXnqMdiIkjVpqnsSSuHA.png)
+![](/assets/images/posts/1*7fFXnqMdiIkjVpqnsSSuHA.png)
 
 # Réalisation du WMC — “Behind the scenes”
 
-![Marie THIBAUT, stagiaire chez Smile](/assets/images/posts//images/posts/1*yn5wmXbh-ru02b5yhWoMkg.jpeg)
+![Marie THIBAUT, stagiaire chez Smile](/assets/images/posts/1*yn5wmXbh-ru02b5yhWoMkg.jpeg)
 
 Nouvelle arrivée chez Smile, je travaille au sein de l’équipe « Embedded and Connected Systems » à Grenoble dans le cadre de mon stage de fin d’études. Après deux ans de classes préparatoires, j’ai intégré l’Ecole Nationale Supérieure de l’Électronique et de ses Applications (ENSEA, à Cergy-Pontoise) pour étudier l’électronique et me spécialiser en mécatronique et systèmes embarqués. Je m’intéresse particulièrement à la programmation bas-niveau et à l’électronique numérique, mais sur mon temps libre je fais surtout beaucoup de sport… D’où mon intérêt pour le Smile Trip Tour !
 
@@ -88,13 +88,13 @@ La conception hardware et la réalisation physique du WMC constituent la premiè
 
 C’est principalement « des trucs qu’on n’apprend pas à l’école », en fait. Jusqu’à maintenant, le plus difficile pour moi concerne la nomenclature des packages standards (typiquement SOIC16, SMD 1206, LQFD64…), le choix des connecteurs, et la logistique.
 
-![Exemple de package standard : un SOIC16](/assets/images/posts//images/posts/0*TIKm4dO-hRfNPM3A.JPG)
+![Exemple de package standard : un SOIC16](/assets/images/posts/0*TIKm4dO-hRfNPM3A.JPG)
 
 Retenir à quoi ressemble chaque package pour se rendre compte si le composant sera facile à souder ou prendra trop de place sur le PCB prend du temps, c’est un réflexe qui ne se développe qu’en ayant parcouru plusieurs dizaines de datasheets et ça peut paraître rébarbatif. Mais on s’y fait — le PCB en dépend.
 
 Au niveau des connecteurs, c’est aussi un peu casse-tête au début. USB-A, B, C, AB ? Mini, micro ou USB classique ? Comment monter et brancher des connecteurs Anderson sur la carte ? Ce genre de questions nécessite de passer du temps à lire des articles et regarder des exemples de schémas pour mieux comprendre.
 
-![Différents types de connecteurs USB.](/assets/images/posts//images/posts/1*9rsmVwrXc2lG0kUhDiXG8g.png)
+![Différents types de connecteurs USB.](/assets/images/posts/1*9rsmVwrXc2lG0kUhDiXG8g.png)
 
 Et enfin… Tout le matériel du STT ne se trouve pas forcément à l’agence de Grenoble ! Un vélo (et sa batterie, son moteur, son panneau solaire…) se trouve à l’agence de Lyon, un autre est démonté dans l’atelier de Grenoble sans batterie ni moteur… Il faut donc avoir assez d’imagination pour se représenter le wattmètre dans son contexte, et ne pas hésiter à communiquer régulièrement avec les ingénieurs des autres équipes.
 
@@ -104,7 +104,7 @@ Clairement ! Ce projet en est vraiment pluridisciplinaire : il mêle Hardware, S
 
 La dimension Open Source du projet est également gratifiante. L’outil que j’utilise pour créer le circuit électrique et le PCB, [KiCad](http://kicad-pcb.org/), est un logiciel open source similaire à Altium Designer ou Eagle. Je ne l’avais encore jamais utilisé jusqu’alors (j’étais sous Alitum jusqu’à ce que ma licence étudiante expire), et maintenant j’ai bien mes repères dessus. C’est toujours un plus d’apprendre à utiliser de nouveaux logiciels Open Source comparés à des versions propriétaires, ne serait-ce que pour pouvoir faire de petits projets rapides chez soi après. La possibilité de contribuer à des projets Open Source une fois le travail bien avancé offre de la visibilité et une certaine reconnaissance dans le monde de l’embarqué. Cela permet aussi un dialogue avec d’autres contributeurs pour améliorer sans cesse les développements effectués.
 
-![Logo du logiciel de conception assistée par ordinateur open source “KiCad”](/assets/images/posts//images/posts/0*E4U8Ppt6UosWdCZV.JPG)
+![Logo du logiciel de conception assistée par ordinateur open source “KiCad”](/assets/images/posts/0*E4U8Ppt6UosWdCZV.JPG)
 
 En R&D, qu’il s’agisse de hardware ou de software, il faut souvent trouver des compromis et des workarounds pour livrer une fonction particulière en respectant un cahier des charges. Il faut pouvoir s’adapter rapidement à des changements de cahier des charges ou de priorité sur telle ou telle fonctionnalité du produit suite à des réunions d’équipe, cela donne un côté dynamique et jamais ennuyeux au travail quotidien. C’est une dimension de la gestion de projet qu’on retrouve peu en école, car le cahier des charges y est le plus souvent statique et les solutions techniques envisageables sont déjà connues du corps enseignant. Ce challenge de conception donne tout son sens à la formation d’ingénieure que j’ai reçue, et permet de confirmer mon intérêt pour le développement électronique.
 

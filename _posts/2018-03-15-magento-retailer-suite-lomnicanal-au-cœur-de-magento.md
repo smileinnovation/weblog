@@ -14,7 +14,7 @@ username: vipra.smile
 
 ### S’adapter aux nouvelles attentes des utilisateurs
 
-![“A long row of hangers with clothes in a store in Shoreditch” by Artificial Photography on Unsplash](/assets/images/posts//images/posts/0*TM9y654T0D3OnCtI.)
+![“A long row of hangers with clothes in a store in Shoreditch” by Artificial Photography on Unsplash](/assets/images/posts/0*TM9y654T0D3OnCtI.)
 
 Ces dernières années la digitalisation des enseignes a profondément modifié les comportements et attentes des consommateurs. Obtenir une information cohérente, homogène et instantanée sur tous les canaux de distribution est indispensable pour développer ses ventes.
 
@@ -33,7 +33,7 @@ On retrouve souvent ce type d’intégration lorsque les commerçants doivent pr
 
 Exemple : La navigation catalogue est classique, mais sur chaque fiche produit, il est possible de voir si le produit est disponible dans un magasin donné parmi tous les magasins.
 
-![](/assets/images/posts//images/posts/images/posts/0*9MrOJmKna-XrGkj0.png)
+![](/assets/images/posts/0*9MrOJmKna-XrGkj0.png)
 
 ### Mettez vos magasins en valeur grâce au Store Locator
 
@@ -45,7 +45,7 @@ ElasticSuite for Retailers met à disposition un store locator. Il permet d’ai
 
 * Une page de résultat de recherche pertinente dotée d’une carte interactive.
 
-![](/assets/images/posts//images/posts/images/posts/0*FTdbFa8kfNKKaX3O.png)
+![](/assets/images/posts/0*FTdbFa8kfNKKaX3O.png)
 
 **Carte interactive**
 
@@ -61,7 +61,7 @@ ElasticSuite for Retailers met à disposition un store locator. Il permet d’ai
 
 * Calcul d’itinéraire
 
-![](/assets/images/posts//images/posts/images/posts/1*osLLtDTzVqUpnaUNrZm2og.png)
+![](/assets/images/posts/1*osLLtDTzVqUpnaUNrZm2og.png)
 
 **Page magasin**
 
@@ -71,17 +71,17 @@ ElasticSuite for Retailers met à disposition un store locator. Il permet d’ai
 
 * SEO friendly
 
-![](/assets/images/posts//images/posts/images/posts/0*uhPkitgRBOMrXJu5.png)
+![](/assets/images/posts/0*uhPkitgRBOMrXJu5.png)
 
 ### Attirer vos clients dans vos points de vente, avec le Store pickup !
 
-![](/assets/images/posts//images/posts/images/posts/0*An0yk2UIBtc8xpTI.png)
+![](/assets/images/posts/0*An0yk2UIBtc8xpTI.png)
 
 Le store pickup est un moyen de livraison disponible dans le tunnel d’achat. Il permet de choisir un magasin comme adresse de livraison. Vous pouvez à tout moment activer ou désactiver la livraison dans l’un de vos magasins.
 
 L’utilisateur a aussi la possibilité de choisir un autre magasin. Pour cela, une pop-in s’affiche et propose une carte dynamique et des informations pratiques à propos du magasin.
 
-![](/assets/images/posts//images/posts/images/posts/0*wnWWi9ZhlEzmMizE.png)
+![](/assets/images/posts/0*wnWWi9ZhlEzmMizE.png)
 
 ### A venir en 2018 : Click and Collect
 

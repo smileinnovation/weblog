@@ -16,7 +16,7 @@ username: kristophe.dorothe
 
 > This article is part of a series of articles on Schema Registry. The purpose of this serie is to describe how to implement and use the Confluent **Schema Registry** to serialize and deserialize *Kafka* messages with schema validation.
 
-![Photo by Christopher Burns on Unsplash](/assets/images/posts//images/posts/0*WZywNsbrK2qACDo7)
+![Photo by Christopher Burns on Unsplash](/assets/images/posts/0*WZywNsbrK2qACDo7)
 
 # What is Schema Registry?
 
@@ -30,7 +30,7 @@ Each schema in Schema Registry is saved (registered) under a **subject**. A **su
 
 A *Schema* stored in Schema Registry is composed of 4 fields:
 
-![Schema fields structure](/assets/images/posts//images/posts/1*qv2LlphXzbtr08qZ2syy2w.png)
+![Schema fields structure](/assets/images/posts/1*qv2LlphXzbtr08qZ2syy2w.png)
 
 ### Subject
 
@@ -48,7 +48,7 @@ The relation between a **Topic** and a **schema **(producers and consumers schem
 
 Three **Subject** naming strategies are supported:
 
-![Source: Subject Name Strategy](/assets/images/posts//images/posts/1*9eymD3xQiJUoqoeUxou4Tg.png)
+![Source: Subject Name Strategy](/assets/images/posts/1*9eymD3xQiJUoqoeUxou4Tg.png)
 
 Suppose we have defined two schemas (one for the **key** and another for the **value** of the message) and two topics: **my-topic-avro** and **my-topic-json. Let’s** see how it works in practice:
 
@@ -72,7 +72,7 @@ To serve as an example (they are also used in code samples), I have defined seve
 
 ***Key* subject** naming :
 
-![](/assets/images/posts//images/posts/images/posts/1*sne95rgiGSv2rhvlri9fQQ.png)
+![](/assets/images/posts/1*sne95rgiGSv2rhvlri9fQQ.png)
 
 * Schema of ***value *(TVSeriesActor1.avsc):**
 
@@ -90,7 +90,7 @@ To serve as an example (they are also used in code samples), I have defined seve
 
 Subject naming:
 
-![](/assets/images/posts//images/posts/images/posts/1*bYsgWFat_pRA95pQYkB_Rg.png)
+![](/assets/images/posts/1*bYsgWFat_pRA95pQYkB_Rg.png)
 
 ### JSON
 
@@ -108,7 +108,7 @@ Subject naming:
 
 ***Key* subject** naming:
 
-![](/assets/images/posts//images/posts/images/posts/1*oWDJbpdUqF3av9sfLIM-Gw.png)
+![](/assets/images/posts/1*oWDJbpdUqF3av9sfLIM-Gw.png)
 
 * Schema of ***value ***(**TVSeriesActor1.json**):
 
@@ -128,7 +128,7 @@ Subject naming:
 
 ***Value* subject** naming:
 
-![](/assets/images/posts//images/posts/images/posts/1*GlK3MlLm_LA0Mfq9RETvQA.png)
+![](/assets/images/posts/1*GlK3MlLm_LA0Mfq9RETvQA.png)
 
 As we can see, the **Subject name** is constructed in:
 
@@ -164,7 +164,7 @@ This compatibility is managed through the Schema Registry **compatibility **para
 
 We can set seven compatibility types:
 
-![Source: Compatibility Types](/assets/images/posts//images/posts/1*mmrzDX9Jmp8Vpoorfo53Yg.png)
+![Source: Compatibility Types](/assets/images/posts/1*mmrzDX9Jmp8Vpoorfo53Yg.png)
 
 We can set the compatibility type for each schema type supported by Schema Registry (AVRO, JSON Schema, and protobuf). That’s mean that compatibility *mode *i*s *unique and can be different for Schemas, allowing multiple compatibility rules simultaneously. So you can have your AVRO schemas evolve in a *backward-compatible* manner, and your JSON schemas evolve in a *forward-compatible* manner.
 
@@ -237,7 +237,7 @@ tar xzvf confluent-community-6.1.1.tar.gz
 
 In ***~/confluent-6.1.1*** you should have these directories:
 
-![Source: Directories Structure](/assets/images/posts//images/posts/1*rOuX2GKXQ7iWYKtfLFLLeg.png)
+![Source: Directories Structure](/assets/images/posts/1*rOuX2GKXQ7iWYKtfLFLLeg.png)
 
 ### Components Configuration
 
@@ -342,7 +342,7 @@ If everything is working fine, you should see:* INFO Server started, listening f
 🥳 That’s it for this first part. You now have a working single node single Kafka broker with Schema Registry enabled.
 👂 Stay tuned for the second part, in which we will explore the management of AVRO and JSON schemas.
 
-Did you enjoy it? If so, don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoy it? If so, don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter](https://www.twitter.com/GroupeSmile) & [Youtube.](http://www.youtube.com/user/SmileOpenSource)
 
 This series “*Mastering Confluent Schema Registry*” consists of three articles:
 

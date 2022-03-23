@@ -14,7 +14,7 @@ username: martin.flinois
 
 The primary free software and open-source event in Brussels was, as usual, full of exciting presentations and folks from all corners of the computing world.
 
-![](/assets/images/posts//images/posts/images/posts/1*_kG7mUZZw-mKLDdz6F3Mdw.png)
+![](/assets/images/posts/1*_kG7mUZZw-mKLDdz6F3Mdw.png)
 
 The FOSDEM celebrated its twentieth birthday this year, and whoever is familiar with the event can say without hesitation that it is still getting stronger.
 
@@ -104,6 +104,6 @@ This Medium post was co-authored by [Geoffrey Le Gourriérec]()
 
 # That’s all, folks!
 
-Did you enjoy it? If so, don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoy it? If so, don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter](https://www.twitter.com/GroupeSmile) & [Youtube.](http://www.youtube.com/user/SmileOpenSource)
 
 

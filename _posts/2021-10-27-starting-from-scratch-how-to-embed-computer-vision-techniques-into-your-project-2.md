@@ -128,7 +128,7 @@ To set up a GroundTruth labeling job, you need to go through a few steps :
 
 * Choose a workforce type: private or public. Private means you have to define user access and share the workload through your private workforce. Public means you will ask AWS to share this labeling job within their Mechanical Turk service to execute the job.
 
-![GroundTruth labeling job setup](/assets/images/posts//images/posts/1*hkbZg1ZA_Z6oxInLW2P1UQ.png)
+![GroundTruth labeling job setup](/assets/images/posts/1*hkbZg1ZA_Z6oxInLW2P1UQ.png)
 
 GroundTruth labeling job pricing is based on the number of images included in the job. The pricing is decreasing with the volume.
 
@@ -138,11 +138,11 @@ You can also ask for several reviews per object to increase the annotation accur
 
 So yes, we chose to give a try to Mechanical Turk, with a minimal budget. Workers had to go through this interface to annotate each image (drawing a bounding box for each object, applying the correct label)
 
-![AWS GroundTruth labeling tool](/assets/images/posts//images/posts/1*obNc8TAXEG4jf7j89veFjg.png)
+![AWS GroundTruth labeling tool](/assets/images/posts/1*obNc8TAXEG4jf7j89veFjg.png)
 
 It took about ten days for the Mechanical Turk workforce to complete the review of all images. Here is a sample of the annotation result.
 
-![GroundTruth annotations job results](/assets/images/posts//images/posts/1*uLb_dNl2XZuBYdhYE8sCXg.png)
+![GroundTruth annotations job results](/assets/images/posts/1*uLb_dNl2XZuBYdhYE8sCXg.png)
 
 And finally, we have a data set ready to be used for training :
 
@@ -164,7 +164,7 @@ All annotations are available, in GroundTruth format, in our S3 bucket as an out
 
 We have a lot of screwdrivers, as we have a lot of screwdriver images that contain multiple objects, as on this sample image :
 
-![A lot of screwdrivers](/assets/images/posts//images/posts/1*uqpOinGu1DQoeFwmrKEp7w.png)
+![A lot of screwdrivers](/assets/images/posts/1*uqpOinGu1DQoeFwmrKEp7w.png)
 
 This could be a problem, as this object will be over-represented compared to others in our training data: this will create a bias in our training data, as the model will get more trained on screwdrivers than on other objects.
 
@@ -185,6 +185,6 @@ Coming next :
 As part of this product road map, we have to test and experiment with new features.
 
 **That’s all, folks!**
-Did you enjoy it? If so, don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoy it? If so, don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter](https://www.twitter.com/GroupeSmile) & [Youtube.](http://www.youtube.com/user/SmileOpenSource)
 
 

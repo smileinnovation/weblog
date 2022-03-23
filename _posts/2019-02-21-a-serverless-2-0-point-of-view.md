@@ -10,7 +10,7 @@ author: Alain ROUEN
 username: alrouen
 ---
 
-![Photo by Steve Johnson on Unsplash](/assets/images/posts//images/posts/1*PflLUH-l_1gXzycOfdiLhQ.jpeg)
+![Photo by Steve Johnson on Unsplash](/assets/images/posts/1*PflLUH-l_1gXzycOfdiLhQ.jpeg)
 
 # A Serverless 2.0 point of view
 

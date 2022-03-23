@@ -20,7 +20,7 @@ This is Smile’s Innovation watch.
 
 # Innovation • /ˌɪnəˈveɪʃən/
 
-![](/assets/images/posts//images/posts/images/posts/0*wQQK0m4ywFKEHKB9)
+![](/assets/images/posts/0*wQQK0m4ywFKEHKB9)
 
 ### [**Samsung foldable phone / table](https://twitter.com/i/moments/1060537701991137280?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)t**
 

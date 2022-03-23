@@ -16,13 +16,13 @@ username: LeBaron
 
 Not so long ago, I thought that API management was necessarily a complex task. Faced with a wide variety of tools that exist on the market nowadays, I would like to present one that can easily meet your needs. Let me show you what **Kong** can do for you !
 
-![Photo by israel palacio on Unsplash](/assets/images/posts//images/posts/1*rADFakDqRYbb1wiLGUjG1A.jpeg)
+![Photo by israel palacio on Unsplash](/assets/images/posts/1*rADFakDqRYbb1wiLGUjG1A.jpeg)
 
 Before writing this article I worked with Kong on a big platform that ingested data like Slimer a.k.a “The Ghost of John Belushi” (Ghostbusters for the youngest readers). We liked the interface provided by PGBI for Kong so we tried to create a generic platform to manage lightweight APIs with Kong and Docker and in the end, the implementation was much easier than expected.
 
 Firstly, you need to know more about Kong, Flask and because it will also be used, Docker.
 
-![](/assets/images/posts//images/posts/images/posts/1*ZlJ_kWXllC-w77beG8qzQA@2x.png)
+![](/assets/images/posts/1*ZlJ_kWXllC-w77beG8qzQA@2x.png)
 
 ### What is Kong ?
 
@@ -35,7 +35,7 @@ The main goal behind using Kong is to centralize the API calls, having a unique 
 For Flask it’s more sentimental, Flask is my *madeleine de Proust* for APIs, I really like to use it. It is fast and easy to install.
 Flask is a Python micro-framework (It is classified as a micro-framework because it does not require particular tools or libraries) created in 2004 by “Pocoo”. It is used in lots of tech stacks like Netflix, Vine, or Reddit and more — [Stackshare Flask](https://stackshare.io/flask).
 
-![](/assets/images/posts//images/posts/images/posts/1*r9CHOA-rCMHAk_DGDPdeSQ@2x.png)
+![](/assets/images/posts/1*r9CHOA-rCMHAk_DGDPdeSQ@2x.png)
 
 ### What is Docker ?
 
@@ -58,13 +58,13 @@ make
 
 The platform can take a few minutes to install. You then need to check that all services are up to date, `make ps` allows you to list the platform processes:
 
-![](/assets/images/posts//images/posts/images/posts/1*x2fo4k1co6Mogskba2UNFg@2x.png)
+![](/assets/images/posts/1*x2fo4k1co6Mogskba2UNFg@2x.png)
 
 > If you want to see internal logs use `make logs`
 
 Once the platform is up, to `GET` these APIs that we have hidden behind Kong, we have to understand the system architecture :
 
-![Basic Kong architecture](/assets/images/posts//images/posts/1*USKWCJi4FENhOJ_-borHQg.png)
+![Basic Kong architecture](/assets/images/posts/1*USKWCJi4FENhOJ_-borHQg.png)
 
 This schema represents how we want the architecture to be. With docker, it’s easier to reproduce and deploy, so it is a little different.
 
@@ -100,7 +100,7 @@ I modified the official repository to remove useless services for our exercise (
 
 After adding Docker and the PGBI dashboard, the architecture looks like this :
 
-![](/assets/images/posts//images/posts/images/posts/1*ZzGyCiMeaPn26yub9AML7Q@2x.png)
+![](/assets/images/posts/1*ZzGyCiMeaPn26yub9AML7Q@2x.png)
 
 ### Networking and Containers:
 
@@ -118,13 +118,13 @@ To be sure we understand the process to proxify an API, we’ll explore the dash
 
 By default, you can find the dashboard at the url [http://localhost:8080](http://localhost:8080)
 
-![Home page](/assets/images/posts//images/posts/1*BhS8LnY4fUxuAEoQfmAsUg@2x.gif)
+![Home page](/assets/images/posts/1*BhS8LnY4fUxuAEoQfmAsUg@2x.gif)
 
 ### APIs:
 
 As you can see on the gif above, the dashboard is clear and easy to understand. To start our API implementation click on the APIs button.
 
-![APIs page](/assets/images/posts//images/posts/1*qMHe-YAWOHSP3ttBYGccpA@2x.gif)
+![APIs page](/assets/images/posts/1*qMHe-YAWOHSP3ttBYGccpA@2x.gif)
 
 Earlier, we saw that our architecture contains 3 APIs. You can find them here. These APIs are preconfigured and the process to do it is explained below.
 
@@ -139,7 +139,7 @@ upstream_layout: post
 url: https://geek-jokes.sameerkumar.website/api
 ```
 
-![Add Joke API](/assets/images/posts//images/posts/1*GKD_t1BAtYnpOIaKzbmZRA@2x.gif)
+![Add Joke API](/assets/images/posts/1*GKD_t1BAtYnpOIaKzbmZRA@2x.gif)
 
 The joke API is now accessible through our Kong. For now you can access it with a simple curl requests in a terminal:
 
@@ -176,11 +176,11 @@ We add a specific User for our API, the key authorization is a plugin which is l
 
 * Add key auth credentials to the consumer previously created.
 
-![Consumers page](/assets/images/posts//images/posts/1*yG8xR90r00W487kAe3mmKA.gif)
+![Consumers page](/assets/images/posts/1*yG8xR90r00W487kAe3mmKA.gif)
 
 In the consumer page, you can see Jason and Brandon, our users already preconfigured. But for the moment, Eddie must be created to protect our API joke. We cannot protect our APIs without consumers. Kong is designed this way because it would be useless to add protection without consumers.
 
-![Create consumer](/assets/images/posts//images/posts/1*-3HTpf2oCU5XR0YrcJjFEA.gif)
+![Create consumer](/assets/images/posts/1*-3HTpf2oCU5XR0YrcJjFEA.gif)
 
 ```
 consumer name : Eddie
@@ -189,7 +189,7 @@ consumer_id: eddie_id (optional)
 
 Eddie is almost ready to help us. We have to edit him, then add his credentials. Return on the consumers page ([http://localhost:8080/#!/consumers/](http://localhost:8080/#!/consumers/)) :
 
-![](/assets/images/posts//images/posts/images/posts/1*9c5phCpP3xp3mVYjATyDcw@2x.gif)
+![](/assets/images/posts/1*9c5phCpP3xp3mVYjATyDcw@2x.gif)
 
 Once our credentials are created, there is still one thing missing : We must specify to Kong that the API is protected by key authentication and only Eddie can access it.
 
@@ -203,7 +203,7 @@ To specify a type of authentication, we must add a plugin to our API.
 
 To add a plugin, return on the APIs’ home page ([http://localhost:8080/#!/apis](http://localhost:8080/#!/apis)), click on the plugin button like below:
 
-![](/assets/images/posts//images/posts/images/posts/1*KNS9H4M6F2vxLkbCaD47KA.gif)
+![](/assets/images/posts/1*KNS9H4M6F2vxLkbCaD47KA.gif)
 
 The API is now secured. When I try the same request as before, I’m not able to reach the API endpoin:
 

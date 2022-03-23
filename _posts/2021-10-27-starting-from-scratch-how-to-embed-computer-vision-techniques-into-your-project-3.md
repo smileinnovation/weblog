@@ -98,7 +98,7 @@ Again here, we will use a notebook ([**2-train/training-job**](https://github.co
 
 As already discussed, we want to leverage transfer learning. This means we need a pre-trained model as an input for this domain-specific training. We will also need the Yolo v5 algorithm to run the training, as we will use its specific code to compute the new model.
 
-![](/assets/images/posts//images/posts/images/posts/1*SzmbhZyIybzgxrc0zPwC8Q.jpeg)
+![](/assets/images/posts/1*SzmbhZyIybzgxrc0zPwC8Q.jpeg)
 
 From the [Yolo v5 repository](https://github.com/ultralytics/yolov5), we can find a pre-trained model using the [Coco data set](https://cocodataset.org/#home). We will use it during this process.
 
@@ -168,7 +168,7 @@ GPU is important for training as they accelerate the computation time drasticall
 
 And here to the “loss” monitoring of this training :
 
-![50 epochs training results](/assets/images/posts//images/posts/1*QtEMb12uLTXCtEBechHr5w.png)
+![50 epochs training results](/assets/images/posts/1*QtEMb12uLTXCtEBechHr5w.png)
 
 We can observe that the validation loss follows the training loss, and both are going down quickly until about 30 epochs and then stabilize. The validation loss trend seems to become flat and not to pass over the training loss.
 
@@ -208,19 +208,19 @@ The instance type used for inference requires a small amount of resources compar
 
 Now it is time to check the results of this long work. To test our model, I just wanted to use real-life images. So I took some photos of tools I have on my workbench at home.
 
-![Paintbrush as a toothbrush with Coco pre-trained model](/assets/images/posts//images/posts/1*p2jCk2WabMZros631CNxMw.jpeg)
+![Paintbrush as a toothbrush with Coco pre-trained model](/assets/images/posts/1*p2jCk2WabMZros631CNxMw.jpeg)
 
 On this first photo of a small paintbrush, I tested the behavior of the Yolo pre-trained model with the Coco data set. And no surprise here, the Coco data set does not contain any paintbrush labels but a toothbrush. So it recognizes the object like a toothbrush, with a low probability (29%)
 
 Now the same photo but with our model, trained with transfer learning and our data set. We get something better: a paintbrush at 65%.
 
-![Paintbrush with our model](/assets/images/posts//images/posts/1*o3wyPImDfK63fZTrmuYfiQ.jpeg)
+![Paintbrush with our model](/assets/images/posts/1*o3wyPImDfK63fZTrmuYfiQ.jpeg)
 
 Our model used two other photos as examples, with a broad set of objects and a driller box.
 
-![Tools on the workbench](/assets/images/posts//images/posts/1*2YA4BVDf4oi1dwXQhA1zag.jpeg)
+![Tools on the workbench](/assets/images/posts/1*2YA4BVDf4oi1dwXQhA1zag.jpeg)
 
-![Driller box](/assets/images/posts//images/posts/1*wZdR99QZbZxKInmfUX3SfQ.jpeg)
+![Driller box](/assets/images/posts/1*wZdR99QZbZxKInmfUX3SfQ.jpeg)
 
 It is not perfect, more training would undoubtedly increase the accuracy (*lower loss function*), and object photos are perhaps too homogeneous (i.e., not enough kind of screwdrivers)
 

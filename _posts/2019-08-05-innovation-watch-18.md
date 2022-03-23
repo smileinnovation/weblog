@@ -20,13 +20,13 @@ This is Smile’s Innovation Watch.
 
 # Innovation •/ˌɪnəˈveɪʃən/
 
-![](/assets/images/posts//images/posts/images/posts/0*SvIasOnA5Bn_FH9L.jpg)
+![](/assets/images/posts/0*SvIasOnA5Bn_FH9L.jpg)
 
 ### [Artificial vocals chords are a thing](https://www.acs.org/content/acs/en/pressroom/presspacs/2019/acs-presspac-july-24-2019/artificial-throat-could-someday-help-mute-people-speak.html)
 
 Researchers have developed a wearable device which detects the skin movement, as well as pulse or heartbeat, which are, this time, thinner than what’s already exist and can be stick to the neck like a temporary tattoo. The device measures 1.52 cm by 3.6cm and uses water to attach the film where it’s engraved to the muted people skin.
 
-![](/assets/images/posts//images/posts/images/posts/0*gi-PXxR98IE_KghS.png)
+![](/assets/images/posts/0*gi-PXxR98IE_KghS.png)
 
 ### [This startup will vaporize your trash](https://www.fastcompany.com/90382101/this-startup-just-raised-33-million-to-vaporize-trash)
 
@@ -34,14 +34,14 @@ Tech4good is a conviction at Smile, especially at in the Innovation team. That�
 
 # Privacy •/ˈpɹaɪ. və. si/
 
-![](/assets/images/posts//images/posts/images/posts/0*8DhWf0thvdMIB0j5.jpg)
+![](/assets/images/posts/0*8DhWf0thvdMIB0j5.jpg)
 
 ### [The social cost of mass content moderation on Facebook](https://www.theverge.com/2019/6/19/18681845/facebook-moderator-interviews-video-trauma-ptsd-cognizant-tampa)
 
 They though working for Facebook will be a very rewarding way of living, making Facebook a better place, moderating content to protect minorities and help businesses to grow. But their hopes and dreams were crushed for the very first minute of work at this subcontractor moderation content facility. Imagine a call centre, but instead of calls, you have to watch people mutilating animals, the worst cruelty you can imagine against pets, disabled peoples and … newborn babies. Suffering from PTSD, being under Xanax and still having night terrors but not being able to talk to anyone because of your NDA. That’s life at the biggest moderation centre of Facebook. 30min lunch break, 9min of “wellbeing Time” a day. Not having the right to talk to your colleagues or remove your eyes from the content. Mostly videos. You have to watch entirely. And, most of the time, not even be able to remove from Facebook because of their own policies … The Verge published video and interview about people who decided to broke their NDA and speak up, for themselves, and for the others ex-colleagues. 
 **Trigger Warning:** violent act against people and animals, sexual harassment, PTSD.
 
-![](/assets/images/posts//images/posts/images/posts/0*tgzbPnP-9Qe5nDKj.png)
+![](/assets/images/posts/0*tgzbPnP-9Qe5nDKj.png)
 
 ### [Autoplay videos and endless scrolling banned in the US?](https://www.theverge.com/2019/7/30/20746878/josh-hawley-dark-patterns-platform-design-autoplay-youtube-videos-scrolling-snapstreaks-illegal)
 
@@ -55,13 +55,13 @@ You may have heard that Youtube demonetize, dereference and change the descripti
 
 # Acquisition •/ˌakwɪˈzɪʃ (ə) n/
 
-![](/assets/images/posts//images/posts/images/posts/0*_gCiADomDhaieKJ8.png)
+![](/assets/images/posts/0*_gCiADomDhaieKJ8.png)
 
 ### [Doordash acquire Caviar, Square’s food ordering & delivery service](https://www.prnewswire.com/news-releases/doordash-signs-definitive-agreement-to-acquire-caviar-squares-food-ordering-platform-300895200.html)
 
 Doordash, the leading company in the US for food ordering (think Uber eats but with 80% of the US market as customers) just acquired a competitor called Caviar which was operating by Square, the leading company in a new way of doing business (the ones who invented [the Square readers](https://squareup.com/us/en/payments/in-person-payments)). Despite their bad reputation those last weeks, when [they were caught stealing the tips you are giving to the people delivering your food](https://gizmodo.com/doordash-says-it-s-very-sorry-you-noticed-its-tip-skimm-1836652047), the company continue its inexorable growing, with more and more “training center” all across the US (places where you got a 15min “training” when you register as a delivery man). Meanwhile, [Uber laid off ⅓ of their marketing team last Monday](https://www.nytimes.com/2019/07/29/technology/uber-job-cuts.html), make 400 unemployed new people on the market.
 
-![](/assets/images/posts//images/posts/images/posts/0*oVvli6x-WfJnMjN3.png)
+![](/assets/images/posts/0*oVvli6x-WfJnMjN3.png)
 
 ### [Apple buys Intel’s smartphone modem activity](https://www.theverge.com/2019/7/25/8909671/apple-intel-5g-smartphone-modems-acquisition)
 
@@ -69,7 +69,7 @@ That’s a secret for no ones that Apple is getting late on the 5G race. All the
 
 # Openness • /ˈəʊ.pən/+/nəs/
 
-![](/assets/images/posts//images/posts/images/posts/0*AyP79skm_tEOb80c.png)
+![](/assets/images/posts/0*AyP79skm_tEOb80c.png)
 
 ### [Github cut the access to their services from Iran, Crimea and Syria due to US trade law](https://github.com/1995parham/github-do-not-ban-us)
 
@@ -77,13 +77,13 @@ Thanks to P.O.T.U.S., users of Github in Iran, Crimea and Syria are now prohibit
 
 # Fun • /fʌn/
 
-![](/assets/images/posts//images/posts/images/posts/0*NY_KqrB0hITPVKEa.png)
+![](/assets/images/posts/0*NY_KqrB0hITPVKEa.png)
 
 ### [Design and print your own mockup papers](https://alexadam.github.io/demos/printable-mockups/index.html)
 
 Ever feel a bit frustrated by finding a nice mockup template and want to use it but it’s only working for a specific case and not the one you want to explore now? Well, you can stop here right now, because we found a web app that let you customize your A4 sheet of paper with a multitude of screens, tablets, phones, smartwatches and even notes module, fully controllable on their look and feel, with a neat drag’n’drop interface. How cool is that?
 
-![](/assets/images/posts//images/posts/images/posts/0*dGNnm0wjCFly0PW_.jpg)
+![](/assets/images/posts/0*dGNnm0wjCFly0PW_.jpg)
 
 ### [Google Play Pass is in the testing phase](https://www.nytimes.com/2019/07/29/technology/uber-job-cuts.html)
 
@@ -91,6 +91,6 @@ The answer from Google to *Arcade* from Apple (the subscription service that let
 
 # That’s all folks!
 
-Did you enjoy it? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoy it? If so don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube](http://www.youtube.com/user/SmileOpenSource).
 
 

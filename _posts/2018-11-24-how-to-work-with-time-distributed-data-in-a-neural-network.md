@@ -14,7 +14,7 @@ username: patrice.ferlet
 
 ### And how to use it for videos input, movements detection, gestures recognition…
 
-![Photo by Denise Jans on Unsplash](/assets/images/posts//images/posts/0*cuEyJGmcTiaTHxkZ)
+![Photo by Denise Jans on Unsplash](/assets/images/posts/0*cuEyJGmcTiaTHxkZ)
 
 > ⚠ **Important note**: There is an error in explanation I give in the article. I often say that weights are shared in each distributed branche (I said that each models in Time Distributed layers are the same). That’s **wrong**, I badly explained. What I mean is that weights are **trained in the same backward pass** and not separately (because there is only one layer applied to each inputs). That means that if you want to detect a cat that is jumping, the model will not try to “detect a cat in each frame”, but it will try to detect a jumping cat by analyzing the “sequence”. 
 I also said that each input has got a “branch”, but actually it’s the same layer that is applied to inputs one after the other. Then the weights are tweaked. Keep that in mind while you’re reading this article.
@@ -80,7 +80,7 @@ Anyway, if you try to make that, what is the “shape” to set up to that layer
 
 The next image is what we **don’t want to do** :
 
-![The problem: all image inputs are merged inside one convolution.](/assets/images/posts//images/posts/1*2Lb3rOglouJVET0wJ8fTtg.png)
+![The problem: all image inputs are merged inside one convolution.](/assets/images/posts/1*2Lb3rOglouJVET0wJ8fTtg.png)
 
 Let’s take an example of 5 images with 224x224 pixels in grayscale (one channel), Conv2D cannot use a `(5, 224, 224, 1)` shape (it requires 3 dimensions), and Conv3D is not made to manage that kind of input. No, we need to split the network to have one filter list for each image input (or any other structural data)
 
@@ -88,7 +88,7 @@ We need to pass **one image to one “convolution block”**, the second to anot
 
 So this is what **we need to do**:
 
-![That’s what we need, one image has got one filter list, Conv2D then MaxPooling, then Dense… and finally, merge the result in other layers](/assets/images/posts//images/posts/1*KPajMJnBWNamFcbFFONmqw.png)
+![That’s what we need, one image has got one filter list, Conv2D then MaxPooling, then Dense… and finally, merge the result in other layers](/assets/images/posts/1*KPajMJnBWNamFcbFFONmqw.png)
 
 Now, each image has got **its own “convolutions flow”** and we can, finally, continue the detection.
 
@@ -248,7 +248,7 @@ At this time, we’re not far from the final working model. The last point is to
 
 LSTM for “Long Short Time Memory”, is a layer that can get several chronological inputs to find what is very useful to predict. It’s a simplified explanation, but it’s near the reality.
 
-![Source: Wikipedia](/assets/images/posts//images/posts/1*h_Yfh8Z6nY-7Fmh2DPgt1w.png)
+![Source: Wikipedia](/assets/images/posts/1*h_Yfh8Z6nY-7Fmh2DPgt1w.png)
 
 As we are working on frames that are chronologically ordered, we want to be able to detect relation from frame to frame in a given time.
 
@@ -335,7 +335,7 @@ model.compile('adam', loss='categorical_crossentropy')
 
 The model is more or less:
 
-![](/assets/images/posts//images/posts/images/posts/1*7Yf0K3Yd7RqxXWtbK06Iqw.png)
+![](/assets/images/posts/1*7Yf0K3Yd7RqxXWtbK06Iqw.png)
 
 >> Please note:** **The above graph is a representation, actually for each input, you will use the same Conv2D and Flatten layers. Keras will distribute the input in layers step by step.
 
@@ -398,7 +398,7 @@ model.add(Dense(N, activation='softmax'))
 
 That is more or less the following representation:
 
-![](/assets/images/posts//images/posts/images/posts/1*9KJjce1Xnq87YpYXNiAbNw.png)
+![](/assets/images/posts/1*9KJjce1Xnq87YpYXNiAbNw.png)
 
 Of course, that’s an example to illustrate how to create a model. The above model is not useful, you’ll need to adapt it to your needs.
 
@@ -537,7 +537,7 @@ model.compile('adam', loss='categorical_crossentropy')
 
 That gives:
 
-![](/assets/images/posts//images/posts/images/posts/1*b2q_b4q5sHNPkNREKuk86A.png)
+![](/assets/images/posts/1*b2q_b4q5sHNPkNREKuk86A.png)
 
 Just take a little time to notice what the diagram is showing:
 

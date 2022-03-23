@@ -16,7 +16,7 @@ We are now starting our 3rd month of finding, curating, selecting and publishing
 
 # Innovation • /ˌɪnəˈveɪʃən/
 
-![](/assets/images/posts//images/posts/images/posts/0*sWqW4BS5FaE-d43e)
+![](/assets/images/posts/0*sWqW4BS5FaE-d43e)
 
 ### [**3D Printing at Asus**](https://www.asus.com/fr/Motherboards/ROG-MAXIMUS-X-HERO/3D-Printing/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
@@ -26,7 +26,7 @@ Something I saw in my twitter feed today is that Asus offering 3D modeling files
 
 The popularity of the IoT has given rise to many basic WiFi-connected devices. Those devices, ideally, are very low-cost. For instance, a smart plug that turns a lamp on and off really isn’t…
 
-![](/assets/images/posts//images/posts/images/posts/0*IdzuJPfTB2DnvhNk)
+![](/assets/images/posts/0*IdzuJPfTB2DnvhNk)
 
 ### [**🇫🇷Instagram : un milliard d’utilisateurs et la vidéo long format IGTV
 
@@ -34,13 +34,13 @@ The popularity of the IoT has given rise to many basic WiFi-connected devices. T
 
 # Aquisition • /ˌakwɪˈzɪʃ(ə)n/
 
-![](/assets/images/posts//images/posts/images/posts/0*q3pYFafVu-aSOrK3)
+![](/assets/images/posts/0*q3pYFafVu-aSOrK3)
 
 ### [**🇫🇷 Microsoft laisse tomber ses projets de VR sur Xbox One
 
 (🇫🇷read in French) It’s not a big surprise since even the VP of Xbox division at Microsoft made few statements in that direction before, it’s now acted. Microsoft will stop all their VR projects for Xbox.
 
-![](/assets/images/posts//images/posts/images/posts/0*dlnf4JZoAjlr22iR)
+![](/assets/images/posts/0*dlnf4JZoAjlr22iR)
 
 ### [**🇫🇷 En Chine, le jeu dangereux de Google avec la censure
 
@@ -48,19 +48,19 @@ The popularity of the IoT has given rise to many basic WiFi-connected devices. T
 
 # Privacy • /ˈpɹaɪ.və.si/
 
-![](/assets/images/posts//images/posts/images/posts/0*xjPospgrP_UzSqod)
+![](/assets/images/posts/0*xjPospgrP_UzSqod)
 
 ### [**Facebook Container**](https://www.mozilla.org/en-US/firefox/facebookcontainer/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
 A brand new extension for Firefox let you completely circumscribe Facebook and all its tracking capacities in a virtual memory space of your browser, letting you entire control on what Facebook can see of your browsing experience.
 
-![](/assets/images/posts//images/posts/images/posts/0*xCFPBTkky6f0Wq-w)
+![](/assets/images/posts/0*xCFPBTkky6f0Wq-w)
 
 ### [**GDPR & E-commerce**](https://medium.com/smileinnovation/gdpr-e-commerce-8e4ddf6f972?source=rss-ca5e2996e3ce------2&utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
 Did you miss our article about GDPR and online retail ? We are covering what the GDPR induce in term of change and where you need to pay extra attention when you’re working on an online retailing project.
 
-![](/assets/images/posts//images/posts/images/posts/0*HLBx_ZlaAi0yyLT3)
+![](/assets/images/posts/0*HLBx_ZlaAi0yyLT3)
 
 ### [**🇫🇷Le Social Media Marketing dans un monde post-RGPD
 
@@ -76,25 +76,25 @@ Open Source has always been a foundation of the Internet, and with the advent of
 
 > Borrowed from Ancient Greek τεχνολογία (tekhnología, “systematic treatment (of grammar)”), from τέχνη (tékhnē, “art”) + -λογία (-logía). Synchronically analysable as techno- +‎ -logy.
 
-![](/assets/images/posts//images/posts/images/posts/0*tutB031D8AmcDrft)
+![](/assets/images/posts/0*tutB031D8AmcDrft)
 
 ### [**React Native at Airbnb**](https://medium.com/airbnb-engineering/react-native-at-airbnb-f95aa460be1c?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
 An interesting serie of articles where Airbnb tech team explain the limit they encounter creating application in React Native and how it’s not, after all, the solution they need for building their app.
 
-![](/assets/images/posts//images/posts/images/posts/0*N3t8tZU3Jgc3YKab)
+![](/assets/images/posts/0*N3t8tZU3Jgc3YKab)
 
 ### [**RFID Tags as Low-Cost Sensors**](https://blog.hackster.io/these-rfid-tags-can-act-as-low-cost-environmental-sensors-2dcd0db69345?gi=1df331a7e704&utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
 RFID (radio-frequency identification) chips are extremely common these days and very cheap. They start to spread everywhere. But what if we could use it as low-cost sensors ?
 
-![](/assets/images/posts//images/posts/images/posts/0*X6MOdIht220kCjLs)
+![](/assets/images/posts/0*X6MOdIht220kCjLs)
 
 ### [**Userflows — Marvel**](https://blog.marvelapp.com/userflows/?utm_campaign=weekly-newsletter-17-07-18&utm_medium=email&utm_source=newsletter)
 
 Making leverage on their new API, Marvel offer the first integration to all the world for free with 1-click userflow generation, customizable and exportable in 1 additional click.
 
-![](/assets/images/posts//images/posts/images/posts/0*shDAFxmZ7APQWqZs)
+![](/assets/images/posts/0*shDAFxmZ7APQWqZs)
 
 ### [**Hey Snips!**](https://medium.com/smileinnovation/hey-snips-e4372508443e?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 

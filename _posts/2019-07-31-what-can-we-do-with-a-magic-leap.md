@@ -12,7 +12,7 @@ username: sbastiengarcinbeldowski
 
 # Magic Leap and Augmented Reality
 
-![](/assets/images/posts//images/posts/images/posts/1*vN7h2OmewtE4fv5J947eEA.jpeg)
+![](/assets/images/posts/1*vN7h2OmewtE4fv5J947eEA.jpeg)
 
 **TL;DR;** I briefly talk about Augmented Reality (AR), where your vision isn’t blocked by a device and the differences with Virtual Reality (VR), where your vision is blocked by a device and shows you a virtual world. Then a more in-depth explanation of the Magic Leap which allows you to augment virtually what you see around you through the glasses and lets you interact with this augmented world.
 
@@ -20,11 +20,11 @@ username: sbastiengarcinbeldowski
 
 A common mistake that I encounter is that some people don’t differentiate AR and VR yet there is a big difference.
 
-![HTC Vive](/assets/images/posts//images/posts/1*ONJF-Hs-e0GQpAHTawytAA.png)
+![HTC Vive](/assets/images/posts/1*ONJF-Hs-e0GQpAHTawytAA.png)
 
 **Virtual Reality** will block any “*real life*” vision and put 2 small screens in front of your eyes. This will then be used to show you a virtual world where you can move, interact. Common headsets used for VR are *HTC Vive*, *Oculus Rift*, *PlayStation VR* and recently released *Valve Index*. These headsets are the most immersive and are usually expensive but still affordable by consumers and businesses. You can also use your phone with *Google* cardboards, *Samsung Gear VR* and plenty of other brands can sell you gear for your phone.
 
-![Hololens](/assets/images/posts//images/posts/1*D2IYTGnxVMK_rfAdzeFEPg.jpeg)
+![Hololens](/assets/images/posts/1*D2IYTGnxVMK_rfAdzeFEPg.jpeg)
 
 **Augmented Reality**, on the other hand, does not block any “*real life*” vision. There are 2 categories of AR, phones and glasses.
 
@@ -34,7 +34,7 @@ But the technology that we are interested in is the glasses one. You may have he
 Today there are 2 popular AR glasses the *Hololens* by *Microsoft* and the *Magic Leap* by *Magic Leap*. They both work mainly the same way, you wear them like glasses and they show you virtual objects thanks to light projections on the glasses screen.
 Unlike the VR headsets these glasses are very expensive and in my opinion, have a better future for business use rather than consumer use.
 
-![Magic Leap](/assets/images/posts//images/posts/1*BP4DIrnA_tpV7VQ1C6_8wQ.jpeg)
+![Magic Leap](/assets/images/posts/1*BP4DIrnA_tpV7VQ1C6_8wQ.jpeg)
 
 # The Magic Leap
 

@@ -12,7 +12,7 @@ username: pierre.ficheux
 
 # Introduction à Yocto (partie 2)
 
-![](/assets/images/posts//images/posts/images/posts/1*gqaK0--azExuARp3R4LtgA.jpeg)
+![](/assets/images/posts/1*gqaK0--azExuARp3R4LtgA.jpeg)
 
 *Dans [un premier article](https://medium.com/smileinnovation/introduction-%C3%A0-yocto-db56a550ae51) nous avons introduit les principes de Yocto et décrit comment produire une image de test pour des cibles QEMU (x86) et Raspberry Pi 3. Dans ce deuxième article nous allons nous attacher à l’ajout puis à la création de « recettes » permettant d’étendre les possibilités de l’image produite. La lecture du premier article est bien entendu nécessaire à la compréhension de ce deuxième volet.*
 

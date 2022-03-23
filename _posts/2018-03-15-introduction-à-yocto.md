@@ -13,7 +13,7 @@ username: pierre.ficheux
 
 # Introduction à Yocto (partie 1)
 
-![](/assets/images/posts//images/posts/images/posts/0*3oFSYv3ykuGC1Gzi.)
+![](/assets/images/posts/0*3oFSYv3ykuGC1Gzi.)
 
 *Yocto est devenu un standard de l’industrie pour la technologie « Linux embarqué ». Dans cette courte série de deux articles nous
 décrirons tout d’abord les principes de cet outil, puis nous décrirons quelques exemples plus avancés dans un deuxième article.*
@@ -38,11 +38,11 @@ Cette liste des outils n’est pas exhaustive car d’autres produits similaires
 
 • A partir des composants sélectionnés, l’outil produit les images du système (bootloader, noyau Linux, root-filesystem) et souvent une image unique à écrire sur la mémoire flash de la cible (ou bien la Micro-SD).
 
-![](/assets/images/posts//images/posts/images/posts/1*E3hJhQ-nRpy-U7m4MabpMQ.png)
+![](/assets/images/posts/1*E3hJhQ-nRpy-U7m4MabpMQ.png)
 
 Les outils similaires à Buildroot ont en commun la possibilité de définir le contenu de l’image à produire (i.e. les composants à intégrer) en utilisant un outil graphique identique à celui utilisé pour la configuration du noyau Linux.
 
-![Écran de configuration de Buildroot](/assets/images/posts//images/posts/1*mOoTMXmm2JIRgQCOhOKgXw.png)
+![Écran de configuration de Buildroot](/assets/images/posts/1*mOoTMXmm2JIRgQCOhOKgXw.png)
 
 En revanche OpenEmbedded (et donc Yocto) n’utilisent — presque — pas d’outil graphique et l’on définit le contenu de l’image par des fichiers de configuration. Cette approche est plus complexe pour l’utilisateur occasionnel mais permet de créer des configurations plus avancées dans le cas d’une approche industrielle.
 
@@ -58,7 +58,7 @@ Le projet était à l’époque assez complexe à utiliser du fait d’un cr
 
 L’approche de Yocto est très différente de celle de Buildroot. En effet, Yocto est basé sur une architecture en couches (layers) permettant de construire l’image d’une distribution de référence nommée Poky et d’enrichir cette image en y ajoutant d’autres couches (donc de nouvelles recettes). Seules les couches indispensables (soit oe-core et meta-yocto) sont fournies par le projet Yocto. On peut ensuite ajouter des couches externes liées au matériel (BSP), à des systèmes graphiques comme Qt ou à des composants métier. Comme nous pouvons le constater dans la liste des [layers répertoriés](http://layers.openembedded.org/layerindex/branch/master/layers)¹⁰ , un layer est le plus souvent nommé meta-<nom-du-layer> et correspond concrètement à une arborescence de sous-répertoires contenant des recettes.
 
-![Les couches (layers) de Yocto](/assets/images/posts//images/posts/1*YOgkFCLDfklNUZi0oP7aWg.png)
+![Les couches (layers) de Yocto](/assets/images/posts/1*YOgkFCLDfklNUZi0oP7aWg.png)
 
 Poky est la distribution de référence mais d’autres sont disponibles comme ELDK de DENX (meta-eldk), Arago de TI (meta-arago-distro), Angstrom (meta-angstrom). Rappelons que des produits commerciaux comme Wind River Linux ou MontaVista Carrier Grade utilisent Yocto comme système de construction.
 
@@ -103,7 +103,7 @@ $ runqemu qemux86
 
 Cette dernière commande doit conduire à l’affichage de la fenêtre de l’émulateur indiquant le démarrage du système.
 
-![Test de l’image Poky pour QEMU/x86](/assets/images/posts//images/posts/1*UwrLlrU-gAohRM4v4tODRw.png)
+![Test de l’image Poky pour QEMU/x86](/assets/images/posts/1*UwrLlrU-gAohRM4v4tODRw.png)
 
 ### **Test pour Raspberry Pi 3**
 
@@ -140,7 +140,7 @@ $ sudo dd if=tmp/deploy/image/raspberrypi3/core-image-minimal-raspberrypi3.rpi-s
 
 Lors du test sur la carte on obtient finalement les traces suivantes :
 
-![](/assets/images/posts//images/posts/images/posts/1*SaEwv9F3F1AWmsFMb4cTNg.png)
+![](/assets/images/posts/1*SaEwv9F3F1AWmsFMb4cTNg.png)
 
 On note la très faible empreinte mémoire du système (5,5 Mo) mais il est vrai que nous n’avons pas installé les systèmes de gestion de paquets (package management) sur l’image ni les modules du noyau. L’ajout du système de gestion de paquets IPK permet cependant de conserver une empreinte mémoire très raisonnable (8,5 Mo).
 

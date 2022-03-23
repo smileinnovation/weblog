@@ -14,7 +14,7 @@ username: sbastiengarcinbeldowski
 
 ### Getting started on Unreal Engine
 
-![](/assets/images/posts//images/posts/images/posts/1*yt2zeFdbx0OKrvwYormYow.jpeg)
+![](/assets/images/posts/1*yt2zeFdbx0OKrvwYormYow.jpeg)
 
 In this article, I will be demonstrating how to install and set up your computer itowork with the Magic Leap SDK.
 
@@ -26,11 +26,11 @@ You can [download it here](https://creator.magicleap.com/downloads) and sign in.
 
 Once downloaded, install the package manager and sign in (again) with your Magic Leap credentials. You will then be greeted with the following page.
 
-![Magic Leap Package Manager](/assets/images/posts//images/posts/1*N7KUVjPJQAMFXb7OgkWLRg.png)
+![Magic Leap Package Manager](/assets/images/posts/1*N7KUVjPJQAMFXb7OgkWLRg.png)
 
 Depending on which 3D engine you want to work with, you will need to know the SDK version that is compatible with the Lumin OS of your Magic Leap and your 3D engine. Check the table below:
 
-![](/assets/images/posts//images/posts/images/posts/1*vA9Q3GiY-xwXEZ-Muu_wOQ.png)
+![](/assets/images/posts/1*vA9Q3GiY-xwXEZ-Muu_wOQ.png)
 
 To work with Unreal Engine and Lumin you will need to download the following packages:
 
@@ -58,11 +58,11 @@ To work with Unreal Engine and Lumin you will need to download the following pac
 
 You can now either download the Unreal Engine standalone, the Epic Game Store compiled version with the Lumin package already installed in it or compile the source engine with the Lumin SDK in it yourself.
 
-![](/assets/images/posts//images/posts/images/posts/1*pewwC34p6UQK5kYMyEX5cA.png)
+![](/assets/images/posts/1*pewwC34p6UQK5kYMyEX5cA.png)
 
 If you download the standalone version of the Unreal Engine make sure to select the Lumin package in the options as shown below.
 
-![](/assets/images/posts//images/posts/images/posts/1*LtB0QQYHlvDa3Z0NJxnliw.png)
+![](/assets/images/posts/1*LtB0QQYHlvDa3Z0NJxnliw.png)
 
 Make sure you also select the **Android** package as it is **required** by Lumin.
 
@@ -74,7 +74,7 @@ Open the Epic Games Launcher and log into your account. Launch Unreal Engine and
 
 Before jumping into anything, you should first set up your project settings:
 
-![](/assets/images/posts//images/posts/images/posts/1*f9Pi6YTC5CCpRnStt4Y78Q.png)
+![](/assets/images/posts/1*f9Pi6YTC5CCpRnStt4Y78Q.png)
 
 In the *project settings*** **window, on your left, scroll down the menu and click on `Platforms > Magic Leap`** **then in `Magic Leap App Title`, click on `Configure Now`. 
 On the same page in Distribution Signing put your developer certificate (you can get one on the magic leap website, log in and go to `Publish > Certificates`).
@@ -88,7 +88,7 @@ It is automatically installed with the Lumin SDK, you can either launch it via t
 
 Once you launched the app you will be greeted with the following window:
 
-![](/assets/images/posts//images/posts/images/posts/1*UekYvBNSGQskDezCSYRZrg.png)
+![](/assets/images/posts/1*UekYvBNSGQskDezCSYRZrg.png)
 
 Click on `Start Simulator` and a new window will open with an empty map. On the top left corner of the window, click `Load a Virtual Room`, select a map and that’s it! You are ready to use it on the Unreal Engine.
 
@@ -102,8 +102,8 @@ There are some limitations on what you can do with the simulator, for example, y
 
 >> That’s it, you are ready to work with the Lumin SDK and Unreal Engine!
 
-![](/assets/images/posts//images/posts/images/posts/1*Wn5sW-E8k6E1JZ4-OAPXVA.png)
+![](/assets/images/posts/1*Wn5sW-E8k6E1JZ4-OAPXVA.png)
 
-Did you enjoy it? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoy it? If so don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube](http://www.youtube.com/user/SmileOpenSource).
 
 

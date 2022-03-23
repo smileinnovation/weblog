@@ -2,7 +2,7 @@
 layout: post
 url: https://medium.com/@/cb9354ee8cbe
 title: Starting from scratch, how to embed computer vision techniques into your project
-subtitle: A practical guide to answering this question: is this a screwdriver or a hammer?
+subtitle: "A practical guide to answering this question: is this a screwdriver or a hammer?"
 slug: starting-from-scratch-how-to-embed-computer-vision-techniques-into-your-project
 description: 
 tags: deep-learning,computer-vision,visual-search
@@ -14,7 +14,7 @@ username: alrouen
 
 A practical guide to answering this question: is this a screwdriver or a hammer?
 
-![](/assets/images/posts//images/posts/images/posts/1*wuEUDAkSJw0qIIAOK4qoiw.jpeg)
+![](/assets/images/posts/1*wuEUDAkSJw0qIIAOK4qoiw.jpeg)
 
 [**Smile**](https://www.smile.eu/) is the proud editor of [**ElasticSuite**](https://elasticsuite.io/), a great **Magento** open-source extension, with **more than a million downloads** on Github and **trusted by more than 1500 top retailers worldwide**. It’s the leading solution for **intelligent search and merchandising** on Magento.
 
@@ -40,7 +40,7 @@ This use case will rely on the latest computer vision techniques (more precisely
 
 # Before anything else, what you need to know about computer vision
 
-🤓 H*ere, I’m not going to explain the theoretical and practical of how computer vision techniques work. There is already a[ good amount of literature available ](https://towardsdatascience.com/search?q=computer%20vision)for you to read, and w[e have covered it already in the past.](https://medium.com/smileinnovation/tagged/machine-learning)
+🤓 Here, I’m not going to explain the theoretical and practical of how computer vision techniques work. There is already a[ good amount of literature available ](https://towardsdatascience.com/search?q=computer%20vision)for you to read, and w[e have covered it already in the past.](https://medium.com/smileinnovation/tagged/machine-learning)
 
 Instead, we will focus on the minimum required knowledge to use computer vision, especially deep learning techniques.
 
@@ -82,7 +82,7 @@ In our case, we decided to choose a well-known model for [objects detection](htt
 
 Here is the algorithm performance claim from their authors :
 
-![Yolo v5 team, showing their benchmark](/assets/images/posts//images/posts/1*TnpzQ4Ap1P5fDg5atOBT5w.png)
+![Yolo v5 team, showing their benchmark](/assets/images/posts/1*TnpzQ4Ap1P5fDg5atOBT5w.png)
 
 ### And finally a classroom
 
@@ -134,6 +134,4 @@ Coming next :
 
 # **That’s all, folks!**
 
-Did you enjoy it? If so, don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
-
-
+Did you enjoy it? If so, don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter](https://www.twitter.com/GroupeSmile) & [Youtube.](http://www.youtube.com/user/SmileOpenSource)

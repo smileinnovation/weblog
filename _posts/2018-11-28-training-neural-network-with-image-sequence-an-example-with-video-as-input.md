@@ -28,7 +28,7 @@ Detecting an action is possible by analyzing a series of images (that we name �
 
 Let’s remind the “Time Distributed layer” concept, here with a ConvNet :
 
-![Time Distributed ConvNet concept](/assets/images/posts//images/posts/1*0dNoo5Y8AnUoXMSFLWpIyA.gif)
+![Time Distributed ConvNet concept](/assets/images/posts/1*0dNoo5Y8AnUoXMSFLWpIyA.gif)
 
 Now let’s practice 🏄.
 
@@ -62,13 +62,13 @@ The second thing to manage is that each video hasn’t got the same number of fr
 
 The first method is to get 5 first images from 0, then from 1, and so on…
 
-![Sliding frame sample](/assets/images/posts//images/posts/1*MkBXlCI_pStE9018nGjoPA.gif)
+![Sliding frame sample](/assets/images/posts/1*MkBXlCI_pStE9018nGjoPA.gif)
 
 That’s only possible if you’re certain that the “action” you want to predict happens in those 5 frames. But that’s rarely the case. Each video dataset I used has got a little (or big) time at the beginning and the end of the video where “no action” happens. So, should we ask the generator to edit the entire set of videos to remove those parts? Waste of time, isn’t it?
 
 The second possibility is to pick 5 distributed images from the entire video.
 
-![Picking frames from the entire video](/assets/images/posts//images/posts/1*nOit3fe_bfi2H83m5s9vDw.gif)
+![Picking frames from the entire video](/assets/images/posts/1*nOit3fe_bfi2H83m5s9vDw.gif)
 
 It’s more efficient because** if the first or last frames of the video have got no action, I’m sure to avoid them**. The second benefit is that I now have **the entire movement** in the sequence.
 
@@ -215,7 +215,7 @@ import keras_video.utils
 keras_video.utils.show_sample(train)
 ```
 
-![](/assets/images/posts//images/posts/images/posts/1*vstp_yyHEIWuFTyVLE6LyQ.png)
+![](/assets/images/posts/1*vstp_yyHEIWuFTyVLE6LyQ.png)
 
 Well, it’s now time to build the network!
 
@@ -383,11 +383,11 @@ model.fit_generator(
 
 I made also a callback that produces graphs to check how the model evolves. Let’s take a look (and keep calm!)
 
-![](/assets/images/posts//images/posts/images/posts/1*Fqhl0kBpcBhHq_Sn4ccUNw.png)
+![](/assets/images/posts/1*Fqhl0kBpcBhHq_Sn4ccUNw.png)
 
 Accuracy seems to… grow, it’s not very “clean” but that seems to work… Let’s take a look at “loss” now.
 
-![](/assets/images/posts//images/posts/images/posts/1*swETTCX8NX8KKrknAjqmcA.png)
+![](/assets/images/posts/1*swETTCX8NX8KKrknAjqmcA.png)
 
 😶 Oh my… god… w**hat happens? T**he training loss seems to be OK but what’s the problem with validation loss?
 
@@ -406,11 +406,11 @@ OK, so let’s make some checks.
 
 I kept some videos outside the training data set to make some tests. Here are some results:
 
-![Golfing: checked](/assets/images/posts//images/posts/1*ET65reZC3ULROZ-DXI4mWQ.png)
+![Golfing: checked](/assets/images/posts/1*ET65reZC3ULROZ-DXI4mWQ.png)
 
-![Kicking ball: checked](/assets/images/posts//images/posts/1*rhB2QcovJT55qNex475iyg.png)
+![Kicking ball: checked](/assets/images/posts/1*rhB2QcovJT55qNex475iyg.png)
 
-![Dribbling: checked](/assets/images/posts//images/posts/1*KnDnEfmY5hdODrQNgUQEOQ.png)
+![Dribbling: checked](/assets/images/posts/1*KnDnEfmY5hdODrQNgUQEOQ.png)
 
 Not that bad, don’t you think?
 
@@ -494,7 +494,7 @@ model.compile(
 Then, launch the training as usual.
 This gives me the following training curves on my computer:
 
-![](/assets/images/posts//images/posts/images/posts/1*0iDkO5ti6NGDnG7CoscIkQ.png)
+![](/assets/images/posts/1*0iDkO5ti6NGDnG7CoscIkQ.png)
 
 Ditto, validation loss is not great, but good enough for experimentation.
 Then, you can now try to pick video frames, retry, and see that the results are correct as for our custom *ConvNet*.
@@ -507,7 +507,7 @@ Actually, the showcased generator picks frames for the entire file, whatever the
 
 Instead of taking frames from zero to end, we can define the “time of movement” and get N frames in that time, and this, following the FPS. Then glides the cursor to get more and more samples. In the below animation, that’s what you can do for a movement that is 1 seconds long, for example.
 
-![A more efficient video frame generator](/assets/images/posts//images/posts/1*sYp6XY04hwqIuFpfcnPu6Q.gif)
+![A more efficient video frame generator](/assets/images/posts/1*sYp6XY04hwqIuFpfcnPu6Q.gif)
 
 This is what does the `keras_video.SlidingFrameGenerator`. You can try it! It should give you more samples 👍 — because we can get shifted frames. And if you are sure about the movement time, you can set s`equence_time `value in seconds to force sequence to be fixed to that timeframe.
 
@@ -527,6 +527,6 @@ I will probably present the results in the next article. The main idea is to use
 
 Not so bad for a first try? Please, don’t hesitate to comment and challenge my assumptions here, always glad to exchange about the topic.
 
-Did you enjoy it? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoy it? If so don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube](http://www.youtube.com/user/SmileOpenSource).
 
 

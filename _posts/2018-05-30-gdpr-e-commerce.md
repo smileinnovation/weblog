@@ -10,7 +10,7 @@ author: Thibault Milan
 username: thibaultmilan
 ---
 
-![“A set of formal suits on hangers in a wardrobe” by Igor Ovsyannykov on Unsplash](/assets/images/posts//images/posts/0*ab5blEwlCPYftIXM)
+![“A set of formal suits on hangers in a wardrobe” by Igor Ovsyannykov on Unsplash](/assets/images/posts/0*ab5blEwlCPYftIXM)
 
 # GDPR & E-commerce
 
@@ -20,11 +20,11 @@ Just before starting, maybe all of us don’t know about GDPR yet (really ? You 
 
 > - [Wikipedia article on GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)
 
-![](/assets/images/posts//images/posts/images/posts/1*w6WFkHzghSf3Jex2gPXS3g.png)
+![](/assets/images/posts/1*w6WFkHzghSf3Jex2gPXS3g.png)
 
 So basicaly GDPR state few rules that are applied across all EU & EEA but also outside, since those rules needs to be followed by any company who handle EU & EAA people data. Either those people are customers, employees, contractors, visitors, leads, …
 
-![](/assets/images/posts//images/posts/images/posts/1*KJ8myFi-7R7STr5-7x4wlA.png)
+![](/assets/images/posts/1*KJ8myFi-7R7STr5-7x4wlA.png)
 
 We can translate that to simpler statements :
 
@@ -42,7 +42,7 @@ Following the GDPR, the ePrivacy evolve also in order to adapt to the new polici
 
 [Read the full statement](https://edpb.europa.eu/sites/edpb/files/files/file1/edpb_statement_on_eprivacy_en.pdf) 🇺🇸
 
-![](/assets/images/posts//images/posts/images/posts/1*q6gw2AbepVhhYxljwYJCKw.png)
+![](/assets/images/posts/1*q6gw2AbepVhhYxljwYJCKw.png)
 
 There’s 2 main concept to keep in mind when collecting consent (because you need to, in order to use your user personal informations): Informed & Explicit.
 
@@ -50,7 +50,7 @@ That mean you need to clearly inform your visitors & customers about which data 
 
 To help you understand better the consequences of GDPR (or previous laws) on online retail, we made a small chart right after. You can see what you can’t do (orange), what you may kind (yellow) but subject to prerequisites, and what you absolutely can do (green).
 
-![The do and don’t of e-commerce marketing following GDPR.](/assets/images/posts//images/posts/1*lhVF4HC_D2UZ7MMdgWLLSQ.png)
+![The do and don’t of e-commerce marketing following GDPR.](/assets/images/posts/1*lhVF4HC_D2UZ7MMdgWLLSQ.png)
 
 1. *Retargeting* is only allowed if you collected the explicit consent from the customer to receive this kind of emails. Retargeting can be made by email or ad platform, but the technical solution has no impact on the need to require the user’s consent.
 
@@ -60,7 +60,7 @@ To help you understand better the consequences of GDPR (or previous laws) on onl
 
 1. *Marketing emails* are allowed to your newsletter users if they give you their consent to do so. Otherwise, only past customers can be targeted.
 
-![](/assets/images/posts//images/posts/images/posts/1*Ylj4Z322_qIbADGxJlhohg.png)
+![](/assets/images/posts/1*Ylj4Z322_qIbADGxJlhohg.png)
 
 As we can seen just before, mailing campaign can be sent to people who :
 
@@ -70,7 +70,7 @@ As we can seen just before, mailing campaign can be sent to people who :
 
 For those 2 categories of people, no need to bother them asking if they can confirm their subscriptions. For the others, … well. You are not legally supposed to have other kind of people in your emailing database. The law already prohibit you to add people who just sent you email or handle you business cards.
 
-![](/assets/images/posts//images/posts/images/posts/1*K0sbgC6SXgDXdmVGIuvDDg.png)
+![](/assets/images/posts/1*K0sbgC6SXgDXdmVGIuvDDg.png)
 
 There’s also another “issue” with GDPR, regarding your 3rd party provider. Since you may have choose a SaaS solution like Shopify, you will have to do extra steps in order to be compliant with GDPR :
 
@@ -82,7 +82,7 @@ There’s also another “issue” with GDPR, regarding your 3rd party provider.
 
 https://gdprhallofshame.com/
 
-![](/assets/images/posts//images/posts/images/posts/1*ViikIYptMw1_2PyoiAWiug.png)
+![](/assets/images/posts/1*ViikIYptMw1_2PyoiAWiug.png)
 
 The subject of GDPR is quite extensive, and we just cover a small part of it, the one that is related to the online-retail industry. But GDPR impact all business, small or big, non-profits and gouvernment, and not just with their customers but also their employees.
 

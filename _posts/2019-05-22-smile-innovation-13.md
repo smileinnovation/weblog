@@ -32,13 +32,13 @@ Amazon launched a new service using Machine Learning to scan their entire market
 
 ### [China starts mapping Pigs Face for automated recognition](https://www.nytimes.com/2019/02/24/business/china-pig-technology-facial-recognition.html)
 
-![](/assets/images/posts//images/posts/images/posts/0*SWXpS6dB2xRF6ZhF.jpg)
+![](/assets/images/posts/0*SWXpS6dB2xRF6ZhF.jpg)
 
 Some could say after having the biggest database of all the faces and activities of each citizen in their country, China is now doing the same with pigs. But in fact, they are trying to do just what we worked with the future farm project at Neovia a few months ago: using technology to help farmers, and in this case, stockbreeder, to prevent animals disease in order to reduce sickness, antibiotics usage and enhance the well-being of the animal.
 
 ### [Amazon Showroom](https://www.producthunt.com/posts/amazon-showroom)
 
-![](/assets/images/posts//images/posts/images/posts/0*ty2wmVTvKze4lWkX.jpeg)
+![](/assets/images/posts/0*ty2wmVTvKze4lWkX.jpeg)
 
 Have you ever played Sims? Well, that’s the adult version of it, with photorealism and everything. Imagine a 3D, photorealist, version of a room, you can fill with all the furniture you want. Except at the end, this time, you can purchase all of them with just one click and make it delivered to your house. Capitalism we love you.
 
@@ -56,13 +56,13 @@ After the launch of their Airbnb Plus offer (which curate boutique hotel and hig
 
 ### [Connected Underwear](mailto:thibault.milan@smile.eu?subject=I%20found%20the%20WTF%20Topic%20%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F&body=Please%20tell%20me%20your%20name%2C%20agency%2C%20and%20you%20can%20add%20me%20a%20little%20message.)
 
-![](/assets/images/posts//images/posts/images/posts/0*h1oCy5YkDDeksW_t.png)
+![](/assets/images/posts/0*h1oCy5YkDDeksW_t.png)
 
 Quantified self and social responsibility meet to give life to a new Kickstarter project: a connected brief for men to monitor their body response to other people. Storing that information into your smartphone. Letting you notice how inappropriate your behaviour could be sometimes by sending you push-notifications if a response is detected.
 
 # Openness • /ˈəʊ.pən/+/nəs/
 
-![](/assets/images/posts//images/posts/images/posts/0*dPGcTtOTe9lOvado.png)
+![](/assets/images/posts/0*dPGcTtOTe9lOvado.png)
 
 ### [Zumi, the car toy that makes you learn development](https://www.kickstarter.com/projects/robolink/driving-into-the-world-of-ai-zumi)
 
@@ -72,19 +72,19 @@ She’s a friendly and affordable safe driving car that makes AI education acces
 
 ### [Sheety let you turn any Google Spreadsheet into a JSON API](https://sheety.co/)
 
-![](/assets/images/posts//images/posts/images/posts/0*01xCYzIQ8Ka_HnrV.png)
+![](/assets/images/posts/0*01xCYzIQ8Ka_HnrV.png)
 
 Disclaimer: not for your client 😅. But it’s a nice way to help you prototype a small application. Basically, all you have to do is to create a Google spreadsheet, publish it online and paste the URL of the CSV link to this service. It will generate an API endpoint and serve JSON response for you. Want XML? Just change the ’content-type’ of your request and that’s all!
 
 ### [Generate Online Avatar](https://joeschmoe.io/)
 
-![](/assets/images/posts//images/posts/images/posts/0*JYoGHlhsDF9gtMNW.png)
+![](/assets/images/posts/0*JYoGHlhsDF9gtMNW.png)
 
 Tired of Gravatar or avatars.io to get pictures from an email address or other personal information from your user #GDPR? This service let you pick a random character from a limited set (there will be double for sure). Quality is very good and the faces are definitely new so you will stand out of the crowd.
 
 ### [His parents find an Apple II in their Attic](https://twitter.com/JohnFPfaff/status/1096973633736581121?s=20)
 
-![](/assets/images/posts//images/posts/images/posts/0*RkgLTrqtwK-I5kAe.jpg)
+![](/assets/images/posts/0*RkgLTrqtwK-I5kAe.jpg)
 
 That’s our nice and sweet story of a guy who received his Apple II from his teen years from his parents which kept it in mint condition in the attic. Everything still works. He found even the saved game sessions of his old games.
 

@@ -16,7 +16,7 @@ username: LeBaron
 
 Could a machine trained to trade cryptocurrency make profits ? At Smile Innovation we gave it a try! 😃
 
-![](/assets/images/posts//images/posts/images/posts/1*jB72wzMb3led2r_wihzzGQ.png)
+![](/assets/images/posts/1*jB72wzMb3led2r_wihzzGQ.png)
 
 If you think we have grown neurons in a laboratory, it is not far from the reality. Just kidding 😉(but take a look at “[What is an Artificial Neuron?” ](https://becominghuman.ai/what-is-an-artificial-neuron-8b2e421ce42e)to know the truth). As lucky as you are, let’s discover an amazing new world.
 
@@ -41,7 +41,7 @@ If I tell you “give me the next number after 6”, what can you say ? Naturall
 
 Ok, now I tell you “give the next number after 3, 6,… “ and now you can answer with “9” or “12”, because the link between 3 and 6 can be “N+3” or “N*2”. Then I tell you “give me the next number after 0,3,6” and you see that the answer is “N +3”.
 
-![](/assets/images/posts//images/posts/images/posts/1*o-OCmzzqCZvY6GEI4BNDBg@2x.jpeg)
+![](/assets/images/posts/1*o-OCmzzqCZvY6GEI4BNDBg@2x.jpeg)
 
 Here, you implemented, in your brain, a simple series check. You used the past values to predict the next one. However, you need enough values in the example range to be able to predict the right result, or at least the most probable one.
 
@@ -66,7 +66,7 @@ We used a software to get the data from “Bittrex” — an exchange platform o
 
 Our sample of data once collected has this format:
 
-![](/assets/images/posts//images/posts/images/posts/1*Ljg1DR-iyfL5PNw7I2nn9A.png)
+![](/assets/images/posts/1*Ljg1DR-iyfL5PNw7I2nn9A.png)
 
 In finance, we call these rows “tickers”, a “ticker” is a snapshot of all market variables at time t.
 
@@ -80,7 +80,7 @@ To decide which one, we compute the part of the variance of each feature, and we
 Logarithm transformations convert multiplicative or ratio relationships to additive which is believed to simplify and improve network training. Logarithmic transformation is useful for data which can take
 on both small and large values.
 
-![logarithm explanations](/assets/images/posts//images/posts/1*yh56EnoAdzhX2tAVXc00tA@2x.png)
+![logarithm explanations](/assets/images/posts/1*yh56EnoAdzhX2tAVXc00tA@2x.png)
 
 This transformation helps our neural network find a persistent link between the features **x** firstly and secondly a persistent link between the features **x** and an action **y** chosen.
 
@@ -89,7 +89,7 @@ The standardization of each value is computed as the following formula :
 
 >> new Xi = (old Xi — mean(X)) / standard-deviation(X)
 
-![equation of standardization](/assets/images/posts//images/posts/1*NIf0O0c5nY_hOjQ5D-nnxQ.png)
+![equation of standardization](/assets/images/posts/1*NIf0O0c5nY_hOjQ5D-nnxQ.png)
 
 The standard deviation computes the gap between the value and his mean.
 
@@ -101,7 +101,7 @@ The first question that comes to our mind is what did we need to teach our AI ? 
 
 All the previous methods work but in our case we chose the top and bottom prediction because it can be applied on all market types with different time intervals. Furthermore we have never found any professional trader in our workspace and none of them would ever sit with us to help us teach an AI to do better than him 😄.
 
-![Points for labeling](/assets/images/posts//images/posts/1*8eq9kvy4b95yRP2Cx5t4LA.png)
+![Points for labeling](/assets/images/posts/1*8eq9kvy4b95yRP2Cx5t4LA.png)
 
 To make predictions, three actions are available : 
 - Buy (green point)
@@ -110,7 +110,7 @@ To make predictions, three actions are available :
 
 example:
 
-![](/assets/images/posts//images/posts/images/posts/1*8oqd5_taRg4qLTA5Z5amyA@2x.png)
+![](/assets/images/posts/1*8oqd5_taRg4qLTA5Z5amyA@2x.png)
 
 We want to buy a cryptocurrency when we have a bottom point, because we know that after this minimum, the price will increase so it is a good time to buy. 
 The tickers with this minimum value are labeled “buy”.
@@ -122,12 +122,12 @@ For this step we only keep numerical values. We then pack the data by rows becau
 
 Our packets are sorted in chronological order:
 
-![Ticker packets](/assets/images/posts//images/posts/1*EjH383v9czwcbC9P25GeDQ.png)
+![Ticker packets](/assets/images/posts/1*EjH383v9czwcbC9P25GeDQ.png)
 
 We keep the label of the last ticker to label the packet.
 For our last example:
 
-![Ticker packets with labeling](/assets/images/posts//images/posts/1*P4okOobilG1K_3PrNaUE-g@2x.png)
+![Ticker packets with labeling](/assets/images/posts/1*P4okOobilG1K_3PrNaUE-g@2x.png)
 
 A packet in our list is an actual snapshot of the market. Similarly to image recognition, we want to differentiate our image label.
 
@@ -135,7 +135,7 @@ At this stage, what could you expect about the prediction ?
 
 A lot of “wait” predictions. Why ?
 
-![“LSTM” with training data.](/assets/images/posts//images/posts/1*e1dsbBLTDCUXUrc4J73Izg.png)
+![“LSTM” with training data.](/assets/images/posts/1*e1dsbBLTDCUXUrc4J73Izg.png)
 
 Because most of packets are labeled “wait”, much more than « buy » or « sell ». Since you have to sell or buy at the best time, most of the labels are labeled “wait”.
 In our context, our model’s purpose is to predict in all cases « wait ».
@@ -157,7 +157,7 @@ To measure the performance of the chosen [hyperparameter](https://towardsdatasci
 
 **Testing set (30 % of dataset): **it is used to measure how well the [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory) performs at making predictions on that set.
 
-![Neural Network architecture](/assets/images/posts//images/posts/1*8BZpWI9vz0meEd31OtkXQA@2x.png)
+![Neural Network architecture](/assets/images/posts/1*8BZpWI9vz0meEd31OtkXQA@2x.png)
 
 The financial values are non-linear, and considering the cross-validation we decided to add one LSTM layer, the new LSTM layer proposes more liberty to our neural network to implement its own logic, thus increased our accuracy. The middle LSTM layer is required to capture the relationship between features and label(input data and actions).
 
@@ -165,9 +165,9 @@ The number of hidden neuron is computed by combining the number of available fea
 
 > A hidden neuron is an artificial neuron, at the difference, it is into a hidden layer. In an artificial neural network is a link between input layers and output layers. [(more documentation)](https://www.techopedia.com/definition/33264/hidden-layer-neural-networks)
 
-![](/assets/images/posts//images/posts/images/posts/1*WTkigwxIiEca2XPNkJ4pzg.gif)
+![](/assets/images/posts/1*WTkigwxIiEca2XPNkJ4pzg.gif)
 
-![LSTM training accuracy and loss](/assets/images/posts//images/posts/1*HIkMBRTn7mKNvQONfVSENg.gif)
+![LSTM training accuracy and loss](/assets/images/posts/1*HIkMBRTn7mKNvQONfVSENg.gif)
 
 ### Accuracy:
 
@@ -188,7 +188,7 @@ At this time we just made good accuracy and cross validation but what about real
 To visualize the prediction, we used a loop on unlabeled part of data, then we repeated the data treatment we made like on the training process. 
 The difference this time is the data size. To train our model a lot of packets are needed. But in real case only the last packet is needed to predict an action.
 
-![Loops of predictions (the bid is normalized).](/assets/images/posts//images/posts/1*u3osyoPSkRHzoRGFk5JoDw.gif)
+![Loops of predictions (the bid is normalized).](/assets/images/posts/1*u3osyoPSkRHzoRGFk5JoDw.gif)
 
 The most part of our neural network predictions make profits. This model made good accuracy and cross validation and in real case it seems to understand the cryptocurrency market.
 

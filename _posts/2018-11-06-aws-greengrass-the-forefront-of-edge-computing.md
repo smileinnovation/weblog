@@ -12,7 +12,7 @@ username: sbastiengarcinbeldowski
 
 # AWS Greengrass the forefront of edge computing
 
-![Credits: Amazon](/assets/images/posts//images/posts/1*7LaVsLtTgUnkcuRblDFKkg.png)
+![Credits: Amazon](/assets/images/posts/1*7LaVsLtTgUnkcuRblDFKkg.png)
 
 This articles main goal is to resume briefly what AWS Greengrass is. If you want a more thorough presentation you can find it on the AWS [Greengrass documentation page](https://docs.aws.amazon.com/greengrass/latest/developerguide/what-is-gg.html)
 
@@ -20,7 +20,7 @@ This articles main goal is to resume briefly what AWS Greengrass is. If you want
 
 First, we need to understand what is the Internet of Things before we can talk about the *AWS Greengrass* solution from Amazon.
 
-![Internet of Things](/assets/images/posts//images/posts/1*cIyH9nTwK5NU0c7HhbjbGA.png)
+![Internet of Things](/assets/images/posts/1*cIyH9nTwK5NU0c7HhbjbGA.png)
 
 The IoT, in brief, is a term used to identify a network of connected devices called Things that are connected to a cloud server (your fridge could be a Thing). From this server, you can monitor the data sent by the Things in real time and take actions immediately if needed. It is a great tool to improve our day to day life. But not everything is perfect and there are some flaws.
 
@@ -64,7 +64,7 @@ As the technology advances in time, more features will probably be added.
 
 # Connectivity
 
-![Credits: Amazon](/assets/images/posts//images/posts/1*UYH-y5giSyQsZi2J0yK7fQ.png)
+![Credits: Amazon](/assets/images/posts/1*UYH-y5giSyQsZi2J0yK7fQ.png)
 
 So, as we can see, Greengrass is a software that will enable you to perform, in a local network, basically the same process as if your Things were connected to a cloud but this time they are connected to a local device.
 
@@ -74,7 +74,7 @@ Once the Greengrass device reconnects to the cloud it can perform updates to its
 
 # Security
 
-![Credits: Amazon](/assets/images/posts//images/posts/1*f_9hNqsTzPHQc4oLRetVWw.png)
+![Credits: Amazon](/assets/images/posts/1*f_9hNqsTzPHQc4oLRetVWw.png)
 
 > AWS Greengrass protects user data through the secure authentication and authorization of devices. Through secure connectivity in the local network. Between local devices and the cloud. Device security credentials function in a group until they are revoked, even if connectivity to the cloud is disrupted, so that the devices can continue to securely communicate locally.
 
@@ -110,9 +110,9 @@ https://medium.com/smileinnovation/capturing-your-dinner-a-deep-learning-story-b
 
 Our goal here is to use the Machine Learning inference feature that offers AWS Greengrass in order to detect if, in the image the camera captures, it can identify the food whilst not being connected to the cloud.
 
-![Credits: Amazon](/assets/images/posts//images/posts/1*-D3_7QlYYvbohJ6OhJ2qVg.png)
+![Credits: Amazon](/assets/images/posts/1*-D3_7QlYYvbohJ6OhJ2qVg.png)
 
-![Use case](/assets/images/posts//images/posts/1*omhouHqQUDep8mCqs1t4yQ.png)
+![Use case](/assets/images/posts/1*omhouHqQUDep8mCqs1t4yQ.png)
 
 For our use case, we will be using the following services:
 
@@ -130,7 +130,7 @@ And for the hardware:
 
 * *Raspberry Black Camera V2*.
 
-![Setup](/assets/images/posts//images/posts/1*uVg8aEpRBpc1OfpOx5kKgA.jpeg)
+![Setup](/assets/images/posts/1*uVg8aEpRBpc1OfpOx5kKgA.jpeg)
 
 Although the Raspberry Pi is a very powerful hardware its capabilities on machine learning inference isn’t great especially because it doesn’t have a dedicated GPU so everything has to go to the processor. If you want to do real-time image prediction we recommend to switch to a more powerful hardware such as a Nvidia Jetson TX2. But for our use case, the Raspberry Pi was enough.
 
@@ -160,7 +160,7 @@ When you have installed and put the necessary certificates in the Raspberry Pi y
 
 Next step is to add a new Lambda
 
-![Adding a Lambda](/assets/images/posts//images/posts/1*xlCktxZgXkHO8yU6ueyHhQ.png)
+![Adding a Lambda](/assets/images/posts/1*xlCktxZgXkHO8yU6ueyHhQ.png)
 
 Then create a Lambda and follow the steps that the previously mentioned AWS tutorial showed.
 
@@ -170,17 +170,17 @@ Don’t forget to set it to long-lived and enable read access to the`/sys` direc
 
 Then create the ressources `videoCoreInterface`, `videoCoreSharedMemory` and `Food_Model` so that in our Lambda instance we will have our model accessible.
 
-![Resources](/assets/images/posts//images/posts/1*6DH7aODXLVKn0tJ0sQxnwA.png)
+![Resources](/assets/images/posts/1*6DH7aODXLVKn0tJ0sQxnwA.png)
 
 In our subscriptions, we subscribed our IoT Cloud to our Lambda with the topic `gg/inference/food/trigger`, so that our core does a prediction only when we call this topic (on demand). And finally, the IoT Cloud to our Lambda with the topic `gg/inference/food`, so that our core goes in an infinite loop (long-lived) so it makes predictions as often as it can.
 
-![Subscriptions](/assets/images/posts//images/posts/1*3PrpzWlDJ2NpkrAHlq0o-Q.png)
+![Subscriptions](/assets/images/posts/1*3PrpzWlDJ2NpkrAHlq0o-Q.png)
 
 Finally we deploy our data to our core and everything will run on its own.
 
 To test if everything works, click on the test button at the bottom left-hand side of your screen. Subscribe to `gg/inference/food` and you should see your predictions.
 
-![Predicts if it sees a burger/other/salad](/assets/images/posts//images/posts/1*vmsBRpqiNwXZgcj8GOws5w.png)
+![Predicts if it sees a burger/other/salad](/assets/images/posts/1*vmsBRpqiNwXZgcj8GOws5w.png)
 
 I hope everything was clear. We just wanted to explain and have a little demo on what is Greengrass and the Machine learning inference capabilities. The prediction process takes about 1 to 1.2 seconds, but we are at this time looking into some hardware accelerators that would help improve the predictions speed.
 

@@ -22,19 +22,19 @@ This is Smile’s Innovation Watch.
 
 # Innovation •/ˌɪnəˈveɪʃən/
 
-![](/assets/images/posts//images/posts/images/posts/0*2UokBb5e4teeTZsL.jpg)
+![](/assets/images/posts/0*2UokBb5e4teeTZsL.jpg)
 
 ### [Machine Learning to decode lost languages](https://www.technologyreview.com/s/613899/machine-learning-has-been-used-to-automatically-translate-long-lost-languages/)
 
 Automated translation isn’t something very new. Most of you are using Google Translate or its likes and, at least for Google’s one, they are not relying on 1:1 translation of text in a different context but the predictive model looks for vectors in a huge database. Let’s say that words are usually consistent in terms of distribution in a text, whatever language is; and context can be seen as a vector of word A — word B + word C = word D which is also kinda the same across languages. Where *word* can be words/expression. That’s this kind of vector matching that is used now to translate your text and can be applied to decipher ancient text you don’t know the language.
 
-![](/assets/images/posts//images/posts/images/posts/0*S0iLLEpi1xiHYbKp.jpg)
+![](/assets/images/posts/0*S0iLLEpi1xiHYbKp.jpg)
 
 ### [Robotic age is coming to a McDonald near you](https://thespoon.tech/mcdonalds-is-testing-kitchen-robots-and-ai-powered-drive-thrus-its-about-time/)
 
 McDonald is reportedly looking at two big innovations: Automatic Voice Recognition for drive-thru and robot to cook your food (so far, just the automatic fryer). Voice recognition is a field we have been exploring for more than a year at Smile and it makes total sense for us to see this technology coming to that very controlled environment with a very limited set of items in the menu and a very specialised field of activity (ie. ordering food). Also, it allows being automatically crossed with Dynamic Yield, the tech that profiles you as a customer and tries to upsell you with a very targeted add-on.
 
-![](/assets/images/posts//images/posts/images/posts/0*788W77RECvJX6J-k.png)
+![](/assets/images/posts/0*788W77RECvJX6J-k.png)
 
 ### [MIT AI model can predict breast cancer 5 years earlier than human, works equally for white & p.o.c. woman](https://techcrunch.com/2019/06/26/mit-ai-tool-can-predict-breast-cancer-up-to-5-years-early-works-equally-well-for-white-and-black-patients/)
 
@@ -42,19 +42,19 @@ We already tweeted about the study that discovered that an AI model was able to 
 
 # Privacy •/ˈpɹaɪ. və. si/
 
-![](/assets/images/posts//images/posts/images/posts/0*igO4BdR2sk3kply8.jpg)
+![](/assets/images/posts/0*igO4BdR2sk3kply8.jpg)
 
 ### [The futurological Google project](https://www.lesechos.fr/tech-medias/hightech/alphabet-devoile-sa-ville-du-futur-a-toronto-1032133)
 
 (Reads in 🇫🇷) Google’s project of building a smart-city of 76 hectares in Toronto is going well but more and more concerns are being raised from citizen and corporation. Because of the hyper-connected city with millions of sensors, it’s a bit unclear what Sidewalk Lab, the Alphabet company in charge, will do with all those data. If you are wondering, this is the company we talked about in the previous issue of our tech watch. And yes, Ap[ple is already trolling them.
 
-![](/assets/images/posts//images/posts/images/posts/0*LEsCeb8ysfnND5eu.jpg)
+![](/assets/images/posts/0*LEsCeb8ysfnND5eu.jpg)
 
 ### [London police’s facial scan fail 81% of the time](https://www.technologyreview.com/f/613922/london-polices-face-recognition-system-gets-it-wrong-81-of-the-time/)
 
 A few issues ago, we spotted the fact that London’s police is rolling out facial recognition system in the wild for real scale test using special van equipped with a lot of cameras, arresting people that don’t want to be scanned and try to cover their face and force enrol them in the system. Seems it’s not “production-ready” yet. Meanwhile, San Francisco banned the technology for public agencies use last month.
 
-![](/assets/images/posts//images/posts/images/posts/0*aRitP7PbCqEtY45G.jpg)
+![](/assets/images/posts/0*aRitP7PbCqEtY45G.jpg)
 
 ### [The issue of a cashless society and widely interconnected system in HK](https://reason.com/2019/07/02/hong-kong-protests-show-dangers-of-a-cashless-society/)
 
@@ -62,7 +62,7 @@ Hong Kong is facing more and more protests as new laws would make extradition po
 
 # Openness • /ˈəʊ.pən/+/nəs/
 
-![Click on the link below to watch the video](/assets/images/posts//images/posts/0*Ftbjx_pdPTEvd37k.png)
+![Click on the link below to watch the video](/assets/images/posts/0*Ftbjx_pdPTEvd37k.png)
 
 ### [Facebook opensource a real-world simulator for training AI](https://ai.facebook.com/blog/open-sourcing-ai-habitat-an-simulation-platform-for-embodied-ai-research/)
 
@@ -70,7 +70,7 @@ Training computer to recognize things or make decisions is always tricky. And th
 
 # Fun • /fʌn/
 
-![](/assets/images/posts//images/posts/images/posts/0*Uo7mT04mw4dBvudd.png)
+![](/assets/images/posts/0*Uo7mT04mw4dBvudd.png)
 
 ### [Watch Netflix but make it look- like it’s a hangout](https://netflixhangouts.com/)
 
@@ -80,7 +80,7 @@ Ok, it’s summer and maybe you feel a bit tired, maybe you don’t have that mu
 
 Using GIT isn’t super easy for the first time, and sometimes, it even becomes a little nightmare for you. As your GIT sherpa may not be available to answer all your questions, here’s a comprehensive database of Q&A about all the little GIT issues you may have.
 
-![](/assets/images/posts//images/posts/images/posts/0*BFIG3Nj5aXAowgXX.png)
+![](/assets/images/posts/0*BFIG3Nj5aXAowgXX.png)
 
 ### [Away from home but got an Alexa enabled speaker?](https://awaymode.com/)
 
@@ -88,6 +88,6 @@ Here’s away mode. An Alexa skill that plays a weird audio recording of people 
 
 # That’s all folks!
 
-Did you enjoy it? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoy it? If so don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube](http://www.youtube.com/user/SmileOpenSource).
 
 

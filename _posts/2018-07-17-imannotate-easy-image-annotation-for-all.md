@@ -10,7 +10,7 @@ author: Patrice Ferlet
 username: patrice.ferlet
 ---
 
-![](/assets/images/posts//images/posts/images/posts/1*SXya139n_002QetAWFv-NQ.png)
+![](/assets/images/posts/1*SXya139n_002QetAWFv-NQ.png)
 
 # Imannotate, opensource collaborative image annotation for machine learning
 
@@ -18,7 +18,7 @@ username: patrice.ferlet
 
 In the machine learning and deep learning world, one of the most wanted features is to be able to recognize several objects on one image. To be able to do that, you will need to train a model with *annotated images*. Immanotate is a tool we built to create that annotation data set. Let’s see why it could be the tool that you need over others.
 
-![Imannotate is a tool to annotate image, export as data that can be used in model training](/assets/images/posts//images/posts/1*nrN5xxJTP5e58rMKK3DtRQ.png)
+![Imannotate is a tool to annotate image, export as data that can be used in model training](/assets/images/posts/1*nrN5xxJTP5e58rMKK3DtRQ.png)
 
 # What is “image annotation”?
 
@@ -92,7 +92,7 @@ As soon as you created an annotation project, you may choose which provider to u
 
 Immanotate will fetch images and distribute them one by one to users in the annotation view. Also, **it avoids double annotation** (image is only shown to one user) — if the user didn’t annotate an image (if the user “passes”, or leaves the application without to save current image) so the image is kept being resented to another user.
 
-![Image provider distributes images from a “channel” to not let users annotate the same image twice](/assets/images/posts//images/posts/1*ut7gcUw3IPOwPx16a9zmXA.gif)
+![Image provider distributes images from a “channel” to not let users annotate the same image twice](/assets/images/posts/1*ut7gcUw3IPOwPx16a9zmXA.gif)
 
 That’s all, it seems to be easy for users — but that was not so easy to develop. We had to find good ways to avoid doubles, to manage users, project, and shares, and to let others ability to change drivers for “all”.
 
@@ -143,7 +143,7 @@ URL is now `[http://127.0.0.1:8080](http://127.0.0.1:8080)`
 
 You are now able to log in or create a user:
 
-![](/assets/images/posts//images/posts/images/posts/1*5z1kb0RcFFf1NmO34SJNAg.png)
+![](/assets/images/posts/1*5z1kb0RcFFf1NmO34SJNAg.png)
 
 # Annotation Project
 
@@ -151,11 +151,11 @@ It’s now time to create an annotation project. Name it, add a description and 
 
 When the project is created, you may propose to share to project with other users. Note that the project can only be edited by the owner (you), other users will only be able to annotate images.
 
-![Create a project, choose image provider, and save it.](/assets/images/posts//images/posts/1*xMX3JJwdJxbPjuK4XdE0sg.png)
+![Create a project, choose image provider, and save it.](/assets/images/posts/1*xMX3JJwdJxbPjuK4XdE0sg.png)
 
 Then, back to the dashboard, the project is now ready.
 
-![](/assets/images/posts//images/posts/images/posts/1*1qxY7b14_-ABo5WkEbeDTQ.png)
+![](/assets/images/posts/1*1qxY7b14_-ABo5WkEbeDTQ.png)
 
 You can now click on “annotate” button to start your annotation job.
 
@@ -173,7 +173,7 @@ After having annotated your set, you may return in dashboard and press “export
 
 * Bounding box information (from 0 to 1)
 
-![](/assets/images/posts//images/posts/images/posts/1*eUirERKDlYVJt27RO2-t4w.png)
+![](/assets/images/posts/1*eUirERKDlYVJt27RO2-t4w.png)
 
 You may now manipulate this file to download images, and load your data to train your model.
 
