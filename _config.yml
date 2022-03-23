@@ -21,15 +21,11 @@ timezone: Europe/Luxembourg
 excerpt_separator: '<br class="exceprt_separator">'
 
 # Outputting
-permalink: date
-paginate_path: /page:num
+permalink: /:title/
 timezone: Europe/Luxembourg
-
-  Google search results) and in your feed.xml site description.
 
 # Build settings
 plugins:
-<<<<<<< HEAD
 - jekyll-feed
 - jekyll-archives
 - jekyll-youtube
@@ -47,16 +43,7 @@ jekyll-archives:
     category: "/category/:name/"
 paginate: 6
 paginate_path: "/page:num/"
-=======
-  - jekyll-feed
-  - jekyll-archives
-  - jekyll-youtube
-  - jekyll-maps
-  - jekyll-gist
-  - jekyll-twitter-plugin
-  - jekyll-sitemap
 
->>>>>>> fc33393 (Add google map filter)
 feed:
   posts_limits: 20
   excerpt_only: false
@@ -68,7 +55,7 @@ jekyll-archives:
         - categories
         - tags
     layout: archive
-<<<<<<< HEAD
+
 markdown: kramdown
 kramdown:
   input: GFM
@@ -87,15 +74,13 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - _posts/assets
+
 maps:
   google:
     api_key: ''
 favison: "/uploads/medium_favicon_logo_smile.jpg"
-=======
 
-maps:
-    google:
-        api_key: <YOUR_KEY>
+
 # Have a per category feed
 #    categories:
 #        - techwatch
@@ -121,4 +106,3 @@ maps:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
->>>>>>> fc33393 (Add google map filter)
