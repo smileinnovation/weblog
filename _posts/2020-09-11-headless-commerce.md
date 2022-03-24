@@ -2,7 +2,8 @@
 layout: post
 url: https://medium.com/@/187fbe19f075
 title: Headless commerce
-subtitle: The eCommerce industry is full of challenges and the first one is the need to build a strong yet adaptive solution : robust to handle…
+subtitle: |-
+    The eCommerce industry is full of challenges and the first one is the need to build a strong yet adaptive solution : robust to handle…
 slug: headless-commerce
 description: 
 tags: 

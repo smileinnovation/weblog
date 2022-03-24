@@ -3,7 +3,7 @@ layout: post
 url: https://medium.com/@/d025e0affa67
 title: "Smile Innovation’s Tech watch #25"
 subtitle: |-
-Reading this email, you’re probably in lockdown, mandatory, or because you care about doing your best to protect people around you. Well…
+    Reading this email, you’re probably in lockdown, mandatory, or because you care about doing your best to protect people around you. Well…
 slug: smile-innovations-tech-watch-25
 description: 
 tags: 

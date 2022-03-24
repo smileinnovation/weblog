@@ -3,10 +3,10 @@ layout: post
 url: https://medium.com/@/370bbf9f48f1
 title: "Smile Innovation’s Watch — #8"
 subtitle: |-
-On our previous issues we were already ready for fall. But seems we have some ☀️🕶summer overtime
+    On our previous issues we were already ready for fall. But seems we have some ☀️🕶summer overtime
 slug: smile-innovations-watch-8
 description: |-
-In this late summer edition (aka #joedassinedition) we are exploring how 🧠AI beats optical zoom, ☎️the future of smartphones and their usages, 🗣Amazon Alexa everywhere, but also paying with your per
+    In this late summer edition (aka #joedassinedition) we are exploring how 🧠AI beats optical zoom, ☎️the future of smartphones and their usages, 🗣Amazon Alexa everywhere, but also paying with your per
 tags: 
 - artificial-intelligence
 - alexa

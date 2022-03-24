@@ -3,8 +3,8 @@ layout: post
 url: https://medium.com/@/2acf197c406b
 title: "Smile Innovation’s watch #22"
 subtitle: |-
-Wow! What a 🏃‍♂️final sprint until the finish line of the year for us!
-It’s a long time without a Techwatch. Enough to made us lost count…
+    Wow! What a 🏃‍♂️final sprint until the finish line of the year for us!
+    It’s a long time without a Techwatch. Enough to made us lost count…
 slug: smile-innovations-watch-22
 description: |-
 So, let’s try to catch up, with a slightly redesigned newsletter. Please welcome our new categories system: 💡Innovation, 🗽Privacy and Freedom, 🔓Opensource Software, 😁Fun and WTF, 💰Merge and Aquis

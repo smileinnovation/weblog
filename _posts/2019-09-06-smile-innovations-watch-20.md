@@ -3,7 +3,7 @@ layout: post
 url: https://medium.com/@/e52f15c3dad2
 title: "Smile Innovation’s Watch — #20"
 subtitle: |- 
-It’s 🏫back to school season, the public transportation will be crowded again and you’ll probably make more time to go to work. Let’s face…
+    It’s 🏫back to school season, the public transportation will be crowded again and you’ll probably make more time to go to work. Let’s face…
 slug: smile-innovations-watch-20
 description: "In this edition you’ll have #machinelearning to produce deepfake without training a model to a particular subject, SNCF #chatbot available on #googleassistant, #3D #bioprinting, Facebook scandal, IPO"
 tags: 
