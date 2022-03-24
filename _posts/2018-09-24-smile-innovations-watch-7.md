@@ -6,8 +6,8 @@ subtitle: Temperatures start to drop, 🍂🍁leaves start to fall from the tree
 slug: smile-innovations-watch-7
 description: Temperatures start to drop, 🍂🍁leaves start to fall from the tree, the sun starts to get shy ⛅️. No doubt Fall is coming! Time for hot chocolate 🍫and blankets.
 tags: beacons,chatbots,advertising,opensource-hardware,magic-leap
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Smile Innovation’s Watch — #7

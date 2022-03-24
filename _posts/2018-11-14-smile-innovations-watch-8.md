@@ -6,8 +6,8 @@ subtitle: On our previous issues we were already ready for fall. But seems we ha
 slug: smile-innovations-watch-8
 description: In this late summer edition (aka #joedassinedition) we are exploring how 🧠AI beats optical zoom, ☎️the future of smartphones and their usages, 🗣Amazon Alexa everywhere, but also paying with your per
 tags: artificial-intelligence,alexa,instagram,mongodb,solid
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Smile Innovation’s Watch — #8

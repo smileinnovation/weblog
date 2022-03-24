@@ -6,8 +6,8 @@ subtitle: AWS Global Summits are free events that bring the cloud computing comm
 slug: smile-aws-summit-paris-2018
 description: On the Innovation Corner of Amazon Web Services, we had the please to show the public a simpler version of our open-source fleet management system solution we developed based on ODOO, IoT devices…
 tags: computer-vision,aws,edge-computing,open-source,voice-assistant
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Smile @ AWS Summit Paris 2018

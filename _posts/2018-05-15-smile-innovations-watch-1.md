@@ -1,16 +1,19 @@
 ---
 layout: post
 url: https://medium.com/@/48ef95729c18
-title: Smile Innovation's watch - #1
+title: "Smile Innovation's watch - #1"
 subtitle: Our fortnightly collection of links, press article, PRs or announcement, vids & tweet that caught our attention.
 slug: smile-innovations-watch-1
 description: We chose to get out of press fortnightly (read every two weeks) with a collection of links, press article, press release or announcement, even videos or tweets that caught our attention
-tags: innovation,technology-trends,machine-learning,gdpr,netflix
-author: Thibault Milan
-username: thibaultmilan
+tags: 
+- innovation
+- technology-trends
+- machine-learning
+- gdpr
+- netflix
+author: thmil
+category: techwatch
 ---
-
-# Smile Innovation’s watch — #1
 
 Hello world 🌎! As you might (or might not) know Smile Innovation is in charge of watching, ideating, prototyping, evangelizing for both people within the group and Smile’s fellow customers. We chose to get out of press fortnightly (read every two weeks) with a collection of links, press article, press release or announcement, even videos or tweets that caught our attention, with a mix of our own content. We hope you’ll enjoy this issue as much as we loved to prepare it for you.
 
@@ -84,7 +87,7 @@ It’s impressive that Netflix decided to release such a huge and important comp
 
 # That’s all folks !
 
-Did you enjoyed it ? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter ](https://www.getrevue.co/profile/smileinnovation)!
-You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoyed it ? If so don’t hesitate to 👏 our article or [Subscribe to our Innovation watch newsletter](https://www.getrevue.co/profile/smileinnovation) !
+You can follow Smile on [Facebook,](https://www.facebook.com/smileopensource) [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube.](http://www.youtube.com/user/SmileOpenSource)
 
 

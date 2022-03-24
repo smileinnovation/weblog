@@ -6,8 +6,8 @@ subtitle: It’s 🏫back to school season, the public transportation will be cr
 slug: smile-innovations-watch-20
 description: In this edition you’ll have #machinelearning to produce deepfake without training a model to a particular subject, SNCF #chatbot available on #googleassistant, #3D #bioprinting, Facebook scandal, IPO
 tags: artificial-intelligence,privacy,3d-printing,chatbots,telegram
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Innovation Watch #20

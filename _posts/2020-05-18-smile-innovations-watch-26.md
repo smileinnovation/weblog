@@ -6,8 +6,8 @@ subtitle: So lockdown and remote working is our new way of living for a couple o
 slug: smile-innovations-watch-26
 description: 
 tags: autonomous-cars,deepfakes,cashierless,vr,google-pay
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Smile Innovation’s watch #26

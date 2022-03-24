@@ -6,8 +6,8 @@ subtitle: Here we are, edition 24. And this is a solid one. So long that when we
 slug: smile-innovations-watch-24
 description: 
 tags: cyborg,artificial-intelligence,drones,privacy,github
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Smile Innovation’s watch #24

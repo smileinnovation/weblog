@@ -1,16 +1,19 @@
 ---
 layout: post
 url: https://medium.com/@/6e14949ac812
-title: Smile Innovation's Watch - #4
+title: "Smile Innovation's Watch - #4"
 subtitle: That's now the end of the second month of our watch over the internet for delivering you curated content about the innovation
 slug: smile-innovations-watch-4
 description: 
-tags: artificial-intelligence,robotics,facial-recognition,computer-vision,voice-assistant
-author: Thibault Milan
-username: thibaultmilan
+tags: 
+- artificial-intelligence
+- robotics
+- facial-recognition
+- computer-vision
+- voice-assistant
+author: thmil
+category: techwatch
 ---
-
-# Smile Innovation’s Watch — #4
 
 That’s now the end of the second month of our watch over the internet for delivering you curated content about the innovation all around the world. In this edition, you’ll find voice recognition for automagical meeting notes creation, better voice synthesis from Google, AI that code or recognize all individuals of an entire population and robot that cook, and some good Press Campaign from WholeFoods on Instagram. We even include some press article to reflect on how Vocal Assistant will shape the future of our way of living, especially for our children and the first interview of Siri and Alexa on French radio.
 
@@ -76,7 +79,7 @@ Mixed Reality experience in collaboration with Qwant and Microsoft around footba
 
 # That’s all folks !
 
-Did you enjoyed it ? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter ](https://www.getrevue.co/profile/smileinnovation)!
-You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoyed it ? If so don’t hesitate to 👏 our article or [Subscribe to our Innovation watch newsletter](https://www.getrevue.co/profile/smileinnovation) !
+You can follow Smile on [Facebook,](https://www.facebook.com/smileopensource) [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube.](http://www.youtube.com/user/SmileOpenSource)
 
 

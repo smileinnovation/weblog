@@ -6,8 +6,8 @@ subtitle: ☀️ Summer is here, and even if most of us have a 🏡 #staycation 
 slug: smiles-innovation-watch-27
 description: 
 tags: twitter,tiktok-app,neumorphism,deepfakes,3d-printing
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Smile’s Innovation Watch #27

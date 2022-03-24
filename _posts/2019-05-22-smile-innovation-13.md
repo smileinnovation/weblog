@@ -6,8 +6,8 @@ subtitle: Our second issue of 2019 will focus on #IA and #MachineLearning everyw
 slug: smile-innovation-13
 description: 
 tags: artificial-intelligence,google,amazon,face-recognition,airbnb
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Smile Innovation #13

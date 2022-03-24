@@ -1,16 +1,19 @@
 ---
 layout: post
 url: https://medium.com/@/a0e040fd6dfc
-title: Smile Innovation's watch - #2
+title: "Smile Innovation's watch - #2"
 subtitle: For this second edition of our watch, we wanted to show you an amazing picture first. The latest TIME's cover, made by 958 drones working…
 slug: smile-innovations-watch-2
 description: For this second edition of our watch, we wanted to show you an amazing picture first. The latest TIME's cover, made by 958 drones working altogether. Then we'll talk Machine Learning, of course, Magen
-tags: artificial-intelligence,innovation,technology-trends,drones,machine-learning
-author: Thibault Milan
-username: thibaultmilan
+tags: 
+- artificial-intelligence
+- innovation
+- technology-trends
+- drones
+- machine-learning
+author: thmil
+category: techwatch
 ---
-
-# Smile Innovation’s watch — #2
 
 For this second edition of our watch, we wanted to show you an amazing picture first. The latest TIME’s cover, made by 958 drones working altogether. Then we’ll talk Machine Learning, of course, Magento’s acquisition by Adobe, Privacy in the field of home assistants & news about new digital products and one failure (that’s how everyone learns isn’t it?).
 
@@ -118,7 +121,7 @@ The population information & alert system: an essential system, weakened by a la
 
 # That’s all folks !
 
-Did you enjoyed it ? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter ](https://www.getrevue.co/profile/smileinnovation)!
-You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoyed it ? If so don’t hesitate to 👏 our article or [Subscribe to our Innovation watch newsletter](https://www.getrevue.co/profile/smileinnovation) !
+You can follow Smile on [Facebook,](https://www.facebook.com/smileopensource) [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube.](http://www.youtube.com/user/SmileOpenSource)
 
 
