@@ -6,8 +6,8 @@ subtitle: 🍁It’s the fall season. Some of us are in love with the beautiful 
 slug: smiles-innovation-watch-31
 description: 
 tags: army,hologram,captcha,google
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Smile’s Innovation Watch #31

@@ -6,8 +6,8 @@ subtitle: 🤔Wait a minute! Is it already 2 weeks? Did we send the previous Tec
 slug: smile-innovations-watch-10
 description: 
 tags: technology-news,artificial-intelligence,flying,iot,smart-home
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Smile Innovation’s Watch — #10

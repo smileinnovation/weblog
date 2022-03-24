@@ -1,17 +1,19 @@
 ---
 layout: post
 url: https://medium.com/@/3672950d1113
-title: Smile Innovation's Watch - #5
+title: "Smile Innovation's Watch - #5"
 subtitle: This is Smile's Innovation tech watch with this week: 3D printing, Li-Fi, VR, Instagram, React Native and our latest open-source activity.
 slug: smile-innovations-watch-5
 description: 
-tags: 3d-printing,lifi,vr,facebook,gdpr
-author: Thibault Milan
-username: thibaultmilan
+tags: 
+- 3d-printing
+- lifi
+- vr
+- facebook
+- gdpr
+author: thmil
+category: techwatch
 ---
-
-# Smile Innovation’s Watch — #5
-
 We are now starting our 3rd month of finding, curating, selecting and publishing this newsletter for you to get the most of our watch online. We all hope you’ll enjoy reading it, this is Smile’s Innovation tech watch with this week: 3D printing, Li-Fi, VR, Instagram, React Native and our latest open-source activity.
 
 # Innovation • /ˌɪnəˈveɪʃən/
@@ -102,7 +104,5 @@ Our collaborator Alain Rouen tells us how he used Snips in order to make his chi
 
 # That’s all folks !
 
-Did you enjoyed it ? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter ](https://www.getrevue.co/profile/smileinnovation)!
-You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
-
-
+Did you enjoyed it ? If so don’t hesitate to 👏 our article or [Subscribe to our Innovation watch newsletter](https://www.getrevue.co/profile/smileinnovation) !
+You can follow Smile on [Facebook,](https://www.facebook.com/smileopensource) [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube.](http://www.youtube.com/user/SmileOpenSource)

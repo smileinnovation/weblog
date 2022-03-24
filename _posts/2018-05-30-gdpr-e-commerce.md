@@ -6,8 +6,8 @@ subtitle: Just before starting, maybe all of us don’t know about GDPR yet (rea
 slug: gdpr-e-commerce
 description: 
 tags: gdpr,retail,retail-marketing,privacy,customer-data
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 ![“A set of formal suits on hangers in a wardrobe” by Igor Ovsyannykov on Unsplash](/assets/images/posts/0*ab5blEwlCPYftIXM)

@@ -270,7 +270,7 @@ So, what we can reflect on? Amazon SageMaker got several good points:
 
 At [Smile](https://smile.eu) we using SageMaker for many large CNN to build and train and we appreciate fact that Amazon allows Docker usage to setup environment. If you have interest in computer vision, for projects or to work with, feel free to reach us at [dir-innovation@smile.eu](mailto:dir-innovation@smile.eu).
 
-Did you enjoyed it ? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter ](https://www.getrevue.co/profile/smileinnovation)!
-You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoyed it ? If so don’t hesitate to 👏 our article or [Subscribe to our Innovation watch newsletter](https://www.getrevue.co/profile/smileinnovation) !
+You can follow Smile on [Facebook,](https://www.facebook.com/smileopensource) [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube.](http://www.youtube.com/user/SmileOpenSource)
 
 

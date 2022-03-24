@@ -6,8 +6,8 @@ subtitle: Everyone is on holiday including me 🏖. Let’s face it. But it will
 slug: innovation-watch-19
 description: 
 tags: artificial-intelligence,privacy,biometrics,apple-card,fake-news
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Innovation Watch #19

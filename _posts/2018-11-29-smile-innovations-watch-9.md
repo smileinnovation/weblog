@@ -6,8 +6,8 @@ subtitle: Winter is coming ❄️🌨🧟‍♂️ (not so private jokes already
 slug: smile-innovations-watch-9
 description: 
 tags: apple,ai,samsung,salesforce,airbnb
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Smile Innovation’s Watch — #9

@@ -6,8 +6,8 @@ subtitle: Our first techwatch of 2021. I can’t believe it’s already July, an
 slug: smiles-innovation-watch-30
 description: 
 tags: artificial-intelligence,open-source,robotics,mass-surveillance,kyc
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Smile’s Innovation Watch #30

@@ -1,16 +1,20 @@
 ---
 layout: post
 url: https://medium.com/@/9331e0d1257c
-title: Smile’s Innovation Watch #32
+title: "Smile’s Innovation Watch #32"
 subtitle: It’s December once more and, if you’ve not already managed the 🎁 “presents” situation, you must know that delivery is a complete mess this…
 slug: smiles-innovation-watch-32
 description: 
-tags: meta,bitcoin,paypal,autonomous-cars,ebcdic
-author: Thibault Milan
-username: thibaultmilan
+tags: 
+ - meta
+ - bitcoin
+ - paypal
+ - autonomous-cars
+ - ebcdic
+category: techwatch
+author: thmil
+image: "assets/images/posts/0*dJorJpg38rjFtUJe.jpg"
 ---
-
-# Smile’s Innovation Watch #32
 
 It’s December once more and, if you’ve not already managed the 🎁 “presents” situation, you must know that delivery is a complete mess this year again, thanks to COVID which boost online sales while shipping network didn’t improve an inch, at least in Europe (with post hub exchange being completely overwhelmed). No drone transportation will help you.
 

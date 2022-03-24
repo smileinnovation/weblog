@@ -6,8 +6,8 @@ subtitle: We’re still in the early days of July and it feels more comfortable,
 slug: innovation-watch-16
 description: In this edition, we’ll talk about #AI and #computer-vision again, which start to takes over human activities, for the good or the bad, only time will tell us. But being able to predict breast cancer 5
 tags: machine-learning,computer-vision,breast-cancer,robotics,privacy
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Innovation Watch #16

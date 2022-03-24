@@ -6,8 +6,8 @@ subtitle:
 slug: innovation-watch-18
 description: Following our effort on the last edition, we’ll focus on how our #mentalhealth is influenced by technology and #socialmedia, with a very disturbing journalistic investigation from The Verge and the ne
 tags: facebook,intel,apple,doordash,github
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Innovation Watch #18

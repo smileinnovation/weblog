@@ -1,17 +1,19 @@
 ---
 layout: post
 url: https://medium.com/@/6e0effb1099b
-title: Smile Innovation’s Watch — #3
+title: "Smile Innovation’s Watch — #3"
 subtitle: Already the third iteration of our tech watch newsletter. From the Big Bang of Github been acquired by Microsoft to the open-source…
 slug: smile-innovations-watch-3
 description: 
-tags: innovation,microsoft,gdpr,iot-security,voice-recognition
-author: Thibault Milan
-username: thibaultmilan
+tags: 
+- innovation
+- microsoft
+- gdpr
+- iot-security
+- voice-recognition
+author: thmil
+category: techwatch
 ---
-
-# Smile Innovation’s Watch — #3
-
 Already the third iteration of our tech watch newsletter. From the Big Bang of Github been acquired by Microsoft to the open-source initiative to create speech recognition models by Mozilla, with a lot of GDPR on top of it, here’s our selection of articles, news and new things that we curated for you.
 
 # Innovation • /ˌɪnəˈveɪʃən/
@@ -85,7 +87,7 @@ Landing in August, Lego’s Powered Up Batmobile is the latest app connected set
 
 # That’s all folks !
 
-Did you enjoyed it ? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch newsletter ](https://www.getrevue.co/profile/smileinnovation)!
-You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+Did you enjoyed it ? If so don’t hesitate to 👏 our article or [Subscribe to our Innovation watch newsletter](https://www.getrevue.co/profile/smileinnovation) !
+You can follow Smile on [Facebook,](https://www.facebook.com/smileopensource) [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube.](http://www.youtube.com/user/SmileOpenSource)
 
 

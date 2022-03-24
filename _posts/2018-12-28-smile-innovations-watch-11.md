@@ -6,8 +6,8 @@ subtitle: Oh Oh Oh 🎅🏼Hoping every one of you have a good time for this end
 slug: smile-innovations-watch-11
 description: 
 tags: artificial-intelligence,3d-printing,renewable-energy,military,autonomous-cars
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Smile Innovation’s Watch #11

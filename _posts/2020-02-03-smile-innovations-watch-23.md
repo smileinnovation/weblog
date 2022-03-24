@@ -7,8 +7,8 @@ I don’t know if you notice, but we redesigned the categories of information to
 slug: smile-innovations-watch-23
 description: 
 tags: uber,advertising,privacy,home-automation,3d-printing
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Smile Innovation’s watch #23

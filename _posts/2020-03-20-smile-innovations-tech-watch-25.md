@@ -6,8 +6,8 @@ subtitle: Reading this email, you’re probably in lockdown, mandatory, or becau
 slug: smile-innovations-tech-watch-25
 description: 
 tags: github,hacking,google,artificial-intelligence,space
-author: Thibault Milan
-username: thibaultmilan
+author: thmil
+
 ---
 
 # Smile Innovation’s watch #25
