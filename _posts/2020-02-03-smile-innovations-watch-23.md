@@ -3,8 +3,8 @@ layout: post
 url: https://medium.com/@/c4ff8d83354a
 title: "Smile Innovation’s watch #23"
 subtitle: |-
-New year, New you!
-I don’t know if you notice, but we redesigned the categories of information to better suit what we want to share with…
+    New year, New you!
+    I don’t know if you notice, but we redesigned the categories of information to better suit what we want to share with…
 slug: smile-innovations-watch-23
 description: 
 tags:

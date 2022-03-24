@@ -5,7 +5,7 @@ title: "Smile Innovation Watch #12"
 subtitle: That’s the first issue of 2019 and we start the year with some fresh news about machine learning, cryptocurrencies, smart devices, voice …
 slug: smile-innovation-watch-12
 description: |-
-That’s the first issue of 2019 and we start the year with some fresh news about machine learning, cryptocurrencies, smart devices, voice assistant, autonomous transportation and regulation.
+    That’s the first issue of 2019 and we start the year with some fresh news about machine learning, cryptocurrencies, smart devices, voice assistant, autonomous transportation and regulation.
 tags:
 - artificial-intelligence
 - cryptocurrency

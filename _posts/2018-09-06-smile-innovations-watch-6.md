@@ -3,10 +3,10 @@ layout: post
 url: https://medium.com/@/cc04fb92a34b
 title: "Smile Innovation’s Watch — #6"
 subtitle: |-
-Chatbot chatbot chatbot chatbot 🤖Everyone is talking about it around you and we’ll give you some cool knowledge about it so you’ll be able
+    Chatbot chatbot chatbot chatbot 🤖Everyone is talking about it around you and we’ll give you some cool knowledge about it so you’ll be able
 slug: smile-innovations-watch-6
 description: |-
-Chatbot chatbot chatbot chatbot 🤖Everyone is talking about it around you and we’ll give you some cool knowledge about it so you’ll be able to shine like a star in the next chat ✨
+    Chatbot chatbot chatbot chatbot 🤖Everyone is talking about it around you and we’ll give you some cool knowledge about it so you’ll be able to shine like a star in the next chat ✨
 tags: 
 - chatbots
 - cryptocurrency
