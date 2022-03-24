@@ -5,12 +5,14 @@ title: Smile Vivatech 2019 report
 subtitle: Vivatech was everywhere during 3 days, all the cutting technology was here, accessible to the tech-savvy person you are.
 slug: smile-vivatech-2019-report
 description: Welcome to our Vivatech 2019 overview.
-tags: startup,vivatech,retail,future-of-work,ai
-author: Fabien Gasser
-username: fabien_gasser
+tags: 
+- startup
+- vivatech
+- retail
+- future-of-work
+- ai
+author: fagas
 ---
-
-# Smile Vivatech 2019 report
 
 ### Vivatech was everywhere for 3 days, all the cutting technology was here, accessible to the tech-savvy person you are.
 

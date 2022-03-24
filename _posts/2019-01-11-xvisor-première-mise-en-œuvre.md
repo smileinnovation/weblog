@@ -5,12 +5,14 @@ title: Xvisor — première mise en œuvre
 subtitle: Xvisor est un hyperviseur open source en licence GPLv2. Cet hyperviseur est de type-1 ou natif, c’est-à-dire qu’il s’exécute directement…
 slug: xvisor-première-mise-en-œuvre
 description: 
-tags: hypervisors,xvisor,emulator,raspberry-pi,embedded-systems
-author: David Garriou
-username: dagar.smile
+tags: 
+- hypervisors
+- xvisor
+- emulator
+- raspberry-pi
+- embedded-systems
+author: dagar
 ---
-
-# Xvisor — première mise en œuvre
 
 🇫🇷 This article is available in French only, part of our cross-post series from our friends at Li[nux embedded.
 

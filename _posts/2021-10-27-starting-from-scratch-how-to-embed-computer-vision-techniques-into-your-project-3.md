@@ -1,16 +1,16 @@
 ---
 layout: post
 url: https://medium.com/@/5d3c9360fbe7
-title: Starting from scratch, how to embed computer vision techniques into your project #3
+title: "Starting from scratch, how to embed computer vision techniques into your project #3"
 subtitle: Part 3 — Model training
 slug: starting-from-scratch-how-to-embed-computer-vision-techniques-into-your-project-3
 description: 
-tags: computer-vision,deep-learning,visual-search
-author: Alain ROUEN
-username: alrouen
+tags: 
+- computer-vision
+- deep-learning
+- visual-search
+author: alrou
 ---
-
-# Starting from scratch, how to embed computer vision techniques into your project #3
 
 Part 3 — Model training
 

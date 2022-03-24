@@ -5,12 +5,14 @@ title: Capturing your dinner, a deep learning story
 subtitle: A naive approach to features extraction and R-CNN
 slug: capturing-your-dinner-a-deep-learning-story
 description: 
-tags: machine-learning,data-science,deep-learning,tech,technology
-author: Patrice Ferlet
-username: patrice.ferlet
+tags: 
+- machine-learning
+- data-science
+- deep-learning
+- tech
+- technology
+author: pafer
 ---
-
-# Capturing your dinner, a deep learning story
 
 ### A naive approach to features extraction and R-CNN
 

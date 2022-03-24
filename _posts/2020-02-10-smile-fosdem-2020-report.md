@@ -5,12 +5,13 @@ title: Smile FOSDEM 2020 report
 subtitle: The major free software and open-source event in Brussels was, as usual, full of interesting presentations and folks from all corners of…
 slug: smile-fosdem-2020-report
 description: 
-tags: fosdem,embedded-systems,internet,open-source
-author: Martin FLINOIS
-username: martin.flinois
+tags:
+- fosdem
+- embedded-systems
+- internet
+- open-source
+author: mafli
 ---
-
-# Smile FOSDEM 2020 report
 
 The primary free software and open-source event in Brussels was, as usual, full of exciting presentations and folks from all corners of the computing world.
 

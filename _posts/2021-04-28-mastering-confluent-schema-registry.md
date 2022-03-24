@@ -2,15 +2,16 @@
 layout: post
 url: https://medium.com/@/9a53a0344fca
 title: Mastering Confluent Schema Registry
-subtitle: Part 1: What is Schema Registry
+subtitle: "Part 1: What is Schema Registry"
 slug: mastering-confluent-schema-registry
 description: 
-tags: kafka,confluent-kafka,schemaregistry,apache-kafka
-author: Christophe Dorothé
-username: kristophe.dorothe
+tags: 
+- kafka
+- confluent-kafka
+- schemaregistry
+- apache-kafka
+author: chdor
 ---
-
-# Mastering Confluent Schema Registry
 
 ### Part 1: What is Schema Registry
 

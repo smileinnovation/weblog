@@ -1,16 +1,18 @@
 ---
 layout: post
 url: https://medium.com/@/ddb24361f7da
-title: Composable commerce — Legacy management and progressive migration
+title: Composable commerce  —  Legacy management and progressive migration
 subtitle: A spaghetti architecture with data everywhere, resources are tightly coupled, evolutions are limited due to your systems’ complexity, …
 slug: composable-commerce-legacy-management-and-progressive-migration
 description: 
-tags: microservices,graphql,composable-commerce,api,e-commerce-solution
-author: Fabien GASSER
-username: fabien.gasser
+tags: 
+- microservices
+- graphql
+- composable-commerce
+- api
+- e-commerce-solution
+author: fagas
 ---
-
-# Composable commerce — Legacy management and progressive migration
 
 ![My last application and me.](/assets/images/posts/0*cIIwH7NKrkGhs1RP)
 

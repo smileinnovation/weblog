@@ -1,16 +1,20 @@
 ---
 layout: post
 url: https://medium.com/@/3bcaf8f7b538
-title: Smile’s Innovation Watch #30
-subtitle: Our first techwatch of 2021. I can’t believe it’s already July, and we miss the opportunity to share with you so much great tech stuff we…
+title: "Smile’s Innovation Watch #30"
+subtitle: |-
+Our first techwatch of 2021. I can’t believe it’s already July, and we miss the opportunity to share with you so much great tech stuff we…
 slug: smiles-innovation-watch-30
 description: 
-tags: artificial-intelligence,open-source,robotics,mass-surveillance,kyc
+tags:
+- artificial-intelligence
+- open-source
+- robotics
+- mass-surveillance
+- kyc
 author: thmil
-
+category: techwatch
 ---
-
-# Smile’s Innovation Watch #30
 
 Our first techwatch of 2021. I can’t believe it’s already July, and we miss the opportunity to share with you so much great tech stuff we scouted all around. Sure, we worked a lot on tech4good projects and launched news soon-to-be-public events like “le club sourire,” but that’s not a reason to stop getting hungry for new ways to use tech in our life
 

@@ -1,16 +1,18 @@
 ---
 layout: post
 url: https://medium.com/@/c3407f7a0b0f
-title: Training neural network with image sequence, an example with video as input
+title: "Training neural network with image sequence, an example with video as input"
 subtitle: How can we classify actions that happen on video? How to use Time Distributed layers with image sequence? How to manage input shape?
 slug: training-neural-network-with-image-sequence-an-example-with-video-as-input
-description: Discover an “action” in video can be very interesting — let’s imagine the possibilities: detecting someone in danger, a characteristic movement in space to detect asteroids…
-tags: machine-learning,image-recognition,neural-networks,videos
-author: Patrice Ferlet
-username: patrice.ferlet
+description: |-
+Discover an “action” in video can be very interesting — let’s imagine the possibilities: detecting someone in danger, a characteristic movement in space to detect asteroids…
+tags: 
+- machine-learning
+- image-recognition
+- neural-networks
+- videos
+author: pafer
 ---
-
-# Training a neural network with an image sequence — example with a video as input
 
 ### How can we classify actions that happen on video? How to use Time Distributed layers with image sequence? How to manage the input shapes?
 

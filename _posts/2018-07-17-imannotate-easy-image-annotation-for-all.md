@@ -1,18 +1,19 @@
 ---
 layout: post
 url: https://medium.com/@/3b2c776fd05c
-title: Imannotate - easy image annotation for all
+title: "Imannotate, opensource collaborative image annotation for machine learning"
 subtitle: We made it collaborative, easy, and very simple to install
 slug: imannotate-easy-image-annotation-for-all
 description: 
-tags: docker,machine-learning,image-annotation,image-recognition
-author: Patrice Ferlet
-username: patrice.ferlet
+tags: 
+- docker
+- machine-learning
+- image-annotation
+- image-recognition
+author: pafer
 ---
 
 ![](/assets/images/posts/1*SXya139n_002QetAWFv-NQ.png)
-
-# Imannotate, opensource collaborative image annotation for machine learning
 
 ### We made a tool to annotate images with teammates, easy to install and extensible. And obviously, it’s open source!
 

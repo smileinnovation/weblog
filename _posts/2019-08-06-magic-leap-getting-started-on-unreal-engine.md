@@ -1,18 +1,18 @@
 ---
 layout: post
 url: https://medium.com/@/636812f45b9d
-title: Magic Leap: Getting started on Unreal Engine
+title: "Magic Leap: Getting started on Unreal Engine"
 subtitle: In this article I will be explaining you how to install and setup your computer in order to work with the Magic Leap SDK.
 slug: magic-leap-getting-started-on-unreal-engine
 description: In this article I will be explaining you how to install and setup your computer in order to work with the Magic Leap SDK.
-tags: unreal-engine,magic-leap,augmented-reality,setup,development
-author: Sébastien Garcin-Beldowski
-username: sbastiengarcinbeldowski
+tags:
+- unreal-engine
+- magic-leap
+- augmented-reality
+- setup
+- development
+author: segar
 ---
-
-# Magic Leap
-
-### Getting started on Unreal Engine
 
 ![](/assets/images/posts/1*yt2zeFdbx0OKrvwYormYow.jpeg)
 

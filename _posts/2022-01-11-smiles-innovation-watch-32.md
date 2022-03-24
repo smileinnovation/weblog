@@ -2,7 +2,8 @@
 layout: post
 url: https://medium.com/@/9331e0d1257c
 title: "Smile’s Innovation Watch #32"
-subtitle: It’s December once more and, if you’ve not already managed the 🎁 “presents” situation, you must know that delivery is a complete mess this…
+subtitle: |-
+It’s December once more and, if you’ve not already managed the 🎁 “presents” situation, you must know that delivery is a complete mess this…
 slug: smiles-innovation-watch-32
 description: 
 tags: 

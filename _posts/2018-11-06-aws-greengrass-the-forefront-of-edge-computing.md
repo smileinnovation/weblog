@@ -1,16 +1,20 @@
 ---
 layout: post
 url: https://medium.com/@/8ec2098a33b7
-title: AWS Greengrass the forefront of edge computing
-subtitle: This articles main goal is to resume briefly what AWS Greengrass is. If you want a more thorough presentation you can find it on the AWS…
+title: "AWS Greengrass the forefront of edge computing"
+subtitle: |-
+This articles main goal is to resume briefly what AWS Greengrass is. If you want a more thorough presentation you can find it on the AWS…
 slug: aws-greengrass-the-forefront-of-edge-computing
-description: This articles main goal is to resume briefly what AWS Greengrass is. If you want a more thorough presentation you can find it on the AWS …
-tags: aws,greengrass,machine-learning,lambda,embedded-systems
-author: Sébastien Garcin-Beldowski
-username: sbastiengarcinbeldowski
+description: |-
+This articles main goal is to resume briefly what AWS Greengrass is. If you want a more thorough presentation you can find it on the AWS …
+tags: 
+- aws
+- greengrass
+- machine-learning
+- lambda
+- embedded-systems
+author: segar
 ---
-
-# AWS Greengrass the forefront of edge computing
 
 ![Credits: Amazon](/assets/images/posts/1*7LaVsLtTgUnkcuRblDFKkg.png)
 

@@ -5,12 +5,15 @@ title: Smile @ AWS Summit Paris 2018
 subtitle: AWS Global Summits are free events that bring the cloud computing community together to connect, collaborate, and learn about AWS.
 slug: smile-aws-summit-paris-2018
 description: On the Innovation Corner of Amazon Web Services, we had the please to show the public a simpler version of our open-source fleet management system solution we developed based on ODOO, IoT devices…
-tags: computer-vision,aws,edge-computing,open-source,voice-assistant
+tags: 
+- computer-vision
+- aws
+- edge-computing
+- open-source
+- voice-assistant
 author: thmil
 
 ---
-
-# Smile @ AWS Summit Paris 2018
 
 AWS Global Summits are free events that bring the cloud computing community together to connect, collaborate, and learn about AWS. Summits are held in major cities around the world, and attract technologists from all industries and skill levels who want to discover how AWS can help them innovate quickly and deliver reliable, flexible solutions at scale.
 
@@ -45,5 +48,3 @@ This demonstration around food recognition was set up after R&D for a particular
 ![🍔Burger or 🥗salad ? That’s the question our model try to answer with just the help of a camera connected to a Raspberry Pi 3.](/assets/images/posts/1*fcZV1-9E_RQ48zw81HigQQ.jpeg)
 
 This demonstration will be available at “L’appart by smile” our R&D showroom in Asnières (Paris, France). People interested to visit it or know more about our activity can get in touch with [Fabien Gasser](mailto:fabien.gasser@smile.fr?subject=L%27appart%20by%20Smile).
-
-

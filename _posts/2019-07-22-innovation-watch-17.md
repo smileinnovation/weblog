@@ -1,16 +1,19 @@
 ---
 layout: post
 url: https://medium.com/@/3b7e114adedb
-title: Innovation Watch #17
+title: "Innovation Watch #17"
 subtitle: Brace yourself. Climate change is coming 🥵
 slug: innovation-watch-17
-description: 🚀India & China racing for the 🌒moon, robot nurse, facial recognition for 🐕dogs, also a lot of privacy issues from FaceApp and Google, and even more with Instagram removing the like count and a virt
-tags: privacy,computer-vision,neuralink,robotics,mental-health
+description: "🚀India & China racing for the 🌒moon, robot nurse, facial recognition for 🐕dogs, also a lot of privacy issues from FaceApp and Google, and even more with Instagram removing the like count and a virt"
+tags: 
+- privacy
+- computer-vision
+- neuralink
+- robotics
+- mental-health
 author: thmil
-
+category: techwatch
 ---
-
-# Innovation Watch #17
 
 > This content was sent on july, 22th via our [Tech Watch Newsletter](https://mailchi.mp/c414f1508567/techwatch)
 

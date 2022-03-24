@@ -5,12 +5,14 @@ title: LSTM, Intelligence artificielle sur des données chronologiques
 subtitle: Comprendre comment sont traitées les données chronologiques  dans un réseau de neurones.
 slug: lstm-intelligence-artificielle-sur-des-données-chronologiques
 description: Explication du fonctionnement interne d’un réseau de neurones de type LSTM ou comment la donnée est traitée d’un point de vue mathématique.
-tags: machine-learning,neural-networks,lstm,mathematics,data-science
-author: Youcef Messaoud
-username: khlemess
+tags: 
+- machine-learning
+- neural-networks
+- lstm
+- mathematics
+- data-science
+author: yomess
 ---
-
-# LSTM, Intelligence artificielle sur des données chronologiques
 
 ### Ou comment un réseau de neurones peut interpréter une série de données dite “temporelle”
 

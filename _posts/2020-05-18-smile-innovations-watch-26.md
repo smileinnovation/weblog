@@ -1,16 +1,20 @@
 ---
 layout: post
 url: https://medium.com/@/8b39d641a7dc
-title: Smile Innovation’s watch #26
-subtitle: So lockdown and remote working is our new way of living for a couple of weeks now. But that doesn’t stop us to curate a list of excellent…
+title: "Smile Innovation’s watch #26"
+subtitle: |-
+So lockdown and remote working is our new way of living for a couple of weeks now. But that doesn’t stop us to curate a list of excellent…
 slug: smile-innovations-watch-26
 description: 
-tags: autonomous-cars,deepfakes,cashierless,vr,google-pay
+tags: 
+- autonomous-cars
+- deepfakes
+- cashierless
+- vr
+- google-pay
 author: thmil
-
+category: techwatch
 ---
-
-# Smile Innovation’s watch #26
 
 So lockdown and remote working is our new way of living for a couple of weeks now. But that doesn’t stop us to curate a list of excellent articles to get the latest news in terms of innovation, tooling, open-source, etc.; with a special COVID-19 list of news related to the innovation stimulated by the crisis.
 

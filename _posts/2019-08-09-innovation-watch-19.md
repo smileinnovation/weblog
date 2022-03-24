@@ -1,17 +1,20 @@
 ---
 layout: post
 url: https://medium.com/@/1bab6b532d09
-title: Innovation Watch #19
-subtitle: Everyone is on holiday including me 🏖. Let’s face it. But it will not prevent us to provide you with your bi-weekly dose of tech news.
+title: "Innovation Watch #19"
+subtitle: |-
+Everyone is on holiday including me 🏖. Let’s face it. But it will not prevent us to provide you with your bi-weekly dose of tech news.
 slug: innovation-watch-19
 description: 
-tags: artificial-intelligence,privacy,biometrics,apple-card,fake-news
+tags: 
+- artificial-intelligence
+- privacy
+- biometrics
+- apple-card
+- fake-news
 author: thmil
-
+category: techwatch
 ---
-
-# Innovation Watch #19
-
 Everyone is on holiday including me 🏖. Let’s face it.
 
 But it will not prevent us to provide you with your bi-weekly dose of tech news. Let’s start with a big partnership between NHS & Amazon Alexa, some wise thoughts about robopocalypse and big data, Google and Microsoft privacy issues, Disney launching its streaming offer and more. We spot few fun side projects in #IA and #MachineLearning, #RaspberyPi and #voicerecognition and a Fake News Simulator.

@@ -5,12 +5,14 @@ title: AI for code
 subtitle: AI allows us to understand and measure codebase in a new way, and those last years have been exciting with startups trying to get the best…
 slug: ai-for-code
 description: 
-tags: development,ai,nlp,code,tech-manager
-author: Fabien GASSER
-username: fabien.gasser
+tags: 
+- development
+- ai
+- nlp
+- code
+- tech-manager
+author: fagas
 ---
-
-# AI for code
 
 AI allows us to understand and measure codebase in a new way, and those last years have been exciting with startups trying to get the best of what AI on code could do.
 

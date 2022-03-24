@@ -1,16 +1,20 @@
 ---
 layout: post
 url: https://medium.com/@/93e5a392be94
-title: Smile Innovation’s Watch #11
-subtitle: Oh Oh Oh 🎅🏼Hoping every one of you have a good time for this end of year celebration, with friends, family, and we have a special though f
+title: "Smile Innovation’s Watch #11"
+subtitle: |-
+Oh Oh Oh 🎅🏼Hoping every one of you have a good time for this end of year celebration, with friends, family, and we have a special though f
 slug: smile-innovations-watch-11
 description: 
-tags: artificial-intelligence,3d-printing,renewable-energy,military,autonomous-cars
+tags: 
+- artificial-intelligence
+- 3d-printing
+- renewable-energy
+- military
+- autonomous-cars
 author: thmil
-
+category: techwatch
 ---
-
-# Smile Innovation’s Watch #11
 
 Oh Oh Oh 🎅🏼
 

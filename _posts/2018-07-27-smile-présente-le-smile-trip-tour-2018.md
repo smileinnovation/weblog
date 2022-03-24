@@ -1,26 +1,27 @@
 ---
 layout: post
 url: https://medium.com/@/f5f94d954548
-title: Smile présente : le Smile Trip Tour 2018
+title: "Smile présente : le Smile Trip Tour 2018"
 subtitle: Ou comment Smile mobilise l’ensemble de ses métiers autour d’une équipe d’une petite dizaine de personnes et d’une passion commune pour le…
 slug: smile-présente-le-smile-trip-tour-2018
 description: 
-tags: embedded-systems,iot,the-sun-trip,electric-bike,en-français
-author: Marie Thibaut
-username: thibaut.marie89
+tags: 
+- embedded-systems
+- iot
+- the-sun-trip
+- electric-bike
+author: mathi
 ---
 
 ![](/assets/images/posts/1*9A3Ybsv3U3scfrOjvVj9ag.png)
 
-# Smile présente : le Smile Trip Tour 2018
-
 ### Ou comment Smile mobilise l’ensemble de ses métiers autour d’une équipe d’une petite dizaine de personnes et d’une passion commune pour le vélo
 
-# *A la découverte de The Sun Trip*
+# A la découverte de The Sun Trip
 
 En 2017, sur une idée de Cédric Ravalec, grand passionné de vélo, Smile participe au [*Sun Trip Tour*](https://www.thesuntrip.com/st-tour-2017/), une course cycliste un peu atypique puisqu’elle est dédiée aux vélos électriques solaires.
 
-*The Sun Trip Tour *est une vitrine des nouvelles formes de mobilités. Chacun des aventuriers est ainsi un ambassadeur du solaire et de l’écomobilité, en prouvant leur efficacité et leur dimension humaniste.
+*The Sun Trip Tour* est une vitrine des nouvelles formes de mobilités. Chacun des aventuriers est ainsi un ambassadeur du solaire et de l’écomobilité, en prouvant leur efficacité et leur dimension humaniste.
 
 Un vélo solaire, c’est avant tout un vélo à assistance électrique (ou VAE), qui dispose donc d’un petit moteur et d’une batterie pour aider le cycliste, sans pour autant retirer le plaisir de pédaler. Ce vélo est en plus équipé d’un panneau solaire permettant de recharger la batterie pendant que le cycliste évolue sur les routes, augmentant ainsi l’autonomie de l’assistance électrique.
 

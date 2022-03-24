@@ -1,17 +1,21 @@
 ---
 layout: post
 url: https://medium.com/@/c4ff8d83354a
-title: Smile Innovation’s watch #23
-subtitle: New year, New you!
+title: "Smile Innovation’s watch #23"
+subtitle: |-
+New year, New you!
 I don’t know if you notice, but we redesigned the categories of information to better suit what we want to share with…
 slug: smile-innovations-watch-23
 description: 
-tags: uber,advertising,privacy,home-automation,3d-printing
+tags:
+- uber
+- advertising
+- privacy
+- home-automation
+- 3d-printing
 author: thmil
-
+category: techwatch
 ---
-
-# Smile Innovation’s watch #23
 
 New year, New you!
 I don’t know if you notice, but we redesigned the categories of information to better suit what we want to share with you and how we are collecting those Infos. Internally, we are using Trello to collect, categorize, prioritize and create our publication plan. Every people in the Innovation team is able now to vote to push the news in front, creating a more diverse view and topics.

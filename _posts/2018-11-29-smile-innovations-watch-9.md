@@ -1,17 +1,20 @@
 ---
 layout: post
 url: https://medium.com/@/c1e917e94c72
-title: Smile Innovation’s Watch — #9
-subtitle: Winter is coming ❄️🌨🧟‍♂️ (not so private jokes already used 1,934,324 times this month) and you may already have been wearing back your…
+title: "Smile Innovation’s Watch — #9"
+subtitle: |-
+Winter is coming ❄️🌨🧟‍♂️ (not so private jokes already used 1,934,324 times this month) and you may already have been wearing back your…
 slug: smile-innovations-watch-9
 description: 
-tags: apple,ai,samsung,salesforce,airbnb
+tags: 
+- apple
+- ai
+- samsung
+- salesforce
+- airbnb
 author: thmil
-
+category: techwatch
 ---
-
-# Smile Innovation’s Watch — #9
-
 Winter is coming ❄️🌨🧟‍♂️ (not so private jokes already used 1,934,324 times this month) and you may already have been wearing back your 🧤gloves and 🧣scarf (especially if you’re using an on-demand electric scooter). When you’ll be comfortable in your office or home, warm and while taking a sip of hot chocolate/coffee/tea, take few minutes to check out our selection of links, trends and, for the first time, some useful tools at the end of the newsletter.
 
 We are gonna tell you about a foldable phone, exoskeleton, AI, a camera with 16 lenses and how to spy on your Airbnb guests.
