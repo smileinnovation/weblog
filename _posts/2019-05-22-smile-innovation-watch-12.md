@@ -87,7 +87,8 @@ All the effort to remove or affect the articles 11 & 13 of the EU Copyright Dire
 
 (reads in 🇫🇷) Deepmind, the company own by Alphabet (Google mother’s company) and which create also AlphaGo had won over 2 professional players in real-time strategy game Starcraft. AlphaStar, the model trained for that case, beat Dario TLO Wünsch 5–0 before beating Grzegorz MaNa Komincz with the same score. Where’s the trick? Maybe because AlphaStar isn’t limited to screen size but see and knows the entire game at every moment.
 
-<iframe src="/assets/images/posts/c753d51087042ba1d477b544013a98f8.html"></iframe>
+<iframe src="/assets/images/posts/c753d51087042ba1d477b
+544013a98f8.html"></iframe>
 
 # That’s all folks!
 

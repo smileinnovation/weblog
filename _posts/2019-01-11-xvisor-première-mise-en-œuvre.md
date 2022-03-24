@@ -460,3 +460,4 @@ _Originally published at_ [_www.linuxembedded.fr_](http://www.linuxembedded.fr/2
 
 Did you enjoy it? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch n](https://www.getrevue.co/profile/smileinnovation)ewsletter!
 You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)
+

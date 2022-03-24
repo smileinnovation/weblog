@@ -15,6 +15,7 @@ author: pafer
 image: assets/images/posts/0*ETsqASs_Q-MBcDv9.jpg
 ---
 
+
 ### With the help of Docker, you will be able to customize training and infering models using other frameworks that those provided by SageMaker
 
 You may already know what Amazon SageMaker is. We can name it as “Machine Learning as a Service” providing [Jupyter notebook](https://jupyter.org/), Python API to launch model training on huge servers with CPU or GPU, then store model and data on S3. Finally *deploy and serve* that model with a REST API. In order to help you, SageMaker provides several built-in models and frameworks like MXNet, Tensorflow, …

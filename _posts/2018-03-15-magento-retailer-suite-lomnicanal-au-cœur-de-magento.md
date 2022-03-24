@@ -99,6 +99,7 @@ Enfin, profitez du backoffice user friendly de Magento 2 pour paramétrer rapide
 N’hésitez pas à [**nous contacter,**](https://www.smile.eu/fr/contact) notre équipe est disponible pour échanger sur vos projets e-commerce !
 
 **Pour plus d’informations :**
+
 Évidemment, le module est Open Source et est disponible sur Github :
 
 [**La page GitHub**](https://github.com/Smile-SA/elasticsuite-for-retailer) dédiée à ElasticSuite for Retailers et la documentation fonctionnelle.
