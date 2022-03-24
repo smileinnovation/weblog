@@ -1,16 +1,20 @@
 ---
 layout: post
 url: https://medium.com/@/41df4f0725e5
-title: Innovation Watch #15
+title: "Innovation Watch #15"
 subtitle: We’re still in June but entire Europe, except Portugal, is under big heat waves right now 🥵There’s nothing you can do but embrace it
 slug: innovation-watch-15
-description: In this edition, we’ll talk about #blockchain, Boston Dynamics #robots, #deepfakes, USA custom border leaking faces and licence plate, the new sign in with Apple, but also #opensource solutions for us
-tags: robotics,apple,usa,ai,tesla
+description: |-
+In this edition, we’ll talk about #blockchain, Boston Dynamics #robots, #deepfakes, USA custom border leaking faces and licence plate, the new sign in with Apple, but also #opensource solutions for us
+tags: 
+- robotics
+- apple
+- usa
+- ai
+- tesla
 author: thmil
-
+category: techwatch
 ---
-
-# Innovation Watch #15
 
 > This content was sent on june, 26th via our [Tech Watch Newsletter](https://mailchi.mp/c414f1508567/techwatch)
 

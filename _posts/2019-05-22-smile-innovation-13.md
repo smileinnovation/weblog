@@ -1,16 +1,20 @@
 ---
 layout: post
 url: https://medium.com/@/6df2b34801ce
-title: Smile Innovation #13
-subtitle: Our second issue of 2019 will focus on #IA and #MachineLearning everywhere in your life from restaurant booking to detect animal diseases.
+title: "Smile Innovation #13"
+subtitle: |-
+Our second issue of 2019 will focus on #IA and #MachineLearning everywhere in your life from restaurant booking to detect animal diseases.
 slug: smile-innovation-13
 description: 
-tags: artificial-intelligence,google,amazon,face-recognition,airbnb
+tags:
+- artificial-intelligence
+- google
+- amazon
+- face-recognition
+- airbnb
 author: thmil
-
+category: techwatch
 ---
-
-# Smile Innovation #13
 
 > This content was sent on march, 15th via our [Tech Watch Newsletter](https://mailchi.mp/c414f1508567/techwatch)
 

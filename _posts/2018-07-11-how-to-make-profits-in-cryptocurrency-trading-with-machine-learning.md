@@ -5,12 +5,14 @@ title: How to make profits in cryptocurrency trading with machine learning
 subtitle: The interest around cryptocurrency technology grows day after day, and the research about Machine learning has never been so fast.
 slug: how-to-make-profits-in-cryptocurrency-trading-with-machine-learning
 description: 
-tags: machine-learning,bitcoin,cryptocurrency,technology,tech
-author: Quentin Le Baron
-username: LeBaron
+tags: 
+- machine-learning
+- bitcoin
+- cryptocurrency
+- technology
+- tech
+author: qubar
 ---
-
-# How to make profits in cryptocurrency trading with machine learning
 
 ### The interest around cryptocurrency technology grows day after day, and the research about Machine learning has never been so fast.
 

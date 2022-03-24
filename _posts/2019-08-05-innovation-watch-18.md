@@ -1,18 +1,21 @@
 ---
 layout: post
 url: https://medium.com/@/4f253e31e59
-title: Innovation Watch #18
+title: "Innovation Watch #18"
 subtitle: 
 slug: innovation-watch-18
-description: Following our effort on the last edition, we’ll focus on how our #mentalhealth is influenced by technology and #socialmedia, with a very disturbing journalistic investigation from The Verge and the ne
-tags: facebook,intel,apple,doordash,github
+description: "Following our effort on the last edition, we’ll focus on how our #mentalhealth is influenced by technology and #socialmedia, with a very disturbing journalistic investigation from The Verge and the ne"
+tags: 
+- facebook
+- intel
+- apple
+- doordash
+- github
 author: thmil
-
+category: techwatch
 ---
 
-# Innovation Watch #18
-
-> *This content was *sent* on august, 8th via our [Tech Watch Newsletter*](https://mailchi.mp/c414f1508567/techwatch)
+> This content was sent on august, 8th via our [Tech Watch Newsletter](https://mailchi.mp/c414f1508567/techwatch)
 
 Following our effort on the last edition, we’ll focus on how our **#mentalhealth** is influenced by technology and **#socialmedia**, with a very disturbing journalistic investigation from The Verge and the new law proposal in the US to prohibit dark pattern usage. Also, people in Germany planning to force Youtube to disclose their internal rules about content moderation using **#GDPR**. On the **#opensource** side, we’ll cover how Github is impacted by US embargo against several countries and we’ll give you a nice free online tool to create your own printable **#mockup** sheets.
 

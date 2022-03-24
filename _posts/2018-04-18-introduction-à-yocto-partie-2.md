@@ -1,16 +1,17 @@
 ---
 layout: post
 url: https://medium.com/@/38d979843cb7
-title: Introduction à Yocto (partie 2)
-subtitle: Dans un premier article nous avons introduit les principes de Yocto et décrit comment produire une image de test pour des cibles QEMU (x86)…
+title: "Introduction à Yocto (partie 2)"
+subtitle: "Dans un premier article nous avons introduit les principes de Yocto et décrit comment produire une image de test pour des cibles QEMU (x86)…"
 slug: introduction-à-yocto-partie-2
 description: 
-tags: embedded-systems,linux,iot,connected-devices
-author: Pierre FICHEUX
-username: pierre.ficheux
+tags: 
+- embedded-systems
+- linux
+- iot
+- connected-devices
+author: pific
 ---
-
-# Introduction à Yocto (partie 2)
 
 ![](/assets/images/posts/1*gqaK0--azExuARp3R4LtgA.jpeg)
 

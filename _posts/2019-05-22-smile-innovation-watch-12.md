@@ -1,16 +1,20 @@
 ---
 layout: post
 url: https://medium.com/@/1126957b665e
-title: Smile Innovation Watch #12
+title: "Smile Innovation Watch #12"
 subtitle: That’s the first issue of 2019 and we start the year with some fresh news about machine learning, cryptocurrencies, smart devices, voice …
 slug: smile-innovation-watch-12
-description: That’s the first issue of 2019 and we start the year with some fresh news about machine learning, cryptocurrencies, smart devices, voice assistant, autonomous transportation and regulation.
-tags: artificial-intelligence,cryptocurrency,autonomous-cars,contactless-payments,apple
+description: |-
+That’s the first issue of 2019 and we start the year with some fresh news about machine learning, cryptocurrencies, smart devices, voice assistant, autonomous transportation and regulation.
+tags:
+- artificial-intelligence
+- cryptocurrency
+- autonomous-cars
+- contactless-payments
+- apple
 author: thmil
-
+category: techwatch
 ---
-
-# Smile Innovation Watch #12
 
 > This content was sent on feb, 19th via our [Tech Watch Newsletter](https://mailchi.mp/c414f1508567/techwatch)
 

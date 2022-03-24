@@ -1,16 +1,19 @@
 ---
 layout: post
 url: https://medium.com/@/66bc0c2d0f24
-title: Smile’s Innovation Watch #31
-subtitle: 🍁It’s the fall season. Some of us are in love with the beautiful colors of the landscape, and some have their mood sinking as the RMS…
+title: "Smile’s Innovation Watch #31"
+subtitle: |-
+🍁It’s the fall season. Some of us are in love with the beautiful colors of the landscape, and some have their mood sinking as the RMS…
 slug: smiles-innovation-watch-31
 description: 
-tags: army,hologram,captcha,google
+tags: 
+- army
+- hologram
+- captcha
+- google
 author: thmil
-
+category: techwatch
 ---
-
-# Smile’s Innovation Watch #31
 
 🍁It’s the fall season. Some of us are in love with the beautiful colors of the landscape, and some have their mood sinking as the RMS Titanic. That’s why we wanted to go with some lighter content with this edition.
 

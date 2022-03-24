@@ -1,16 +1,17 @@
 ---
 layout: post
 url: https://medium.com/@/ab1a3b3007d5
-title: Magento 2.3.0 and Open Source ElasticSearch
-subtitle: It has been announced during Magento Imagine that ElasticSearch support will be moved in the open-source version of Magento for the 2.3.0…
+title: "Magento 2.3.0 and Open Source ElasticSearch"
+subtitle: "It has been announced during Magento Imagine that ElasticSearch support will be moved in the open-source version of Magento for the 2.3.0…"
 slug: magento-2-3-0-and-open-source-elasticsearch
 description: 
-tags: ecommerce,magento,elasticsearch,search-engines
-author: Aurélien FOUCRET
-username: afoucret
+tags: 
+- ecommerce
+- magento
+- elasticsearch
+- search-engines
+author: aufou
 ---
-
-# Magento 2.3.0 and Open Source ElasticSearch
 
 It has been announced during [Magento Imagine](https://imagine.magento.com/) that [ElasticSearch](https://www.elastic.co/fr/) support will be moved in the open-source version of Magento for the 2.3.0 release, while previously reserved for Magento Commerce.
 

@@ -1,16 +1,20 @@
 ---
 layout: post
 url: https://medium.com/@/e2733a3eb471
-title: Smile Innovation’s Watch — #7
+title: "Smile Innovation’s Watch — #7"
 subtitle: Temperatures start to drop, 🍂🍁leaves start to fall from the tree, the sun starts to get shy ⛅️. No doubt Fall is coming! Time for hot choc
 slug: smile-innovations-watch-7
-description: Temperatures start to drop, 🍂🍁leaves start to fall from the tree, the sun starts to get shy ⛅️. No doubt Fall is coming! Time for hot chocolate 🍫and blankets.
-tags: beacons,chatbots,advertising,opensource-hardware,magic-leap
+description: |-
+Temperatures start to drop, 🍂🍁leaves start to fall from the tree, the sun starts to get shy ⛅️. No doubt Fall is coming! Time for hot chocolate 🍫and blankets.
+tags: 
+- beacons
+- chatbots
+- advertising
+- opensource-hardware
+- magic-leap
 author: thmil
-
+category: techwatch
 ---
-
-# Smile Innovation’s Watch — #7
 
 Temperatures start to drop, 🍂🍁leaves start to fall from the tree, the sun starts to get shy ⛅️. No doubt Fall is coming! Time for hot chocolate 🍫and blankets.
 

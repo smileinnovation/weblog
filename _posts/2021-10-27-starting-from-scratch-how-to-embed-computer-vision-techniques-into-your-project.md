@@ -5,12 +5,12 @@ title: Starting from scratch, how to embed computer vision techniques into your 
 subtitle: "A practical guide to answering this question: is this a screwdriver or a hammer?"
 slug: starting-from-scratch-how-to-embed-computer-vision-techniques-into-your-project
 description: 
-tags: deep-learning,computer-vision,visual-search
-author: Alain ROUEN
-username: alrouen
+tags: 
+- deep-learning
+- computer-vision
+- visual-search
+author: alrou
 ---
-
-# Starting from scratch, how to embed computer vision techniques into your project
 
 A practical guide to answering this question: is this a screwdriver or a hammer?
 

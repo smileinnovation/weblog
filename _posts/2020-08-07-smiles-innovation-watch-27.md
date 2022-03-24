@@ -1,16 +1,20 @@
 ---
 layout: post
 url: https://medium.com/@/6186a83da23a
-title: Smile’s Innovation Watch #27
-subtitle: ☀️ Summer is here, and even if most of us have a 🏡 #staycation this year and that kinda sucks, let’s take time to reflect on the way we…
+title: "Smile’s Innovation Watch #27"
+subtitle: |-
+☀️ Summer is here, and even if most of us have a 🏡 #staycation this year and that kinda sucks, let’s take time to reflect on the way we…
 slug: smiles-innovation-watch-27
 description: 
-tags: twitter,tiktok-app,neumorphism,deepfakes,3d-printing
+tags: 
+- twitter
+- tiktok-app
+- neumorphism
+- deepfakes
+- 3d-printing
 author: thmil
-
+category: techwatch
 ---
-
-# Smile’s Innovation Watch #27
 
 ☀️ Summer is here, and even if most of us have a 🏡 #staycation this year and that kinda sucks, let’s take time to reflect on the way we are, usually, consuming travel and holidays. Let’s seize the opportunity to discover our region or country. Stay hydrated, wash your hands, wear your masks 😷.
 This summer edition is a fusion of 2 months of news, some fresher than others, but with 2 mini-series on TikTok and the Twitter hack.

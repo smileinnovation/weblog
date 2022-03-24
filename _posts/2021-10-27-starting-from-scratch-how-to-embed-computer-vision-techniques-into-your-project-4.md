@@ -1,16 +1,16 @@
 ---
 layout: post
 url: https://medium.com/@/c8711775181f
-title: Starting from scratch, how to embed computer vision techniques into your project #4
+title: "Starting from scratch, how to embed computer vision techniques into your project #4"
 subtitle: Part 4— Integration
 slug: starting-from-scratch-how-to-embed-computer-vision-techniques-into-your-project-4
 description: 
-tags: computer-vision,deep-learning,visual-search
-author: Alain ROUEN
-username: alrouen
+tags:
+- computer-vision
+- deep-learning
+- visual-search
+author: alrou
 ---
-
-# Starting from scratch, how to embed computer vision techniques into your project #4
 
 Part 4— Integration
 

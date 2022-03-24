@@ -1,17 +1,21 @@
 ---
 layout: post
 url: https://medium.com/@/38629d8ccff2
-title: Smile Innovation’s Watch #21
-subtitle: 🥶 Winter is definitely here for most of us and it’s Friday afternoon.
+title: "Smile Innovation’s Watch #21"
+subtitle: |-
+🥶 Winter is definitely here for most of us and it’s Friday afternoon.
 Just a few hours before leaving work and don’t want to start an…
 slug: smile-innovations-watch-21
-description: #dronedelivery & #EV are a thing for big corpo like Walgreen & Amazon, which just released nearly 10 new Alexa product including … #smartframes & smart rings. Facebook continues to work on its “portal
-tags: virtual-reality,tesla,voice-assistant,artificial-intelligence,drones
+description: "#dronedelivery & #EV are a thing for big corpo like Walgreen & Amazon, which just released nearly 10 new Alexa product including … #smartframes & smart rings. Facebook continues to work on its “portal"
+tags: 
+- virtual-reality
+- tesla
+- voice-assistant
+- artificial-intelligence
+- drones
 author: thmil
-
+category: techwatch
 ---
-
-# Smile Innovation’s Watch #21
 
 🥶 Winter is definitely here for most of us and it’s Friday afternoon.
 Just a few hours before leaving work and don’t want to start an entirely new project? Why not taking a moment to check out this edition of our tech watch, XXL format with more article than ever.

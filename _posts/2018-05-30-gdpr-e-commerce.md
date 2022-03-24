@@ -5,14 +5,17 @@ title: GDPR & E-commerce
 subtitle: Just before starting, maybe all of us don’t know about GDPR yet (really ? You are part of the 0.1% of people that didn’t receive tons of…
 slug: gdpr-e-commerce
 description: 
-tags: gdpr,retail,retail-marketing,privacy,customer-data
+tags: 
+- gdpr
+- retail
+- retail-marketing
+- privacy
+- customer-data
 author: thmil
 
 ---
 
 ![“A set of formal suits on hangers in a wardrobe” by Igor Ovsyannykov on Unsplash](/assets/images/posts/0*ab5blEwlCPYftIXM)
-
-# GDPR & E-commerce
 
 Just before starting, maybe all of us don’t know about GDPR yet (really ? You are part of the 0.1% of people that didn’t receive tons of emails about it then) and what’s it give as new rights to end-users.
 

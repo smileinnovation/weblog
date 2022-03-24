@@ -2,15 +2,16 @@
 layout: post
 url: https://medium.com/@/13a92c258fc9
 title: Making a graphic driver for a led panel
-subtitle: Part 1: Context, scope, purpose… and hardware!
+subtitle: "Part 1: Context, scope, purpose… and hardware!"
 slug: making-a-graphic-driver-for-a-led-panel
 description: In 2016, I started passionating myself for the world of IoT. I quickly get attracted by anything visual and especially LEDs as this was quickly rewarding when trying to set up something.
-tags: raspberry-pi,python,led-lighting,diy
-author: Fabrice Dewasmes
-username: fabrice.dewasmes
+tags: 
+- raspberry-pi
+- python
+- led-lighting
+- diy
+author: fadew
 ---
-
-# Making a graphics driver for a led panel
 
 ### Part 1: Context, scope, purpose… and hardware!
 

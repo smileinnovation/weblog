@@ -1,16 +1,16 @@
 ---
 layout: post
 url: https://medium.com/@/ad1c122ac201
-title: Wattmètre connecté pour le Smile Trip Tour 2018
+title: "Wattmètre connecté pour le Smile Trip Tour 2018"
 subtitle: Conception Hardware et témoignage
 slug: wattmètre-connecté-pour-le-smile-trip-tour-2018
-description: Les objets connectés présentent de plus en plus d'intérêt pour des utilisateurs très variés. Principalement utilisés à des fins de monitoring, ils permettent de remonter des données dans le Cloud à…
-tags: en-français,sun-trip-tour,embedded-systems,electric-bike
-author: Marie Thibaut
-username: thibaut.marie89
+description: "Les objets connectés présentent de plus en plus d'intérêt pour des utilisateurs très variés. Principalement utilisés à des fins de monitoring, ils permettent de remonter des données dans le Cloud à…"
+tags: 
+- sun-trip-tour
+- embedded-systems
+- electric-bike
+author: mathi
 ---
-
-# Wattmètre connecté pour le Smile Trip Tour 2018
 
 ### Les objets connectés présentent de plus en plus d’intérêt pour des utilisateurs très variés. Principalement utilisés à des fins de monitoring, ils permettent de remonter des données dans le Cloud à moindre coût pour analyser des tendances, repérer des patterns ou détecter des anomalies de fonctionnement.
 

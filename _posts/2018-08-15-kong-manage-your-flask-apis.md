@@ -5,12 +5,14 @@ title: Kong, manage your Flask APIs !
 subtitle: APIs managed by interface do you think is an endless task to implement ?
 slug: kong-manage-your-flask-apis
 description: Not so long ago, I thought that API management was necessarily a complex task. Faced with a wide variety of tools that exist on the market nowadays, I would like to present one that can easily meet yo
-tags: api,technology,devops,api-gateway,api-management
-author: Quentin Le Baron
-username: LeBaron
+tags: 
+- api
+- technology
+- devops
+- api-gateway
+- api-management
+author: qubar
 ---
-
-# Kong, manage your APIs !
 
 ### Do you think managing APIs with an interface is a time consuming task to implement ?
 

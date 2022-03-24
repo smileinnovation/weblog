@@ -4,15 +4,15 @@ url: https://medium.com/@/e788b6f90ed2
 title: Magento as a Service
 subtitle: How-to build an e-store factory
 slug: magento-as-a-service
-description: As part of our continuous improvement, one particular interesting topic we had in mind for e-store projects was the ability of delivering a new store as a full fledge service : an e-store as a service
-tags: magento,technology,devops,kubernetes,docker
-author: Patrice Ferlet
-username: patrice.ferlet
+description: "As part of our continuous improvement, one particular interesting topic we had in mind for e-store projects was the ability of delivering a new store as a full fledge service : an e-store as a service"
+tags: 
+- magento
+- technology
+- devops
+- kubernetes
+- docker
+author: pafer
 ---
-
-# Magento as a Service
-
-How-to build an e-store factory
 
 *Co-written with [Romain Ruaud](), teammate at Smile, Magento expert*.
 

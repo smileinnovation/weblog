@@ -1,16 +1,20 @@
 ---
 layout: post
 url: https://medium.com/@/d025e0affa67
-title: Smile Innovation’s Tech watch #25
-subtitle: Reading this email, you’re probably in lockdown, mandatory, or because you care about doing your best to protect people around you. Well…
+title: "Smile Innovation’s Tech watch #25"
+subtitle: |-
+Reading this email, you’re probably in lockdown, mandatory, or because you care about doing your best to protect people around you. Well…
 slug: smile-innovations-tech-watch-25
 description: 
-tags: github,hacking,google,artificial-intelligence,space
+tags: 
+- github
+- hacking
+- google
+- artificial-intelligence
+- space
 author: thmil
-
+category: techwatch
 ---
-
-# Smile Innovation’s watch #25
 
 Reading this email, you’re probably in lockdown, mandatory, or because you care about doing your best to protect people around you. Well, to help you clear your mind or not die from boredom, here’s our selection of news, links, mostly COVID19 free!
 

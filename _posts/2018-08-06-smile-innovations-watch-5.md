@@ -2,7 +2,7 @@
 layout: post
 url: https://medium.com/@/3672950d1113
 title: "Smile Innovation's Watch - #5"
-subtitle: This is Smile's Innovation tech watch with this week: 3D printing, Li-Fi, VR, Instagram, React Native and our latest open-source activity.
+subtitle: "This is Smile's Innovation tech watch with this week: 3D printing, Li-Fi, VR, Instagram, React Native and our latest open-source activity."
 slug: smile-innovations-watch-5
 description: 
 tags: 

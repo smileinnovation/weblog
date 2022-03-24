@@ -5,12 +5,14 @@ title: I want my CDN Application!
 subtitle: Performance and time to interaction are key to increase conversion and retention. And for that, PWA has done an amazing job promoting a new…
 slug: i-want-my-cdn-application
 description: 
-tags: pwa-for-ecommerce,headless-commerce,jamstack,api,graphql
-author: Fabien GASSER
-username: fabien.gasser
+tags: 
+- pwa-for-ecommerce
+- headless-commerce
+- jamstack
+- api
+- graphql
+author: fagas
 ---
-
-# I want my CDN Application!
 
 ![Access your application around the world!](/assets/images/posts/0*rqiej0HCGx0WpDyW)
 

@@ -5,12 +5,13 @@ title: Headless commerce
 subtitle: The eCommerce industry is full of challenges and the first one is the need to build a strong yet adaptive solution : robust to handle…
 slug: headless-commerce
 description: 
-tags: headless-commerce,headless,headless-cms,ecommerce
-author: Fabien GASSER
-username: fabien.gasser
+tags: 
+- headless-commerce
+- headless
+- headless-cms
+- ecommerce
+author: fagas
 ---
-
-# Headless Commerce
 
 ![](/assets/images/posts/0*wo70DlNLIqDJGnIj)
 

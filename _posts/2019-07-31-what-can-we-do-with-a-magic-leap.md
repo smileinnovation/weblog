@@ -5,9 +5,13 @@ title: What can we do with a Magic Leap ?
 subtitle: In this article I will briefly talk about Augmented Reality (AR), what it is and the differences with Virtual Reality (VR). Then a more in…
 slug: what-can-we-do-with-a-magic-leap
 description: 
-tags: virtual-reality,augmented-reality,magic-leap,hololens,development
-author: Sébastien Garcin-Beldowski
-username: sbastiengarcinbeldowski
+tags: 
+- virtual-reality
+- augmented-reality
+- magic-leap
+- hololens
+- development
+author: segar
 ---
 
 # Magic Leap and Augmented Reality

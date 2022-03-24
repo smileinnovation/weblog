@@ -1,16 +1,20 @@
 ---
 layout: post
 url: https://medium.com/@/79c1b35a0160
-title: Smile Innovation Watch #14
-subtitle: Is it already June? Damn how times fly 😅 It starts to be warm enough to enjoy a picnic in parks, outdoor fountains, using the 🚲 bicycle…
+title: "Smile Innovation Watch #14"
+subtitle: |-
+Is it already June? Damn how times fly 😅 It starts to be warm enough to enjoy a picnic in parks, outdoor fountains, using the 🚲 bicycle…
 slug: smile-innovation-watch-14
-description: This edition of the tech watch is full of 🤖 #robots and, one more time, #AI. It could sound a bit repetitive but they are two fields where improvement are made every single day and not small ones but
-tags: machine-learning,robotics,privacy,google
+description: |-
+This edition of the tech watch is full of 🤖 #robots and, one more time, #AI. It could sound a bit repetitive but they are two fields where improvement are made every single day and not small ones but
+tags: 
+- machine-learning
+- robotics
+- privacy
+- google
 author: thmil
-
+category: techwatch
 ---
-
-# Smile Innovation Watch #14
 
 > *This content was sent on june, 7th via our [Tech Watch Newsletter*](https://mailchi.mp/c414f1508567/techwatch)
 
