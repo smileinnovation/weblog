@@ -1,4 +1,44 @@
 ---
 label: Authors
-hide_body: false
-fields: []
+hide_body: true
+fields:
+- name: author
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: true
+    label: Name
+  - name: email
+    type: text
+    config:
+      required: true
+    label: Email
+    description: We'll use that for <a href="https://gravatar.com/" title="" target="_blank">Gravatar</a>
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+    description: Can be their job at Smile for ex.
+  - name: avatar
+    type: file
+    config:
+      maxSize: 64
+    label: Avatar
+    description: If you don't want to use gravatar, you can upload an avatar here
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter handle (without @)
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Author
