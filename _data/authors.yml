@@ -3,37 +3,37 @@ thmil:
     twitter: thibaultmilan
     name: Thibault Milan
     email: thibault.milan@smile.fr
-    description: Did he just throw my cat out of the window? Must go faster... go, go, go, go, go! God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs. Hey, you know how I'm, like, always trying to save the planet? Here's my chance.
+    description: Highly analytical and detail-oriented professional with hands-on experience laying foundation for fantastic end-to-end user experiences.
 alrou:
     avatar:
     twitter: alrouen
     name: Alain Rouen
     email: alain.rouen@smile.fr
-    description: What do they got in there? King Kong? Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should. Life finds a way. Yes, Yes, without the oops! Yes, Yes, without the oops! Eventually, you do plan to have dinosaurs on your dinosaur tour, right?
+    description: Innovation Technologist / Technical Director at Smile Open Source Solutions
 fadew:
     avatar:
     twitter: fdewasmes
     name: Fabrice Dewasmes
     email: fabrice.dewasmes@smile.fr
-    description: My dad once told me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little bastard! You know what? It is beets. I've crashed into a beet truck. You know what? It is beets. I've crashed into a beet truck. You really think you can fly that thing?
+    description: Chief Technology and Innovation Officer at Smile Open Source Solutions
 pafer:
     avatar: 
     twitter:
     name: Patrice Ferlet
     email: patrice.ferlet@smile.fr
-    description: So you two dig up, dig up dinosaurs? Must go faster... go, go, go, go, go! They're using our own satellites against us. And the clock is ticking. Just my luck, no ice. Yes, Yes, without the oops! Yes, Yes, without the oops! You really think you can fly that thing?
+    description: Ingénieur Recherche et développement chez Smile - Machine Learning et DevOps
 aufou:
     avatar:
     twitter:
     name: Aurélien Foucret
     email: aurelien.foucret@smile.fr
-    description: You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager? Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should. Do you have any idea how long it takes those cups to decompose.
+    description: Software Architect
 qubar:
     avatar:
     twitter:
     name: Quentin Le Baron
     email: quentin.lebaron@smile.fr
-    description: God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs. God help us, we're in the hands of engineers. Must go faster. Checkmate... My dad once told me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little bastard!
+    description: Ingénieur systèmes DevOps
 mathi:
     avatar:
     twitter:
@@ -45,40 +45,52 @@ yomess:
     twitter:
     name: Youcef Messaoud
     email: youcef.messaoud@smile.fr
-    description: I gave it a cold? I gave it a virus. A computer virus. Must go faster. Yes, Yes, without the oops! We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore!
+    description: Data Scientist, Data engineer, Smile Open Source Solutions
 segar:
     avatar:
     twitter:
     name: Sébastien Garcin-Beldowski
     email: sebastien.garcinbeldowski@smile.fr
-    description: They're using our own satellites against us. And the clock is ticking. Is this my espresso machine? Wh-what is-h-how did you get my espresso machine? Hey, you know how I'm, like, always trying to save the planet? Here's my chance. Do you have any idea how long it takes those cups to decompose.
+    description: Ingénieur étude et développement
 jubel:
     avatar:
     twitter:
     name: Jugurtha BELKALEM
     email: jugurtha.belkalem@smile.fr
-    description: Just my luck, no ice. I gave it a cold? I gave it a virus. A computer virus. You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager? This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows.
+    description: Ingénieur Etude et Développement chez Smile Open Source Solutions
 dagar: 
     avatar:
     twitter:
     name: David Garriou
     email: david.garriou@smile.fr
-    description: Life finds a way. Must go faster. I was part of something special. Is this my espresso machine? Wh-what is-h-how did you get my espresso machine? Must go faster. So you two dig up, dig up dinosaurs? I was part of something special. Checkmate...
+    description: Responsable Technique - Smile ECS Nantes chez Smile Open Source Solutions
 fagas:
     avatar:
     twitter: fabien_gasser
     name: Fabien Gasser
     email: fabien.gasser@smile.fr
-    description: Life finds a way. Is this my espresso machine? Wh-what is-h-how did you get my espresso machine? 
+    description: Ex-Head Of Innovation at Smile
 mafli:
     avatar:
     twitter: 
     name: Martin FLINOIS
     email: martin.flinois@smile.fr
-    description: This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows.
+    description: Chargé de communication interne, corporate et marque employeur
 chdor:
     avatar:
     twitter:
     name: Christophe Dorothé
     email: christophe.dorothe@smile.fr
-    description: Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists.
+    description: Chef de projet R&D et Tech Manager au sein de la Direction Innovation chez Smile Open Source Solutions
+pific:
+    avatar:
+    twitter:
+    name: Pierre FICHEUX
+    email: pierre.ficheux@smile.fr
+    description: CTO at Smile ECS
+vipra:
+    avatar:
+    twitter:
+    name: Vincent PRADOUX
+    email: vincent.pradoux@smile.fr
+    description: Product Owner e-commerce & Consultant Digital
