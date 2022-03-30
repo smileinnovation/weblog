@@ -5,6 +5,13 @@ fields:
 - name: author
   type: field_group_list
   fields:
+  - name: pentagram
+    type: text
+    config:
+      required: true
+      max: 5
+      min: 5
+    label: Pentagram
   - name: name
     type: text
     config:
@@ -40,5 +47,5 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: name
   label: Author
