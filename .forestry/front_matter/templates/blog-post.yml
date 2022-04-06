@@ -16,17 +16,13 @@ fields:
     required: true
   label: Title
 - name: author
-  type: select
-  default: []
+  type: text
   config:
-    required: false
-    options: []
-    source:
-      type: documents
-      section: authors
-      file: _data/authors.yml
-      path: 
+    required: true
+    min: 5
+    max: 5
   label: Author
+  description: Please use your pentagram
 - name: category
   type: select
   default: []
