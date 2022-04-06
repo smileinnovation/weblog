@@ -16,9 +16,6 @@ sections:
   - page
 - type: heading
   label: Config
-- type: document
-  path: _data/authors.yml
-  label: Authors
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
