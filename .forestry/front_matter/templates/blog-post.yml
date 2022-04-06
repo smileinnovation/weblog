@@ -1,4 +1,44 @@
 ---
 label: Blog post
 hide_body: false
-fields: []
+display_field: title
+fields:
+- name: layout
+  type: text
+  config:
+    required: true
+  label: Layout
+  hidden: true
+  default: post
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Techwatch
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: featured
+  type: boolean
+  label: Featured
+  description: Enable it to feature the post on the homepage
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Main Image
+  description: Please select an image to illustrate your blog post.
