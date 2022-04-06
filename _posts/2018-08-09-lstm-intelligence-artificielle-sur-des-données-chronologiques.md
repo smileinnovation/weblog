@@ -5,7 +5,7 @@ title: LSTM, Intelligence artificielle sur des données chronologiques
 subtitle: Comprendre comment sont traitées les données chronologiques  dans un réseau de neurones.
 slug: lstm-intelligence-artificielle-sur-des-données-chronologiques
 description: Explication du fonctionnement interne d’un réseau de neurones de type LSTM ou comment la donnée est traitée d’un point de vue mathématique.
-tags: 
+tags:
 - machine-learning
 - neural-networks
 - lstm
@@ -18,7 +18,7 @@ author: yomess
 
 Si vous avez un tant soit peu travaillé avec des réseaux de neurones, vous avez certainement remarqué que, généralement, nous travaillons avec des données “d’entrée” ponctuelle. En d’autres termes, une image, un jeu de valeurs… mais il est possible de travailler avec des données temporelles telles que des valeurs boursières sur un laps de temps, des “frames” de vidéo, etc… Pour cela, la reine des topologies se nomme LSTM. Dans cet article, nous allons tenter de vulgariser son fonctionnement afin que vous puissiez vous pencher sur le sujet plus sereinement à l’avenir.
 
-![](/assets/images/posts/1*NMzhN3iG7iQgWvu3NQfMzw.jpeg)
+![](/assets/images/posts/1*NMzhN3iG7iQgWvu3NQfMzw.jpg)
 
 L’intelligence artificielle est un domaine actuellement en pleine effervescence, et des découvertes incroyables émergent chaque jour, avec de nouveaux domaines d’application. Nous avons, par exemple, déjà étudié les réseaux de neurones et les crypto-monnaies dans un article que nous vous conseillons de parcourir également.
 
@@ -101,7 +101,7 @@ Une couche LSTM est donc plus ou moins illustrable de cette manière :
 
 La porte d’oubli va se charger de filtrer les informations contenues dans la cellule mémoire précédente. Parmis ces informations, certaines vont être plus pertinentes que d’autre. Pour décider quelles valeurs vont être autorisées à passer, nous allons utiliser différents calculs mathématiques :
 
-![](/assets/images/posts/1*s0Whizedv39uY274AwWgvA@2x.jpeg)
+![](/assets/images/posts/1*s0Whizedv39uY274AwWgvA@2x.jpg)
 
 *xt* correspond aux données entrantes dans le réseau de neurones, *ht-1 *correspond à la valeur de sortie qui a été prédite par la couche LSTM précedente. D’un point de vue mathématique, *[ht-1,xt]* désigne la concaténation des tableaux *xt *et *ht-1. *Comme dans un réseau de neurones classique, Wf correspond au poids des neurones et bf correspond au biais (le biais est considéré comme un degré de liberté supplémentaire) d’un réseau de neurones. Tout ce beau monde est passé comme paramètre à une fonction de transfert nommée sigmoïde. En sortie, la fonction sigmoïde nous renvoie un entier compris entre 0 et 1.
 

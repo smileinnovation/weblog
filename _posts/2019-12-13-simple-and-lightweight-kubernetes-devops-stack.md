@@ -4,8 +4,8 @@ url: https://medium.com/@/88ab032868fa
 title: Simple and lightweight Kubernetes DevOps stack
 subtitle: We have chosen Rancher, Harbor, Gitea, and Drone on a real production Kubernetes cluster. We reduced CPU and memory usage as storage, and…
 slug: simple-and-lightweight-kubernetes-devops-stack
-description: 
-tags: 
+description:
+tags:
 - paas
 - devops
 - ci-cd-pipeline

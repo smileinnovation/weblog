@@ -5,7 +5,7 @@ title: "Smile’s Innovation Watch #30"
 subtitle: |-
     Our first techwatch of 2021. I can’t believe it’s already July, and we miss the opportunity to share with you so much great tech stuff we…
 slug: smiles-innovation-watch-30
-description: 
+description:
 tags:
 - artificial-intelligence
 - open-source

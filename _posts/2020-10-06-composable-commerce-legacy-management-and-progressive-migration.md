@@ -4,8 +4,8 @@ url: https://medium.com/@/ddb24361f7da
 title: Composable commerce  —  Legacy management and progressive migration
 subtitle: A spaghetti architecture with data everywhere, resources are tightly coupled, evolutions are limited due to your systems’ complexity, …
 slug: composable-commerce-legacy-management-and-progressive-migration
-description: 
-tags: 
+description:
+tags:
 - microservices
 - graphql
 - composable-commerce
@@ -76,7 +76,7 @@ Adding an abstraction layer between backend systems and frontend allows to ease 
 User story: As a customer application, I want to fetch customer information.
 Key advantages: Decoupled frontend apps from our data by fetching discoverable data without over fetching, so you drastically reduce the codebase by removing the business logic.
 
-1. **BFF **— Graph functions as an auto described marketplace of data and services, 
+1. **BFF **— Graph functions as an auto described marketplace of data and services,
 User story: As a BFF, I fetch and aggregate data from various data sources (new or legacy)
 Key advantages: unifying the business logic across defined channels, flexible migration between two sources of truth, ease to integrate new components.
 

@@ -4,8 +4,8 @@ url: https://medium.com/@/bf8f8b65f26f
 title: Capturing your dinner, a deep learning story
 subtitle: A naive approach to features extraction and R-CNN
 slug: capturing-your-dinner-a-deep-learning-story
-description: 
-tags: 
+description:
+tags:
 - machine-learning
 - data-science
 - deep-learning
@@ -16,7 +16,7 @@ author: pafer
 
 ### A naive approach to features extraction and R-CNN
 
-![“Overlay of neatly organized dragon fruit, flowers, and tropical fruit” by Brooke Lark on Unsplash](/assets/images/posts/1*h3jepQ3TqoQ3rNBnpO3wxA.jpeg)
+![“Overlay of neatly organized dragon fruit, flowers, and tropical fruit” by Brooke Lark on Unsplash](/assets/images/posts/1*h3jepQ3TqoQ3rNBnpO3wxA.jpg)
 
 Working for [Smile innovation](https://medium.com/smileinnovation) can lead to funny pre-sales research. Few weeks ago I was involved in a discussion to find out if it could be possible to recognise (and so to bill) plates and all others food items on a lunch tray.
 
@@ -159,18 +159,18 @@ def augmentation(im, fact=.0):
         fact = 1.0
     # get HSV
     hsv = cv2.cvtColor(im, cv2.COLOR_RGB2HSV)
-    
+
     # set it to numpy array
     hsv = np.array(hsv)
     h = hsv[:,:,0]
     s = hsv[:,:,1]
     v = hsv[:,:,2]
-    
+
     # fact * channel
     hsv[:,:,0] = np.where(h*fact <= 255, fact*h, h)
     hsv[:,:,1] = np.where(s*fact <= 255, fact*s, s)
     hsv[:,:,2] = np.where(v*fact <= 255, fact*v, v)
-    
+
     # return hsv and rgb
     return hsv, cv2.cvtColor(hsv, cv2.COLOR_HSV2RGB)
 ```
@@ -214,36 +214,36 @@ def extract_features(im,
                      augmentation=0.,
                      erosion=8,
                      dilatation=4):
-    
+
     hsv, im = augmentation(im, augmentation)
     gray = cv2.cvtColor(hsv, cv2.COLOR_RGB2GRAY)
-    
+
     # make 2 blurs
     mask = cv2.GaussianBlur(gray, (15,15), 0)
     mask = cv2.GaussianBlur(mask, (3,3), 0)
-    
+
     # create structure element
     ellipses = cv2.getStructuringElement(cv2.MORPH_ELLIPSE,
                                            (ellsize, ellsize))
-    
+
     # get 2 masks, one closed to the edges, other makes a
     # kind of dilatation of the first one
     mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, ellipses)
     mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, ellipses)
-    
+
     # binarize that !
     _, contour = cv2.threshold(mask,
                                threshold,
                                255,
                                cv2.THRESH_BINARY)
-    
-    
+
+
     # erode and dilate to get contours
     erode   = cv2.erode(contour, None, iterations=erosion)
     contour = cv2.dilate(erode, None, iterations=dilatation)
-    
+
     # return the ellipsis and contour image
-    # - ellipsis mask is returned 
+    # - ellipsis mask is returned
     # only to visualize what's happend
     return mask, contour
 ```
@@ -450,7 +450,7 @@ epochs = 500
 
 ```
 # +1 because classes 0 doesn't exist, that will be the
-# classification to get "others" thing than food 
+# classification to get "others" thing than food
 model = resnet50_retinanet(len(train_gen.classes)+1)
 model.compile(
     loss={
@@ -464,8 +464,8 @@ model.compile(
 ```
 
 lr_scheduler = ReduceLROnPlateau(verbose=1,
-                                 factor=.5, 
-                                 monitor="val_regression_loss", 
+                                 factor=.5,
+                                 monitor="val_regression_loss",
                                  min_lr=1e-7,
                                  patience=10)
 ```
@@ -526,13 +526,13 @@ But to come back to the reason we did this :
 
 ### Papers
 
-* Rapid Object Detection Using a Boosted Cascade of Simple Features, Viola, P. and Jones, M. 
+* Rapid Object Detection Using a Boosted Cascade of Simple Features, Viola, P. and Jones, M.
 — [http://www.merl.com/publications/docs/TR2004-043.pdf](http://www.merl.com/publications/docs/TR2004-043.pdf)
 
-* Edge Detection, Cornelia Fermüller and Marc Pollefeys 
+* Edge Detection, Cornelia Fermüller and Marc Pollefeys
 — [http://www.ics.uci.edu/~majumder/DIP/classes/EdgeDetect.pdf](http://www.ics.uci.edu/~majumder/DIP/classes/EdgeDetect.pdf)
 
-* Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun 
+* Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun
 — [https://arxiv.org/pdf/1506.01497.pdf](https://arxiv.org/pdf/1506.01497.pdf)
 
 * Focal Loss for Dense Object Detection, Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He and Piotr Dollar

@@ -5,7 +5,7 @@ title: "Wattmètre connecté pour le Smile Trip Tour 2018"
 subtitle: Conception Hardware et témoignage
 slug: wattmètre-connecté-pour-le-smile-trip-tour-2018
 description: "Les objets connectés présentent de plus en plus d'intérêt pour des utilisateurs très variés. Principalement utilisés à des fins de monitoring, ils permettent de remonter des données dans le Cloud à…"
-tags: 
+tags:
 - sun-trip-tour
 - embedded-systems
 - electric-bike
@@ -78,7 +78,7 @@ L’architecture logicielle sera basée sur un kernel préemptif gérant des tâ
 
 # Réalisation du WMC — “Behind the scenes”
 
-![Marie THIBAUT, stagiaire chez Smile](/assets/images/posts/1*yn5wmXbh-ru02b5yhWoMkg.jpeg)
+![Marie THIBAUT, stagiaire chez Smile](/assets/images/posts/1*yn5wmXbh-ru02b5yhWoMkg.jpg)
 
 Nouvelle arrivée chez Smile, je travaille au sein de l’équipe « Embedded and Connected Systems » à Grenoble dans le cadre de mon stage de fin d’études. Après deux ans de classes préparatoires, j’ai intégré l’Ecole Nationale Supérieure de l’Électronique et de ses Applications (ENSEA, à Cergy-Pontoise) pour étudier l’électronique et me spécialiser en mécatronique et systèmes embarqués. Je m’intéresse particulièrement à la programmation bas-niveau et à l’électronique numérique, mais sur mon temps libre je fais surtout beaucoup de sport… D’où mon intérêt pour le Smile Trip Tour !
 
@@ -88,7 +88,7 @@ La conception hardware et la réalisation physique du WMC constituent la premiè
 
 C’est principalement « des trucs qu’on n’apprend pas à l’école », en fait. Jusqu’à maintenant, le plus difficile pour moi concerne la nomenclature des packages standards (typiquement SOIC16, SMD 1206, LQFD64…), le choix des connecteurs, et la logistique.
 
-![Exemple de package standard : un SOIC16](/assets/images/posts/0*TIKm4dO-hRfNPM3A.JPG)
+![Exemple de package standard : un SOIC16](/assets/images/posts/0*TIKm4dO-hRfNPM3A.jpg)
 
 Retenir à quoi ressemble chaque package pour se rendre compte si le composant sera facile à souder ou prendra trop de place sur le PCB prend du temps, c’est un réflexe qui ne se développe qu’en ayant parcouru plusieurs dizaines de datasheets et ça peut paraître rébarbatif. Mais on s’y fait — le PCB en dépend.
 
@@ -104,7 +104,7 @@ Clairement ! Ce projet en est vraiment pluridisciplinaire : il mêle Hardware, S
 
 La dimension Open Source du projet est également gratifiante. L’outil que j’utilise pour créer le circuit électrique et le PCB, [KiCad](http://kicad-pcb.org/), est un logiciel open source similaire à Altium Designer ou Eagle. Je ne l’avais encore jamais utilisé jusqu’alors (j’étais sous Alitum jusqu’à ce que ma licence étudiante expire), et maintenant j’ai bien mes repères dessus. C’est toujours un plus d’apprendre à utiliser de nouveaux logiciels Open Source comparés à des versions propriétaires, ne serait-ce que pour pouvoir faire de petits projets rapides chez soi après. La possibilité de contribuer à des projets Open Source une fois le travail bien avancé offre de la visibilité et une certaine reconnaissance dans le monde de l’embarqué. Cela permet aussi un dialogue avec d’autres contributeurs pour améliorer sans cesse les développements effectués.
 
-![Logo du logiciel de conception assistée par ordinateur open source “KiCad”](/assets/images/posts/0*E4U8Ppt6UosWdCZV.JPG)
+![Logo du logiciel de conception assistée par ordinateur open source “KiCad”](/assets/images/posts/0*E4U8Ppt6UosWdCZV.jpg)
 
 En R&D, qu’il s’agisse de hardware ou de software, il faut souvent trouver des compromis et des workarounds pour livrer une fonction particulière en respectant un cahier des charges. Il faut pouvoir s’adapter rapidement à des changements de cahier des charges ou de priorité sur telle ou telle fonctionnalité du produit suite à des réunions d’équipe, cela donne un côté dynamique et jamais ennuyeux au travail quotidien. C’est une dimension de la gestion de projet qu’on retrouve peu en école, car le cahier des charges y est le plus souvent statique et les solutions techniques envisageables sont déjà connues du corps enseignant. Ce challenge de conception donne tout son sens à la formation d’ingénieure que j’ai reçue, et permet de confirmer mon intérêt pour le développement électronique.
 

@@ -5,7 +5,7 @@ title: Kong, manage your Flask APIs !
 subtitle: APIs managed by interface do you think is an endless task to implement ?
 slug: kong-manage-your-flask-apis
 description: Not so long ago, I thought that API management was necessarily a complex task. Faced with a wide variety of tools that exist on the market nowadays, I would like to present one that can easily meet yo
-tags: 
+tags:
 - api
 - technology
 - devops
@@ -18,7 +18,7 @@ author: qubar
 
 Not so long ago, I thought that API management was necessarily a complex task. Faced with a wide variety of tools that exist on the market nowadays, I would like to present one that can easily meet your needs. Let me show you what **Kong** can do for you !
 
-![Photo by israel palacio on Unsplash](/assets/images/posts/1*rADFakDqRYbb1wiLGUjG1A.jpeg)
+![Photo by israel palacio on Unsplash](/assets/images/posts/1*rADFakDqRYbb1wiLGUjG1A.jpg)
 
 Before writing this article I worked with Kong on a big platform that ingested data like Slimer a.k.a “The Ghost of John Belushi” (Ghostbusters for the youngest readers). We liked the interface provided by PGBI for Kong so we tried to create a generic platform to manage lightweight APIs with Kong and Docker and in the end, the implementation was much easier than expected.
 
@@ -210,7 +210,7 @@ To add a plugin, return on the APIs’ home page ([http://localhost:8080/#!/apis
 The API is now secured. When I try the same request as before, I’m not able to reach the API endpoin:
 
 ```
-$ curl -iL -X GET  --url http://localhost:8000/joke   --header 'Host: joke.com' 
+$ curl -iL -X GET  --url http://localhost:8000/joke   --header 'Host: joke.com'
 ```
 
 ```

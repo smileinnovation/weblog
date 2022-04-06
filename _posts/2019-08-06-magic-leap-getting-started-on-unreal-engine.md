@@ -14,7 +14,7 @@ tags:
 author: segar
 ---
 
-![](/assets/images/posts/1*yt2zeFdbx0OKrvwYormYow.jpeg)
+![](/assets/images/posts/1*yt2zeFdbx0OKrvwYormYow.jpg)
 
 In this article, I will be demonstrating how to install and set up your computer itowork with the Magic Leap SDK.
 
@@ -76,7 +76,7 @@ Before jumping into anything, you should first set up your project settings:
 
 ![](/assets/images/posts/1*f9Pi6YTC5CCpRnStt4Y78Q.png)
 
-In the *project settings*** **window, on your left, scroll down the menu and click on `Platforms > Magic Leap`** **then in `Magic Leap App Title`, click on `Configure Now`. 
+In the *project settings*** **window, on your left, scroll down the menu and click on `Platforms > Magic Leap`** **then in `Magic Leap App Title`, click on `Configure Now`.
 On the same page in Distribution Signing put your developer certificate (you can get one on the magic leap website, log in and go to `Publish > Certificates`).
 Back on the left menu and select `Platforms > Magic Leap SDK` and enter the path where you installed the Magic Leap SDK.
 And finally, on the left menu select `Plugins > Magic Leap Plugin` and enable Zero Iteration.

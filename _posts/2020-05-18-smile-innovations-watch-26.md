@@ -5,8 +5,8 @@ title: "Smile Innovation’s watch #26"
 subtitle: |-
     So lockdown and remote working is our new way of living for a couple of weeks now. But that doesn’t stop us to curate a list of excellent…
 slug: smile-innovations-watch-26
-description: 
-tags: 
+description:
+tags:
 - autonomous-cars
 - deepfakes
 - cashierless
@@ -60,7 +60,7 @@ Early research results show that up to 77 percent of the bone scaffolding had be
 
 Normal life has ground to a halt in the region as businesses lay off workers, hospitals struggle to care for patients, and ordinary people despair. Business people are taking a flight out of the country to download emails then come back to ensure business continuity. How mad is this?
 
-![](/assets/images/posts/0*PLYciXzVM2Z6uYT_.png)
+![](/assets/images/posts/0*PLYciXzVM2Z6uYT.png)
 
 ### [Meet the Chinese operating system that’s trying to shift the country off Windows](https://www.abacusnews.com/tech/meet-chinese-operating-system-thats-trying-shift-country-windows/article/3075616)
 
@@ -94,7 +94,7 @@ THIS IS NOT A TIDE POD CHALLENGE! Notpla is a company that found a way of creati
 
 When I first saw this article about the use of deep fake during India Delhi Election, I thought it was for evil. Like we already saw dozens in the U.S. campaign … But not this time. This time it’s about using the A.I. generation capacity to translate automatically, following the candidate’s voice, his speech in several languages he wouldn’t even know to speak, and keeping the mouth movement realistic. That’s the first time for sure and very creative use of that technology.
 
-![](/assets/images/posts/0*uV63FNoZhtccGmyf.jpeg)
+![](/assets/images/posts/0*uV63FNoZhtccGmyf.jpg)
 
 ### [Amazon is expanding its cashier-less GO model](https://www.theverge.com/2020/2/25/21151021/amazon-go-grocery-store-expansion-open-seattle-cashier-less)
 

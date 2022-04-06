@@ -4,12 +4,12 @@ url: https://medium.com/@/4bb374dc4c02
 title: A Serverless 2.0 point of view
 subtitle: A major evolution in the serverless movement is arriving. Let’s see why you should care about it
 slug: a-serverless-2-0-point-of-view
-description: 
+description:
 tags: serverless,paas,devops,aws-lambda,single-page-applications
 author: alrou
 ---
 
-![Photo by Steve Johnson on Unsplash](/assets/images/posts/1*PflLUH-l_1gXzycOfdiLhQ.jpeg)
+![Photo by Steve Johnson on Unsplash](/assets/images/posts/1*PflLUH-l_1gXzycOfdiLhQ.jpg)
 
 ### A major evolution in the serverless movement is arriving. Let’s see why it is important to understand it and how it will change the way we are building apps
 

@@ -5,7 +5,7 @@ title: "Smile Innovation #13"
 subtitle: |-
     Our second issue of 2019 will focus on #IA and #MachineLearning everywhere in your life from restaurant booking to detect animal diseases.
 slug: smile-innovation-13
-description: 
+description:
 tags:
 - artificial-intelligence
 - google
@@ -42,7 +42,7 @@ Some could say after having the biggest database of all the faces and activities
 
 ### [Amazon Showroom](https://www.producthunt.com/posts/amazon-showroom)
 
-![](/assets/images/posts/0*ty2wmVTvKze4lWkX.jpeg)
+![](/assets/images/posts/0*ty2wmVTvKze4lWkX.jpg)
 
 Have you ever played Sims? Well, that’s the adult version of it, with photorealism and everything. Imagine a 3D, photorealist, version of a room, you can fill with all the furniture you want. Except at the end, this time, you can purchase all of them with just one click and make it delivered to your house. Capitalism we love you.
 

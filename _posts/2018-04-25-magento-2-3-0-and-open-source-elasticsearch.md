@@ -4,8 +4,8 @@ url: https://medium.com/@/ab1a3b3007d5
 title: "Magento 2.3.0 and Open Source ElasticSearch"
 subtitle: "It has been announced during Magento Imagine that ElasticSearch support will be moved in the open-source version of Magento for the 2.3.0…"
 slug: magento-2-3-0-and-open-source-elasticsearch
-description: 
-tags: 
+description:
+tags:
 - ecommerce
 - magento
 - elasticsearch

@@ -5,8 +5,8 @@ title: "Innovation Watch #19"
 subtitle: |-
     Everyone is on holiday including me 🏖. Let’s face it. But it will not prevent us to provide you with your bi-weekly dose of tech news.
 slug: innovation-watch-19
-description: 
-tags: 
+description:
+tags:
 - artificial-intelligence
 - privacy
 - biometrics
@@ -57,7 +57,7 @@ Maybe like when Queen Elizabeth I denied a patent to an English inventor for the
 
 (Read in 🇫🇷) Unlike using video feeds of people, Google is offering 5$ coupons to passersby in exchange for recording their face under different exposures and angles, using a dedicated smartphone and app. To avoid gender and racial bias, Google wants to improve its algorithm to work for all kinds of faces and skin colours by not simply relying on biometric data this time.
 
-![](/assets/images/posts/0*5GzMeceWu3ol5R-8.jpeg)
+![](/assets/images/posts/0*5GzMeceWu3ol5R-8.jpg)
 
 ### [Microsoft is listening to you too](https://www.vice.com/en_us/article/xweqbq/microsoft-contractors-listen-to-skype-calls)…
 

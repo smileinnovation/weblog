@@ -4,8 +4,8 @@ url: https://medium.com/@/f5f94d954548
 title: "Smile présente : le Smile Trip Tour 2018"
 subtitle: Ou comment Smile mobilise l’ensemble de ses métiers autour d’une équipe d’une petite dizaine de personnes et d’une passion commune pour le…
 slug: smile-présente-le-smile-trip-tour-2018
-description: 
-tags: 
+description:
+tags:
 - embedded-systems
 - iot
 - the-sun-trip

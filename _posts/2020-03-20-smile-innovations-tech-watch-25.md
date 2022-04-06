@@ -5,8 +5,8 @@ title: "Smile Innovation’s Tech watch #25"
 subtitle: |-
     Reading this email, you’re probably in lockdown, mandatory, or because you care about doing your best to protect people around you. Well…
 slug: smile-innovations-tech-watch-25
-description: 
-tags: 
+description:
+tags:
 - github
 - hacking
 - google
@@ -32,7 +32,7 @@ That’s Smile’s Innovation watch.
 
 Ask anyone in the space business, and they’ll tell you that orbital debris is a serious problem that will only get worse, but dealing with it is as much an opportunity as it is a problem. [**Leo Labs**](https://www.leolabs.space/) is building a global network of radar arrays that can track smaller debris than we can today, and with better precision — and the first of its new installations [**is about to start operations in New Zealand**](https://twitter.com/LeoLabs_Space/status/1183809040578760704).
 
-![](/assets/images/posts/0*zecO_p2cZfHMfWSw.jpeg)
+![](/assets/images/posts/0*zecO_p2cZfHMfWSw.jpg)
 
 ### [Oculus is rolling out native hand tracking to the Quest](https://www.theverge.com/2019/12/9/21003333/oculus-quest-vr-headset-hand-tracking-controller-2020-update-launch)
 

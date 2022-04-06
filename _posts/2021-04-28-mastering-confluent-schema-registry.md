@@ -4,8 +4,8 @@ url: https://medium.com/@/9a53a0344fca
 title: Mastering Confluent Schema Registry
 subtitle: "Part 1: What is Schema Registry"
 slug: mastering-confluent-schema-registry
-description: 
-tags: 
+description:
+tags:
 - kafka
 - confluent-kafka
 - schemaregistry
@@ -17,7 +17,7 @@ author: chdor
 
 > This article is part of a series of articles on Schema Registry. The purpose of this serie is to describe how to implement and use the Confluent **Schema Registry** to serialize and deserialize *Kafka* messages with schema validation.
 
-![Photo by Christopher Burns on Unsplash](/assets/images/posts/0*WZywNsbrK2qACDo7)
+![Photo by Christopher Burns on Unsplash](/assets/images/posts/0*WZywNsbrK2qACDo7.jpg)
 
 # What is Schema Registry?
 
@@ -81,7 +81,7 @@ To serve as an example (they are also used in code samples), I have defined seve
 { "namespace": "com.chdor.schema_registry.example.avro.model",
   "type": "record",
   "name": "TVSeriesActor",
-  "fields": 
+  "fields":
    [ {"name": "firstName","type": "string"},
      {"name": "lastName","type": "string"},
      {"name": "tvShow","type": "string"}
@@ -122,7 +122,7 @@ Subject naming:
      {
        "lastName" : {"type" : "string"},
        "firstName" : {"type" : "string"},
-       "tvShow" : {"type" : "string"} 
+       "tvShow" : {"type" : "string"}
      }
 }
 ```
@@ -291,7 +291,7 @@ listeners=http://localhost:8081
 ```
 
 ```
-# Schema Registry can now operate without Zookeeper, handling all 
+# Schema Registry can now operate without Zookeeper, handling all
 # Schemas coordination via Kafka brokers.
 # You can add how many hosts (comma separated) your cluster have.
 # kafkastore.bootstrap.servers=PLAINTEXT://<FQDN or IP of your broker host>:9092

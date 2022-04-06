@@ -5,8 +5,8 @@ title: "Smile Innovation’s watch #24"
 subtitle: |-
     Here we are, edition 24. And this is a solid one. So long that when we sent it out, it was too big for Gmail displaying it entirely, and…
 slug: smile-innovations-watch-24
-description: 
-tags: 
+description:
+tags:
 - cyborg
 - artificial-intelligence
 - drones
@@ -72,7 +72,7 @@ The good old time when you can launch anything and apologize later is over, and 
 
 For the 1st time, Google published a detailed revenue report. That’s how we can all see Youtube made $15.1 Bn in 2019, with a solid $3Bn just with Youtube subscription. In 2017, Google CEO told Youtube generated $8.15 billion in ad revenue ($11.15 Bn in 2018). Founded in 2005 and sold to Google in 2006 for $1.65Bn became a gigantic cash machine. Netflix, for comparison, made $20.1 billion in revenue in 2019. Google Cloud generated $8.9 billion in 2019.
 
-![](/assets/images/posts/0*foxAX4a4DG5LEWe_.jpg)
+![](/assets/images/posts/0*foxAX4a4DG5LEWe.jpg)
 
 ### [Sprint & T-Mobile going to merge](https://www.reuters.com/article/us-sprint-corp-m-a-t-mobile/t-mobile-sprint-merger-wins-approval-from-us-judge-idUSKBN2042MG)
 
@@ -128,7 +128,7 @@ Content, videos, webpages, and apps are becoming bigger and bigger as our bandwi
 
 With the epidemic spreading in China, the government is using more and more drones to “interact” with people. From making them pay at the toll to spreading antibacterial over the street and also harassing people to force them to stay at home and to shame them.
 
-![A first try of using Living concrete to create something solid.](/assets/images/posts/0*5K3QksyRBmJbhW0H.jpeg)
+![A first try of using Living concrete to create something solid.](/assets/images/posts/0*5K3QksyRBmJbhW0H.jpg)
 
 ### [Living Concrete](https://us18.admin.mailchimp.com/%EF%BF%BC/www.nytimes.com/2020/01/15/science/construction-concrete-bacteria-photosynthesis.html)
 

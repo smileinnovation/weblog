@@ -4,8 +4,8 @@ url: https://medium.com/@/6e14949ac812
 title: "Smile Innovation's Watch - #4"
 subtitle: That's now the end of the second month of our watch over the internet for delivering you curated content about the innovation
 slug: smile-innovations-watch-4
-description: 
-tags: 
+description:
+tags:
 - artificial-intelligence
 - robotics
 - facial-recognition
@@ -37,7 +37,7 @@ Ubisoft Montréal reveals how they help to build a tool called CLEVER that combi
 
 # Privacy • /ˈpɹaɪ.və.si/
 
-![](/assets/images/posts/0*WVVRdNWk_HS-9qgl)
+![](/assets/images/posts/0*WVVRdNWk_HS-9qgl.jpg)
 
 ### [**Les IA de reconnaissance faciale sont-elles dangereuses ?**](https://siecledigital.fr/2018/06/28/les-ia-de-reconnaissance-faciale-sont-elles-dangereuses/?cn-reloaded=1&utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
@@ -51,7 +51,7 @@ Ubisoft Montréal reveals how they help to build a tool called CLEVER that combi
 
 Because openness is not just about open-source products, it’s also about open-mind and being conscious of our world. Whole Foods announced a new campaign to raise awareness for endangered bees.
 
-![](/assets/images/posts/0*TezolTqSqZkle_dG)
+![](/assets/images/posts/0*TezolTqSqZkle_dG.jpg)
 
 ### [**Les assistants vocaux vont-il faire de nos enfants des tyrans ?**](https://www.franceinter.fr/emissions/c-est-deja-demain/c-est-deja-demain-04-juillet-2018?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
@@ -59,19 +59,19 @@ Because openness is not just about open-source products, it’s also about open-
 
 # Fun • /fʌn/
 
-![](/assets/images/posts/0*vRODry44ZLygHl9T)
+![](/assets/images/posts/0*vRODry44ZLygHl9T.jpg)
 
 ### [**#JEANPOD: the first smart speaker setting the scene**](https://twitter.com/JPGaultier/status/1010930554219433992?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
 Jean-Paul Gauthier surf on smart voice assistant to create JEANPOD, it’s own assistant with very special capabilities and functions
 
-![](/assets/images/posts/0*bw5g8y_l9-yvlJw_.jpg)
+![](/assets/images/posts/0*bw5g8y_l9-yvlJw.jpg)
 
 ### [**Qwant Sports Hololens**](https://index.studio/work/qwant-sports-hololens?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
 Mixed Reality experience in collaboration with Qwant and Microsoft around football ⚽️
 
-![](/assets/images/posts/0*U-2cUy-qKrzB46Rv)
+![](/assets/images/posts/0*U-2cUy-qKrzB46Rv.jpg)
 
 ### [**Siri and Alexa: 1st 📻 interview !
 

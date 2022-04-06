@@ -4,8 +4,8 @@ url: https://medium.com/@/cb9354ee8cbe
 title: Starting from scratch, how to embed computer vision techniques into your project
 subtitle: "A practical guide to answering this question: is this a screwdriver or a hammer?"
 slug: starting-from-scratch-how-to-embed-computer-vision-techniques-into-your-project
-description: 
-tags: 
+description:
+tags:
 - deep-learning
 - computer-vision
 - visual-search
@@ -14,7 +14,7 @@ author: alrou
 
 A practical guide to answering this question: is this a screwdriver or a hammer?
 
-![](/assets/images/posts/1*wuEUDAkSJw0qIIAOK4qoiw.jpeg)
+![](/assets/images/posts/1*wuEUDAkSJw0qIIAOK4qoiw.jpg)
 
 [**Smile**](https://www.smile.eu/) is the proud editor of [**ElasticSuite**](https://elasticsuite.io/), a great **Magento** open-source extension, with **more than a million downloads** on Github and **trusted by more than 1500 top retailers worldwide**. It’s the leading solution for **intelligent search and merchandising** on Magento.
 

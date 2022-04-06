@@ -6,7 +6,7 @@ subtitle: We’re still in June but entire Europe, except Portugal, is under big
 slug: innovation-watch-15
 description: |-
     In this edition, we’ll talk about #blockchain, Boston Dynamics #robots, #deepfakes, USA custom border leaking faces and licence plate, the new sign in with Apple, but also #opensource solutions for us
-tags: 
+tags:
 - robotics
 - apple
 - usa

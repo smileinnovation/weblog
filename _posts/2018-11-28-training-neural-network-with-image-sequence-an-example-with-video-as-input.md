@@ -6,7 +6,7 @@ subtitle: How can we classify actions that happen on video? How to use Time Dist
 slug: training-neural-network-with-image-sequence-an-example-with-video-as-input
 description: |-
 Discover an “action” in video can be very interesting — let’s imagine the possibilities: detecting someone in danger, a characteristic movement in space to detect asteroids…
-tags: 
+tags:
 - machine-learning
 - image-recognition
 - neural-networks
@@ -175,10 +175,10 @@ data_aug = keras.preprocessing.image.ImageDataGenerator(
 ```
 # Create video frame generator
 train = VideoFrameGenerator(
-    classes=classes, 
+    classes=classes,
     glob_pattern=glob_pattern,
     nb_frames=NBFRAME,
-    split=.33, 
+    split=.33,
     shuffle=True,
     batch_size=BS,
     target_shape=SIZE,
@@ -258,25 +258,25 @@ def build_convnet(shape=(112, 112, 3)):
         padding='same', activation='relu'))
     model.add(Conv2D(64, (3,3), padding='same', activation='relu'))
     model.add(BatchNormalization(momentum=momentum))
-    
+
     model.add(MaxPool2D())
-    
+
     model.add(Conv2D(128, (3,3), padding='same', activation='relu'))
     model.add(Conv2D(128, (3,3), padding='same', activation='relu'))
     model.add(BatchNormalization(momentum=momentum))
-    
+
     model.add(MaxPool2D())
-    
+
     model.add(Conv2D(256, (3,3), padding='same', activation='relu'))
     model.add(Conv2D(256, (3,3), padding='same', activation='relu'))
     model.add(BatchNormalization(momentum=momentum))
-    
+
     model.add(MaxPool2D())
-    
+
     model.add(Conv2D(512, (3,3), padding='same', activation='relu'))
     model.add(Conv2D(512, (3,3), padding='same', activation='relu'))
     model.add(BatchNormalization(momentum=momentum))
-    
+
     # flatten...
     model.add(GlobalMaxPool2D())
     return model
@@ -294,7 +294,7 @@ from keras.layers import TimeDistributed, GRU, Dense, Dropout
 def action_model(shape=(5, 112, 112, 3), nbout=3):
     # Create our convnet with (112, 112, 3) input shape
     convnet = build_convnet(shape[1:])
-    
+
     # then create our final model
     model = keras.Sequential()
 ```
@@ -474,7 +474,7 @@ And for our function that builds the action model, now use `build_mobilenet` :
 def action_model(shape=(5, 112, 112, 3), nbout=3):
     # Create our convnet with (112, 112, 3) input shape
     convnet = build_mobilenet(shape[1:])
-    
+
     # then create our final model
     model = keras.Sequential()
     # ...

@@ -4,8 +4,8 @@ url: https://medium.com/@/db56a550ae51
 title: "Introduction à Yocto (partie 1)"
 subtitle: "Yocto est devenu un standard de l’industrie pour la technologie « Linux embarqué ». Dans cette courte série de deux articles nous décrirons…"
 slug: introduction-à-yocto
-description: 
-tags: 
+description:
+tags:
 - embedded-systems
 - linux
 - iot
@@ -149,7 +149,7 @@ root@raspberrypi3:~# df -h
 ```
 
 ```
-Filesystem  Size   Used Available Use% Mounted on 
+Filesystem  Size   Used Available Use% Mounted on
 /dev/root   14.5M  8.5M 5.2M      62%  /
 ```
 
@@ -160,8 +160,8 @@ Le test précédent nous a permis de produire une image à tester. Dans cette
 Si l’on détaille un peu plus **tmp/deploy** on constate qu’il contient trois sous-répertoires.
 
 ```
-tmp/deploy/ 
-I__images 
+tmp/deploy/
+I__images
 I__ipk
 I__licences
 ```
@@ -171,7 +171,7 @@ Le sous-répertoire **licences** contient les licences des composants produits 
 ```
 tmp/deploy/ipk/
 I__all
-I__cortexa7hf-neon-vfpv4 
+I__cortexa7hf-neon-vfpv4
 I__raspberrypi3
 ```
 
@@ -244,7 +244,7 @@ Dans cette première partie nous avons pu voir les rudiments de l’utilisation
  *[7] Wind River Linux sur *[https://www.windriver.com/products/linux/](https://www.windriver.com/products/linux/)
  *[8] Projet GENIVI sur *[https://www.yoctoproject.org/product/genivi-baseline](https://www.yoctoproject.org/product/genivi-baseline)
  *[9] Automotive Grade Linux sur *[https://www.automotivelinux.org](https://www.automotivelinux.org)
- *[10] Liste des layers officiels sur *[http://layers.openembedded.org/layerindex/branch/master/layers](http://layers.openembedded.org/layerindex/branch/master/layers) 
+ *[10] Liste des layers officiels sur *[http://layers.openembedded.org/layerindex/branch/master/layers](http://layers.openembedded.org/layerindex/branch/master/layers)
  *[11] Layer du BSP Raspberry Pi sur *[http://git.yoctoproject.org/cgit/cgit.cgi/meta-raspberrypi](http://git.yoctoproject.org/cgit/cgit.cgi/meta-raspberrypi)
  *[12] Manuel de référence Yocto sur *[http://www.yoctoproject.org/docs/2.4.1/ref-manual/ref-manual.html](http://www.yoctoproject.org/docs/2.4.1/ref-manual/ref-manual.html)
 

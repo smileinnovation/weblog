@@ -5,7 +5,7 @@ title: Smile Vivatech 2019 report
 subtitle: Vivatech was everywhere during 3 days, all the cutting technology was here, accessible to the tech-savvy person you are.
 slug: smile-vivatech-2019-report
 description: Welcome to our Vivatech 2019 overview.
-tags: 
+tags:
 - startup
 - vivatech
 - retail
@@ -44,7 +44,7 @@ Some happy few startups were absorbing the sun received by the giants, leaving c
 
 ![Klaxoon was here to embodies the future of work by promoting collaborative innovation.](/assets/images/posts/1*WAVUPATKQHkW-rse9XCPHA.png)
 
-**SmartWear with Google and Levi’s 
+**SmartWear with Google and Levi’s
 **The beginning of a long trend for smart wear finally available to everybody.
 
 ![Project Jacquard: Levi’s smart jacket first look — https://www.youtube.com/watch?v=OqimqTf6EP8](/assets/images/posts/1*KnSKwogKeWai6J55uolkoA.png)
@@ -104,7 +104,7 @@ Automated marketing platform, leveraging on AI to provide intelligent omnichanne
 
 # **Future of work**
 
-[Rcup 
+[Rcup
 ](https://rcup.io/)RCUP enables non-invasive data collection thanks to connected PPEs (Personal Protective Equipment’s). RCUP provides employees with periodic reports useful for preventing work-related injuries and disorders for Industry 4.0.
 
 [CreateRocks
@@ -113,7 +113,7 @@ Automated marketing platform, leveraging on AI to provide intelligent omnichanne
 [Rydoo](https://www.rydoo.com/en)
 Rydoo reinvents and simplifies your travel and expense management to just a few clicks and photos, whilst saving time and optimizing costs. From searching for flights and hotels, booking a seat on a train or expensing a cab, Rydoo goes with you all the way.
 
-[Nu! 
+[Nu!
 ](https://www.manger-nu.fr/)NU! is a connected and zero waste canteen for companies via a smart fridge. It is an economical and easy-to-install solution for businesses to improve the well-being of their employees while having a positive impact on the planet.
 
 [Lili.ai
@@ -133,7 +133,7 @@ LTU is the most robust and scalable visual search technology using image recogni
 [Deepomatic](https://deepomatic.com/fr/)
 Deepomatic provides an end-to-end deep learning platform that enables companies to build and operate image and video recognition applications at scale.
 
-[Sensing feeling 
+[Sensing feeling
 ](https://sensingfeeling.io/)Advanced human behaviour and emotion sensing for business.
 
 # Data-driven
@@ -163,7 +163,7 @@ FarmViz is a startup in the field of environmental monitoring, with expertise in
 [RexAgLabs
 ](http://rexanimalhealth.com/)Rex brings together clinical, health, performance, and genetic data to help livestock producers and farmers optimize yield and manage the disease for more sustainable protein supply.
 
-[Vitirover 
+[Vitirover
 ](https://www.vitirover.fr/)Herds of robots to replace Glyphosate
 
 [Beelife](https://www.beelife.fr/?lang=en)
@@ -179,7 +179,7 @@ Victims of global warming, pesticides and the Varroa mite, bees are now classifi
 
 # **Blockchain**
 
-[Tilkal 
+[Tilkal
 ](https://www.tilkal.com/)Tilkal is a software infrastructure that applies blockchain networks and big data analytics to deliver end-to-end, real-time traceability across supply chains for greater control, security and transparency.
 
 [Sunchain

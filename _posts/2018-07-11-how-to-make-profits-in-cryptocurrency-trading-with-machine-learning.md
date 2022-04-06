@@ -4,8 +4,8 @@ url: https://medium.com/@/edb7ea33cee4
 title: How to make profits in cryptocurrency trading with machine learning
 subtitle: The interest around cryptocurrency technology grows day after day, and the research about Machine learning has never been so fast.
 slug: how-to-make-profits-in-cryptocurrency-trading-with-machine-learning
-description: 
-tags: 
+description:
+tags:
 - machine-learning
 - bitcoin
 - cryptocurrency
@@ -28,7 +28,7 @@ Let’s introduce what cryptocurrency is, and if you’re still with us at that 
 
 *“A cryptocurrency (or crypto currency) is digital asset designed to work as a medium of exchange that uses strong cryptography to secure financial transactions, control the creation of additional units, and verify the transfer of assets. […]Cryptocurrencies use decentralized control as opposed to centralized electronic money and central banking systems.” , [Wikipedia Cryptocurrency*](https://en.wikipedia.org/wiki/Cryptocurrency)
 
-*“Machine learning is the idea that there are generic algorithms that can tell you something interesting about a set of data without you having to write any custom code specific to the problem. Instead of writing code, you feed data to the generic algorithm and it builds its own logic based on the data.” 
+*“Machine learning is the idea that there are generic algorithms that can tell you something interesting about a set of data without you having to write any custom code specific to the problem. Instead of writing code, you feed data to the generic algorithm and it builds its own logic based on the data.”
 [Wikipedia Machine learning*](https://en.wikipedia.org/wiki/Machine_learning)
 
 We will probably use the term “Neural network” to speak about machine learning, you only need to understand that a “neural network” is a kind of a machine learning technique and “Long Short Time Memory(LSTM)” is a type of neural network (cf “LSTM” ).
@@ -43,13 +43,13 @@ If I tell you “give me the next number after 6”, what can you say ? Naturall
 
 Ok, now I tell you “give the next number after 3, 6,… “ and now you can answer with “9” or “12”, because the link between 3 and 6 can be “N+3” or “N*2”. Then I tell you “give me the next number after 0,3,6” and you see that the answer is “N +3”.
 
-![](/assets/images/posts/1*o-OCmzzqCZvY6GEI4BNDBg@2x.jpeg)
+![](/assets/images/posts/1*o-OCmzzqCZvY6GEI4BNDBg@2x.jpg)
 
 Here, you implemented, in your brain, a simple series check. You used the past values to predict the next one. However, you need enough values in the example range to be able to predict the right result, or at least the most probable one.
 
 Your brain is able to make that for a large variety of “data”. For example, when you look at a ball thrown in the air, you can predict where it will fall, because your brain analyses the position at different steps, and can predict the next steps until the final position.
 
-With [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory), it is a bit more complicated but the basics are the same: 
+With [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory), it is a bit more complicated but the basics are the same:
 we send a “chronological series” to let the neural network find the next probable value. A huge dataset, build on a long period, is not needed. You need enough data, to split the dataset in small chronological chunks, for the neural network to be able to understand and predict the next value.
 
 ### Different trading algorithms types:
@@ -86,7 +86,7 @@ on both small and large values.
 
 This transformation helps our neural network find a persistent link between the features **x** firstly and secondly a persistent link between the features **x** and an action **y** chosen.
 
-After that, the data is standardized to reduce the variation around the mean due to the volatility of financial data. 
+After that, the data is standardized to reduce the variation around the mean due to the volatility of financial data.
 The standardization of each value is computed as the following formula :
 
 >> new Xi = (old Xi — mean(X)) / standard-deviation(X)
@@ -105,7 +105,7 @@ All the previous methods work but in our case we chose the top and bottom predic
 
 ![Points for labeling](/assets/images/posts/1*8eq9kvy4b95yRP2Cx5t4LA.png)
 
-To make predictions, three actions are available : 
+To make predictions, three actions are available :
 - Buy (green point)
 - Sell (red point)
 - Wait (rest of tickers, blue line)
@@ -114,7 +114,7 @@ example:
 
 ![](/assets/images/posts/1*8oqd5_taRg4qLTA5Z5amyA@2x.png)
 
-We want to buy a cryptocurrency when we have a bottom point, because we know that after this minimum, the price will increase so it is a good time to buy. 
+We want to buy a cryptocurrency when we have a bottom point, because we know that after this minimum, the price will increase so it is a good time to buy.
 The tickers with this minimum value are labeled “buy”.
 Moreover we want to sell a cryptocurrency when we find the top point(the max price), these tickers are labeled « sell ». The rest of the tickers are labeled « wait », and for this last one we do nothing.
 
@@ -142,7 +142,7 @@ A lot of “wait” predictions. Why ?
 Because most of packets are labeled “wait”, much more than « buy » or « sell ». Since you have to sell or buy at the best time, most of the labels are labeled “wait”.
 In our context, our model’s purpose is to predict in all cases « wait ».
 
-Imagine tomorrow you have three exams, in Cinema, Physics and History. You know nothing about this courses, you decide to study History three times more than Physics and Cinema. 
+Imagine tomorrow you have three exams, in Cinema, Physics and History. You know nothing about this courses, you decide to study History three times more than Physics and Cinema.
 You will obtain better grade in History, because your brain remembers more things in this course.
 In Data Science, this problem is called [unbalanced data](https://medium.com/@shub777_56374/deep-learning-unbalanced-training-data-solve-it-like-this-6c528e9efea6). To guarantee an efficient learning, you should have the same number of tickers labeled « wait », « buy » and « sell ».
 
@@ -179,7 +179,7 @@ The blue line is the training accuracy. The red one is also a percentage, the di
 
 Validation loss (green line) is the value of cost function for our cross validation data and loss (blue line) is the value of cost function for the training data.
 
-Step 0, the accuracy of the training set and the cross-validation set are the same, 35 % precision. After many steps our neural network learns as well our context, and what action it has to predict. 
+Step 0, the accuracy of the training set and the cross-validation set are the same, 35 % precision. After many steps our neural network learns as well our context, and what action it has to predict.
 At the end of the training period the accuracy reaches 80%. The important thing to note is that the both curves has almost the same behavior according the number of steps.
 
 This result means that we have selected a strong LSTM [hyperparameter.](https://towardsdatascience.com/what-are-hyperparameters-and-how-to-tune-the-hyperparameters-in-a-deep-neural-network-d0604917584a)
@@ -187,7 +187,7 @@ This result means that we have selected a strong LSTM [hyperparameter.](https://
 # Predicting
 
 At this time we just made good accuracy and cross validation but what about reality cases?
-To visualize the prediction, we used a loop on unlabeled part of data, then we repeated the data treatment we made like on the training process. 
+To visualize the prediction, we used a loop on unlabeled part of data, then we repeated the data treatment we made like on the training process.
 The difference this time is the data size. To train our model a lot of packets are needed. But in real case only the last packet is needed to predict an action.
 
 ![Loops of predictions (the bid is normalized).](/assets/images/posts/1*u3osyoPSkRHzoRGFk5JoDw.gif)

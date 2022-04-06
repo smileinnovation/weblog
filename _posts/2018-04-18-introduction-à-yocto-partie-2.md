@@ -4,8 +4,8 @@ url: https://medium.com/@/38d979843cb7
 title: "Introduction à Yocto (partie 2)"
 subtitle: "Dans un premier article nous avons introduit les principes de Yocto et décrit comment produire une image de test pour des cibles QEMU (x86)…"
 slug: introduction-à-yocto-partie-2
-description: 
-tags: 
+description:
+tags:
 - embedded-systems
 - linux
 - iot
@@ -13,7 +13,7 @@ tags:
 author: pific
 ---
 
-![](/assets/images/posts/1*gqaK0--azExuARp3R4LtgA.jpeg)
+![](/assets/images/posts/1*gqaK0--azExuARp3R4LtgA.jpg)
 
 *Dans [un premier article](https://medium.com/smileinnovation/introduction-%C3%A0-yocto-db56a550ae51) nous avons introduit les principes de Yocto et décrit comment produire une image de test pour des cibles QEMU (x86) et Raspberry Pi 3. Dans ce deuxième article nous allons nous attacher à l’ajout puis à la création de « recettes » permettant d’étendre les possibilités de l’image produite. La lecture du premier article est bien entendu nécessaire à la compréhension de ce deuxième volet.*
 
@@ -37,7 +37,7 @@ $ sudo dd if=tmp/deploy/image/raspberrypi3/core-image-minimal-raspberrypi3.rpi-s
 L’image actuelle est réduite au strict minimum car elle n’inclut pas les modules du noyau Linux et ne dispose pas de système de gestion de paquets. De ce fait la taille de l’image produite est très faible (56 Mo pour l’image complète).
 
 ```
-$ ls -lLh tmp/deploy/images/raspberrypi3/core-image-minimal-raspberrypi3.rpi-sdimg 
+$ ls -lLh tmp/deploy/images/raspberrypi3/core-image-minimal-raspberrypi3.rpi-sdimg
 -rw-r — r — 1 pierre pierre 56M avril 11 15:25 tmp/deploy/images/raspberrypi3/core-image-minimal-raspberrypi3.rpi-sdimg
 ```
 
@@ -59,7 +59,7 @@ $ ls -l tmp/deploy/ipk/cortexa7hf-neon-vfpv4/dropbear*
 Nous verrons plus tard pourquoi il existe trois paquets binaires pour une seule recette (soit des paquets `-dbg` et `-dev` en plus du paquet principal). La commande suivante indique quels sont les composants installés par le paquet binaire. Le format IPK étant proche du format DEB utilisé sur Debian/Ubuntu, le contenu du paquet est visible grâce à la commande `dpkg`.
 
 ```
-$ dpkg -c tmp/deploy/ipk/cortexa7hf-neon-vfpv4/dropbear_2017.75-r0_cortexa7hf-neon-vfpv4.ipk 
+$ dpkg -c tmp/deploy/ipk/cortexa7hf-neon-vfpv4/dropbear_2017.75-r0_cortexa7hf-neon-vfpv4.ipk
 drwxrwxrwx root/root 0 2018–04–11 15:38 ./
 drwxr-xr-x root/root 0 2018–04–11 15:38 ./etc/
 drwxr-xr-x root/root 0 2018–04–11 15:38 ./etc/default/
@@ -80,10 +80,10 @@ lrwxrwxrwx root/root 0 2018–04–11 15:38 ./usr/bin/dbclient -> /usr/sbin/drop
 Au démarrage de la nouvelle image, nous constatons l’initialisation et le démarrage de Dropbear.
 
 ```
-Starting Dropbear SSH server: Generating key, this may take a while… 
+Starting Dropbear SSH server: Generating key, this may take a while…
 ```
 
-Outre l’ajout de recettes, nous avions vu dans le premier article qu’il était possible d’ajouter des « features » comme la prise en compte des paquets binaires. Cette fonctionnalité est indispensable si nous voulons tester le développement et l’ajout dynamique de recette. 
+Outre l’ajout de recettes, nous avions vu dans le premier article qu’il était possible d’ajouter des « features » comme la prise en compte des paquets binaires. Cette fonctionnalité est indispensable si nous voulons tester le développement et l’ajout dynamique de recette.
 Pour ce faire nous ajoutons la ligne suivante au fichier `conf/local.conf` et nous construisons de nouveau l’image. Notons que nous avons commenté la ligne concernant le serveur Dropbear car nous l’ajouterons a posteriori en utilisant le système de gestion de paquets. Notons également qu’il est nécessaire de spécifier le format IPK car Yocto utilise par défaut le format RPM. Nous avons également augmenté la taille du root-filesystem de 50 Mo afin de pouvoir manipuler quelques paquets binaires.
 
 ```
@@ -96,8 +96,8 @@ IMAGE_ROOTFS_EXTRA_SPACE = “50000”
 Dans la suite de l’article nous partirons du principe que l’image utilise cette configuration. Au démarrage du système, celui-ci doit disposer de la commande `opkg`.
 
 ```
-root@raspberrypi3:~# type opkg 
-opkg is a tracked alias for /usr/bin/opkg 
+root@raspberrypi3:~# type opkg
+opkg is a tracked alias for /usr/bin/opkg
 ```
 
 # Configurer le gestionnaire de paquets
@@ -129,9 +129,9 @@ Serving HTTP on 0.0.0.0 port 8000 …
 Du coté de la cible on doit modifier le fichier* *`/etc/opkg/opkg.conf`* *afin d’ajouter les caractéristiques du serveur. En supposant que l’adresse IP du PC de développement est 192.168.1.23, on ajoute les lignes suivantes au fichier.
 
 ```
-src/gz all http://192.168.1.23:8000/all 
-src/gz cortexa7hf-neon-vfpv4 http://192.168.1.23:8000/cortexa7hf-neon-vfpv4 
-src/gz raspberrypi3 http://192.168.1.23:8000/raspberrypi3 
+src/gz all http://192.168.1.23:8000/all
+src/gz cortexa7hf-neon-vfpv4 http://192.168.1.23:8000/cortexa7hf-neon-vfpv4
+src/gz raspberrypi3 http://192.168.1.23:8000/raspberrypi3
 ```
 
 On peut alors mettre à jour l’index des paquets sur la cible.
@@ -157,28 +157,28 @@ root@raspberrypi3:~# opkg list-installed
 On peut ensuite afficher le contenu d’un paquet particulier.
 
 ```
-root@raspberrypi3:~# opkg files busybox 
-Package busybox (1.24.1-r0) is installed on root and has the following files: 
-/bin/sh 
-/bin/busybox.suid 
-/bin/busybox 
-/etc/busybox.links.nosuid 
-/etc/busybox.links.suid 
+root@raspberrypi3:~# opkg files busybox
+Package busybox (1.24.1-r0) is installed on root and has the following files:
+/bin/sh
+/bin/busybox.suid
+/bin/busybox
+/etc/busybox.links.nosuid
+/etc/busybox.links.suid
 /bin/busybox.nosuid
 ```
 
 On peut également rechercher le paquet Dropbear et l’installer dynamiquement sur la cible. Le paquet est configuré lors de l’installation.
 
 ```
-root@raspberrypi3:~# opkg list | grep dropbear 
-dropbear — 2017.75-r0 — A lightweight SSH and SCP implementation 
-dropbear-dbg — 2017.75-r0 — A lightweight SSH and SCP implementation — Debugging files 
+root@raspberrypi3:~# opkg list | grep dropbear
+dropbear — 2017.75-r0 — A lightweight SSH and SCP implementation
+dropbear-dbg — 2017.75-r0 — A lightweight SSH and SCP implementation — Debugging files
 dropbear-dev — 2017.75-r0 — A lightweight SSH and SCP implementation — Development files
 ```
 
 ```
-root@raspberrypi3:~# opkg install dropbear 
-Installing dropbear (2017.75) on root 
+root@raspberrypi3:~# opkg install dropbear
+Installing dropbear (2017.75) on root
 Downloading http://192.168.1.23:8000/cortexa7hf-neon-vfpv4/dropbear_2017.75-r0_c
 ortexa7hf-neon-vfpv4.ipk
 ```
@@ -226,8 +226,8 @@ Il n’est bien entendu pas envisageable de décrire les outils Autotools et CMa
 Yocto permet de créer des recettes sans réellement se préoccuper du fonctionnement de ces outils en utilisant la notions de classe. Les principales classes disponibles sont localisées dans le répertoire `meta/classes` sous la forme de fichiers `.class`. A titre d’exemple, le fichier suivant correspond à la classe permettant de traiter les sources basées sur Autotools.
 
 ```
-$ ls -l meta/classes/autotools.bbclass 
--rw-rw-r — 1 pierre pierre 8798 févr. 9 22:25 meta/classes/autotools.bbclass 
+$ ls -l meta/classes/autotools.bbclass
+-rw-rw-r — 1 pierre pierre 8798 févr. 9 22:25 meta/classes/autotools.bbclass
 ```
 
 Comme nous le verrons dans les exemples qui suivent, on peut utiliser une classe en invoquant simplement la directive `inherti <nom-de-classe>`dans le fichier de recette.
@@ -242,9 +242,9 @@ $ yocto-layer create example
 ```
 
 ```
-Please enter the layer priority you’d like to use for the layer: [default: 6] 
+Please enter the layer priority you’d like to use for the layer: [default: 6]
 Would you like to have an example recipe created? (y/n) [default: n] y
-Please enter the name you’d like to use for your example recipe: [default: example] 
+Please enter the name you’d like to use for your example recipe: [default: example]
 Would you like to have an example bbappend file created? (y/n) [default: n]
 ```
 
@@ -275,7 +275,7 @@ meta-example/
 Comme l’indique le dernier message produit par `yocto-layer`, on doit ajouter le nouveau layer à l’environnement de compilation. Cette action est réalisée par la commande `bitbake-layers`.
 
 ```
-$ cd rpi3-build 
+$ cd rpi3-build
 $ bitbake-layers add-layer ../meta-example
 ```
 
@@ -293,7 +293,7 @@ $ ls -l tmp/deploy/ipk/cortexa7hf-neon-vfpv4/example*
 Le paquet « principal » contient l’exécutable `helloworld` issu de la compilation du fichier* *`helloworld.c`.
 
 ```
-$ dpkg -c tmp/deploy/ipk/cortexa7hf-neon-vfpv4/example_0.1-r0_cortexa7hf-neon-vfpv4.ipk 
+$ dpkg -c tmp/deploy/ipk/cortexa7hf-neon-vfpv4/example_0.1-r0_cortexa7hf-neon-vfpv4.ipk
 drwxrwxrwx root/root 0 2018–04–11 18:27 ./
 drwxr-xr-x root/root 0 2018–04–11 18:27 ./usr/
 drwxr-xr-x root/root 0 2018–04–11 18:27 ./usr/bin/
@@ -310,27 +310,27 @@ $ bitbake package-index
 On doit également effectuer la mise à jour (update) de la liste sur la cible.
 
 ```
-root@raspberrypi3:~# opkg update 
-Downloading http://192.168.1.23:8000/all/Packages.gz. 
-Updated source ‘all’. 
-Downloading http://192.168.1.23:8000/cortexa7hf-neon-vfpv4/Packages.gz. 
-Updated source ‘cortexa7hf-neon-vfpv4’. 
-Downloading http://192.168.1.23:8000/raspberrypi3/Packages.gz. 
+root@raspberrypi3:~# opkg update
+Downloading http://192.168.1.23:8000/all/Packages.gz.
+Updated source ‘all’.
+Downloading http://192.168.1.23:8000/cortexa7hf-neon-vfpv4/Packages.gz.
+Updated source ‘cortexa7hf-neon-vfpv4’.
+Downloading http://192.168.1.23:8000/raspberrypi3/Packages.gz.
 Updated source ‘raspberrypi3’.
 ```
 
 On peut alors installer et tester le nouveau paquet.
 
 ```
-root@raspberrypi3:~# opkg install example 
-Installing example (0.1) on root 
+root@raspberrypi3:~# opkg install example
+Installing example (0.1) on root
 Downloading http://192.168.1.23:8000/cortexa7hf-neon-vfpv4/example_0.1-r0_cortex
-a7hf-neon-vfpv4.ipk. 
+a7hf-neon-vfpv4.ipk.
 Configuring example.
 ```
 
 ```
-root@raspberrypi3:~# helloworld 
+root@raspberrypi3:~# helloworld
 Hello World!
 ```
 
@@ -377,7 +377,7 @@ do_install() {
 
 ### Recettes Autotools et CMake
 
-Dans la réalité la plupart des projets utilisent Autotools, CMake ou plus rarement un simple fichier `Makefile`. Dans cette section nous allons voir comment écrire une recette en utilisant les classes Autotools et CMake, ce qui facilite grandement la tâche. 
+Dans la réalité la plupart des projets utilisent Autotools, CMake ou plus rarement un simple fichier `Makefile`. Dans cette section nous allons voir comment écrire une recette en utilisant les classes Autotools et CMake, ce qui facilite grandement la tâche.
 Considérons un exemple « Hello World » proche du précédent mais basé sur Autotools. Le contenu du fichier de recette est décrit ci-dessous.
 
 ```
@@ -397,7 +397,7 @@ inherit autotools
 SRC_URI[md5sum] = “b282082e4e5cc8634b7c6caa822ce440”
 ```
 
-La première différence avec le premier exemple est l’obtention des sources auprès d’un serveur externe (ce qui est le cas le plus fréquent). A partir du moment ou une archive externe est utilisée, on doit déclarer le checksum du fichier comme décrit dans la dernière ligne de la recette. Le traitement des sources est entièrement pris en charge par la classe et il suffit donc d’utiliser la directive `inherit`. 
+La première différence avec le premier exemple est l’obtention des sources auprès d’un serveur externe (ce qui est le cas le plus fréquent). A partir du moment ou une archive externe est utilisée, on doit déclarer le checksum du fichier comme décrit dans la dernière ligne de la recette. Le traitement des sources est entièrement pris en charge par la classe et il suffit donc d’utiliser la directive `inherit`.
 Le cas d’une recette basée sur CMake est identique en utilisant la classe correspondante.
 
 ```

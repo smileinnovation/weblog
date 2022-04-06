@@ -4,8 +4,8 @@ url: https://medium.com/@/6e0effb1099b
 title: "Smile Innovation’s Watch — #3"
 subtitle: Already the third iteration of our tech watch newsletter. From the Big Bang of Github been acquired by Microsoft to the open-source…
 slug: smile-innovations-watch-3
-description: 
-tags: 
+description:
+tags:
 - innovation
 - microsoft
 - gdpr
@@ -28,7 +28,7 @@ C’est une vraie course à l’armement sur le sujet retail et cette annonce fa
 
 Le commerce de demain passera-t-il encore par l’humain ?
 
-![](/assets/images/posts/1*htZHLTm2iAjCpDqpPRZG5g.jpeg)
+![](/assets/images/posts/1*htZHLTm2iAjCpDqpPRZG5g.jpg)
 
 ### [I played the first Alexa-enabled board game and it was a real trip](https://www.fastcompany.com/40585532/i-played-the-first-alexa-enabled-board-game-and-it-was-a-real-trip?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
@@ -43,7 +43,7 @@ La synthèse additive ne cesse de s’améliorer et étendre ses domaines d’ap
 
 > From Middle English, borrowed from Old French acquisicion, from Latin acquisītiō, from acquirere. The act or process of acquiring.
 
-![](/assets/images/posts/1*zM4dHgdPKrkT3D8r6WORRA.jpeg)
+![](/assets/images/posts/1*zM4dHgdPKrkT3D8r6WORRA.jpg)
 
 ### [Microsoft has acquired GitHub](https://www.theverge.com/2018/6/3/17422752/microsoft-github-acquisition-rumors?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
@@ -57,7 +57,7 @@ If you looked at the most active contributors on Github for the last months, it 
 
 GDPR compliance is a tricky business. Facebook, Google, Twitter, Microsoft and Google have all had different approaches.
 
-![](/assets/images/posts/0*YQ3XN2K1xeduDY6U)
+![](/assets/images/posts/0*YQ3XN2K1xeduDY6U.jpg)
 
 ### [GDPR & E-commerce](https://medium.com/smileinnovation/gdpr-e-commerce-8e4ddf6f972?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 

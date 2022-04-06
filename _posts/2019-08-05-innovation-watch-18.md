@@ -2,10 +2,10 @@
 layout: post
 url: https://medium.com/@/4f253e31e59
 title: "Innovation Watch #18"
-subtitle: 
+subtitle:
 slug: innovation-watch-18
 description: "Following our effort on the last edition, we’ll focus on how our #mentalhealth is influenced by technology and #socialmedia, with a very disturbing journalistic investigation from The Verge and the ne"
-tags: 
+tags:
 - facebook
 - intel
 - apple
@@ -41,7 +41,7 @@ Tech4good is a conviction at Smile, especially at in the Innovation team. That�
 
 ### [The social cost of mass content moderation on Facebook](https://www.theverge.com/2019/6/19/18681845/facebook-moderator-interviews-video-trauma-ptsd-cognizant-tampa)
 
-They though working for Facebook will be a very rewarding way of living, making Facebook a better place, moderating content to protect minorities and help businesses to grow. But their hopes and dreams were crushed for the very first minute of work at this subcontractor moderation content facility. Imagine a call centre, but instead of calls, you have to watch people mutilating animals, the worst cruelty you can imagine against pets, disabled peoples and … newborn babies. Suffering from PTSD, being under Xanax and still having night terrors but not being able to talk to anyone because of your NDA. That’s life at the biggest moderation centre of Facebook. 30min lunch break, 9min of “wellbeing Time” a day. Not having the right to talk to your colleagues or remove your eyes from the content. Mostly videos. You have to watch entirely. And, most of the time, not even be able to remove from Facebook because of their own policies … The Verge published video and interview about people who decided to broke their NDA and speak up, for themselves, and for the others ex-colleagues. 
+They though working for Facebook will be a very rewarding way of living, making Facebook a better place, moderating content to protect minorities and help businesses to grow. But their hopes and dreams were crushed for the very first minute of work at this subcontractor moderation content facility. Imagine a call centre, but instead of calls, you have to watch people mutilating animals, the worst cruelty you can imagine against pets, disabled peoples and … newborn babies. Suffering from PTSD, being under Xanax and still having night terrors but not being able to talk to anyone because of your NDA. That’s life at the biggest moderation centre of Facebook. 30min lunch break, 9min of “wellbeing Time” a day. Not having the right to talk to your colleagues or remove your eyes from the content. Mostly videos. You have to watch entirely. And, most of the time, not even be able to remove from Facebook because of their own policies … The Verge published video and interview about people who decided to broke their NDA and speak up, for themselves, and for the others ex-colleagues.
 **Trigger Warning:** violent act against people and animals, sexual harassment, PTSD.
 
 ![](/assets/images/posts/0*tgzbPnP-9Qe5nDKj.png)
@@ -86,7 +86,7 @@ Thanks to P.O.T.U.S., users of Github in Iran, Crimea and Syria are now prohibit
 
 Ever feel a bit frustrated by finding a nice mockup template and want to use it but it’s only working for a specific case and not the one you want to explore now? Well, you can stop here right now, because we found a web app that let you customize your A4 sheet of paper with a multitude of screens, tablets, phones, smartwatches and even notes module, fully controllable on their look and feel, with a neat drag’n’drop interface. How cool is that?
 
-![](/assets/images/posts/0*dGNnm0wjCFly0PW_.jpg)
+![](/assets/images/posts/0*dGNnm0wjCFly0PW.jpg)
 
 ### [Google Play Pass is in the testing phase](https://www.nytimes.com/2019/07/29/technology/uber-job-cuts.html)
 

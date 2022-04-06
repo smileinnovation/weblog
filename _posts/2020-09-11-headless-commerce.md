@@ -5,8 +5,8 @@ title: Headless commerce
 subtitle: |-
     The eCommerce industry is full of challenges and the first one is the need to build a strong yet adaptive solution : robust to handle…
 slug: headless-commerce
-description: 
-tags: 
+description:
+tags:
 - headless-commerce
 - headless
 - headless-cms
@@ -14,7 +14,7 @@ tags:
 author: fagas
 ---
 
-![](/assets/images/posts/0*wo70DlNLIqDJGnIj)
+![](/assets/images/posts/0*wo70DlNLIqDJGnIj.png)
 
 The eCommerce industry is full of challenges and the first one is the need to build a strong yet adaptive solution: robust to handle traffic peaks/seasonality and adaptive enough to provide a personalized interface to seduce the customer with a unique customer journey.
 
@@ -92,9 +92,9 @@ So retailers can now focus on two key activities: personalization of the custome
 
 ### **Few examples of Headless Commerce**
 
-![Me + Em — Magento + bespoke headless framework](/assets/images/posts/0*LTDxMQX9anL65YBs)
+![Me + Em — Magento + bespoke headless framework](/assets/images/posts/0*LTDxMQX9anL65YBs.png)
 
-![Victoria Beckham Beauty — Commerce service & Netlify](/assets/images/posts/0*A8E6jhLBBzATR6JS.jpeg)
+![Victoria Beckham Beauty — Commerce service & Netlify](/assets/images/posts/0*A8E6jhLBBzATR6JS.jpg)
 
 The project had an ambitious timeline of just 3 months for its design and implementation and needed to accommodate some very specific design requirements, as well as deliver an efficient shopping experience.
 

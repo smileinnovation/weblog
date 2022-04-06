@@ -4,8 +4,8 @@ url: https://medium.com/@/349f4e221e9d
 title: Les traceurs sous linux (1/2)
 subtitle: L’analyse des performances est essentiel pour tout processus de développement d’une application logicielle.
 slug: les-traceurs-sous-linux-1-2
-description: 
-tags: 
+description:
+tags:
 - ftrace
 - linux
 - debugging

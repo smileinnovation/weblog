@@ -4,8 +4,8 @@ url: https://medium.com/@/719dd539607d
 title: "SageMaker : Bring your own Algorithms"
 subtitle: With the help of Docker, you will be able to customize training and infering models using other frameworks that those provided by SageMaker
 slug: sagemaker-bring-your-own-algorithms
-description: 
-tags: 
+description:
+tags:
 - docker
 - sagemaker
 - machine-learning
@@ -179,7 +179,7 @@ Ok, now it’s time to try (by save the following CLI in `local_test/serve.sh`)
 docker run --rm -v $(pwd)/test_dir:/opt/ml -p 8080:8080 sagemaker-test serve
 ```
 
-It will mount local directories exactly the same way as in the “train” stage, but now using “serve” (which is the `/program/serve` script). 
+It will mount local directories exactly the same way as in the “train” stage, but now using “serve” (which is the `/program/serve` script).
 Indeed, you can use whatever ports mapping, it’s up to you 😉.
 
 ### And now, make a test!

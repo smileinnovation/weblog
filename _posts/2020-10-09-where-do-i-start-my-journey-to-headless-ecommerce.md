@@ -4,8 +4,8 @@ url: https://medium.com/@/27a7043f29dd
 title: "Where do I start my journey to headless eCommerce?"
 subtitle: You shouldn’t think about an e-commerce platform as a one-fit-all solution because there is no such thing, the devil hides in the details…
 slug: where-do-i-start-my-journey-to-headless-ecommerce
-description: 
-tags: 
+description:
+tags:
 - ecommerce
 - jamstack
 - headless
@@ -53,7 +53,7 @@ It’s a complete paradigm shift focusing on a best-of-breed approach, leaving m
 
 You’ve created a product page with your favorite CMS/headless cms; an async call to price and stock will allow getting fresh and mandatory information of the selected product.
 
-![](/assets/images/posts/0*v7tFr9gkrZYjvTX-)
+![](/assets/images/posts/0*v7tFr9gkrZYjvTX.png)
 
 The checkout process is what a customer must go through when purchasing the items in their shopping cart. The customer can be either a *guest* — i.e., they proceed by just providing an email address — or *logged* — i.e., they authenticate themselves with a password. When logged in, the customer gains access to their private data, such as their saved addresses and credit cards, making the process faster.
 
@@ -78,7 +78,7 @@ Key components are obviously Commerce and Content Services, but you need additio
 * **Search as a Service**: the SAAS solution [Algolia ](https://www.algolia.com/)is a key player in the search ecosystem, a competitor like [Constructor.io](https://constructor.io/) emerges with a focus on capturing revenue rather than relevance. Others are based on open-source Elastic Search engines such as [Swiftype](https://swiftype.com/).
 A major flex can be to index content and serve it directly with the search engine API.
 
-* **Customer Identity and Access Management**: overtime managing customer information is getting harder, from social login to legal compliance (GDPR or other privacy legal toolkits/requirements), so dedicated solutions emerged. 
+* **Customer Identity and Access Management**: overtime managing customer information is getting harder, from social login to legal compliance (GDPR or other privacy legal toolkits/requirements), so dedicated solutions emerged.
 Many players offer different solutions from simple authentication services to access management: [Auth0](https://auth0.com/), [Cognito](https://aws.amazon.com/fr/cognito/), [Akamai identity](https://www.akamai.com/fr/fr/products/security/identity-cloud.jsp), and [WSO2 identity](https://wso2.com/identity-and-access-management/)…
 
 * Payment / Checkout services are either included in a commerce platform or outsource to [Stripe](https://stripe.com/), [Checkout.com ](https://www.checkout.com/)with additionnal fees.

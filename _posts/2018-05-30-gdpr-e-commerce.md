@@ -4,8 +4,8 @@ url: https://medium.com/@/8e4ddf6f972
 title: GDPR & E-commerce
 subtitle: Just before starting, maybe all of us don’t know about GDPR yet (really ? You are part of the 0.1% of people that didn’t receive tons of…
 slug: gdpr-e-commerce
-description: 
-tags: 
+description:
+tags:
 - gdpr
 - retail
 - retail-marketing

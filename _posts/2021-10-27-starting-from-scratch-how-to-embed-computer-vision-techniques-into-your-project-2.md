@@ -4,8 +4,8 @@ url: https://medium.com/@/e99bbaca674e
 title: "Starting from scratch, how to embed computer vision techniques into your project #2"
 subtitle: Part 2 — Training data set
 slug: starting-from-scratch-how-to-embed-computer-vision-techniques-into-your-project-2
-description: 
-tags: 
+description:
+tags:
 - deep-learning
 - computer-vision
 - visual-search
@@ -152,7 +152,7 @@ Total bounding boxes : 21363
 ```
 
 ```
-Bounding boxes per object : 
+Bounding boxes per object :
 - driller : 3236
 - hammer: 3217
 - paintbrush: 2413

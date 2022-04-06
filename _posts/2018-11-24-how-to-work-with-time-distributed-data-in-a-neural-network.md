@@ -4,8 +4,8 @@ url: https://medium.com/@/b8b39aa4ce00
 title: "How to work with Time Distributed data in a neural network"
 subtitle: And how to use it for videos input, movements detection, gestures recognition…
 slug: how-to-work-with-time-distributed-data-in-a-neural-network
-description: 
-tags: 
+description:
+tags:
 - machine-learning
 - neural-networks
 - image-recognition
@@ -17,7 +17,7 @@ author: pafer
 
 ![Photo by Denise Jans on Unsplash](/assets/images/posts/0*cuEyJGmcTiaTHxkZ.jpg)
 
-> ⚠ **Important note**: There is an error in explanation I give in the article. I often say that weights are shared in each distributed branche (I said that each models in Time Distributed layers are the same). That’s **wrong**, I badly explained. What I mean is that weights are **trained in the same backward pass** and not separately (because there is only one layer applied to each inputs). That means that if you want to detect a cat that is jumping, the model will not try to “detect a cat in each frame”, but it will try to detect a jumping cat by analyzing the “sequence”. 
+> ⚠ **Important note**: There is an error in explanation I give in the article. I often say that weights are shared in each distributed branche (I said that each models in Time Distributed layers are the same). That’s **wrong**, I badly explained. What I mean is that weights are **trained in the same backward pass** and not separately (because there is only one layer applied to each inputs). That means that if you want to detect a cat that is jumping, the model will not try to “detect a cat in each frame”, but it will try to detect a jumping cat by analyzing the “sequence”.
 I also said that each input has got a “branch”, but actually it’s the same layer that is applied to inputs one after the other. Then the weights are tweaked. Keep that in mind while you’re reading this article.
 EDIT: I fixed many part of the article.
 
@@ -181,14 +181,14 @@ model = Sequential()
 # that have (224, 224, 3) shape
 model.add(
     TimeDistributed(
-        Conv2D(64, (3,3), 
+        Conv2D(64, (3,3),
             padding='same', strides=(2,2), activation='relu')
         input_shape = (5, 224, 224, 3)
     )
 )
 model.add(
-    TimeDistributed( 
-        Conv2D(64, (3,3), 
+    TimeDistributed(
+        Conv2D(64, (3,3),
             padding='same', strides=(2,2), activation='relu')
     )
 )
@@ -208,7 +208,7 @@ model.add(
     )
 )
 model.add(
-    TimeDistributed( 
+    TimeDistributed(
         Conv2D(128, (3,3),
             padding='same', strides=(2,2), activation='relu')
     )
@@ -221,7 +221,7 @@ model.add(
 ```
 
 ```
-## and so on with 512, 1024... 
+## and so on with 512, 1024...
 ## ...
 ```
 
@@ -289,7 +289,7 @@ model = Sequential()
 # after having Conv2D...
 model.add(
     TimeDistributed(
-        Conv2D(64, (3,3), activation='relu'), 
+        Conv2D(64, (3,3), activation='relu'),
         input_shape=(5, 224, 224, 3) # 5 images...
     )
 )
@@ -326,7 +326,7 @@ model.add(Dropout(.5))
 ```
 
 ```
-# For example, for 3 outputs classes 
+# For example, for 3 outputs classes
 model.add(Dense(3, activation='sigmoid'))
 ```
 
@@ -359,10 +359,10 @@ model = Sequential()
 ```
 
 ```
-# a model with LSTM layers, we are using 5 frames of 
+# a model with LSTM layers, we are using 5 frames of
 # shape (10, 20)
 model.add(
-    LSTM(1024, 
+    LSTM(1024,
         activation='relu',
         return_sequences=True,
         input_shape=(5, 10)
@@ -371,7 +371,7 @@ model.add(
 ```
 
 ```
-# LSTM outputs 5 items 
+# LSTM outputs 5 items
 # that is the correct shape to continue to work.
 # We need to get several outputs and make the same
 # process on each sequence item:
@@ -512,7 +512,7 @@ model.add(
 ```
 
 ```
-# now, flatten on each output to send 5 
+# now, flatten on each output to send 5
 # outputs with one dimension to LSTM
 model.add(
     TimeDistributed(

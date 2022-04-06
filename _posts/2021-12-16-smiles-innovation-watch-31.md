@@ -5,8 +5,8 @@ title: "Smile’s Innovation Watch #31"
 subtitle: |-
     🍁It’s the fall season. Some of us are in love with the beautiful colors of the landscape, and some have their mood sinking as the RMS…
 slug: smiles-innovation-watch-31
-description: 
-tags: 
+description:
+tags:
 - army
 - hologram
 - captcha
@@ -29,7 +29,7 @@ Sustainability, fun, and trends only. Less technical, more inspiring. Food for y
 
 WISAMO is an innovation initiative from Michelin Group. It develops an inflated, foldable, and automated wing using wind propulsion as a hybrid solution to reduce fuel consumption and greenhouse emissions like CO². The wing can be adapted to any vessel, new ones or the ones already operating: Ro-Ro, bulk cargos, oil and gas tankers, containers, and sailing and yacht boats. Thanks to WISAMO, Michelin aims to contribute to maritime transport decarbonization.
 
-![](/assets/images/posts/1*FNLpfv57FMm3H0Zbo-RMUA.jpeg)
+![](/assets/images/posts/1*FNLpfv57FMm3H0Zbo-RMUA.jpg)
 
 ### [The French army is testing Boston Dynamics’ robot dog Spot in combat scenarios](https://www.theverge.com/2021/4/7/22371590/boston-dynamics-spot-robot-military-exercises-french-army)
 

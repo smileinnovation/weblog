@@ -7,7 +7,7 @@ subtitle: |-
 slug: smile-innovation-watch-14
 description: |-
     This edition of the tech watch is full of 🤖 #robots and, one more time, #AI. It could sound a bit repetitive but they are two fields where improvement are made every single day and not small ones but
-tags: 
+tags:
 - machine-learning
 - robotics
 - privacy

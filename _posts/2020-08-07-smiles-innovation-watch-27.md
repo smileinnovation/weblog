@@ -5,8 +5,8 @@ title: "Smile’s Innovation Watch #27"
 subtitle: |-
     ☀️ Summer is here, and even if most of us have a 🏡 #staycation this year and that kinda sucks, let’s take time to reflect on the way we…
 slug: smiles-innovation-watch-27
-description: 
-tags: 
+description:
+tags:
 - twitter
 - tiktok-app
 - neumorphism
@@ -39,7 +39,7 @@ This is our Innovation watch.
 
 Airbus successfully tested taxi, take-off, and landing of their A350–1000 XWB. People think that after take-off, pilots can just Netflix-and-Chill while autopilot is doing everything. Still, Airbus takes it to the next level this time, showing that complex maneuvers can be done without any pilot input. Over 500 flights were conducted to capture data and train image recognition technology to understand the approach of the different procedures. But the technology doesn’t rely only on external cameras, but also on GPS and radio signals emitted by the control tower. Airbus push for fully autonomous operation, not just for passenger flights, but also tested successfully air-to-air autonomous refuel last April over the Atlantic.
 
-![](/assets/images/posts/0*d-QugBO3U9TVg83_.jpg)
+![](/assets/images/posts/0*d-QugBO3U9TVg83.jpg)
 
 ### [NASA built an Off-World Helicopter](https://www.scientificamerican.com/article/nasas-ingenuity-the-first-ever-off-world-helicopter-is-set-for-a-wright-brothers-moment-on-mars/)
 
@@ -53,7 +53,7 @@ Well, it’s more like a big drone than an actual helicopter, which can carry pa
 
 # 🗽 Privacy & Freedom
 
-![](/assets/images/posts/1*6sQs-KpZvXBKOi3BsXreZg.jpeg)
+![](/assets/images/posts/1*6sQs-KpZvXBKOi3BsXreZg.jpg)
 
 ### [Facial recognition for the poors](https://www.reuters.com/investigates/special-report/usa-riteaid-software/)
 
@@ -65,7 +65,7 @@ Rite Aid, a convenience store, installed facial recognition technology in lower-
 
 Zoom, which we already talked about many times regarding their security issues and their acquisition of keybase, has been reported to terminate US-based activists’ accounts after holding an online commemoration of the 31st anniversary of June 4 Tiananmen Square Massacre. Even if US-based company, Zoom operate their development in Chinage and Zoom calls can be “accidentally” routed through Chinese servers. Taiwan banned the use of Zoom due to security concerns and schools in the NY State, the US Senate, and the German ministry of foreign affairs. It also follows June’s statement that free call will not be encrypted end-to-end to be monitored by “authorities”.
 
-![](/assets/images/posts/1*oEv3NHrsrp_9So3U7ynwiw.jpeg)
+![](/assets/images/posts/1*oEv3NHrsrp_9So3U7ynwiw.jpg)
 
 ### [Apple rejects Facebook Gaming platform](https://9to5mac.com/2020/06/18/apple-refuses-facebooks-gaming-platform-on-the-ios-app-store/)
 
@@ -113,7 +113,7 @@ It’s, at least, the promise made by this Facebook pre-trained model you can te
 
 # 🌱 Sustainability & Society
 
-![](/assets/images/posts/1*OGWknlnmDgtnt2ZQnmpAsA.jpeg)
+![](/assets/images/posts/1*OGWknlnmDgtnt2ZQnmpAsA.jpg)
 
 ### [This massive dam will be made by robots](https://roboticsandautomationnews.com/2020/07/24/japanese-construction-giant-to-build-massive-dam-with-robots/34428/)
 
@@ -171,19 +171,19 @@ Leveraging on Github Actions, this package is triggered by whatever GitHub event
 
 # 📊 Trends
 
-![](/assets/images/posts/1*lVPa3WABN4WTDs9228SIoA.jpeg)
+![](/assets/images/posts/1*lVPa3WABN4WTDs9228SIoA.jpg)
 
 ### [The rise of neumorphism](https://www.inputmag.com/design/apple-macos-big-sur-the-rise-of-neumorphism)
 
 If you don’t know what’s neumorphism is, [here’s a quick crash course](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6). It’s the post skeuomorphism (Incorporating obsolete or skeuomorphic elements into a design, for familiarity or out of tradition, even though they no longer serve any functional purpose) and exploring how light is moving a 3D space.
 
-![](/assets/images/posts/1*FMLevsSU8wLnGeyPeXD9tw.jpeg)
+![](/assets/images/posts/1*FMLevsSU8wLnGeyPeXD9tw.jpg)
 
 ### [Twitter’s massive attack on Apple, Obama, Musk and more](https://www.theverge.com/2020/7/15/21326200/elon-musk-bill-gates-twitter-hack-bitcoin-scam-compromised)
 
 Last week, all of a sudden, some of the most followed accounts, from verified personalities, started to tweet links to the “cryptocurrency donation page” for COVID-19 and said the report’s owner would match all the donation made in the next hour. President Barack Obama, Joe Biden, Elon Musk, Bill Gates, Kanye West, Michael Bloomberg, Apple, and more where impacted. In total, 130 accounts were targeted using compromised internal employee tools. [A 17-years-old man has been arrested in Tampa, Florida](https://www.engadget.com/teenager-arrested-twitter-bitcoin-hack-183302700.html) since, tracked down by IRS (which de-anonymize the Blockchain transactions), FBI and local law enforcement.
 
-![](/assets/images/posts/1*aK1lT9qjz-zhal9GLBv2_Q.jpeg)
+![](/assets/images/posts/1*aK1lT9qjz-zhal9GLBv2_Q.jpg)
 
 ### [The TikTok saga is ending with a Microsoft acquisition](https://us18.admin.mailchimp.com/campaigns/preview-content-html?id=8162858#)
 

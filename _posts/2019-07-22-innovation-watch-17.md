@@ -5,7 +5,7 @@ title: "Innovation Watch #17"
 subtitle: Brace yourself. Climate change is coming 🥵
 slug: innovation-watch-17
 description: "🚀India & China racing for the 🌒moon, robot nurse, facial recognition for 🐕dogs, also a lot of privacy issues from FaceApp and Google, and even more with Instagram removing the like count and a virt"
-tags: 
+tags:
 - privacy
 - computer-vision
 - neuralink
@@ -31,13 +31,13 @@ This is Smile’s Innovation Watch.
 
 From a country with such a high poverty ratio, it might seem a little bit odd to focus on space things. But the goal seems clear, and produced results. By investing massively into teaching, high-end skills acquisition and making their own place a few weeks ago on the list of countries that have the technical ability to shoot down others satellites, India is in the race for the south pole of the Moon, just like China. It looks like the moon caught the attention of the planet Earth again, 50 years after the Apolo 11 mission. Except that this time, the countries involved have a completely different mindset and all those missions cost a fraction of what the USA spent on the space race back in the days.
 
-![](/assets/images/posts/0*OI7NOdrfeapV-bB_.png)
+![](/assets/images/posts/0*OI7NOdrfeapV-bB.png)
 
 ### [The robot built to help nurses got attention from patients too](https://www.fastcompany.com/90372204/a-hospital-introduced-a-robot-to-help-nurses-they-didnt-expect-it-to-be-so-popular)
 
 While this company is working on ways to help nurses in the USA (which knows the same shortage issues than in Europe) by removing up to 30% or their tasks, the ones that could be handled by anyone as they are not related to patient care (such as dropping off samples for analysis, bringing welcome kits to a room to be reassigned, …); they didn’t expect the hospital crew and even the patients would be so easy going with the robot despite some feeling of fear and reluctance in some people. Seems their hard work to create a solution which fully bends in the hospital landscape with a non-threatening shape and ways to behave pays off has truly paid off.
 
-![](/assets/images/posts/0*dYw07vFQwRP66tg-.jpeg)
+![](/assets/images/posts/0*dYw07vFQwRP66tg.jpg)
 
 ### [Facial recognition for your dog](https://www.theverge.com/platform/amp/2019/7/13/20693064/megvii-chinese-ai-facial-recognition-lost-pets-dogs-cats-surveillance)
 

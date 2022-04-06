@@ -5,8 +5,8 @@ title: "Smile Innovation’s Watch — #9"
 subtitle: |-
     Winter is coming ❄️🌨🧟‍♂️ (not so private jokes already used 1,934,324 times this month) and you may already have been wearing back your…
 slug: smile-innovations-watch-9
-description: 
-tags: 
+description:
+tags:
 - apple
 - ai
 - samsung
@@ -23,7 +23,7 @@ This is Smile’s Innovation watch.
 
 # Innovation • /ˌɪnəˈveɪʃən/
 
-![](/assets/images/posts/0*wQQK0m4ywFKEHKB9)
+![](/assets/images/posts/0*wQQK0m4ywFKEHKB9.jpg)
 
 ### [**Samsung foldable phone / table](https://twitter.com/i/moments/1060537701991137280?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)t**
 

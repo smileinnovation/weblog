@@ -7,7 +7,7 @@ subtitle: |-
 slug: smile-innovations-watch-6
 description: |-
     Chatbot chatbot chatbot chatbot 🤖Everyone is talking about it around you and we’ll give you some cool knowledge about it so you’ll be able to shine like a star in the next chat ✨
-tags: 
+tags:
 - chatbots
 - cryptocurrency
 - google
@@ -29,7 +29,7 @@ Hope you’ll enjoy reading it, this is Smile’s Innovation tech watch.
 
 # Innovation • /ˌɪnəˈveɪʃən/
 
-![](/assets/images/posts/0*LH2NFO3xcK-pYayb)
+![](/assets/images/posts/0*LH2NFO3xcK-pYayb.jpg)
 
 ### [**The 3 Types of Chatbots**](https://medium.com/@lifeinromania/the-3-types-of-chatbots-acc5cdf6bb4e?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -53,7 +53,7 @@ More that a simple assistant that can answer any question about the bank, ING Ne
 
 Coinbase, maybe the most used crypto wallet platform online, which is like a Paypal for crypto and already launch merchant functionnalities, now goes for distributed online identity managment. Login with coinbase is not that far, and they definitly will leverage with their KYC database for this.
 
-![](/assets/images/posts/0*MR_j8dKtm01y4u_C)
+![](/assets/images/posts/0*MR_j8dKtm01y4u_C.jpg)
 
 ### [**Alphabet invests $375 million in Oscar Health**](https://www.producthunt.com/news/298-alphabet-invests-375-million-in-oscar-health?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -91,7 +91,7 @@ Learn about how you can share your Google data with apps to make your life easie
 
 A build-it-yourself, 6-wheel rover based on the rovers on Mars!
 
-![](/assets/images/posts/0*ZOvcKAeQbYuFMrYg)
+![](/assets/images/posts/0*ZOvcKAeQbYuFMrYg.png)
 
 ### [**GitHub’s open source load balancer**](https://githubengineering.com/glb-director-open-source-load-balancer/?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -105,7 +105,7 @@ With their next patch Mozilla will introduce to Firefox “DNS over HTTPs” and
 
 # Fun • /fʌn/
 
-![](/assets/images/posts/0*YmEnV6aVHEsT65-Z)
+![](/assets/images/posts/0*YmEnV6aVHEsT65-Z.jpg)
 
 ### [**‎Room Racer AR on the App Store**](https://itunes.apple.com/gb/app/room-racer-ar/id1393949014?ref=producthunt&utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 

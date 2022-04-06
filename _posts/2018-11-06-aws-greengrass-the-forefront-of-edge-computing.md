@@ -7,7 +7,7 @@ subtitle: |-
 slug: aws-greengrass-the-forefront-of-edge-computing
 description: |-
     This articles main goal is to resume briefly what AWS Greengrass is. If you want a more thorough presentation you can find it on the AWS …
-tags: 
+tags:
 - aws
 - greengrass
 - machine-learning
@@ -134,7 +134,7 @@ And for the hardware:
 
 * *Raspberry Black Camera V2*.
 
-![Setup](/assets/images/posts/1*uVg8aEpRBpc1OfpOx5kKgA.jpeg)
+![Setup](/assets/images/posts/1*uVg8aEpRBpc1OfpOx5kKgA.jpg)
 
 Although the Raspberry Pi is a very powerful hardware its capabilities on machine learning inference isn’t great especially because it doesn’t have a dedicated GPU so everything has to go to the processor. If you want to do real-time image prediction we recommend to switch to a more powerful hardware such as a Nvidia Jetson TX2. But for our use case, the Raspberry Pi was enough.
 

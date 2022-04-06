@@ -5,7 +5,7 @@ title: "Smile Innovation's watch - #2"
 subtitle: For this second edition of our watch, we wanted to show you an amazing picture first. The latest TIME's cover, made by 958 drones working…
 slug: smile-innovations-watch-2
 description: For this second edition of our watch, we wanted to show you an amazing picture first. The latest TIME's cover, made by 958 drones working altogether. Then we'll talk Machine Learning, of course, Magen
-tags: 
+tags:
 - artificial-intelligence
 - innovation
 - technology-trends
@@ -19,7 +19,7 @@ For this second edition of our watch, we wanted to show you an amazing picture f
 
 This is Smile’s Innovation’s watch 🤓
 
-![TIME’s Latest Cover Photo is a Drone Photo of 958 Drones](/assets/images/posts/0*ohc_XZ3g6XHXWBHd)
+![TIME’s Latest Cover Photo is a Drone Photo of 958 Drones](/assets/images/posts/0*ohc_XZ3g6XHXWBHd.png)
 
 ### [Read about the last TIME’s cover photo](https://petapixel.com/2018/05/31/times-latest-cover-photo-is-a-drone-photo-of-958-drones/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
@@ -33,13 +33,13 @@ Photography and Camera News, Reviews, and Inspiration. Behind the scene of the 9
 
 Fitness tracker, Payments, SOS/Help Button, Sleep Tracker, Identification or activity & mobile alerts, when jewellery meets technology
 
-![](/assets/images/posts/0*MGBHt_OsRj6mCvB6)
+![](/assets/images/posts/0*MGBHt_OsRj6mCvB6.jpg)
 
 [**Google’s Duplex Assistant phone call**](https://www.youtube.com/watch?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch&v=ijwHj2HaOT0)
 
 Google introduced Duplex, a new technology for Google Assistant that enable natural speaking over the phone. In other terms, Google Assistant will call people for you to take an appointment or book a table, and no ones can distinguish it from a genuine human conversation.
 
-![](/assets/images/posts/0*GgiRLom_y4cH7JR_.jpg)
+![](/assets/images/posts/0*GgiRLom_y4cH7JR.jpg)
 
 [**Lobe : Deep Learning Made Simple**](https://lobe.ai/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
  Lobe is an easy-to-use visual tool that lets you build custom deep learning models, quickly train them, and ship them directly in your app without writing any code.
@@ -94,7 +94,7 @@ It’s interesting how I (Fabrice) feel exactly like this. What refrains me the 
 
 > Utterly new, as new as possible
 
-![](/assets/images/posts/0*W-PlZzfoe3kD46uR)
+![](/assets/images/posts/0*W-PlZzfoe3kD46uR.png)
 
 [**Introducing Places — Now on Tinder**](https://blog.gotinder.com/introducing-places/?ref=producthunt&utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
@@ -104,7 +104,7 @@ Following the SO-LO-MO (stands for Social, Local & Mobile), Tinder release Place
 
 Airbnb Stories let the user create their own mini-trip journal whenever they stay at a place booked on their platform. Using User Generated Content to improve the quality of picture & genuine stories that will make you want to book the same trip than other people.
 
-![](/assets/images/posts/0*PjX_hugAc0fGXT7t)
+![](/assets/images/posts/0*PjX_hugAc0fGXT7t.png)
 
 [**Coinbase Pro | Digital Asset Exchange**](https://pro.coinbase.com/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 

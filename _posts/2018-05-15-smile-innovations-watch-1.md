@@ -5,7 +5,7 @@ title: "Smile Innovation's watch - #1"
 subtitle: Our fortnightly collection of links, press article, PRs or announcement, vids & tweet that caught our attention.
 slug: smile-innovations-watch-1
 description: We chose to get out of press fortnightly (read every two weeks) with a collection of links, press article, press release or announcement, even videos or tweets that caught our attention
-tags: 
+tags:
 - innovation
 - technology-trends
 - machine-learning
@@ -27,13 +27,13 @@ Hello world 🌎! As you might (or might not) know Smile Innovation is in charge
 
 Federated Learning works through collaborative learning, using de-identified, aggregated information from many devices to improve machine learning models. This is a good example of how all this ML buzz thing could help.
 
-![](/assets/images/posts/0*UIYSEe6hEqeBsRz9.)
+![](/assets/images/posts/0*UIYSEe6hEqeBsRz9.png)
 
 [**Mycroft — Open Source Voice Assistant**](https://mycroft.ai/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
 Mycroft is an open source voice assistant, that can be installed on Linux, Raspberry Pi, or on the Mark 1 hardware device. Their opensource skills are written in Python. We (Smile) decided to go with [snips](https://snips.ai) and plans to become a certified partner are along the way but still, it’s always interesting to know the competition 🙂
 
-![](/assets/images/posts/0*megKASgvlGTscplj.)
+![](/assets/images/posts/0*megKASgvlGTscplj.jpg)
 
 [**MIT wants to control your dreams with a glove](https://thenextweb.com/gadgets/2018/04/23/mit-wants-to-control-your-dreams-with-a-glove/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch) — [thenextweb.com**](https://thenextweb.com/gadgets/2018/04/23/mit-wants-to-control-your-dreams-with-a-glove/)
 
@@ -43,12 +43,12 @@ Researchers at the Massachusetts Institute of Technology recently developed an i
 
 > From Middle English, borrowed from Old French *acquisicion*, from Latin *acquisītiō*, from *acquirere. *The act or process of acquiring.
 
-![](/assets/images/posts/0*Yv1kylWux2WhRawX.)
+![](/assets/images/posts/0*Yv1kylWux2WhRawX.jpg)
 
 [**Flickr just got acquired by SmugMug — so where should your photos go?](https://thenextweb.com/apps/2018/04/23/flickr-just-got-acquired-by-smugmug-so-where-should-you-store-your-photos/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch) **
  Over the weekend, photo hosting platform SmugMug acquired Flickr from Yahoo — sorry, Verizon; merging two companies that have offered similar services for nearly 15 years. So what’s changing, and in which cloud should you stash your photographs?
 
-![](/assets/images/posts/0*ydhNdOvurU7BABwJ.)
+![](/assets/images/posts/0*ydhNdOvurU7BABwJ.jpg)
 
 [**Adobe acquires voice interface platform Sayspring — TechCrunch**](https://techcrunch.com/2018/04/16/adobe-acquires-voice-interface-platform-sayspring/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
@@ -64,7 +64,7 @@ Adobe announced that it has acquired Sayspring, a startup that helps developers 
 
 Piwik, the open source analytics platforms rebrand itself under the name of Matomo after 10 years of creating the biggest open source alternative to Google Analytics.
 
-![](/assets/images/posts/0*p1O2rbI-xTUtC2tA.)
+![](/assets/images/posts/0*p1O2rbI-xTUtC2tA.png)
 
 [**Matomo GDPR Roadmap](https://matomo.org/gdpr-roadmap/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch) — [matomo.org**](https://matomo.org/gdpr-roadmap/)
 
@@ -80,9 +80,9 @@ GDPR is in everyone mouth, and companies that work in a very entangled way with 
 
 It’s impressive that Netflix decided to release such a huge and important component of their infrastructure. There’s probably a lot to learn in looking at how they did.
 
-![](/assets/images/posts/0*nyocvi_jjNkKdHn4.)
+![](/assets/images/posts/0*nyocvi_jjNkKdHn4.jpg)
 
-[**[FR] Netflix rend open source Titus, sa plate-forme de gestion de conteneurs](https://siecledigital.fr/2018/04/23/netflix-open-source-titus-plateforme-gestion-conteneurs/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch) — [siecledigital.fr**](https://siecledigital.fr/2018/04/23/netflix-open-source-titus-plateforme-gestion-conteneurs/) 
+[**[FR] Netflix rend open source Titus, sa plate-forme de gestion de conteneurs](https://siecledigital.fr/2018/04/23/netflix-open-source-titus-plateforme-gestion-conteneurs/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch) — [siecledigital.fr**](https://siecledigital.fr/2018/04/23/netflix-open-source-titus-plateforme-gestion-conteneurs/)
  Ils ne s’en doutent peut-être pas, mais tous les 125 millions d’abonnés Netflix connaissent Titus sans le savoir. En effet, cette application d’orchestration de conteneurs alimente les aspects critiques de l’activité Netflix.
 
 # That’s all folks !

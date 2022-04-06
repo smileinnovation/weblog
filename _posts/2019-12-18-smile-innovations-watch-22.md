@@ -8,7 +8,7 @@ subtitle: |-
 slug: smile-innovations-watch-22
 description: |-
 So, let’s try to catch up, with a slightly redesigned newsletter. Please welcome our new categories system: 💡Innovation, 🗽Privacy and Freedom, 🔓Opensource Software, 😁Fun and WTF, 💰Merge and Aquis
-tags: 
+tags:
 - self-driving-cars
 - artificial-intelligence
 - drones

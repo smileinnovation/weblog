@@ -6,7 +6,7 @@ subtitle: Temperatures start to drop, 🍂🍁leaves start to fall from the tree
 slug: smile-innovations-watch-7
 description: |-
     Temperatures start to drop, 🍂🍁leaves start to fall from the tree, the sun starts to get shy ⛅️. No doubt Fall is coming! Time for hot chocolate 🍫and blankets.
-tags: 
+tags:
 - beacons
 - chatbots
 - advertising
@@ -34,7 +34,7 @@ Estimote believes app of the future won’t be downloaded to phones, computers o
 
 Apple introduced a lot of new features in their last major update of iOS. But the iMessage app, its ecosystem and mini app remains nearly untouched. A user experience expert decides to go after it and try to improve the global usability of all of this.
 
-![](/assets/images/posts/0*WNVtS5fGsGvnpHa6)
+![](/assets/images/posts/0*WNVtS5fGsGvnpHa6.png)
 
 ### [**Conversational interface for chatbot & voicebot: the French touch**](https://blog.prototypr.io/conversational-interface-for-chatbot-voicebot-the-french-touch-28a1d5522ec3?gi=8e5a5a5661ce&utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -42,7 +42,7 @@ Amina Esselimani has designed customized vocal experiences and bots for platform
 
 # Aquisition • /ˌakwɪˈzɪʃ(ə)n/
 
-![](/assets/images/posts/0*ToqKzgx0kXisJBhV)
+![](/assets/images/posts/0*ToqKzgx0kXisJBhV.jpg)
 
 ### [**Trillion**](https://500ish.com/trillion-8ae442c32fa?gi=a7c354db69e3&utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -50,7 +50,7 @@ You couldn’t had missed this. Apple became the first modern tech company to va
 
 # Privacy • /ˈpɹaɪ.və.si/
 
-![](/assets/images/posts/0*KCRlPadBm3ah1iD-.jpg)
+![](/assets/images/posts/0*KCRlPadBm3ah1iD.jpg)
 
 ### [**🇫🇷23andMe sells all your genetic data to GSK labs
 

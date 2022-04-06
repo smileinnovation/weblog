@@ -4,8 +4,8 @@ url: https://medium.com/@/c3c5dd224058
 title: I want my CDN Application!
 subtitle: Performance and time to interaction are key to increase conversion and retention. And for that, PWA has done an amazing job promoting a new…
 slug: i-want-my-cdn-application
-description: 
-tags: 
+description:
+tags:
 - pwa-for-ecommerce
 - headless-commerce
 - jamstack
@@ -14,7 +14,7 @@ tags:
 author: fagas
 ---
 
-![Access your application around the world!](/assets/images/posts/0*rqiej0HCGx0WpDyW)
+![Access your application around the world!](/assets/images/posts/0*rqiej0HCGx0WpDyW.png)
 
 *Performance* and *time to interaction* are key to increase conversion and retention. And for that, [PWA](https://en.wikipedia.org/wiki/Progressive_web_application) has done an amazing job promoting a new way of building applications. But pages can be rendered way faster using static page generation, fetching only what’s need to be fresh.
 

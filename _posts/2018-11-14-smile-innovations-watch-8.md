@@ -7,7 +7,7 @@ subtitle: |-
 slug: smile-innovations-watch-8
 description: |-
     In this late summer edition (aka #joedassinedition) we are exploring how 🧠AI beats optical zoom, ☎️the future of smartphones and their usages, 🗣Amazon Alexa everywhere, but also paying with your per
-tags: 
+tags:
 - artificial-intelligence
 - alexa
 - instagram
@@ -61,7 +61,7 @@ https://www.presse-citron.net/inventeur-web-veut-internautes-reprennent-controle
 
 (read in 🇫🇷) At the origin of what became the World Wide Web, Tim Berners-Lee said he’s joining a new project called So**lid. **The goal is to protect user datas while keeping the GAFA away.
 
-![](/assets/images/posts/0*vLylbLCAwKjyUV9m)
+![](/assets/images/posts/0*vLylbLCAwKjyUV9m.jpg)
 
 ### [**The Big Hack: How China Used a Tiny Chip to Infiltrate U.S. Companies**](https://www.bloomberg.com/news/features/2018-10-04/the-big-hack-how-china-used-a-tiny-chip-to-infiltrate-america-s-top-companies?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 

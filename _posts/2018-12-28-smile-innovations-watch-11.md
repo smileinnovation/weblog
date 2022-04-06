@@ -5,8 +5,8 @@ title: "Smile Innovation’s Watch #11"
 subtitle: |-
     Oh Oh Oh 🎅🏼Hoping every one of you have a good time for this end of year celebration, with friends, family, and we have a special though f
 slug: smile-innovations-watch-11
-description: 
-tags: 
+description:
+tags:
 - artificial-intelligence
 - 3d-printing
 - renewable-energy
@@ -26,13 +26,13 @@ This is Smile’s Innovation Watch.
 
 # Innovation • /ˌɪnəˈveɪʃən/
 
-![](/assets/images/posts/0*nQte2GcXZtjo039a)
+![](/assets/images/posts/0*nQte2GcXZtjo039a.jpg)
 
 ### [**This is Nera, the 1st 3D printed motorbike**](https://www.futura-sciences.com/tech/actualites/impression-3d-voici-nera-premiere-moto-electrique-imprimee-3d-50000059/?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
 (read in 🇫🇷) The German firm BigRep just revealed the 1st electric bike produced by 3D printing. The unique design shows off all the liberty this production technique offers.
 
-![](/assets/images/posts/0*W7Bi6bNLL4_FuM3A)
+![](/assets/images/posts/0*W7Bi6bNLL4_FuM3A.jpg)
 
 ### [**Buying bitcoins in tobacconists …**](https://www.generation-nt.com/bitcoin-bureau-tabac-achat-keplerk-actualite-1959637.html?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -50,7 +50,7 @@ This is Smile’s Innovation Watch.
 
 Next-generation cars will be able to communicate with each other and coordinate their actions to avoid accidents if targeted initiatives are widely adopted.
 
-![](/assets/images/posts/0*Q-27jeM5hz7BHIlJ)
+![](/assets/images/posts/0*Q-27jeM5hz7BHIlJ.png)
 
 ### [**Neural network connected to a human brain**](https://iatranshumanisme.com/2018/10/15/un-reseau-de-neurones-connecte-a-un-cerveau-humain/?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -72,7 +72,7 @@ Malta’s system involves electricity from solar panels being fed into a heat pu
 
 # Privacy • /ˈpɹaɪ.və.si/
 
-![](/assets/images/posts/0*ZFnLdarZVcdQjeqU)
+![](/assets/images/posts/0*ZFnLdarZVcdQjeqU.jpg)
 
 ### [**Wanted: The ‘perfect babysitter.’ Must pass AI scan for respect and attitude**](https://www.washingtonpost.com/technology/2018/11/16/wanted-perfect-babysitter-must-pass-ai-scan-respect-attitude/?noredirect=on&utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter&utm_term=.bb83e9e2d190)
 

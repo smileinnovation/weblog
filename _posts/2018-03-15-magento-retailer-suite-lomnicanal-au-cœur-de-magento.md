@@ -4,8 +4,8 @@ url: https://medium.com/@/fa445e6ee3a4
 title: "Magento ElasticSuite for Retailers — L’omnicanal au cœur de Magento"
 subtitle: S’adapter aux nouvelles attentes des utilisateurs
 slug: magento-retailer-suite-lomnicanal-au-cœur-de-magento
-description: 
-tags: 
+description:
+tags:
 - elasticsuite
 - magento
 - magento-development
@@ -16,7 +16,7 @@ author: vipra
 
 ### S’adapter aux nouvelles attentes des utilisateurs
 
-![“A long row of hangers with clothes in a store in Shoreditch” by Artificial Photography on Unsplash](/assets/images/posts/0*TM9y654T0D3OnCtI.)
+![“A long row of hangers with clothes in a store in Shoreditch” by Artificial Photography on Unsplash](/assets/images/posts/0*TM9y654T0D3OnCtI.jpg)
 
 Ces dernières années la digitalisation des enseignes a profondément modifié les comportements et attentes des consommateurs. Obtenir une information cohérente, homogène et instantanée sur tous les canaux de distribution est indispensable pour développer ses ventes.
 
@@ -99,7 +99,7 @@ Enfin, profitez du backoffice user friendly de Magento 2 pour paramétrer rapide
 
 N’hésitez pas à [**nous contacter,**](https://www.smile.eu/fr/contact) notre équipe est disponible pour échanger sur vos projets e-commerce !
 
-**Pour plus d’informations :** 
+**Pour plus d’informations :**
 Évidemment, le module est Open Source et est disponible sur Github :
 
 [**La page GitHub**](https://github.com/Smile-SA/elasticsuite-for-retailer) dédiée à ElasticSuite for Retailers et la documentation fonctionnelle.
