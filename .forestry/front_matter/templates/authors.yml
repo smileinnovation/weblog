@@ -49,3 +49,5 @@ fields:
     max: 
     labelField: name
   label: Author
+pages:
+- _data/authors.yml
