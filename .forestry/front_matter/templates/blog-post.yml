@@ -15,6 +15,18 @@ fields:
   config:
     required: true
   label: Title
+- name: author
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: authors
+      file: _data/authors.yml
+      path: 
+  label: Author
 - name: category
   type: select
   default: []
