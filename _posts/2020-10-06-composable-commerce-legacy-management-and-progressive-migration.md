@@ -14,7 +14,7 @@ tags:
 author: fagas
 ---
 
-![My last application and me.](/assets/images/posts/0*cIIwH7NKrkGhs1RP)
+![My last application and me.](/assets/images/posts/0*cIIwH7NKrkGhs1RP.png)
 
 # Where you probably stand from
 

@@ -45,7 +45,7 @@ Ubisoft Montréal reveals how they help to build a tool called CLEVER that combi
 
 # Openness • /ˈəʊ.pən/ + /nəs/
 
-![](/assets/images/posts/0*juvzF4OT5g_8bckJ)
+![](/assets/images/posts/0*juvzF4OT5g_8bckJ.jpg)
 
 ### [**No, Whole Foods was not hacked**](https://www.fastcompany.com/40587635/no-whole-foods-was-not-hacked-heres-why-its-instagram-was-scrubbed?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 
@@ -65,7 +65,7 @@ Because openness is not just about open-source products, it’s also about open-
 
 Jean-Paul Gauthier surf on smart voice assistant to create JEANPOD, it’s own assistant with very special capabilities and functions
 
-![](/assets/images/posts/0*bw5g8y_l9-yvlJw_)
+![](/assets/images/posts/0*bw5g8y_l9-yvlJw_.jpg)
 
 ### [**Qwant Sports Hololens**](https://index.studio/work/qwant-sports-hololens?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 

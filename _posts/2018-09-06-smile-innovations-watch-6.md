@@ -39,7 +39,7 @@ These days, We spend most of my time helping people design chatbots. What we hav
 
 ING Australia is joining IFTTT and opens to Amazon Alexa, Google Assistant, Facebook, Instagram, iOS Photos, iOS Reminders, Android Device, Gmail, Google Calendar, Date & Time, Strava, Fitbit, Weather Underground and more.
 
-![](/assets/images/posts/0*0Mm8PacrzHpJqSD7)
+![](/assets/images/posts/0*0Mm8PacrzHpJqSD7.png)
 
 ### [**ING Netherland designing his banking chatbot**](https://uxdesign.cc/how-we-designed-inga-a-delightful-banking-chatbot-for-ing-941d18c4646f?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -47,7 +47,7 @@ More that a simple assistant that can answer any question about the bank, ING Ne
 
 # Aquisition • /ˌakwɪˈzɪʃ(ə)n/
 
-![](/assets/images/posts/0*ah0Iq6S5-WEzekfm)
+![](/assets/images/posts/0*ah0Iq6S5-WEzekfm.png)
 
 ### [**Coinbase acquires Distributed Systems team**](https://blog.coinbase.com/identity-at-coinbase-welcoming-the-distributed-systems-team-d929dd64de2e?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -61,13 +61,13 @@ Just months after raising $165 million 💸, Oscar, the insurance company, have 
 
 # Privacy • /ˈpɹaɪ.və.si/
 
-![](/assets/images/posts/0*IwYZiOPgz1lsNAYL)
+![](/assets/images/posts/0*IwYZiOPgz1lsNAYL.jpg)
 
 ### [**Redesigning Siri and adding multitasking features to iOS**](https://uxdesign.cc/redesigning-siri-and-adding-multitasking-features-to-ios-70c2f1a1569b?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
 After working on a redesign of Youtube and publishing my concept for macOS, I decided I should take care of one of my most beloved platforms of all time: iOS for the iPhone. Back in 2009, hardly…
 
-![](/assets/images/posts/0*HiXE5EPdh7cynWOu)
+![](/assets/images/posts/0*HiXE5EPdh7cynWOu.jpg)
 
 ### [**Facial Recognition Is the Perfect Tool for Oppression**](https://medium.com/s/story/facial-recognition-is-the-perfect-tool-for-oppression-bc2a08f0fe66?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -77,7 +77,7 @@ It’s easy to accept an outwardly compelling but ultimately illusory view about
 
 Jaron Lanier, the VR pioneer, musician, and writer has been immersed in the web for most of his 58 years. He also has serious concerns about what it’s doing to us. The internet’s current business model — especially that of social media giants like Facebook and Google in particular — has turned those companies into “behavior modification empires,” which mobilize their AI to keep us clicking, watching, and scrolling.
 
-![](/assets/images/posts/0*4RxhjdjJfuHNPyeu)
+![](/assets/images/posts/0*4RxhjdjJfuHNPyeu.jpg)
 
 ### [**Sharing your Google data with Apps**](https://www.youtube.com/watch?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter&v=W1a1lQHVtJo)
 
@@ -85,7 +85,7 @@ Learn about how you can share your Google data with apps to make your life easie
 
 # Openness • /ˈəʊ.pən/ + /nəs/
 
-![](/assets/images/posts/0*2BehI3O6ZV_GlRGx)
+![](/assets/images/posts/0*2BehI3O6ZV_GlRGx.png)
 
 ### [**GitHub — nasa-jpl/open-source-rover**](https://github.com/nasa-jpl/open-source-rover?ref=producthunt&utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -97,7 +97,7 @@ A build-it-yourself, 6-wheel rover based on the rovers on Mars!
 
 GitHub serve tens of thousands of requests every second out of their network edge. They came up with GLB, their scalable load balancing solution for bare metal datacenters, which powers the majority of GitHub’s public web and git traffic. Today they open source their load balancer’s design, as well as release the GLB Director.
 
-![](/assets/images/posts/0*KlJr7JyFB59uUOoB)
+![](/assets/images/posts/0*KlJr7JyFB59uUOoB.jpg)
 
 ### [**Mozilla’s new DNS resolution is dangerous**](https://blog.ungleich.ch/en-us/cms/blog/2018/08/04/mozillas-new-dns-resolution-is-dangerous/?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -111,7 +111,7 @@ With their next patch Mozilla will introduce to Firefox “DNS over HTTPs” and
 
 You’re bored at the office, it’s summer time, and your want to find a fun way to play with the few colleagues who, just like you, are stuck at the office? Stop looking, we have you covered 🏎
 
-![](/assets/images/posts/0*j6vpP27pk8WPLkbG)
+![](/assets/images/posts/0*j6vpP27pk8WPLkbG.png)
 
 ### [**Burrito Time**](https://www.producthunt.com/posts/burrito-time?utm_campaign=burrito-time&utm_medium=browser_notification&utm_source=browser_notification)
 

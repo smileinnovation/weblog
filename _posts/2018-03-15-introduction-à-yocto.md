@@ -13,7 +13,7 @@ tags:
 author: pific
 ---
 
-![](/assets/images/posts/0*3oFSYv3ykuGC1Gzi.)
+![](/assets/images/posts/0*3oFSYv3ykuGC1Gzi.jpgjpeg)
 
 *Yocto est devenu un standard de l’industrie pour la technologie « Linux embarqué ». Dans cette courte série de deux articles nous
 décrirons tout d’abord les principes de cet outil, puis nous décrirons quelques exemples plus avancés dans un deuxième article.*

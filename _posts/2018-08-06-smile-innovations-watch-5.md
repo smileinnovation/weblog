@@ -28,7 +28,7 @@ Something I saw in my twitter feed today is that Asus offering 3D modeling files
 
 The popularity of the IoT has given rise to many basic WiFi-connected devices. Those devices, ideally, are very low-cost. For instance, a smart plug that turns a lamp on and off really isn’t…
 
-![](/assets/images/posts/0*IdzuJPfTB2DnvhNk)
+![](/assets/images/posts/0*IdzuJPfTB2DnvhNk.jpg)
 
 ### [**🇫🇷Instagram : un milliard d’utilisateurs et la vidéo long format IGTV
 
@@ -42,7 +42,7 @@ The popularity of the IoT has given rise to many basic WiFi-connected devices. T
 
 (🇫🇷read in French) It’s not a big surprise since even the VP of Xbox division at Microsoft made few statements in that direction before, it’s now acted. Microsoft will stop all their VR projects for Xbox.
 
-![](/assets/images/posts/0*dlnf4JZoAjlr22iR)
+![](/assets/images/posts/0*dlnf4JZoAjlr22iR.jpg)
 
 ### [**🇫🇷 En Chine, le jeu dangereux de Google avec la censure
 
@@ -62,7 +62,7 @@ A brand new extension for Firefox let you completely circumscribe Facebook and a
 
 Did you miss our article about GDPR and online retail ? We are covering what the GDPR induce in term of change and where you need to pay extra attention when you’re working on an online retailing project.
 
-![](/assets/images/posts/0*HLBx_ZlaAi0yyLT3)
+![](/assets/images/posts/0*HLBx_ZlaAi0yyLT3.jpg)
 
 ### [**🇫🇷Le Social Media Marketing dans un monde post-RGPD
 

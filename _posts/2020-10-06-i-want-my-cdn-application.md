@@ -28,7 +28,7 @@ A static site allows better performance, SEO, and scalability. I think we forgot
 
 # Jamstack, the cool gang
 
-![](/assets/images/posts/0*B5exEvFSbgGXL3Xa)
+![](/assets/images/posts/0*B5exEvFSbgGXL3Xa.png)
 
 [JAMstack ](https://jamstack.org/)stands for *JavaScript*, *APIs*, and *Markup*. Jamstack.org defines each component as the following.
 
@@ -44,7 +44,7 @@ Let’s see now how we can migrate from using it.
 
 The JAMstack is a complete paradigm shift focusing on a best-of-breed approach, leaving monolith solutions far behind in terms of agility and time to market.
 
-![](/assets/images/posts/0*Gp4grzvBHUbVZWDU)
+![](/assets/images/posts/0*Gp4grzvBHUbVZWDU.png)
 
 **Pro**
 
@@ -62,7 +62,7 @@ The JAMstack is a complete paradigm shift focusing on a best-of-breed approach, 
 
 JAMstack's approach relies on HTML being rendered at build time or in the web browser to serve static content to the client; different frameworks exist to do so.
 
-![Adam Sturrock analysis of the market.](/assets/images/posts/0*BcC2LgVLplVvHbaJ)
+![Adam Sturrock analysis of the market.](/assets/images/posts/0*BcC2LgVLplVvHbaJ.jpg)
 
 Some are more business-oriented such as [*vuestorefront.io*](https://www.vuestorefront.io/), based on the e-commerce domain (Category, Product list page, Product detail page).
 
@@ -184,7 +184,7 @@ Also, if your Lambda function writes, by example, in a Dynamo DB, your bottlenec
 
 Comparison between different as-a-Service models and traditional IT, where the whole stack is hosted on-premise. The longer the arrow, the more management is required by and/or on behalf of the client.
 
-![Pablo Iorio accurate vision of infrastructure](/assets/images/posts/0*-rLczLcR2MRsuIyb)
+![Pablo Iorio accurate vision of infrastructure](/assets/images/posts/0*-rLczLcR2MRsuIyb.png)
 
 # Let’s wrap it up!
 

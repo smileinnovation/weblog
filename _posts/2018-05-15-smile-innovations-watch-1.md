@@ -21,7 +21,7 @@ Hello world 🌎! As you might (or might not) know Smile Innovation is in charge
 
 > Borrowed from Middle French *innovation*, from Old French *innovacion*, from Late Latin *innovatio*, *innovationem*, from Latin *innovo, innovatus*. Something new, and contrary to established customs, manners, or rites.
 
-![](/assets/images/posts/0*GjKrDjzBwMyozeO7.)
+![](/assets/images/posts/0*GjKrDjzBwMyozeO7..jpg)
 
 [**Making every phone smarter with Federated Learning — YouTube**](https://www.youtube.com/watch?t=0s&utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch&v=gbRJPa9d-VU)
 
@@ -58,7 +58,7 @@ Adobe announced that it has acquired Sayspring, a startup that helps developers 
 
 > The state of being private; the state of not being seen by others.
 
-![](/assets/images/posts/0*IdM-e-AWWRYx7mZk.)
+![](/assets/images/posts/0*IdM-e-AWWRYx7mZk.jpg)
 
 [**Piwik is now Matomo ](https://matomo.org/blog/2018/01/piwik-is-now-matomo/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)— [matomo.org**](https://matomo.org/blog/2018/01/piwik-is-now-matomo/)
 
@@ -74,7 +74,7 @@ GDPR is in everyone mouth, and companies that work in a very entangled way with 
 
 > Accommodating attitude or opinion, as in receptivity to new ideas, behaviors, cultures, peoples, environments, experiences, etc., different from the familiar, conventional, traditional, or one’s own.
 
-![](/assets/images/posts/0*7KFo09SOCjYty4Ge.)
+![](/assets/images/posts/0*7KFo09SOCjYty4Ge.png)
 
 [**Titus, the Netflix container management platform, is now open source**](https://medium.com/netflix-techblog/titus-the-netflix-container-management-platform-is-now-open-source-f868c9fb5436?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch)
 

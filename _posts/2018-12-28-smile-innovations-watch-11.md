@@ -38,13 +38,13 @@ This is Smile’s Innovation Watch.
 
 (read in 🇫🇷) It buzzed in all the French media 2 weeks ago, tobacconists will sell bitcoin. The information from Europe 1 has to be taken with special care.
 
-![](/assets/images/posts/0*_biSZmbqNPgsA45n)
+![](/assets/images/posts/0*_biSZmbqNPgsA45n.jpg)
 
 ### [**Invisibility cape, nano-satellite: what're the latest military innovations?**](https://www.challenges.fr/entreprise/defense/forum-innovation-defense-des-pepites-militaires-a-decouvrir_627994?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
 (read in 🇫🇷) Focus on the main innovation from the Fo*rum Innovation Défense w*hich was held in Paris end of November.
 
-![](/assets/images/posts/0*KX9cGMAwx_L4Sj9n)
+![](/assets/images/posts/0*KX9cGMAwx_L4Sj9n.jpg)
 
 ### [**Huawei releases autonomous AI driving solution and demos cellular-connected cars**](https://venturebeat.com/2018/11/26/huawei-releases-autonomous-ai-driving-solution-and-demos-cellular-connected-cars/?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -58,13 +58,13 @@ Next-generation cars will be able to communicate with each other and coordinate 
 
 # Acquisition • /ˌakwɪˈzɪʃ(ə)n/
 
-![](/assets/images/posts/0*aitJ7YBZl_Q84J7o)
+![](/assets/images/posts/0*aitJ7YBZl_Q84J7o.jpg)
 
 ### [**Pinterest preparing his IPO**](https://www.businessinsider.fr/us/pinterest-is-preparing-itself-for-a-2019-ipo-2018-12?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
 The initial public offering is planned for April and the company could be evaluated to more than $12 billion. They will join the continually expanding group of company that will go for IPO in 2019, including Uber, Lyft, Airbnb and Slack.
 
-![](/assets/images/posts/0*hwcdFbcpsrxIb0Qq)
+![](/assets/images/posts/0*hwcdFbcpsrxIb0Qq.jpg)
 
 ### [**Jeff Bezos and Bill Gates invest in storing energy in heated molten salt**](https://www.telegraph.co.uk/technology/2018/12/19/google-spin-off-stores-energy-molten-salt-backed-jeff-bezos/?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -78,7 +78,7 @@ Malta’s system involves electricity from solar panels being fed into a heat pu
 
 A start-up that requires prospective babysitters to hand over their social media accounts says it uses “advanced artificial intelligence” to assess a sitter’s risk of drug abuse, bullying and more.
 
-![](/assets/images/posts/0*6lwu7kk5TVTdJzor)
+![](/assets/images/posts/0*6lwu7kk5TVTdJzor.jpg)
 
 ### [**Sweden’s Push to Get Rid of Cash Has Some Saying, ‘Not So Fast’**](https://www.nytimes.com/2018/11/21/business/sweden-cashless-society.html?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -86,13 +86,13 @@ Cash is disappearing in the country faster than anyone thought it would. Now, of
 
 # Openness • /ˈəʊ.pən/ + /nəs/
 
-![](/assets/images/posts/0*iJMxU2mljpWRnMGS)
+![](/assets/images/posts/0*iJMxU2mljpWRnMGS.jpg)
 
 ### [**Google seeks to grant $25 million to AI for ‘good’ projects**](https://www.reuters.com/article/us-alphabet-google-aid/google-seeks-to-grant-20-million-to-ai-for-good-projects-idUSKCN1N32CW?feedName=technologyNews&feedType=RSS&utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
 Alphabet Inc’s Google announced on Monday that it would grant about $25 million globally next year to humanitarian and environmental projects seeking to use artificial intelligence (AI) to speed up and grow their efforts.
 
-![](/assets/images/posts/0*2HDqSvh7lhNEtA1M)
+![](/assets/images/posts/0*2HDqSvh7lhNEtA1M.jpg)
 
 ### [**Congress votes to make open government data the default in the USA**](https://e-pluribusunum.org/2018/12/21/congress-made-open-government-data-the-default-in-the-united-states/?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 

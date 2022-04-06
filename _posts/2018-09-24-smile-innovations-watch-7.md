@@ -24,7 +24,7 @@ Hope you’ll enjoy the reading, this is Smile’s Innovation watch.
 
 # Innovation • /ˌɪnəˈveɪʃən/
 
-![](/assets/images/posts/0*2N7hWVVXwmd2PL0V)
+![](/assets/images/posts/0*2N7hWVVXwmd2PL0V.png)
 
 ### [**LTE Beacon for asset tracking**](https://blog.estimote.com/post/177348177680/estimote-lte-m-beacon?utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 
@@ -50,13 +50,13 @@ You couldn’t had missed this. Apple became the first modern tech company to va
 
 # Privacy • /ˈpɹaɪ.və.si/
 
-![](/assets/images/posts/0*KCRlPadBm3ah1iD-)
+![](/assets/images/posts/0*KCRlPadBm3ah1iD-.jpg)
 
 ### [**🇫🇷23andMe sells all your genetic data to GSK labs
 
 Glaxosmithkline announced they acquired the data of 23andMe, the leading company of self-genetic testing for $ 300 million. 5 million clients are concerned.
 
-![](/assets/images/posts/0*iejzFTpSHyI9yhBX)
+![](/assets/images/posts/0*iejzFTpSHyI9yhBX.jpg)
 
 ### [**The death of Don Draper**](https://www.newstatesman.com/science-tech/internet/2018/07/death-don-draper?utm_campaign=newsletter&utm_medium=email&utm_source=densediscovery)
 
@@ -64,7 +64,7 @@ Advertising, once a creative industry, is now a data-driven business reliant on 
 
 # Openness • /ˈəʊ.pən/ + /nəs/
 
-![](/assets/images/posts/0*EyQF7p8BsN0mPA5k)
+![](/assets/images/posts/0*EyQF7p8BsN0mPA5k.jpg)
 
 ### [**The ZeroPhone, a Linux Smartphone Powered by the Raspberry Pi Zero**](https://blog.hackster.io/the-zerophone-a-linux-smartphone-powered-by-the-raspberry-pi-zero-286f36a25fd4?gi=74504f884f6c&utm_campaign=Smile%20Innovation%27s%20Watch&utm_medium=email&utm_source=Revue%20newsletter)
 

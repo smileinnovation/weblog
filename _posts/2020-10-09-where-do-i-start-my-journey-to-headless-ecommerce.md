@@ -14,7 +14,7 @@ tags:
 author: fagas
 ---
 
-![An open road to create a unique way to interact with your customers.](/assets/images/posts/0*7OYfxSA16zi39izZ)
+![An open road to create a unique way to interact with your customers.](/assets/images/posts/0*7OYfxSA16zi39izZ.png)
 
 You shouldn’t think about an e-commerce platform as a one-fit-all solution because there is no such thing; the devil hides in the details and your margin and profit. As you may know, the headless approach is a clear separation of concern between the frontend and backend relying on API.
 
@@ -45,7 +45,7 @@ Many solutions can answer your needs, from headless [Adobe Commerce](https://bus
 
 It’s a complete paradigm shift focusing on a best-of-breed approach, leaving monolith solutions far behind in terms of agility and time to market.
 
-![Commerce layer user interface.](/assets/images/posts/0*beBlzO0i6Y-0BPsd)
+![Commerce layer user interface.](/assets/images/posts/0*beBlzO0i6Y-0BPsd.png)
 
 ### Commerce services are deeply linked to a content-first strategy
 
@@ -57,7 +57,7 @@ You’ve created a product page with your favorite CMS/headless cms; an async ca
 
 The checkout process is what a customer must go through when purchasing the items in their shopping cart. The customer can be either a *guest* — i.e., they proceed by just providing an email address — or *logged* — i.e., they authenticate themselves with a password. When logged in, the customer gains access to their private data, such as their saved addresses and credit cards, making the process faster.
 
-![](/assets/images/posts/0*-T8z6_Lm-EXwpRFb)
+![](/assets/images/posts/0*-T8z6_Lm-EXwpRFb.png)
 
 ### A headless commerce architecture
 

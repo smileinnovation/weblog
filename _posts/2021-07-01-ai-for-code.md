@@ -59,7 +59,7 @@ Units testing is a cornerstone for software delivery and a bottleneck that autom
 
 A french company lead made [Ponicode](https://www.ponicode.com/) VSCode extension by Patrick Joubert ex recast founder, who decided to turn his NLP knowledge to code, especially Unit test generation, as a starter and much more are coming.
 
-![Ponicode raises $3.4 million to develop AI that automates code testing](/assets/images/posts/0*9trx1nKl3RdvNm1b)
+![Ponicode raises $3.4 million to develop AI that automates code testing](/assets/images/posts/0*9trx1nKl3RdvNm1b.png)
 
 [Diffblue](https://www.diffblue.com/) IntelliJ extension for Java to catch regressions earlier in your pipeline with Java unit tests that are automatically created by Diffblue Cover
 
@@ -67,7 +67,7 @@ A french company lead made [Ponicode](https://www.ponicode.com/) VSCode extensio
 
 [Codist.ai](https://codist-ai.com/) Your projets deserve to be 100% documented and you don’t need to think twice about it 🧠 CodistAI helps document source code faster.
 
-![](/assets/images/posts/0*4ElimCQZCPPgZo7k)
+![](/assets/images/posts/0*4ElimCQZCPPgZo7k.jpg)
 
 ### Code metrics
 
