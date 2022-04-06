@@ -27,6 +27,7 @@ group :jekyll_plugins do
   gem 'kramdown'
   gem 'rouge'
   gem 'jekyll-seo-tag'
+  gem "jekyll-menus"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
