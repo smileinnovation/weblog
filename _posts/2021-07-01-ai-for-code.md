@@ -12,11 +12,10 @@ tags:
 - code
 - tech-manager
 author: fagas
+image: assets/images/posts/0*kPWj7mUpWc1GfVUn.jpg
 ---
 
 AI allows us to understand and measure codebase in a new way, and those last years have been exciting with startups trying to get the best of what AI on code could do.
-
-![Generative art by Eric Davidson](/assets/images/posts/0*kPWj7mUpWc1GfVUn.jpg)
 
 # Why should I be interested?
 

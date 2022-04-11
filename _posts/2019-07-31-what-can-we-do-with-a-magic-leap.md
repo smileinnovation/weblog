@@ -12,11 +12,10 @@ tags:
 - hololens
 - development
 author: segar
+image: assets/images/posts/1*vN7h2OmewtE4fv5J947eEA.jpg
 ---
 
 # Magic Leap and Augmented Reality
-
-![](/assets/images/posts/1*vN7h2OmewtE4fv5J947eEA.jpg)
 
 **TL;DR;** I briefly talk about Augmented Reality (AR), where your vision isn’t blocked by a device and the differences with Virtual Reality (VR), where your vision is blocked by a device and shows you a virtual world. Then a more in-depth explanation of the Magic Leap which allows you to augment virtually what you see around you through the glasses and lets you interact with this augmented world.
 

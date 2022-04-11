@@ -14,6 +14,7 @@ tags:
 - google-pay
 author: thmil
 category: techwatch
+image: assets/images/posts/0*7ZoryvwyXtJ6KIUd.jpg
 ---
 
 So lockdown and remote working is our new way of living for a couple of weeks now. But that doesn’t stop us to curate a list of excellent articles to get the latest news in terms of innovation, tooling, open-source, etc.; with a special COVID-19 list of news related to the innovation stimulated by the crisis.

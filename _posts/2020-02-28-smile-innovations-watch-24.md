@@ -14,6 +14,7 @@ tags:
 - github
 author: thmil
 category: techwatch
+image: assets/images/posts/0*JXrD_UUWRT1Wav2m.jpg
 ---
 
 Here we are, edition 24. And this is a solid one. So long that when we sent it out, it was too big for Gmail displaying it entirely, and we had to add a disclaimer to inform people they may need to click on “open in a new window” to see all the content 😅.

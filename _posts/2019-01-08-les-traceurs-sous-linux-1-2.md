@@ -11,11 +11,10 @@ tags:
 - debugging
 - embedded-systems
 author: jubel
+image: assets/images/posts/0*6bFaIh6COl4vBKVm.jpg
 ---
 
 🇫🇷 This article is available in French only, part of our cross-post series from our friends at Li[nux embedded.
-
-![Photo by Maxim Dužij on Unsplash](/assets/images/posts/0*6bFaIh6COl4vBKVm.jpg)
 
 L’analyse des **performances** est essentiel pour tout processus de développement d’une application logicielle.
 

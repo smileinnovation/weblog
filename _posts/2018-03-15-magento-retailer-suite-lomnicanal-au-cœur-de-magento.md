@@ -12,11 +12,10 @@ tags:
 - magento-2
 - magento-extensions
 author: vipra
+image: assets/images/posts/0*TM9y654T0D3OnCtI.jpg
 ---
 
 ### S’adapter aux nouvelles attentes des utilisateurs
-
-![“A long row of hangers with clothes in a store in Shoreditch” by Artificial Photography on Unsplash](/assets/images/posts/0*TM9y654T0D3OnCtI.jpg)
 
 Ces dernières années la digitalisation des enseignes a profondément modifié les comportements et attentes des consommateurs. Obtenir une information cohérente, homogène et instantanée sur tous les canaux de distribution est indispensable pour développer ses ventes.
 

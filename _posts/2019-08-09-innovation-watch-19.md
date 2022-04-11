@@ -14,6 +14,7 @@ tags:
 - fake-news
 author: thmil
 category: techwatch
+image: assets/images/posts/0*qszZdSM1qYRPoxF3.jpg
 ---
 Everyone is on holiday including me 🏖. Let’s face it.
 

@@ -15,6 +15,7 @@ tags:
 - solid
 author: thmil
 category: techwatch
+image: assets/images/posts/0*vLylbLCAwKjyUV9m.jpg
 ---
 
 On our previous issues, we were already ready for fall. But seems we have some ☀️🕶summer overtime all across Europe and who are we to complain about that 😎?

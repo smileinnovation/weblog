@@ -13,6 +13,7 @@ tags:
 - github
 author: thmil
 category: techwatch
+image: assets/images/posts/0*SvIasOnA5Bn_FH9L.jpg
 ---
 
 > This content was sent on august, 8th via our [Tech Watch Newsletter](https://mailchi.mp/c414f1508567/techwatch)

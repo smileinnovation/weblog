@@ -11,11 +11,10 @@ tags:
 - internet
 - open-source
 author: mafli
+image: assets/images/posts/1*_kG7mUZZw-mKLDdz6F3Mdw.png
 ---
 
 The primary free software and open-source event in Brussels was, as usual, full of exciting presentations and folks from all corners of the computing world.
-
-![](/assets/images/posts/1*_kG7mUZZw-mKLDdz6F3Mdw.png)
 
 The FOSDEM celebrated its twentieth birthday this year, and whoever is familiar with the event can say without hesitation that it is still getting stronger.
 

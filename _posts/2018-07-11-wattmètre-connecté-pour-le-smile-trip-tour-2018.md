@@ -10,6 +10,7 @@ tags:
 - embedded-systems
 - electric-bike
 author: mathi
+image: assets/images/posts/1*MA-PcPvUx4Ab5kI23qPTyA.png
 ---
 
 ### Les objets connectés présentent de plus en plus d’intérêt pour des utilisateurs très variés. Principalement utilisés à des fins de monitoring, ils permettent de remonter des données dans le Cloud à moindre coût pour analyser des tendances, repérer des patterns ou détecter des anomalies de fonctionnement.

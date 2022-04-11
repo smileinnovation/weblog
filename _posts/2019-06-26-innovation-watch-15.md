@@ -14,6 +14,7 @@ tags:
 - tesla
 author: thmil
 category: techwatch
+image: assets/images/posts/0*kO5hOYhgK2vpsvHQ.jpg
 ---
 
 > This content was sent on june, 26th via our [Tech Watch Newsletter](https://mailchi.mp/c414f1508567/techwatch)

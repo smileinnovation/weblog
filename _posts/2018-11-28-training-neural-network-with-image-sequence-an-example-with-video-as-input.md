@@ -12,6 +12,7 @@ tags:
 - neural-networks
 - videos
 author: pafer
+image: assets/images/posts/1*0dNoo5Y8AnUoXMSFLWpIyA.gif
 ---
 
 ### How can we classify actions that happen on video? How to use Time Distributed layers with image sequence? How to manage the input shapes?

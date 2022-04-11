@@ -14,6 +14,7 @@ tags:
 - kyc
 author: thmil
 category: techwatch
+image: assets/images/posts/0*crrCcajm7r24zEUC.png
 ---
 
 Our first techwatch of 2021. I can’t believe it’s already July, and we miss the opportunity to share with you so much great tech stuff we scouted all around. Sure, we worked a lot on tech4good projects and launched news soon-to-be-public events like “le club sourire,” but that’s not a reason to stop getting hungry for new ways to use tech in our life

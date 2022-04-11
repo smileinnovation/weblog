@@ -12,13 +12,12 @@ tags:
 - technology
 - tech
 author: qubar
+image: assets/images/posts/1*jB72wzMb3led2r_wihzzGQ.png
 ---
 
 ### The interest around cryptocurrency technology grows day after day, and the research about Machine learning has never been so fast.
 
 Could a machine trained to trade cryptocurrency make profits ? At Smile Innovation we gave it a try! 😃
-
-![](/assets/images/posts/1*jB72wzMb3led2r_wihzzGQ.png)
 
 If you think we have grown neurons in a laboratory, it is not far from the reality. Just kidding 😉(but take a look at “[What is an Artificial Neuron?” ](https://becominghuman.ai/what-is-an-artificial-neuron-8b2e421ce42e)to know the truth). As lucky as you are, let’s discover an amazing new world.
 

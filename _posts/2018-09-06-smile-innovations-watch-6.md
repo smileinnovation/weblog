@@ -15,6 +15,7 @@ tags:
 - health
 author: thmil
 category: techwatch
+image: assets/images/posts/0*LH2NFO3xcK-pYayb.jpg
 ---
 
 Chatbot chatbot chatbot chatbot 🤖Everyone is talking about it around you and we’ll give you some cool knowledge about it so you’ll be able to shine like a star in the next chat ✨

@@ -12,6 +12,7 @@ tags:
 - kubernetes
 - docker
 author: pafer
+image: assets/images/posts/1*XlppZAstcxT6vl-68BQzzQ.png
 ---
 
 *Co-written with [Romain Ruaud](), teammate at Smile, Magento expert*.

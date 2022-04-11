@@ -14,6 +14,7 @@ tags:
 - google
 author: thmil
 category: techwatch
+image: assets/images/posts/0*BRytxaXfO_S9msVb.png
 ---
 
 > *This content was sent on june, 7th via our [Tech Watch Newsletter*](https://mailchi.mp/c414f1508567/techwatch)

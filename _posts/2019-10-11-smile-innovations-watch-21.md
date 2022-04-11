@@ -15,6 +15,7 @@ tags:
 - drones
 author: thmil
 category: techwatch
+image: assets/images/posts/0*oeZObMi4ZL-vzZA4.png
 ---
 
 🥶 Winter is definitely here for most of us and it’s Friday afternoon.

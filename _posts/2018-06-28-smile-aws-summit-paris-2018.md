@@ -12,7 +12,7 @@ tags:
 - open-source
 - voice-assistant
 author: thmil
-
+image: assets/images/posts/1*gGBt_El5Qfru-2Ajr8mHtw.png
 ---
 
 AWS Global Summits are free events that bring the cloud computing community together to connect, collaborate, and learn about AWS. Summits are held in major cities around the world, and attract technologists from all industries and skill levels who want to discover how AWS can help them innovate quickly and deliver reliable, flexible solutions at scale.
@@ -20,8 +20,6 @@ AWS Global Summits are free events that bring the cloud computing community toge
 We participate to the event with 3 points of presence : The “Innovation Corner” which is a showcase area of innovative use of AWS products, a booth where we showcased two computer vision prototypes and with a keynote from [Alain ROUEN]() and Cédric Ravalec about a business use cases, still on computer vision.
 
 # OpenFMS
-
-![Architecture of the simplified version of the open fleet management system](/assets/images/posts/1*gGBt_El5Qfru-2Ajr8mHtw.png)
 
 On the Innovation Corner of Amazon Web Services, we had the please to show the public a simpler version of our open-source fleet management system solution our ECS (Embedded and Connected System) team developed based on [ODOO](https://www.odoo.com/), IoT devices connected to trucks (using CAN bus) that send data into AWS where they are aggregated, filtered and computed and made available to ODOO where we integrated dashboards and the entire delivery workflow : from self-checkups of the truck to delivery to clients, through picking up goods and entering your fees (gas, …) into the system. Everything is real time and we show all of this with a tiny dashboard made just for that event.
 

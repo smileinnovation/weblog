@@ -10,6 +10,7 @@ tags:
 - deep-learning
 - visual-search
 author: alrou
+image: assets/images/posts/1*NUC03THTnMV6aE1EakIrXA.png
 ---
 
 Part 4— Integration

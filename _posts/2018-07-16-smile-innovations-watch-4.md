@@ -13,6 +13,7 @@ tags:
 - voice-assistant
 author: thmil
 category: techwatch
+image: assets/images/posts/0*WVVRdNWk_HS-9qgl.jpg
 ---
 
 That’s now the end of the second month of our watch over the internet for delivering you curated content about the innovation all around the world. In this edition, you’ll find voice recognition for automagical meeting notes creation, better voice synthesis from Google, AI that code or recognize all individuals of an entire population and robot that cook, and some good Press Campaign from WholeFoods on Instagram. We even include some press article to reflect on how Vocal Assistant will shape the future of our way of living, especially for our children and the first interview of Siri and Alexa on French radio.

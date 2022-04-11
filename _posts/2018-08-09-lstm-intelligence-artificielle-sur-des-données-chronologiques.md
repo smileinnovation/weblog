@@ -12,13 +12,12 @@ tags:
 - mathematics
 - data-science
 author: yomess
+image: assets/images/posts/1*NMzhN3iG7iQgWvu3NQfMzw.jpg
 ---
 
 ### Ou comment un réseau de neurones peut interpréter une série de données dite “temporelle”
 
 Si vous avez un tant soit peu travaillé avec des réseaux de neurones, vous avez certainement remarqué que, généralement, nous travaillons avec des données “d’entrée” ponctuelle. En d’autres termes, une image, un jeu de valeurs… mais il est possible de travailler avec des données temporelles telles que des valeurs boursières sur un laps de temps, des “frames” de vidéo, etc… Pour cela, la reine des topologies se nomme LSTM. Dans cet article, nous allons tenter de vulgariser son fonctionnement afin que vous puissiez vous pencher sur le sujet plus sereinement à l’avenir.
-
-![](/assets/images/posts/1*NMzhN3iG7iQgWvu3NQfMzw.jpg)
 
 L’intelligence artificielle est un domaine actuellement en pleine effervescence, et des découvertes incroyables émergent chaque jour, avec de nouveaux domaines d’application. Nous avons, par exemple, déjà étudié les réseaux de neurones et les crypto-monnaies dans un article que nous vous conseillons de parcourir également.
 

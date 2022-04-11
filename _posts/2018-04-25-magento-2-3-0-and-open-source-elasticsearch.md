@@ -11,6 +11,7 @@ tags:
 - elasticsearch
 - search-engines
 author: aufou
+image: assets/images/posts/1*WATj-MWqAZ-fljJEEIZqVA.png
 ---
 
 It has been announced during [Magento Imagine](https://imagine.magento.com/) that [ElasticSearch](https://www.elastic.co/fr/) support will be moved in the open-source version of Magento for the 2.3.0 release, while previously reserved for Magento Commerce.

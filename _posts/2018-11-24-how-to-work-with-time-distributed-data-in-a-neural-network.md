@@ -11,11 +11,10 @@ tags:
 - image-recognition
 - videos
 author: pafer
+image: assets/images/posts/0*cuEyJGmcTiaTHxkZ.jpg
 ---
 
 ### And how to use it for videos input, movements detection, gestures recognition…
-
-![Photo by Denise Jans on Unsplash](/assets/images/posts/0*cuEyJGmcTiaTHxkZ.jpg)
 
 > ⚠ **Important note**: There is an error in explanation I give in the article. I often say that weights are shared in each distributed branche (I said that each models in Time Distributed layers are the same). That’s **wrong**, I badly explained. What I mean is that weights are **trained in the same backward pass** and not separately (because there is only one layer applied to each inputs). That means that if you want to detect a cat that is jumping, the model will not try to “detect a cat in each frame”, but it will try to detect a jumping cat by analyzing the “sequence”.
 I also said that each input has got a “branch”, but actually it’s the same layer that is applied to inputs one after the other. Then the weights are tweaked. Keep that in mind while you’re reading this article.

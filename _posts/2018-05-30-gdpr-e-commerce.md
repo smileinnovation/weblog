@@ -12,10 +12,8 @@ tags:
 - privacy
 - customer-data
 author: thmil
-
+image: assets/images/posts/0*ab5blEwlCPYftIXM.jpg
 ---
-
-![“A set of formal suits on hangers in a wardrobe” by Igor Ovsyannykov on Unsplash](/assets/images/posts/0*ab5blEwlCPYftIXM.jpg)
 
 Just before starting, maybe all of us don’t know about GDPR yet (really ? You are part of the 0.1% of people that didn’t receive tons of emails about it then) and what’s it give as new rights to end-users.
 

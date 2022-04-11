@@ -13,6 +13,7 @@ tags:
 - gdpr
 author: thmil
 category: techwatch
+image: assets/images/posts/0*sWqW4BS5FaE-d43e.jpg
 ---
 We are now starting our 3rd month of finding, curating, selecting and publishing this newsletter for you to get the most of our watch online. We all hope you’ll enjoy reading it, this is Smile’s Innovation tech watch with this week: 3D printing, Li-Fi, VR, Instagram, React Native and our latest open-source activity.
 

@@ -12,6 +12,7 @@ tags:
 - visual-search
 author: alrou
 featured: true
+image: "assets/images/posts/1*wuEUDAkSJw0qIIAOK4qoiw.jpg"
 
 ---
 A practical guide to answering this question: is this a screwdriver or a hammer?

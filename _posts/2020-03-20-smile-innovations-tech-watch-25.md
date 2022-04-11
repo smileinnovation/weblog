@@ -14,6 +14,7 @@ tags:
 - space
 author: thmil
 category: techwatch
+image: assets/images/posts/0*QDQyuq4dShfyR31k.jpg
 ---
 
 Reading this email, you’re probably in lockdown, mandatory, or because you care about doing your best to protect people around you. Well, to help you clear your mind or not die from boredom, here’s our selection of news, links, mostly COVID19 free!

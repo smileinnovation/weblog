@@ -14,6 +14,7 @@ tags:
 - airbnb
 author: thmil
 category: techwatch
+image: assets/images/posts/0*wQQK0m4ywFKEHKB9.jpg
 ---
 Winter is coming ❄️🌨🧟‍♂️ (not so private jokes already used 1,934,324 times this month) and you may already have been wearing back your 🧤gloves and 🧣scarf (especially if you’re using an on-demand electric scooter). When you’ll be comfortable in your office or home, warm and while taking a sip of hot chocolate/coffee/tea, take few minutes to check out our selection of links, trends and, for the first time, some useful tools at the end of the newsletter.
 

@@ -10,6 +10,7 @@ tags:
 - computer-vision
 - visual-search
 author: alrou
+image: assets/images/posts/1*hkbZg1ZA_Z6oxInLW2P1UQ.png
 ---
 
 Part 2 — Training data set

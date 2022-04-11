@@ -11,11 +11,10 @@ tags:
 - led-lighting
 - diy
 author: fadew
+image: assets/images/posts/1*dDG1WkMYzLeHR4gjz28L5w.jpg
 ---
 
 ### Part 1: Context, scope, purpose… and hardware!
-
-![Photo by Justin Lane on Unsplash](/assets/images/posts/1*dDG1WkMYzLeHR4gjz28L5w.jpg)
 
 *In 2016, I started passionating myself for the world of IoT. I quickly get attracted by anything visual and especially LEDs as this was quickly rewarding when trying to set up something. A few weeks later I had written a graphic card driver for LED panels and had learned a lot even though all this was not planned and I had absolutely no knowledge about all technologies and concepts it required. In this series of article, I will explain why I came up with this driver and how. My purpose is to let you understand my thinking throughout this project as well as maybe give you ideas on creating something similar (and even better!) on your own.*
 

@@ -14,6 +14,7 @@ tags:
 - magic-leap
 author: thmil
 category: techwatch
+image: assets/images/posts/0*2N7hWVVXwmd2PL0V.png
 ---
 
 Temperatures start to drop, 🍂🍁leaves start to fall from the tree, the sun starts to get shy ⛅️. No doubt Fall is coming! Time for hot chocolate 🍫and blankets.

@@ -15,6 +15,7 @@ tags:
 - 3d-printing
 author: thmil
 category: techwatch
+image: assets/images/posts/0*k9U_nZaWm5qunNl7.jpg
 ---
 
 New year, New you!

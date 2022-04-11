@@ -13,6 +13,7 @@ tags:
 - google
 author: thmil
 category: techwatch
+image: "assets/images/posts/1*FNLpfv57FMm3H0Zbo-RMUA.jpg"
 ---
 
 🍁It’s the fall season. Some of us are in love with the beautiful colors of the landscape, and some have their mood sinking as the RMS Titanic. That’s why we wanted to go with some lighter content with this edition.

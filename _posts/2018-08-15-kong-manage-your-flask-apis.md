@@ -12,13 +12,12 @@ tags:
 - api-gateway
 - api-management
 author: qubar
+image: assets/images/posts/1*rADFakDqRYbb1wiLGUjG1A.jpg
 ---
 
 ### Do you think managing APIs with an interface is a time consuming task to implement ?
 
 Not so long ago, I thought that API management was necessarily a complex task. Faced with a wide variety of tools that exist on the market nowadays, I would like to present one that can easily meet your needs. Let me show you what **Kong** can do for you !
-
-![Photo by israel palacio on Unsplash](/assets/images/posts/1*rADFakDqRYbb1wiLGUjG1A.jpg)
 
 Before writing this article I worked with Kong on a big platform that ingested data like Slimer a.k.a “The Ghost of John Belushi” (Ghostbusters for the youngest readers). We liked the interface provided by PGBI for Kong so we tried to create a generic platform to manage lightweight APIs with Kong and Docker and in the end, the implementation was much easier than expected.
 

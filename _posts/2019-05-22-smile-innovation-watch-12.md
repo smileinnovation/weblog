@@ -14,6 +14,7 @@ tags:
 - apple
 author: thmil
 category: techwatch
+image: assets/images/posts/0*OjnSUGkbjYb1poOa.jpg
 ---
 
 > This content was sent on feb, 19th via our [Tech Watch Newsletter](https://mailchi.mp/c414f1508567/techwatch)

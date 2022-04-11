@@ -11,9 +11,8 @@ tags:
 - image-annotation
 - image-recognition
 author: pafer
+image: assets/images/posts/1*SXya139n_002QetAWFv-NQ.png
 ---
-
-![](/assets/images/posts/1*SXya139n_002QetAWFv-NQ.png)
 
 ### We made a tool to annotate images with teammates, easy to install and extensible. And obviously, it’s open source!
 

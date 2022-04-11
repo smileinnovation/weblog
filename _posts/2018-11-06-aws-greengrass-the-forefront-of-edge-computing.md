@@ -14,9 +14,8 @@ tags:
 - lambda
 - embedded-systems
 author: segar
+image: assets/images/posts/1*7LaVsLtTgUnkcuRblDFKkg.png
 ---
-
-![Credits: Amazon](/assets/images/posts/1*7LaVsLtTgUnkcuRblDFKkg.png)
 
 This articles main goal is to resume briefly what AWS Greengrass is. If you want a more thorough presentation you can find it on the AWS [Greengrass documentation page](https://docs.aws.amazon.com/greengrass/latest/developerguide/what-is-gg.html)
 

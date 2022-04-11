@@ -13,6 +13,7 @@ tags:
 - netflix
 author: thmil
 category: techwatch
+image: assets/images/posts/0*GjKrDjzBwMyozeO7.jpg
 ---
 
 Hello world 🌎! As you might (or might not) know Smile Innovation is in charge of watching, ideating, prototyping, evangelizing for both people within the group and Smile’s fellow customers. We chose to get out of press fortnightly (read every two weeks) with a collection of links, press article, press release or announcement, even videos or tweets that caught our attention, with a mix of our own content. We hope you’ll enjoy this issue as much as we loved to prepare it for you.
@@ -21,7 +22,7 @@ Hello world 🌎! As you might (or might not) know Smile Innovation is in charge
 
 > Borrowed from Middle French *innovation*, from Old French *innovacion*, from Late Latin *innovatio*, *innovationem*, from Latin *innovo, innovatus*. Something new, and contrary to established customs, manners, or rites.
 
-![](/assets/images/posts/0*GjKrDjzBwMyozeO7..jpg)
+![](/assets/images/posts/0*GjKrDjzBwMyozeO7.jpg)
 
 [**Making every phone smarter with Federated Learning — YouTube**](https://www.youtube.com/watch?t=0s&utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=Smile%20Innovation%27s%20Watch&v=gbRJPa9d-VU)
 

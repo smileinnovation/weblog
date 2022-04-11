@@ -14,6 +14,7 @@ tags:
 - telegram
 author: thmil
 category: techwatch
+image: assets/images/posts/0*4xujqKYoV8uF9ph1.png
 ---
 
 It’s 🏫back to school season, the public transportation will be crowded again and you’ll probably make more time to go to work. Let’s face it. But it’s also the time of the year where TV shows are starting the new season and that’s already better news isn’t it?

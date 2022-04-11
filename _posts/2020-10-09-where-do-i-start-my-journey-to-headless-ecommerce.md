@@ -12,9 +12,8 @@ tags:
 - serverless
 - headless-commerce
 author: fagas
+image: assets/images/posts/0*7OYfxSA16zi39izZ.png
 ---
-
-![An open road to create a unique way to interact with your customers.](/assets/images/posts/0*7OYfxSA16zi39izZ.png)
 
 You shouldn’t think about an e-commerce platform as a one-fit-all solution because there is no such thing; the devil hides in the details and your margin and profit. As you may know, the headless approach is a clear separation of concern between the frontend and backend relying on API.
 

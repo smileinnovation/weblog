@@ -11,9 +11,8 @@ tags:
 - the-sun-trip
 - electric-bike
 author: mathi
+image: assets/images/posts/1*9A3Ybsv3U3scfrOjvVj9ag.png
 ---
-
-![](/assets/images/posts/1*9A3Ybsv3U3scfrOjvVj9ag.png)
 
 ### Ou comment Smile mobilise l’ensemble de ses métiers autour d’une équipe d’une petite dizaine de personnes et d’une passion commune pour le vélo
 

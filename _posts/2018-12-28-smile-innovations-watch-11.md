@@ -14,6 +14,7 @@ tags:
 - autonomous-cars
 author: thmil
 category: techwatch
+image: assets/images/posts/0*nQte2GcXZtjo039a.jpg
 ---
 
 Oh Oh Oh 🎅🏼

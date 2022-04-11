@@ -13,6 +13,7 @@ tags:
 - machine-learning
 author: thmil
 category: techwatch
+image: assets/images/posts/0*ohc_XZ3g6XHXWBHd.png
 ---
 
 For this second edition of our watch, we wanted to show you an amazing picture first. The latest TIME’s cover, made by 958 drones working altogether. Then we’ll talk Machine Learning, of course, Magento’s acquisition by Adobe, Privacy in the field of home assistants & news about new digital products and one failure (that’s how everyone learns isn’t it?).

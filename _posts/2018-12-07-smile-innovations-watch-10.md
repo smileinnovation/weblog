@@ -14,6 +14,7 @@ tags:
 - smart-home
 author: thmil
 category: techwatch
+image: assets/images/posts/0*7Gr3KgSpL15c0LK1.png
 ---
 
 🤔Wait a minute! Is it already 2 weeks? Did we send the previous Tech watch 14 days ago? Is that email you didn’t read and staying in your inbox already aged 1209600 seconds?

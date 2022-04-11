@@ -13,6 +13,7 @@ tags:
 - voice-recognition
 author: thmil
 category: techwatch
+image: assets/images/posts/1*htZHLTm2iAjCpDqpPRZG5g.jpg
 ---
 Already the third iteration of our tech watch newsletter. From the Big Bang of Github been acquired by Microsoft to the open-source initiative to create speech recognition models by Mozilla, with a lot of GDPR on top of it, here’s our selection of articles, news and new things that we curated for you.
 

@@ -12,11 +12,10 @@ tags:
 - tech
 - technology
 author: pafer
+image: assets/images/posts/1*h3jepQ3TqoQ3rNBnpO3wxA.jpg
 ---
 
 ### A naive approach to features extraction and R-CNN
-
-![“Overlay of neatly organized dragon fruit, flowers, and tropical fruit” by Brooke Lark on Unsplash](/assets/images/posts/1*h3jepQ3TqoQ3rNBnpO3wxA.jpg)
 
 Working for [Smile innovation](https://medium.com/smileinnovation) can lead to funny pre-sales research. Few weeks ago I was involved in a discussion to find out if it could be possible to recognise (and so to bill) plates and all others food items on a lunch tray.
 

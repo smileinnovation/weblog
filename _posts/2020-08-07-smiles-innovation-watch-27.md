@@ -14,6 +14,7 @@ tags:
 - 3d-printing
 author: thmil
 category: techwatch
+image: assets/images/posts/0*dL3z_8PprCJMSPQy.jpg
 ---
 
 ☀️ Summer is here, and even if most of us have a 🏡 #staycation this year and that kinda sucks, let’s take time to reflect on the way we are, usually, consuming travel and holidays. Let’s seize the opportunity to discover our region or country. Stay hydrated, wash your hands, wear your masks 😷.

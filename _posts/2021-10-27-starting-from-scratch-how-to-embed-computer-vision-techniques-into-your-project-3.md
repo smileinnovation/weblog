@@ -10,6 +10,7 @@ tags:
 - deep-learning
 - visual-search
 author: alrou
+image: assets/images/posts/1*SzmbhZyIybzgxrc0zPwC8Q.jpg
 ---
 
 Part 3 — Model training
