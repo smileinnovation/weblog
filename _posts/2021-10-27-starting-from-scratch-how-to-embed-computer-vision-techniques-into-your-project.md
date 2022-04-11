@@ -2,16 +2,18 @@
 layout: post
 url: https://medium.com/@/cb9354ee8cbe
 title: Starting from scratch, how to embed computer vision techniques into your project
-subtitle: "A practical guide to answering this question: is this a screwdriver or a hammer?"
+subtitle: 'A practical guide to answering this question: is this a screwdriver or
+  a hammer?'
 slug: starting-from-scratch-how-to-embed-computer-vision-techniques-into-your-project
-description:
+description: 
 tags:
 - deep-learning
 - computer-vision
 - visual-search
 author: alrou
----
+featured: true
 
+---
 A practical guide to answering this question: is this a screwdriver or a hammer?
 
 ![](/assets/images/posts/1*wuEUDAkSJw0qIIAOK4qoiw.jpg)
