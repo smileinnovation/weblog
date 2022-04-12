@@ -30,7 +30,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: ''
 disqus: ''
-mailchimp-list: ''
+mailchimp-list: 'https://medium.us18.list-manage.com/subscribe/post?u=4d3484a4e4a58a42c2bc028f5&amp;id=7db7ed73c3'
 
 include: ["_pages"]
 
@@ -83,8 +83,8 @@ kramdown:
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
