@@ -2,7 +2,7 @@
 label: Authors
 hide_body: true
 fields:
-- name: author
+- name: authors
   type: field_group_list
   fields:
   - name: pentagram
@@ -48,4 +48,4 @@ fields:
     min: 
     max: 
     labelField: name
-  label: Author
+  label: Authors
