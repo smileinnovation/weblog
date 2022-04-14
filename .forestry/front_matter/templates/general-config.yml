@@ -1,4 +1,267 @@
 ---
 label: General Config
 hide_body: false
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: Blog Name
+- name: title
+  type: text
+  config:
+    required: true
+  label: Blog's Title
+  description: Used for the atom feed title &amp; logo alt
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Blog description
+  description: Will be displayed on the homepage + used for the atom feed
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Blog Logo
+- name: favison
+  type: file
+  config:
+    maxSize: 64
+  label: Blog Favicon
+- name: baseurl
+  type: text
+  config:
+    required: false
+  label: Base URL
+  description: the subpath of your site, e.g. /blog
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
+  description: the base hostname &amp; protocol for your site, e.g. http://example.com
+- name: google_analytics
+  type: text
+  config:
+    required: false
+  label: Google Analytics ID
+- name: disqus
+  type: text
+  config:
+    required: false
+  label: Disqus ID
+- name: mailchimp-list
+  type: text
+  config:
+    required: false
+  label: Mailchimp URL
+- name: include
+  type: tag_list
+  default:
+  - _pages
+  label: Include to build
+  description: List of folders or files to include into the build
+- name: excerpt_separator
+  type: text
+  config:
+    required: false
+  label: Excerpt Separator
+  description: If you want to customise the excerpt markup
+  default: <br class="exceprt_separator">
+- name: permalink
+  type: text
+  config:
+    required: true
+  label: Permalink sturcture
+  default: "/:title/"
+- name: timezone
+  type: text
+  config:
+    required: true
+  label: Timezone
+  default: Europe/Luxembourg
+- name: plugins
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+    source:
+      type: simple
+  label: List of plugins
+- name: jekyll-archives
+  type: field_group
+  config: {}
+  fields:
+  - name: enabled
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Enabled on
+  - name: layout
+    type: text
+    config:
+      required: false
+    label: Layout
+  - name: permalinks
+    type: field_group
+    config: {}
+    fields:
+    - name: category
+      type: text
+      config:
+        required: false
+      label: category
+      default: "/category/:name/"
+    label: Permalinks structure
+  label: Archive config
+- name: paginate
+  type: number
+  description: ''
+  default: 6
+  required: true
+  config:
+    min: 1
+    max: 
+    step: 1
+    required: true
+  label: "# of items per page"
+- name: paginate_path
+  type: text
+  config:
+    required: true
+  label: Pagination path
+  default: "/page:num/"
+- name: feed
+  type: field_group
+  config: {}
+  fields:
+  - name: posts_limits
+    type: number
+    label: "# post to display in feed"
+    description: ''
+    default: 20
+    required: true
+    config:
+      min: 1
+      max: 
+      step: 1
+      required: true
+  - name: excerpt_only
+    type: boolean
+    label: Display on the excerpt
+  label: Feed
+- name: markdown
+  type: text
+  config:
+    required: true
+  label: Markdown engine
+  hidden: true
+  default: kramdown
+- name: kramdown
+  type: field_group
+  config: {}
+  fields:
+  - name: input
+    type: text
+    config:
+      required: true
+    label: input
+    hidden: true
+    default: GFM
+  - name: syntax_highlighter
+    type: text
+    config:
+      required: true
+    label: syntax_highlighter
+    hidden: true
+    default: rouge
+  - name: syntax_highlighter_opts
+    type: field_group
+    config: {}
+    fields:
+    - name: block
+      type: field_group
+      config: {}
+      fields:
+      - name: line_numbers
+        type: boolean
+        hidden: true
+        label: line_numbers
+        default: true
+      label: block
+      hidden: true
+    label: syntax_highlighter_opts
+    hidden: true
+  label: kramdown
+  hidden: true
+- name: adsense
+  type: select
+  default: disabled
+  config:
+    required: true
+    options:
+    - disabled
+    - enabled
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Adsense
+- name: adsense-data-ad-client
+  type: text
+  config:
+    required: false
+  label: Adsense Data Ad Client
+- name: adsense-data-ad-slot
+  type: text
+  config:
+    required: false
+  label: Adsense Data Ad Slot
+- name: lazyimages
+  type: select
+  default: disabled
+  config:
+    required: true
+    options:
+    - disabled
+    - enabled
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Lazy loading for images
+- name: exclude
+  type: tag_list
+  default:
+  - changelog.md
+  - LICENSE.txt
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - _posts/assets
+  label: Exclude list
+- name: maps
+  type: field_group
+  config: {}
+  fields:
+  - name: google
+    type: field_group
+    config: {}
+    fields:
+    - name: api_key
+      type: text
+      config:
+        required: false
+      label: API Key
+    label: Google
+  label: Maps
