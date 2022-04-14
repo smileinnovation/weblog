@@ -265,3 +265,5 @@ fields:
       label: API Key
     label: Google
   label: Maps
+pages:
+- _config.yml
