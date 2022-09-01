@@ -1,0 +1,19 @@
+---
+header:
+  - url: /category/techwatch
+    title: Techwatch
+  - url: /tags/modern-apps
+    title: Modern Apps
+  - url: /tags/e-commerce
+    title: E-Commerce
+  - url: /tags/machine-learning
+    title: Machine Learning
+  - url: /tags/embeded
+    title: Embeded & Connected
+  - url: /about
+    title: About
+  - url: https://smile.eu
+    title: Smile
+# - url: /yoururl
+#   title: Your title
+#   icon: face-awesome #Check https://fontawesome.com/search to find the icon you want to use
