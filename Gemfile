@@ -21,6 +21,7 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-youtube"
   gem "jekyll-maps"
+  gem "jekyll-menus"
   gem "jekyll-gist"
   gem "jekyll-twitter-plugin"
   gem 'jekyll-sitemap'

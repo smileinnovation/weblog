@@ -63,27 +63,26 @@ ga('send', 'pageview');
     <div class="collapse navbar-collapse" id="navbarMediumish">
 
         <!-- Begin Menu -->
+        {% assign menu = site.menus.header %}
+        {% if menu %}
+        <ul class="navbar-nav ml-auto">
+            {% if page.url == "/" %}
+            <li class="nav-item active">
+            {% else %}
+            <li class="nav-item">
+            {% endif %}
+                <a class="nav-link" href="{{ site.baseurl }}/">Blog</a>
+            </li>
 
-            <ul class="navbar-nav ml-auto">
+        {% for item in menu %}
+            <li class="nav-item" id="nav-item-{{ loop.index }}">
+                <a class="nav-link" href="{{item.url}}" title="Go to {{item.title}}">{{item.title}}</a>
+            </li>
 
-                {% if page.url == "/" %}
-                <li class="nav-item active">
-                {% else %}
-                <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
-                </li>
-
-                {% for item in site.menus.header %}
-                <li class="nav-item menu-item-{{ loop.index }}">
-                    <a href="{{ item.url }}" title="Go to {{ item.title }}" class="nav-link">{{ item.title }}</a>
-                </li>
-                {% endfor %}
-
-                {% include search-lunr.html %}
-
-            </ul>
-
+            {% endfor %}
+        {% include search-lunr.html %}
+        </ul>
+        {% endif %}
         <!-- End Menu -->
 
     </div>
