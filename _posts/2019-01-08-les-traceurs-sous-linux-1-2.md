@@ -11,7 +11,7 @@ tags:
 - debugging
 - embedded-systems
 author: jubel
-image: assets/images/posts/0*6bFaIh6COl4vBKVm.jpg
+image: assets/images/posts/0*6bFaIh6COl4vBKVm
 ---
 
 🇫🇷 This article is available in French only, part of our cross-post series from our friends at Li[nux embedded.
@@ -24,7 +24,7 @@ En plus du **débogage**, il est nécessaire d’utiliser des *pratiques d’ins
 
 Dans cette article, nous aborderons le traceur **Ftrace**.
 
-# Pourquoi un traceur?
+## Pourquoi un traceur?
 
 Les **traceurs** sont des outils avancés d’analyse et de tests de performances. Ces derniers ne capturent pas seulement que des appels système ou des paquets, mais peuvent généralement tracer n’importe quelle fonction du noyau ou d’une application.
 
@@ -36,7 +36,7 @@ De nombreux traceurs existent sous **Linux**, les plus répandus figurent dans l
 
 Tous ces traceurs nous permettent d’obtenir des données comme la latence de l’ordonnanceur ou de l’écriture sur disque, d’être alerté quand une primitive noyau est exécutée ou même modifier le comportement de cette dernière (*changer le contenu des paramètres ou la valeur retournée par la fonction*).
 
-# Traçage ou Profilage de code?
+## Traçage ou Profilage de code?
 
 Ces deux termes sont souvent confondus. Pour comprendre la différence, on peut imaginer un navigateur web qui génère plein d’événements (*clique sur un bouton, redimensionnement de la fenêtre, défilement avec la molette, …, etc*).
 
@@ -69,7 +69,7 @@ Un **traceur** s’intéresse au *moment de l’émission de l’événement* :
 > Pour mieux comprendre les traceurs et les profileurs, une animation est disponible sur ce lien :
 [https://jugurthab.github.io/debug_linux_kernel/linux-tracers-utility.html](https://jugurthab.github.io/debug_linux_kernel/linux-tracers-utility.html)
 
-# Ftrace
+## Ftrace
 
 **Ftrace** est l’outil officiel de traçage Linux (*créé par **Steven Rostedt***) depuis le noyau 2.6.27. *Il est sans doute le traceur le plus connu*.
 
@@ -82,18 +82,18 @@ CONFIG_FUNCTION_GRAPH_TRACER
 CONFIG_STACK_TRACER
 CONFIG_DYNAMIC_FTRACE`
 
-# Découvrir le traceur Ftrace
+## Découvrir le traceur Ftrace
 
 Procédons comme un *guide étape par étape* pour comprendre le fonctionnement de **Ftrace** :
 
 1. **Obtenir les privilèges d’administrateur :** Nous devons avoir les droits d’administrateur pour utiliser **Ftrace**.
 `root@beaglebone:~$ sudo su`
 
-1. **Localiser le DebugFs :** La plupart du temps, il se trouve dans **/sys/kernel/debug**. Une fois cela fait, Il faut se positionner sur le répertoire **Ftrace**.
+2. **Localiser le DebugFs :** La plupart du temps, il se trouve dans **/sys/kernel/debug**. Une fois cela fait, Il faut se positionner sur le répertoire **Ftrace**.
 `root@beaglebone:~# cd /sys/kernel/debug/tracing
 `**Attention :** Si vous êtes redirigé, *vous n’êtes pas connecté en tant que root*.
 
-1. **Fichiers et paramètres Ftrace :** c’est la partie la plus importante dans la compréhension de **Ftrace**, il faut configurer plusieurs fichiers pour l’utiliser. Nous pouvons lister les différents fichiers et dossiers qui composent **Ftrace** (voir l’image ci-dessous).
+3. **Fichiers et paramètres Ftrace :** c’est la partie la plus importante dans la compréhension de **Ftrace**, il faut configurer plusieurs fichiers pour l’utiliser. Nous pouvons lister les différents fichiers et dossiers qui composent **Ftrace** (voir l’image ci-dessous).
 
 ![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
@@ -101,7 +101,7 @@ Le tableau suivant résume la fonction des fichiers fondamentaux qui constituent
 
 ![](/assets/images/posts/1*EcqYx_MC8DKZlODhCWqxzg.png)
 
-# Bien utiliser Ftrace
+## Bien utiliser Ftrace
 
 La façon la plus simple d’utiliser **Ftrace** est démontrée ci dessous :
 
@@ -143,7 +143,7 @@ La façon la plus simple d’utiliser **Ftrace** est démontrée ci dessous :
 
 ![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
-# Optimiser l’usage de Ftrace
+## Optimiser l’usage de Ftrace
 
 Par défaut, **Ftrace** capture toutes les fonctions du noyau appelées par tous les processus du système. Nous devons l’ajuster afin de réduire les problèmes de performance et optimiser la taille du rapport de **trace** qui en résulte.
 
@@ -166,7 +166,7 @@ Nous pouvons afficher la liste des points de traces (*fonctions pouvant être tr
 
 * **process-ftrace.c :** Nous pouvons prendre comme exemple ce simple programme C.
 
-```
+``` c
 int main(){
 
 	while(1){
@@ -188,7 +188,7 @@ Maintenant, nous pouvons **démarrer**/**arrêter** la **trace** et lire le fich
 
 ![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
-# Trace-cmd
+## Trace-cmd
 
 **Ftrace** est fastidieux et nécessite une longue configuration avant que nous puissions avoir une **trace**. Le créateur de **Ftrace** « **Steven Rostedt** » a publié un outil **Front-end** pour **Ftrace** appelé **Trace-cmd**.
 
@@ -227,7 +227,7 @@ Commençons avec Trace-cmd :
 
 `# trace-cmd reset`
 
-# Traçage réseau avec trace-cmd
+## Traçage réseau avec trace-cmd
 
 **Trace-cmd** permet de tracer un système distant. Ceci est idéal pour les platformes embarquées (*Rasbperry PI, Beaglebone, …, etc.*) qui n’ont pas assez d’espace pour enregistrer le rapport de trace.
 
@@ -254,34 +254,34 @@ Une fois que le serveur d’écoute sur l’ordinateur distant est démarré, on
 
 ![](/assets/images/posts/1*b31hiO4ynbDLRrXWEFF4aQ.png)
 
-# KernelShark
+## KernelShark
 
 La lecture du rapport **Ftrace** peut être difficile. le troisième outil publié par « ***Steven Rostedt*** » est **KernelShark** qui est un parseur graphique des traces générées par **trace-cmd**.
 
 **KernelShark** n’est pas disponible directement sous **Linux**, il faut l’installer :
 
-```
-$ sudo apt-get install kernelshark
+``` bash
+sudo apt-get install kernelshark
 ```
 
 L’utilisation de **KernelShark** est facile, nous avons seulement besoin de l’appeler et il cherchera un fichier **trace.dat** dans le répertoire courant *(ou lui indiquer l’emplacement de ce dernier avec l’option -i)*.
 
-```
-$ sudo kernelshark
+``` bash
+sudo kernelshark
 ```
 
 Un exemple sera plus parlant :
 
 1. **Générer le fichier trace.dat :** nous allons tracer les appels système :
 
-```
-$  sudo trace-cmd record -p function -l ‘sys_*’
+``` bash
+sudo trace-cmd record -p function -l ‘sys_*’
 ```
 
 2. **Parser le fichier trace.dat avec kernelshark :** on doit le démarrer comme ci-dessous :
 
-```
-$ sudo kernelshark
+``` bash
+sudo kernelshark
 ```
 
 La commande ci-dessus ouvre l’interface graphique « **KernelShark**« , qui montre l’activité enregistré sur chaque CPU.
@@ -340,7 +340,7 @@ En effectuant un zoom, on peux visualiser la chronologie des événements comme 
 
 ![](/assets/images/posts/0*w5R_z4JrRXuQAF9x.png)
 
-# Conclusion
+## Conclusion
 
 Nous avons découvert au cours de cette article le traceur **Ftrace** et son utilisation à partir de zéro.
 
@@ -348,7 +348,7 @@ Il reste encore des choses à voir qui ne sont pas abordés mais qui peuvent êt
 
 Les prochains articles présenterons d’autres traceurs comme **LTTng** et **eBPF**.
 
-# Pour aller plus loin
+## Pour aller plus loin
 
 * [Introduction à Ftrace](http://www.linuxembedded.fr/2011/03/introduction-a-ftrace/)
 
@@ -356,7 +356,7 @@ Les prochains articles présenterons d’autres traceurs comme **LTTng** et **eB
 
 *Originally published at [www.linuxembedded.fr](http://www.linuxembedded.fr/2018/12/les-traceurs-sous-linux-1/) on December 28, 2018.*
 
-# That’s all folks!
+## That’s all folks
 
 Did you enjoy it? If so don’t hesitate to 👏 our article or s[ubscribe to our Innovation watch n](https://www.getrevue.co/profile/smileinnovation)ewsletter!
 You can follow Smile on F[acebook,](https://www.facebook.com/smileopensource) T[witter ](https://www.twitter.com/GroupeSmile)& Y[outube.](http://www.youtube.com/user/SmileOpenSource)

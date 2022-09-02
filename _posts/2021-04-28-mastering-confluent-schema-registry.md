@@ -11,7 +11,7 @@ tags:
 - schemaregistry
 - apache-kafka
 author: chdor
-image: assets/images/posts/0*WZywNsbrK2qACDo7.jpg
+image: assets/images/posts/0*WZywNsbrK2qACDo7
 ---
 
 ### Part 1: What is Schema Registry

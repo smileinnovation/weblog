@@ -17,7 +17,6 @@ tags:
 author: thmil
 category: techwatch
 image: assets/images/posts/0*lupjGJtyDGvh0IeJ.jpg
-
 ---
 
 Wow! What a 🏃‍♂️final sprint until the finish line of the year for us!

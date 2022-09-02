@@ -11,8 +11,9 @@ tags:
 - iot
 - connected-devices
 author: pific
-image: assets/images/posts/0*3oFSYv3ykuGC1Gzi.jpg
+image: assets/images/posts/0*3oFSYv3ykuGC1Gzi.png
 ---
+
 
 *Yocto est devenu un standard de l’industrie pour la technologie « Linux embarqué ». Dans cette courte série de deux articles nous
 décrirons tout d’abord les principes de cet outil, puis nous décrirons quelques exemples plus avancés dans un deuxième article.*
@@ -45,7 +46,7 @@ Les outils similaires à Buildroot ont en commun la possibilité de définir 
 
 En revanche OpenEmbedded (et donc Yocto) n’utilisent — presque — pas d’outil graphique et l’on définit le contenu de l’image par des fichiers de configuration. Cette approche est plus complexe pour l’utilisateur occasionnel mais permet de créer des configurations plus avancées dans le cas d’une approche industrielle.
 
-### **Introduction à Yocto / OpenEmbedded**
+### Introduction à Yocto / OpenEmbedded
 
 Comme nous l’avons dit OpenEmbedded est né suite aux premiers travaux sur OpenZaurus (qui utilisait Buildroot). Les limites de la version Buildroot de l’époque (2003) — et probablement son approche « statique » — conduisirent les trois principaux développeurs (Chris Larson, Michael Lauer, and Holger Schurig ) à définir leur propre outil de construction constitué de deux projets indépendants.
 
@@ -77,65 +78,67 @@ Dans la suite de l’article nous utiliserons le BSP Yocto pour la célèbre c
 
 La première étape consiste à récupérer les sources du projet Yocto. La branche correspond à la version choisie, chaque version ayant un nom de code (rocko pour 2.4, pyro pour 2.3, morty pour 2.2, etc.).
 
-```
-$ git clone -b <branche> git://git.yoctoproject.org/poky
+``` bash
+git clone -b <branche> git://git.yoctoproject.org/poky
 ```
 
 On doit alors créer un répertoire de compilation en utilisant le script **oe-init-build-env**. Cette commande a pour effet de créer le répertoire choisi (soit **qemux86-build**) contenant les fichiers **local.conf** et **bblayers.conf** dans le sous-répertoire **conf**.
 
-```
-$ cd poky
-$ source oe-init-build-env qemux86-build
+``` bash
+cd poky
+source oe-init-build-env qemux86-build
 ```
 
 La construction de l’image la plus simple nommée « core-image-minimal » correspond à la ligne suivante :
 
-```
-$ bitbake core-image-minimal
+``` bash
+bitbake core-image-minimal
 ```
 
 La création de cette image — bien que légère — est relativement longue. En effet, outre la création de l’image à installer sur la cible, la première compilation produit également les outils de compilation croisés. Sur une machine raisonnablement puissante (i7, 8 Go de RAM), le temps de compilation avoisine une heure même si l’utilisation d’un disque SSD améliore considérablement les performances. Une fois l’image produite, on peut la tester en utilisant la commande suivante :
 
-```
-$ runqemu qemux86
+``` bash
+runqemu qemux86
 ```
 
 Cette dernière commande doit conduire à l’affichage de la fenêtre de l’émulateur indiquant le démarrage du système.
 
 ![Test de l’image Poky pour QEMU/x86](/assets/images/posts/1*UwrLlrU-gAohRM4v4tODRw.png)
 
-### **Test pour Raspberry Pi 3**
+### Test pour Raspberry Pi 3
 
 Si l’on désire tester la même image sur une Raspberry Pi 3, il faut obtenir le layer correspondant et indiquer le type de cible en renseignant la variable d’environnement **MACHINE** dans le fichier **local.conf**. Il est important d’indiquer la même branche que pour les sources de Yocto lors du test précédent.
 
-```
-$ cd poky
-$ git clone -b <branche> git://git.yoctoproject.org/meta-raspberrypi
+``` bash
+cd poky
+git clone -b <branche> git://git.yoctoproject.org/meta-raspberrypi
 ```
 
 On crée un nouveau répertoire de travail et l’on ajoute le nouveau layer au fichier **bblayers.conf** en utilisant la commande **bitbake-layers** (différente de **bitbake** !). On note que l’on peut utiliser plusieurs répertoires de compilation dans la même arborescence Yocto, ce qui n’est pas possible avec Buildroot.
 
-```
-$ source oe-init-build-env rpi3-build
-$ bitbake-layers add-layer ../meta-raspberrypi
+``` bash
+source oe-init-build-env rpi3-build
+bitbake-layers add-layer ../meta-raspberrypi
 ```
 
 On définit ensuite le type de cible.
 
-```
+``` bash
 echo “MACHINE = \”raspberrypi3\”” >> conf/local.conf
 ```
 
 On peut alors créer l’image.
 
-```
-$ bitbake core-image-minimal
+``` bash
+bitbake core-image-minimal
 ```
 
 Pour tester sur la Raspberry Pi 3, on copie l’image produite sur une Micro-SD.
 
-> $ umount /dev/mmcblk0p*
-$ sudo dd if=tmp/deploy/image/raspberrypi3/core-image-minimal-raspberrypi3.rpi-sdimg of=/dev/mmcblk0
+``` bash
+umount /dev/mmcblk0p*
+sudo dd if=tmp/deploy/image/raspberrypi3/core-image-minimal-raspberrypi3.rpi-sdimg of=/dev/mmcblk0
+```
 
 Lors du test sur la carte on obtient finalement les traces suivantes :
 
@@ -143,31 +146,31 @@ Lors du test sur la carte on obtient finalement les traces suivantes :
 
 On note la très faible empreinte mémoire du système (5,5 Mo) mais il est vrai que nous n’avons pas installé les systèmes de gestion de paquets (package management) sur l’image ni les modules du noyau. L’ajout du système de gestion de paquets IPK permet cependant de conserver une empreinte mémoire très raisonnable (8,5 Mo).
 
-```
+``` bash
 root@raspberrypi3:~# df -h
 ```
 
-```
-Filesystem  Size   Used Available Use% Mounted on
+``` bash
+Filesystem  Size   Used Available Use% Mounted on 
 /dev/root   14.5M  8.5M 5.2M      62%  /
 ```
 
-### **Répertoires produits**
+### Répertoires produits
 
 Le test précédent nous a permis de produire une image à tester. Dans cette partie nous allons voir les éléments créés par Yocto (en fait par BitBake). Ces éléments sont tous situés dans des sous-répertoires du répertoire de construction, soit **rpi3-build** dans notre cas. Étrangement, les fichiers directement utilisables sur la cible (en particulier l’image à installer) sont localisés dans un sous-répertoire de **tmp** et dans cet article d’introduction, nous évoquerons uniquement **tmp/deploy** et **tmp/work**. Le plus important est certainement **tmp/deploy/images/raspberrypi3** puisqu’il contient tous les éléments nécessaires au démarrage de la cible (noyau Linux, modules, fichiers « device tree », images du root-filesystem, etc.). Certains BSP, comme celui de la Raspberry Pi, produisent également une image directement utilisable sur une mémoire flash (cas de notre test).
 
 Si l’on détaille un peu plus **tmp/deploy** on constate qu’il contient trois sous-répertoires.
 
-```
-tmp/deploy/
-I__images
+``` text
+tmp/deploy/ 
+I__images 
 I__ipk
 I__licences
 ```
 
 Le sous-répertoire **licences** contient les licences des composants produits lors de la création de l’image. Ce point est important lors d’une démarche industrielle car il est souvent nécessaire de disposer de cette liste. Si l’on détaille le sous-répertoire **ipk**, on constate qu’il contient lui-même trois sous-répertoires.
 
-```
+``` text
 tmp/deploy/ipk/
 I__all
 I__cortexa7hf-neon-vfpv4
@@ -178,33 +181,33 @@ Le but des sous-répertoires est de classer les paquets binaires produits par c
 
 Le répertoire **tmp/work** nous est moins utile dans un premier temps car il correspond à un répertoire de travail hébergeant la production de chaque paquet binaire à partir des recettes. Outre cela il peut contenir des informations intéressantes comme le contenu du root-filesystem ou les traces d’exécution des recettes (ainsi que les erreurs!). Il est donc destiné à un utilisateur avancé développant ses propres recettes comme nous le verrons dans le deuxième article.
 
-### **Configuration avancée**
+### Configuration avancée
 
 Pour l’instant nous avons uniquement spécifié le type de cible par la variable **MACHINE** dans **local.conf** ainsi que l’ajout du layer meta-raspberry grâce à la commande **bitbake-layers** qui impacte le fichier **bblayers.conf**. Nous allons terminer ce premier article en indiquant quelques options de configurations que l’on peut mentionner dans **local.conf**. Une description complète des options est bien entendu disponible dans la documentation Yocto, en particulier le [manuel de référence](http://www.yoctoproject.org/docs/2.4.1/ref-manual/ref-manual.html)¹² . Lors du deuxième article nous décrirons plus précisément la notion de « feature » évoquée ci-après.
 
-### **Réduction de l’espace utilisé**
+### Réduction de l’espace utilisé
 
 La production d’une image correspond à l’exécution par BitBake de plusieurs milliers de recettes. Par défaut chaque étape de construction est tracée dans **tmp/work** et les fichiers intermédiaires correspondant à la compilation des composants sont conservés, ce qui peut occuper plusieurs dizaines de Go sur la machine de développement. Pour réduire la taille de **tmp/work** au strict minimum (soit tout de même 1 Go) on peut ajouter la directive :
 
-```
+``` text
 INHERIT += “rm_work”
 ```
 
-### **Ajout du gestionnaire de paquets**
+### Ajout du gestionnaire de paquets
 
 Si l’on désire disposer d’un gestionnaire de paquets binaire sur la cible, on peut ajouter la ligne suivante :
 
-```
+``` text
 EXTRA_IMAGE_FEATURES += “package-management”
 ```
 
 On peut également spécifier le format de paquet utilisé qui par défaut est **package_rpm**.
 
-```
+``` text
 PACKAGE_CLASSES = “package_ipk”
 ```
 
-### **Ajout d’espace libre sur la cible**
+### Ajout d’espace libre sur la cible
 
 La taille du root-filesystem est calculée par Yocto au plus juste et nous avons vu lors de notre test qu’il restait à peine 5 Mo d’espace disponible. Si l’on veut augmenter l’espace libre on peut indiquer le volume à ajouter (en Ko).
 
@@ -212,39 +215,39 @@ La taille du root-filesystem est calculée par Yocto au plus juste et nous avon
 IMAGE_ROOTFS_EXTRA_SPACE = “50000”
 ```
 
-### **Ajout d’un format de root-filesystem**
+### Ajout d’un format de root-filesystem
 
 En fonction du BSP, Yocto construit les images du root-filesystem dans **tmp/deploy/images/<nom-de-cible>**. Si l’on désire ajouter un format d’image supplémentaire, on peut utiliser la variable **IMAGE_FSTYPES**. Dans l’exemple qui suit on produit en plus une image au format Initramfs (soit une archive CPIO compressée).
 
-```
+``` text
 IMAGE_FSTYPES += “cpio.gz”
 ```
 
-### **Construction d’une image en lecture seule**
+### Construction d’une image en lecture seule
 
 Dans de nombreux cas de figures, il est judicieux que le root-filesystem installé sur la cible en production soit en lecture seule. Pour cela il suffit d’ajouter la ligne suivante :
 
-```
+``` text
 EXTRA_IMAGE_FEATURES += “read-only-rootfs”
 ```
 
-# **Conclusion**
+## Conclusion
 
 Dans cette première partie nous avons pu voir les rudiments de l’utilisation de Yocto après une brève comparaison avec d’autres outils comme Buildroot. Dans un prochain article nous verrons comment construire nous-même des recettes afin d’enrichir notre image.
 
-### **Bibliographie**
+### Bibliographie
 
 *[1] Buildroot sur *[https://buildroot.org](https://buildroot.org)
- *[2] OpenEmbedded sur *[http://www.openembedded.org/wiki/Main_Page](http://www.openembedded.org/wiki/Main_Page)
- *[3] Projet Yocto sur *[https://www.yoctoproject.org/](https://www.yoctoproject.org/)
- *[4] OpenWrt sur *[https://openwrt.org/](https://openwrt.org/)
- *[5] PTXdist sur *[https://www.pengutronix.de/en/software/ptxdist.html](https://www.pengutronix.de/en/software/ptxdist.html)
- *[6] LTIB sur *[http://ltib.org/](http://ltib.org/)
- *[7] Wind River Linux sur *[https://www.windriver.com/products/linux/](https://www.windriver.com/products/linux/)
- *[8] Projet GENIVI sur *[https://www.yoctoproject.org/product/genivi-baseline](https://www.yoctoproject.org/product/genivi-baseline)
- *[9] Automotive Grade Linux sur *[https://www.automotivelinux.org](https://www.automotivelinux.org)
- *[10] Liste des layers officiels sur *[http://layers.openembedded.org/layerindex/branch/master/layers](http://layers.openembedded.org/layerindex/branch/master/layers)
- *[11] Layer du BSP Raspberry Pi sur *[http://git.yoctoproject.org/cgit/cgit.cgi/meta-raspberrypi](http://git.yoctoproject.org/cgit/cgit.cgi/meta-raspberrypi)
- *[12] Manuel de référence Yocto sur *[http://www.yoctoproject.org/docs/2.4.1/ref-manual/ref-manual.html](http://www.yoctoproject.org/docs/2.4.1/ref-manual/ref-manual.html)
+*[2] OpenEmbedded sur *[http://www.openembedded.org/wiki/Main_Page](http://www.openembedded.org/wiki/Main_Page)
+*[3] Projet Yocto sur *[https://www.yoctoproject.org/](https://www.yoctoproject.org/)
+*[4] OpenWrt sur *[https://openwrt.org/](https://openwrt.org/)
+*[5] PTXdist sur *[https://www.pengutronix.de/en/software/ptxdist.html](https://www.pengutronix.de/en/software/ptxdist.html)
+*[6] LTIB sur *[http://ltib.org/](http://ltib.org/)
+*[7] Wind River Linux sur *[https://www.windriver.com/products/linux/](https://www.windriver.com/products/linux/)
+*[8] Projet GENIVI sur *[https://www.yoctoproject.org/product/genivi-baseline](https://www.yoctoproject.org/product/genivi-baseline)
+*[9] Automotive Grade Linux sur *[https://www.automotivelinux.org](https://www.automotivelinux.org)
+*[10] Liste des layers officiels sur *[http://layers.openembedded.org/layerindex/branch/master/layers](http://layers.openembedded.org/layerindex/branch/master/layers) 
+*[11] Layer du BSP Raspberry Pi sur *[http://git.yoctoproject.org/cgit/cgit.cgi/meta-raspberrypi](http://git.yoctoproject.org/cgit/cgit.cgi/meta-raspberrypi)
+*[12] Manuel de référence Yocto sur *[http://www.yoctoproject.org/docs/2.4.1/ref-manual/ref-manual.html](http://www.yoctoproject.org/docs/2.4.1/ref-manual/ref-manual.html)
 
 

@@ -14,7 +14,7 @@ tags:
 - airbnb
 author: thmil
 category: techwatch
-image: assets/images/posts/0*SWXpS6dB2xRF6ZhF.jpg
+image: assets/images/posts/0*RkgLTrqtwK-I5kAe.jpg
 ---
 
 > This content was sent on march, 15th via our [Tech Watch Newsletter](https://mailchi.mp/c414f1508567/techwatch)

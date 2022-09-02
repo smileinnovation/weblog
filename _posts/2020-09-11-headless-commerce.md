@@ -12,7 +12,7 @@ tags:
 - headless-cms
 - ecommerce
 author: fagas
-image: assets/images/posts/0*wo70DlNLIqDJGnIj.png
+image: assets/images/posts/0*wo70DlNLIqDJGnIj
 ---
 
 The eCommerce industry is full of challenges and the first one is the need to build a strong yet adaptive solution: robust to handle traffic peaks/seasonality and adaptive enough to provide a personalized interface to seduce the customer with a unique customer journey.

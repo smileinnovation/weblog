@@ -12,7 +12,7 @@ tags:
 - api
 - e-commerce-solution
 author: fagas
-image: assets/images/posts/0*cIIwH7NKrkGhs1RP.png
+image: assets/images/posts/0*cIIwH7NKrkGhs1RP
 ---
 
 # Where you probably stand from

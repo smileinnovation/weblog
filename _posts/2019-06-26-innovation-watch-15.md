@@ -14,8 +14,7 @@ tags:
 - tesla
 author: thmil
 category: techwatch
-image: assets/images/posts/0*kO5hOYhgK2vpsvHQ.jpg
-
+image: assets/images/posts/0*F3N1vFbr1KtktbK3.jpg
 ---
 
 > This content was sent on june, 26th via our [Tech Watch Newsletter](https://mailchi.mp/c414f1508567/techwatch)
@@ -39,7 +38,7 @@ Blockchain technologies are very young and few are mature enough to go in produc
 
 While parody video about how Boston Dynamics is training their robot is buzzing on the internet (with **#teamlitteral** thinking all of this are real and a real robot is using a gun against humans 🙄), Boston Dynamics is showing they’re ready to sell a product. But don’t dream (or have a nightmare) too much yet. Those robots require most of the time an agent to remote control them, can move autonomously in an environment but only if already mapped and will not decide by themselves where to go or not.
 
-<iframe src="/assets/images/posts/8d5c7a5741d88136ec44a832ccaeb2d7.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=0ybLCfVeFL4" %}
 
 ### [Replacing words on a video sequence is now possible, thanks to M.L.](https://www.theverge.com/2019/6/10/18659432/deepfake-ai-fakes-tech-edit-video-by-typing-new-words)
 
@@ -67,7 +66,7 @@ We showed you some tools on our previous issues which allow you to use a Google 
 
 # Fun • /fʌn/
 
-<iframe src="/assets/images/posts/42157f6bd5753fb6328ba832d7290077.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=4M6mqg_3JXg" %}
 
 ### [This clothing line was designed by A.I.](https://mailchi.mp/a535bea83b94/innovation-watch-15#)
 
@@ -79,6 +78,4 @@ It’s called “Glitch” and you’ll totally understand why when you’re loo
 
 The Boring Company, one of the many Musk company, is now demonstrating to journalist their latest iteration of their tunnel with integration into the Tesla software. This update let the car travel super fast with driver assistive technology without trailing wheels (which are the first iteration of how to stay in track). For your record, the Boring Company cut the cost of a section of a tunnel from $1 billion to $10 million.
 
-<iframe src="/assets/images/posts/7f2e256dddfff2d5c620454282a6da65.html"></iframe>
-
-
+{% twitter "https://twitter.com/tesla_truth/status/1142235000554676224" %}

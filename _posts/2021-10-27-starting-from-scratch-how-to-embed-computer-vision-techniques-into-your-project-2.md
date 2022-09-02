@@ -10,7 +10,7 @@ tags:
 - computer-vision
 - visual-search
 author: alrou
-image: assets/images/posts/1*hkbZg1ZA_Z6oxInLW2P1UQ.png
+image: assets/images/posts/1*uqpOinGu1DQoeFwmrKEp7w.png
 ---
 
 Part 2 — Training data set
@@ -57,7 +57,7 @@ Each of these databases has its data format and constraints. So the first task i
 
 A quick check on the website of each data source can also be helpful to know if the objects we want exists or not in the data source: in our case, the Coco data source was eliminated quickly as it does not contain any objects we are looking for. So we focused on the three remainings and finally got these numbers :
 
-<iframe src="/assets/images/posts/8c1f5a7beba86b505c6b547df2d305fc.html"></iframe>
+{% gist 49d23ac0f3e88215f26ef4062f015d9d %}
 
 As a common output format, we choose to use the Coco annotation format. [Here](https://www.immersivelimit.com/tutorials/create-coco-annotations-from-scratch) is a good article explaining in detail how to use it.
 
@@ -187,5 +187,3 @@ As part of this product road map, we have to test and experiment with new featur
 
 **That’s all, folks!**
 Did you enjoy it? If so, don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter](https://www.twitter.com/GroupeSmile) & [Youtube.](http://www.youtube.com/user/SmileOpenSource)
-
-

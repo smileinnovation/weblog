@@ -11,7 +11,7 @@ tags:
 - led-lighting
 - diy
 author: fadew
-image: assets/images/posts/1*dDG1WkMYzLeHR4gjz28L5w.jpg
+image: assets/images/posts/1*dDG1WkMYzLeHR4gjz28L5w.jpeg
 ---
 
 ### Part 1: Context, scope, purpose… and hardware!

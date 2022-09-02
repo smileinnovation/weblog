@@ -13,7 +13,7 @@ tags:
 - google
 author: thmil
 category: techwatch
-image: "assets/images/posts/1*FNLpfv57FMm3H0Zbo-RMUA.jpg"
+image: assets/images/posts/1*FNLpfv57FMm3H0Zbo-RMUA.jpeg
 ---
 
 🍁It’s the fall season. Some of us are in love with the beautiful colors of the landscape, and some have their mood sinking as the RMS Titanic. That’s why we wanted to go with some lighter content with this edition.
@@ -24,9 +24,9 @@ Sustainability, fun, and trends only. Less technical, more inspiring. Food for y
 
 # 🌱 Sustainability & Society
 
-<iframe src="/assets/images/posts/9229e935a393f5fc762105cfd749c202.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=No6qTbn0J4s" %}
 
-### [WISAMO inflated wing to reduce fuel consumption](https://www.vice.com/en/article/bvz7bm/hyundai-acquires-boston-dynamics-company-most-famous-for-robot-police-dogs)
+### [WISAMO inflated wing to reduce fuel consumption](https://www.designboom.com/technology/michelin-wisamo-project-inflatable-sail-fuel-efficiency-06-14-2021/)
 
 WISAMO is an innovation initiative from Michelin Group. It develops an inflated, foldable, and automated wing using wind propulsion as a hybrid solution to reduce fuel consumption and greenhouse emissions like CO². The wing can be adapted to any vessel, new ones or the ones already operating: Ro-Ro, bulk cargos, oil and gas tankers, containers, and sailing and yacht boats. Thanks to WISAMO, Michelin aims to contribute to maritime transport decarbonization.
 

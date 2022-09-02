@@ -13,8 +13,7 @@ tags:
 - github
 author: thmil
 category: techwatch
-image: assets/images/posts/0*SvIasOnA5Bn_FH9L.jpg
-
+image: assets/images/posts/0*8DhWf0thvdMIB0j5.jpg
 ---
 
 > This content was sent on august, 8th via our [Tech Watch Newsletter](https://mailchi.mp/c414f1508567/techwatch)
@@ -52,7 +51,7 @@ They though working for Facebook will be a very rewarding way of living, making 
 
 Did you hear about [dark patterns](https://www.darkpatterns.org/)? Those are manipulations techniques used by corporations to push you to do something or prevent you to do something else. Take for example the video feed on facebook mobile app: When the video you wanted to view is finished, another one is starting automatically right away. Then another one. And another one. Infinitely. And you’re trapped inside this effortless addictive content streaming without anything to do. Or you all have already seen a big, affordance button to click on and a smaller, without button look and feel a link to say “no I don’t want to give you consent to do whatever you want with my Personal information”… Well, that’s the kind of techniques that may be banned in the near future in the US.
 
-<iframe src="/assets/images/posts/8e0f13a1f62ed95c2384c9bc960232c0.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=oZZ5Kouj_hQ" %}
 
 ### [Using GDPR to force Youtube explaining about their content rules](https://www.vice.com/en_us/article/j5wy8d/the-youtubers-union-is-not-messing-around)
 

@@ -12,7 +12,7 @@ tags:
 - api
 - graphql
 author: fagas
-image: assets/images/posts/0*rqiej0HCGx0WpDyW.png
+image: assets/images/posts/0*rqiej0HCGx0WpDyW
 ---
 
 *Performance* and *time to interaction* are key to increase conversion and retention. And for that, [PWA](https://en.wikipedia.org/wiki/Progressive_web_application) has done an amazing job promoting a new way of building applications. But pages can be rendered way faster using static page generation, fetching only what’s need to be fresh.

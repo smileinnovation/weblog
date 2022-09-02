@@ -38,7 +38,7 @@ That’s good news for all commuters of NYC, Apple Pay with their dedicated fram
 
 It’s called “DOM Pizza Checker” and have two cute LED eyes and a big smile, and it is the new companion in Domino’s kitchen in Australia and New Zeland to ensure the pizza will look as it should, and if it doesn’t, staff will make it right.
 
-<iframe src="/assets/images/posts/b70741c88321fd0f3d453b9a6d65cc8d.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=kp0Tc7hyNKw" %}
 
 ### [Google Translate may leave the text part of the translation process](https://google-research.github.io/lingvo-lab/translatotron/#conversational)
 
@@ -76,7 +76,7 @@ While people in London have been forced by police to show their face in front of
 
 The estimated total cost of this robot: less than $3,000. This still a bit pricy for a one-man geek team, but in the world of legged robots, it’s a revolution. Because of the price (proprietary robot Minitaur is $11,500 and it’s the first less expensive), but also because of the performances: better torque than the [Minitaur](https://www.youtube.com/watch?v=bnKOeMoibLg) and better vertical jump than [MIT’s Cheetah 3 robot](https://www.theverge.com/2018/7/5/17537160/mits-cheetah-3-robot-run-up-stairs).
 
-<iframe src="/assets/images/posts/a59c3fdd41afdc2ca3ff70d3e6bae11d.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=CUhuhIeQNos" %}
 
 # Fun • /fʌn/
 
@@ -86,7 +86,7 @@ The estimated total cost of this robot: less than $3,000. This still a bit pricy
 
 Samsung overcomes the need for a 3D modelling to create talking avatar thanks to their Moscow’s research centre. The idea to not train a model for a person but create a meta-model, able to get only one picture in entry and, if it detects the good landmark on the face of the picture presented, will generate the movies from it. It can be applied to celebrity but also painting or famous pictures. Obviously, more pictures in entry lead to better results but not every time, you’ll see some examples in the following video where 8 pictures in entry give better results than 16.
 
-<iframe src="/assets/images/posts/676995b0e004b9438f036d5c0a6b589f.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=SkxZUdqS9tw" %}
 
 # That’s all folks!
 

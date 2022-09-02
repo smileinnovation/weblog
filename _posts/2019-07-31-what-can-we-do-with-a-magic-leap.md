@@ -12,7 +12,7 @@ tags:
 - hololens
 - development
 author: segar
-image: assets/images/posts/1*vN7h2OmewtE4fv5J947eEA.jpg
+image: assets/images/posts/1*vN7h2OmewtE4fv5J947eEA.jpeg
 ---
 
 # Magic Leap and Augmented Reality

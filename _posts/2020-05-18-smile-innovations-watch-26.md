@@ -41,7 +41,7 @@ This is Smile’s Innovation Watch.
 
 As crazy as it sounds, Google developed an AI model called WaveNetEQ that can compensate all our bad internet connexion glitched in their video calling app Duo. The model is trained on 100 voices in 48 different languages and now can auto-complete short sections of speech based on common patterns in the way people talk. The cherry on top? The model runs on your phone, locally. No cloud.
 
-<iframe src="/assets/images/posts/f109f6bca33424c137a1e0781b282276.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=6r7vDhPXmiM" %}
 
 ### [Watch Zoox’s autonomous car drive around San Francisco for an hour](https://www.youtube.com/watch?v=6r7vDhPXmiM)
 

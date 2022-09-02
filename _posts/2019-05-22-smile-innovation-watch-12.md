@@ -14,7 +14,7 @@ tags:
 - apple
 author: thmil
 category: techwatch
-image: assets/images/posts/0*OjnSUGkbjYb1poOa.jpg
+image: assets/images/posts/0*FWNOzQ2ki3J0XEw8.jpg
 ---
 
 > This content was sent on feb, 19th via our [Tech Watch Newsletter](https://mailchi.mp/c414f1508567/techwatch)
@@ -37,7 +37,7 @@ Pushing forward the **#machinelearning**possibilities here’s a model plugged t
 
 The new trained model in their text generation research is too powerful and could lead to severe misusage. Think about fake news on steroïd thanks to **#machinelearning**. Too bad, I could have used such kind of algorithm to write my review of all those links … or have I?
 
-<iframe src="/assets/images/posts/ef3090bc6efcc22d419633b6409bc54b.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=XMJ8VxgUzTc" %}
 
 ### [JP Morgan launched the first US banked-backed cryptocurrency](https://www.cnbc.com/2019/02/13/jp-morgan-is-rolling-out-the-first-us-bank-backed-cryptocurrency-to-transform-payments--.html)
 
@@ -87,8 +87,7 @@ All the effort to remove or affect the articles 11 & 13 of the EU Copyright Dire
 
 (reads in 🇫🇷) Deepmind, the company own by Alphabet (Google mother’s company) and which create also AlphaGo had won over 2 professional players in real-time strategy game Starcraft. AlphaStar, the model trained for that case, beat Dario TLO Wünsch 5–0 before beating Grzegorz MaNa Komincz with the same score. Where’s the trick? Maybe because AlphaStar isn’t limited to screen size but see and knows the entire game at every moment.
 
-<iframe src="/assets/images/posts/c753d51087042ba1d477b
-544013a98f8.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=UuhECwm31dM" %}
 
 # That’s all folks!
 

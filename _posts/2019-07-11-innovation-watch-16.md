@@ -1,17 +1,15 @@
 ---
 layout: post
 url: https://medium.com/@/994973c8f449
-title: Innovation Watch #16
+title: "Innovation Watch #16"
 subtitle: We’re still in the early days of July and it feels more comfortable, the air is breathable again. The heatwave is over and we can get out of
 slug: innovation-watch-16
 description: |-
     In this edition, we’ll talk about #AI and #computer-vision again, which start to takes over human activities, for the good or the bad, only time will tell us. But being able to predict breast cancer 5
 tags: machine-learning,computer-vision,breast-cancer,robotics,privacy
 author: thmil
-image: assets/images/posts/0*2UokBb5e4teeTZsL.jpg
+image: assets/images/posts/0*igO4BdR2sk3kply8.jpg
 ---
-
-# Innovation Watch #16
 
 > This content was sent on july, 10th via our [Tech Watch Newsletter](https://mailchi.mp/c414f1508567/techwatch)
 

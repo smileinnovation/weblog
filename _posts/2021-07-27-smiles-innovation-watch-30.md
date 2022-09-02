@@ -57,7 +57,7 @@ Google is open-sourcing its low-bandwidth audio codec for data calls. The one te
 
 # 💰 Acquisition
 
-<iframe src="/assets/images/posts/25c55153484047bc7f6e2a406db971e6.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=O2_NEy0iDck" %}
 
 ### [Hyundai Acquires Boston Dynamics, Company Most Famous for Robot Police Dogs](https://www.vice.com/en/article/bvz7bm/hyundai-acquires-boston-dynamics-company-most-famous-for-robot-police-dogs)
 
