@@ -14,6 +14,7 @@ tags:
 - autonomous-cars
 author: thmil
 category: techwatch
+image: assets/images/posts/0*nQte2GcXZtjo039a
 ---
 
 Oh Oh Oh 🎅🏼
@@ -100,7 +101,7 @@ The [OPEN Government Data Act](https://www.datacoalition.org/open-government-dat
 
 # Fun • /fʌn/
 
-<iframe src="/assets/images/posts/c05c75d17b740094f6eeffbbe9563457.html"></iframe>
+{% twitter "https://twitter.com/andykhouri/status/1067843799114641409" %}
 
 # That’s all folks!
 

@@ -12,9 +12,8 @@ tags:
 - api
 - e-commerce-solution
 author: fagas
+image: assets/images/posts/0*cIIwH7NKrkGhs1RP
 ---
-
-![My last application and me.](/assets/images/posts/0*cIIwH7NKrkGhs1RP)
 
 # Where you probably stand from
 

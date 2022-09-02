@@ -10,9 +10,10 @@ tags:
 - deep-learning
 - visual-search
 author: alrou
+image: assets/images/posts/1*NUC03THTnMV6aE1EakIrXA.png
 ---
 
-Part 4— Integration
+## Part 4— Integration
 
 How to integrate it?
 
@@ -68,5 +69,3 @@ As part of this product road map, we have to test and experiment with new featur
 
 **That’s all, folks!**
 Did you enjoy it? If so, don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter](https://www.twitter.com/GroupeSmile) & [Youtube.](http://www.youtube.com/user/SmileOpenSource)
-
-

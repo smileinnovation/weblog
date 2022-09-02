@@ -14,6 +14,7 @@ tags:
 - kyc
 author: thmil
 category: techwatch
+image: assets/images/posts/0*crrCcajm7r24zEUC.png
 ---
 
 Our first techwatch of 2021. I can’t believe it’s already July, and we miss the opportunity to share with you so much great tech stuff we scouted all around. Sure, we worked a lot on tech4good projects and launched news soon-to-be-public events like “le club sourire,” but that’s not a reason to stop getting hungry for new ways to use tech in our life
@@ -56,7 +57,7 @@ Google is open-sourcing its low-bandwidth audio codec for data calls. The one te
 
 # 💰 Acquisition
 
-<iframe src="/assets/images/posts/25c55153484047bc7f6e2a406db971e6.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=O2_NEy0iDck" %}
 
 ### [Hyundai Acquires Boston Dynamics, Company Most Famous for Robot Police Dogs](https://www.vice.com/en/article/bvz7bm/hyundai-acquires-boston-dynamics-company-most-famous-for-robot-police-dogs)
 

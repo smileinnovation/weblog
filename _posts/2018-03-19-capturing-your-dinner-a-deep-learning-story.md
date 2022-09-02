@@ -12,17 +12,16 @@ tags:
 - tech
 - technology
 author: pafer
+image: assets/images/posts/1*h3jepQ3TqoQ3rNBnpO3wxA.jpeg
 ---
 
-### A naive approach to features extraction and R-CNN
-
-![“Overlay of neatly organized dragon fruit, flowers, and tropical fruit” by Brooke Lark on Unsplash](/assets/images/posts/1*h3jepQ3TqoQ3rNBnpO3wxA.jpeg)
+## A naive approach to features extraction and R-CNN
 
 Working for [Smile innovation](https://medium.com/smileinnovation) can lead to funny pre-sales research. Few weeks ago I was involved in a discussion to find out if it could be possible to recognise (and so to bill) plates and all others food items on a lunch tray.
 
 Well, that was a challenging idea. But with the right approach and tooling I achieved to something very interesting. Let’s have a look!
 
-# Food is so complicated
+### Food is so complicated
 
 Nowadays, capturing objects from images or videos is a very common task as many examples of images recognition explain how to find cars, cats, dogs, human… Google, Amazon, and many others provide API, libraries and models, and many researchers continue to give better and better algorithms, mathematical progress and ideas to enhance that activity.
 
@@ -38,7 +37,7 @@ Of course, I will speak about machine learning, convolutions, CNN, R-CNN… and 
 
 Since CNN became very accessible and easy to learn thanks to libraries as TensorFlow, Theano, Pytorch or Keras, we are able to read, study and make tests from a lot of tutorials, articles and videos. There are a lot of pre-trained models to ease the process, and I can now say that machine learning and convolutional neural networks are accessible for all.
 
-Also, the first object recognition I’ve used was* [HAAR like detection*](https://en.wikipedia.org/wiki/Haar-like_feature) from the famous [OpenCV](https://opencv.org/) library. And if you wonder if it’s deep learning, the answer is “yes it is”. *HAAR like detection* uses a kind of wavelets convolution process to keep cascade file of object. The training is essentially the same as we can do with [TensorFlow](https://www.tensorflow.org/): give it a lot of example, let it learn, and try to detect.
+Also, the first object recognition I’ve used was [HAAR like detection](https://en.wikipedia.org/wiki/Haar-like_feature) from the famous [OpenCV](https://opencv.org/) library. And if you wonder if it’s deep learning, the answer is “yes it is”. *HAAR like detection* uses a kind of wavelets convolution process to keep cascade file of object. The training is essentially the same as we can do with [TensorFlow](https://www.tensorflow.org/): give it a lot of example, let it learn, and try to detect.
 
 OK, it’s easy. But is it working for any object… and food ?
 
@@ -76,7 +75,7 @@ Hard choice.
 
 Why not try both approches, (fast and faster) R-CNN and extracting feature before sending them to a simple CNN?
 
-# Naive approach with OpenCV: we are able to make that extraction
+## Naive approach with OpenCV: we are able to make that extraction
 
 ### Capture simple objects and afine results
 
@@ -122,7 +121,7 @@ Here, I will manipulate colors, contrast, threshold, and detect borders to have 
 
 Before beginning, working on Jupyter, I created some helpers function to speed up the work, for example:
 
-```
+```python
 # return RGB and Grayscale image from a source
 def get_image(src="./medium/test.jpg"):
     im = cv2.imread(src)
@@ -133,19 +132,19 @@ def get_image(src="./medium/test.jpg"):
 
 RGB colorspace is not the best format to adjust saturation and colors, so we will use HSV colorspace. Making use of powerful tools such as OpenCV and the almighty Python NumPy library, that is fortunately not so complicated:
 
-```
+```python
 import cv2
 im = cv2.cvtConvert(im, cv2.COLOR_RGB2HSV)
 ```
 
-```
+```python
 # # im[:, :, N] where N is the channel you need
 # 0=H, 1=S, V=2
 # let's try to make saturation + 80
 im[:, :, 1] += 80
 ```
 
-```
+```python
 # reconvert before display
 plt.imshow(cv2.cvtConvert(im, cv2.COLOR_HSV2RGB))
 plt.show()
@@ -153,7 +152,7 @@ plt.show()
 
 Here is a function I’m using and that works:
 
-```
+```python
 def augmentation(im, fact=.0):
     if fact > 1:
         fact = 1.0
@@ -207,7 +206,7 @@ Structure detection was the best option for my tests. Let me explain what I did:
 
 Some code is sometimes worth a thousand words and so here is the function:
 
-```
+```python
 def extract_features(im,
                      threshold=144,
                      ellsize=16,
@@ -258,30 +257,30 @@ On the left, there is the structure ellipsis result that helps creating some “
 
 The code below draws boxes around features.
 
-```
+```python
 import imutils
 # extract features, that parameters were good enough to
 # make some tests
 _, mask = extract_features(im, 116, 16, 141, 2, 6)
 ```
 
-```
+```python
 out = img.copy()
 ```
 
-```
+```python
 # we need to invert mask
 mask = cv2.bitwise_not(mask)
 ```
 
-```
+```python
 # note that RETR_CHAIN is also usable
 contours = cv2.findContours(mask,
                             cv2.RETR_LIST,
                             cv2.CHAIN_APPROX_SIMPLE)
 ```
 
-```
+```python
 contours = contours[0] if imutils.is_cv2() else contours[1]
 contours = contours.sort_contours(contours)[0]
 # loop over the contours
@@ -290,7 +289,7 @@ for (i, c) in enumerate(contours):
     ((x, y), (w, h), _) = cv2.minAreaRect(c)
 ```
 
-```
+```python
     # remove too small regions
     if w > 40 and h > 40:
         x = int(x-w//2)
@@ -299,7 +298,7 @@ for (i, c) in enumerate(contours):
         h = int(y+h)
 ```
 
-```
+```python
         # draw a box
         out = cv2.rectangle(out, (x, y), (w, h), color, 2)
 ```
@@ -326,7 +325,7 @@ Please keep in mind, we hereby only get boxes around food and that’s very inte
 
 What I’ve made was a simple ConvNet with 4 layers and I trained the model with images of food. I didn’t need to have “annotated images” as our images were only one piece of food per image. Passing the image in my filter, then cropped regions are sent to my model — the precision was impressive for a simple proof of concept, **near 90% of accuracy**.
 
->> The precision was impressive for a simple proof of concept, **near 90% of accuracy**
+\> The precision was impressive for a simple proof of concept, **near 90% of accuracy**
 
 Conclusion for OpenCV feature extraction approach: if you really don’t want to hit R-CNN, and build a little CNN with 3 or 4 hidden layers to categorize a restricted list of objects, that method is sufficient.
 
@@ -354,7 +353,7 @@ The method is absolutely not bad, really. That can be very useful to separate th
 
 But as soon as the objects have many colors, shapes and if light moves, that kind of work is probably a waste of time. Because R-CNN will learn to extract regions for you. That is the following part.
 
-# Use R-CNN, YOLO, Fast and Faster R-CNN, and so on
+## Use R-CNN, YOLO, Fast and Faster R-CNN, and so on
 
 R-CNN are “Recurrent Convultional Neuron Network” and that kind of model is very efficient. Take the time to read this article to understand how that works.
 
@@ -404,7 +403,7 @@ I needed to classify images. Retinanet proposes to use several annotation format
 
 The first one, `classes.csv`, contained:
 
-```
+```csv
 risotto,1
 salad,2
 little-bread,3
@@ -414,7 +413,7 @@ beans,5
 
 And the second file, `annotation.csv`, described bounding boxes for each images:
 
-```
+```csv
 pic-037.jpg,80,20,500,120,risotto
 pic-025.jpg,520,250,1152,953,risotto
 pic-with-nothing.jpg,,,,,
@@ -426,7 +425,7 @@ Of course, one image may appear several times if there is several foods on that 
 
 With my NVidia 1060 (3Go RAM), the training script provided by the project crashed frequently. So I created that python script to make it possible to work:
 
-```
+```python
 import keras
 from keras.preprocessing.image import ImageDataGenerator
 from keras_retinanet.preprocessing import csv_generator
@@ -436,19 +435,19 @@ from keras.callbacks import ReduceLROnPlateau
 import keras_retinanet.losses
 ```
 
-```
+```python
 # ... skip train generator
 # ... skip some works
 ```
 
-```
+```python
 # then:
 ts = train_gen.samples  // batch_size
 vs = validation.samples // batch_size
 epochs = 500
 ```
 
-```
+```python
 # +1 because classes 0 doesn't exist, that will be the
 # classification to get "others" thing than food 
 model = resnet50_retinanet(len(train_gen.classes)+1)
@@ -461,7 +460,7 @@ model.compile(
 )
 ```
 
-```
+```python
 
 lr_scheduler = ReduceLROnPlateau(verbose=1,
                                  factor=.5, 
@@ -470,7 +469,7 @@ lr_scheduler = ReduceLROnPlateau(verbose=1,
                                  patience=10)
 ```
 
-```
+```python
 model.fit_generator(train_gen,
                     validation_data=validation,
                     validation_steps=vs,
@@ -552,5 +551,3 @@ But to come back to the reason we did this :
 * Keras RetinaNet — [https://github.com/fizyr/keras-retinanet](https://github.com/fizyr/keras-retinanet)
 
 * Supervisely — [https://supervise.ly/](https://supervise.ly/)
-
-

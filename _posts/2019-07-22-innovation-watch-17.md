@@ -13,6 +13,7 @@ tags:
 - mental-health
 author: thmil
 category: techwatch
+image: assets/images/posts/0*KM2OE0y-uZzsCXxu.jpg
 ---
 
 > This content was sent on july, 22th via our [Tech Watch Newsletter](https://mailchi.mp/c414f1508567/techwatch)

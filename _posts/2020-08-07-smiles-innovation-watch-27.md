@@ -14,6 +14,7 @@ tags:
 - 3d-printing
 author: thmil
 category: techwatch
+image: assets/images/posts/0*d-QugBO3U9TVg83_.jpg
 ---
 
 ☀️ Summer is here, and even if most of us have a 🏡 #staycation this year and that kinda sucks, let’s take time to reflect on the way we are, usually, consuming travel and holidays. Let’s seize the opportunity to discover our region or country. Stay hydrated, wash your hands, wear your masks 😷.
@@ -125,7 +126,7 @@ One of the five largest construction companies in Japan Is building a giant dam 
 
 The Zero Mass Water, a company from Arizona, USA, will use renewable energy instead of the fossil fuel that powers the many desalination facilities in Dubai to harvest the moisture from the air to create bottled water at a plan 20km from the city. The bottling plant is run on solar, bottles are recyclable, and the caps are sustainable. They plan to produce 2,3 million liters, about the volume of a typical Olympic swimming pool, per year. The tech is still much more expensive than desalination for the same amount of water, but the brand hopes to compete with high-end brands like Fiji while offering a way more eco-friendly product.
 
-<iframe src="/assets/images/posts/b4a051acc5888d60c6becc9053bcc211.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=HLdM6no7F34" %}
 
 ### [Japanese convenience stores are testing robots to stack the shelves](https://www.youtube.com/watch?v=HLdM6no7F34)
 

@@ -15,6 +15,7 @@ tags:
 - 3d-printing
 author: thmil
 category: techwatch
+image: assets/images/posts/0*k9U_nZaWm5qunNl7.jpg
 ---
 
 New year, New you!
@@ -31,7 +32,7 @@ Talking about topics, we are keeping 💡Innovation, 🗽Privacy & Freedom, 💰
 
 With commercial partners in charge of the eVTOL (electric vertical take-off and landing) aircraft manufacturing, while dealing with air traffic control, landing pad construction and connections to ground transportation, Uber wants to launch its services in 2023. Uber already has a helicopter offers from and to JFK in NYC, connected to their network of Uber black cars to drive you from and to the pad; and a more developed network in Brazil.
 
-<iframe src="/assets/images/posts/6a20d2feab935572391605991f501879.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=yNFYRf_sbIE" %}
 
 ### Alexa, pay for gas
 
@@ -150,5 +151,3 @@ From giant repos of resources to interview preparation material, here’s a list
 # That’s all folks!
 
 Did you enjoy it? If so don’t hesitate to 👏 our article or [subscribe to our Innovation watch newsletter!](https://mailchi.mp/c414f1508567/techwatch) You can follow Smile on [Facebook](https://www.facebook.com/smileopensource), [Twitter ](https://www.twitter.com/GroupeSmile)& [Youtube](http://www.youtube.com/user/SmileOpenSource).
-
-

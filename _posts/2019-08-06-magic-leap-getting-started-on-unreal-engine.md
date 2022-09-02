@@ -12,9 +12,8 @@ tags:
 - setup
 - development
 author: segar
+image: assets/images/posts/1*yt2zeFdbx0OKrvwYormYow.jpeg
 ---
-
-![](/assets/images/posts/1*yt2zeFdbx0OKrvwYormYow.jpeg)
 
 In this article, I will be demonstrating how to install and set up your computer itowork with the Magic Leap SDK.
 

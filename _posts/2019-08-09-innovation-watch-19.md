@@ -14,6 +14,7 @@ tags:
 - fake-news
 author: thmil
 category: techwatch
+image: assets/images/posts/0*qszZdSM1qYRPoxF3.jpg
 ---
 Everyone is on holiday including me 🏖. Let’s face it.
 
@@ -25,7 +26,7 @@ This is Smile’s Innovation Watch.
 
 # Innovation •/ˌɪnəˈveɪʃən/
 
-<iframe src="/assets/images/posts/45fee76fed7c393cd65362b1081c0937.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=GuEj8AiOzo0" %}
 
 ### [Swim Goggle with a smart display](https://www.formswim.com/)
 

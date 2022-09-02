@@ -14,6 +14,7 @@ tags:
 - github
 author: thmil
 category: techwatch
+image: assets/images/posts/0*a7nrciO3GwtwGi4z.jpg
 ---
 
 Here we are, edition 24. And this is a solid one. So long that when we sent it out, it was too big for Gmail displaying it entirely, and we had to add a disclaimer to inform people they may need to click on “open in a new window” to see all the content 😅.
@@ -120,7 +121,7 @@ Content, videos, webpages, and apps are becoming bigger and bigger as our bandwi
 
 # 😁 Fun & WTF
 
-<iframe src="/assets/images/posts/398367ef619d7440a2418d1d1b0dd394.html"></iframe>
+{% twitter "https://twitter.com/globaltimesnews/status/1223218977570078721" %}
 
 ### [China is using drones to harass people on the street](https://twitter.com/globaltimesnews/status/1223218977570078721)
 
@@ -154,7 +155,7 @@ For the command line lovers who don’t already use [hub wrapper](https://hub.gi
 
 ![Cyborg artistic view.](/assets/images/posts/0*a7nrciO3GwtwGi4z.jpg)
 
-### [The U.S.A. Pentagon is working on Cyborg Supersoldiers](https://www.vice.com/en_us/article/xwee47/heres-the-pentagons-terrifying-plan-for-cyborg-supersoldiers))
+### [The U.S.A. Pentagon is working on Cyborg Supersoldiers](https://www.vice.com/en_us/article/xwee47/heres-the-pentagons-terrifying-plan-for-cyborg-supersoldiers)
 
 Determining the potential of machines that are physically integrated within the human body to augment and enhance the performances of the human beings over the next 30 years is the following big field of research for the Department of Defense. We know that DARPA was working for long on the topic of how to “repair” biological loss for soldiers after deployment on the war zone. Still, now it seems to get a different pace and focus on how to augment human soldiers to get “strategic advantage.”
 

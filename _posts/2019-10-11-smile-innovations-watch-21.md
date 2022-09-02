@@ -15,12 +15,13 @@ tags:
 - drones
 author: thmil
 category: techwatch
+image: assets/images/posts/0*PGkcx38cVNshB_5P.jpg
 ---
 
 🥶 Winter is definitely here for most of us and it’s Friday afternoon.
 Just a few hours before leaving work and don’t want to start an entirely new project? Why not taking a moment to check out this edition of our tech watch, XXL format with more article than ever.
 
-**#dronedelivery** & **#EV** are a thing for big corpo like Walgreen & Amazon, which just released nearly 10 new Alexa product including … **#smartframes** & smart rings. Facebook continues to work on its “portal” offer with PortalTV, India wants to be the next China regarding **#masssurveillance without any safeguard** for citizen privacy and we are glad to see a new stronger partnership between NXP and our friends at [Snips](). We’ll see also **Twitter dealing with fake accounts** controlled by China mainland trying to discredit HK protesters, Microsoft publishing a new **#opensource font** and Google working with Chateau de Versailles to release a 4TB **#VR experience**. Last but not least, our selection of fun projects and cool tool for your day to day life, this time with more tech tools at the end of the newsletter for all the developers who read us.
+**#dronedelivery** & **#EV** are a thing for big corpo like Walgreen & Amazon, which just released nearly 10 new Alexa product including … **#smartframes** & smart rings. Facebook continues to work on its “portal” offer with PortalTV, India wants to be the next China regarding **#masssurveillance without any safeguard** for citizen privacy and we are glad to see a new stronger partnership between NXP and our friends at [Snips](https://snips.ai/). We’ll see also **Twitter dealing with fake accounts** controlled by China mainland trying to discredit HK protesters, Microsoft publishing a new **#opensource font** and Google working with Chateau de Versailles to release a 4TB **#VR experience**. Last but not least, our selection of fun projects and cool tool for your day to day life, this time with more tech tools at the end of the newsletter for all the developers who read us.
 
 This is Smile’s Innovation Watch.
 
@@ -98,7 +99,7 @@ That’s not the first time [Microsoft + Open Source]() is sharing nice stuff un
 
 In an effort to make culture accessible to everyone, the Château de Versailles teams up with Google to create a detailed VR tour of Versailles. 21 rooms, 4 TB of data and 15 billion pixels textured. The app is available for free on Steam for HTC Vive and Oculus Rift. You can handle and inspect over 100 sculptures, paintings and works of arts with incredible close-up details. You can even do the night tour with for sole lighting the flames of hearths.
 
-<iframe src="/assets/images/posts/6e931a41af0008763e098fda04c7c637.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=gmVgPF4ofsE" %}
 
 # Fun • /fʌn/
 

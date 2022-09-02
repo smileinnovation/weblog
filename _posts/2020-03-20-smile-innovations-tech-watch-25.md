@@ -14,6 +14,7 @@ tags:
 - space
 author: thmil
 category: techwatch
+image: assets/images/posts/0*zecO_p2cZfHMfWSw.jpeg
 ---
 
 Reading this email, you’re probably in lockdown, mandatory, or because you care about doing your best to protect people around you. Well, to help you clear your mind or not die from boredom, here’s our selection of news, links, mostly COVID19 free!
@@ -147,7 +148,7 @@ A set of free MIT-licensed high-quality SVG icons for you to use in your web pro
 
 # 📊 Trends
 
-<iframe src="/assets/images/posts/94d5b4400a854234371c6556f0f5ca35.html"></iframe>
+{% youtube "https://www.youtube.com/watch?v=L23JPc9h3nc" %}
 
 For seven years, Ikea has treated the smart home as a hobby. That’s changing now that Björn Block’s Home Smart division has been promoted to the same importance as Living Room, Bedroom, and all the other Ikea businesses that have come to define the company. Ikea faces the challenge of teaming up with Google, Amazon, Apple, and other tech giants while also battling them for primacy in the home.
 

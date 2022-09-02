@@ -11,13 +11,12 @@ tags:
 - schemaregistry
 - apache-kafka
 author: chdor
+image: assets/images/posts/0*WZywNsbrK2qACDo7
 ---
 
 ### Part 1: What is Schema Registry
 
 > This article is part of a series of articles on Schema Registry. The purpose of this serie is to describe how to implement and use the Confluent **Schema Registry** to serialize and deserialize *Kafka* messages with schema validation.
-
-![Photo by Christopher Burns on Unsplash](/assets/images/posts/0*WZywNsbrK2qACDo7)
 
 # What is Schema Registry?
 

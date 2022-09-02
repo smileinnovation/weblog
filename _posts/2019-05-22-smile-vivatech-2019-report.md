@@ -12,6 +12,7 @@ tags:
 - future-of-work
 - ai
 author: fagas
+image: assets/images/posts/1*N4aqvpzH5nrk1C-8PWASdw.png
 ---
 
 ### Vivatech was everywhere for 3 days, all the cutting technology was here, accessible to the tech-savvy person you are.

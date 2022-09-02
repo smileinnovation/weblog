@@ -12,11 +12,10 @@ tags:
 - kubernetes
 - rancher
 author: pafer
+image: assets/images/posts/0*yuJaY3WauFTB6GnN.jpg
 ---
 
 ### We have chosen Rancher, Harbor, Gitea, and Drone on a real production Kubernetes cluster. We reduced CPU and memory usage as well as the storage, and of course carbon footprint.
-
-![https://pixabay.com/fr/photos/devops-affaires-3155972/](/assets/images/posts/0*yuJaY3WauFTB6GnN.jpg)
 
 Kubernetes is now the most used Container platform. It is complete, effective, productive and offers a lot of control. Furthermore, while Kubernetes is a “low-level platform”, it is possible to append tools like service mesh, ingress controllers, plugins to add more objects (e.g. Velero add Backup object), storage classes, and many more. And Kubernetes is an orchestrator, so you can manage “Deployment” objects to control application version, service links, and replications. Of course, you can control that deployment with a Continuous Delivery tool.
 
