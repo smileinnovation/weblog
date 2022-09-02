@@ -10,6 +10,7 @@ tags:
 - computer-vision
 - visual-search
 author: alrou
+featured: true
 ---
 
 A practical guide to answering this question: is this a screwdriver or a hammer?
