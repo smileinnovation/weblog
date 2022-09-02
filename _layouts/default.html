@@ -59,7 +59,6 @@ ga('send', 'pageview');
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarMediumish">
 
         <!-- Begin Menu -->
@@ -75,7 +74,7 @@ ga('send', 'pageview');
             </li>
 
         {% for item in menu %}
-            <li class="nav-item" id="nav-item-{{ loop.index }}">
+            <li class="nav-item {% if item.url == page.url %}active{% endif %}" id="nav-item-{{ loop.index }}">
                 <a class="nav-link" href="{{item.url}}" title="Go to {{item.title}}">{{item.title}}</a>
             </li>
 
@@ -91,9 +90,8 @@ ga('send', 'pageview');
 </nav>
 <!-- End Navigation
 ================================================== -->
-
 <div class="site-content">
-
+    
 <div class="container">
 
 <!-- Site Title
