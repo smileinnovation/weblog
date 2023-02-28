@@ -11,8 +11,7 @@ tags:
 - image-recognition
 - videos
 author: pafer
-ima
-ge: assets/images/posts/0*cuEyJGmcTiaTHxkZ.jpg
+image: assets/images/posts/0*cuEyJGmcTiaTHxkZ.jpg
 ---
 
 ### And how to use it for videos input, movements detection, gestures recognition…
