@@ -5,7 +5,7 @@ title: Xvisor — première mise en œuvre
 subtitle: Xvisor est un hyperviseur open source en licence GPLv2. Cet hyperviseur
   est de type-1 ou natif, c’est-à-dire qu’il s’exécute directement…
 slug: xvisor-première-mise-en-œuvre
-description: 
+description:
 tags:
 - hypervisors
 - xvisor

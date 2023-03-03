@@ -11,6 +11,7 @@ url: ''
 google_analytics: ''
 disqus: ''
 mailchimp-list: https://medium.us18.list-manage.com/subscribe/post?u=4d3484a4e4a58a42c2bc028f5&amp;id=7db7ed73c3
+
 include:
 - _pages
 excerpt_separator: <br class="exceprt_separator">
@@ -26,27 +27,31 @@ timezone: Europe/Luxembourg
 
 # Build settings
 plugins:
-- jekyll-feed
-- jekyll-archives
-- jekyll-youtube
-- jekyll-maps
-- jekyll-gist
-- jekyll-twitter-plugin
-- jekyll-sitemap
-- jekyll-paginate
-- jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-archives
+  - jekyll-youtube
+  - jekyll-maps
+  - jekyll-gist
+  - jekyll-twitter-plugin
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Archives
 jekyll-archives:
   enabled:
-  - categories
+    - categories
   layout: archive
   permalinks:
-    category: "/category/:name/"
+    category: '/category/:name/'
+
+# Pagination 
 paginate: 6
-paginate_path: "/page:num/"
+paginate_path: /page:num/
 
 feed:
-  posts_limits: 20
-  excerpt_only: false
+    posts_limits: 20
+    excerpt_only: false
 
 jekyll-archives:
     enabled:
@@ -57,16 +62,22 @@ jekyll-archives:
     layout: archive
 
 markdown: kramdown
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     block:
       line_numbers: true
-adsense: disabled
-adsense-data-ad-client: ''
-adsense-data-ad-slot: ''
-lazyimages: disabled
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
 exclude:
 - changelog.md
 - LICENSE.txt
@@ -76,8 +87,8 @@ exclude:
 - _posts/assets
 
 maps:
-  google:
-    api_key: ''
+    google:
+        api_key: ''
 favison: "/uploads/medium_favicon_logo_smile.jpg"
 
 
