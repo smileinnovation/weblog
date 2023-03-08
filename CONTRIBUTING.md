@@ -148,7 +148,8 @@ For code, we are using [editorconfig](https://editorconfig.org/). Please check i
 
 We are using [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 Long story short, please use this template:
-```
+
+```text
 <type>: <description>
 
 [optional body]
@@ -169,7 +170,6 @@ For commits that add new functionality.
 For commits that fix bugs/errors.
 **release**
 For commits that relate to the release of a new version.
-
 
 <!-- omit in toc -->
 ## Attribution
