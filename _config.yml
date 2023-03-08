@@ -4,7 +4,7 @@ title: Smile's Cornerstone weblog
 email: thibault.milan@smile.eu
 description: Smile's weblog about tech. Cuting edge tech popularization, hightly technical
   walkthrougt  in an open sharing with the world mindset.
-logo: "/uploads/thumbnail_logo_smile_orange-baseline.jpg"
+logo: "uploads/thumbnail_logo_smile_orange-baseline.jpg"
 favicon: assets/images/logo.png'
 baseurl: ''
 url: ''
@@ -45,7 +45,7 @@ jekyll-archives:
   permalinks:
     category: '/category/:name/'
 
-# Pagination 
+# Pagination
 paginate: 6
 paginate_path: /page:num/
 
