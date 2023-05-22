@@ -42,7 +42,11 @@
                 </span>
                 <span class="author-meta">
                     <span class="post-name">
+                        {% if author.twitter %}
                         <a target="_blank" href="{{ author.twitter | prepend:"https://twitter.com/" }}">{{ author.name }}</a>
+                        {% else %}
+                        {{ author.name }}
+                        {% endif %}
                     </span><br/>
                     <span class="post-date">{{ post.date | date_to_string }}</span>
                 </span>
