@@ -8,6 +8,7 @@ description: |-
 Discover an “action” in video can be very interesting — let’s imagine the possibilities: detecting someone in danger, a characteristic movement in space to detect asteroids…
 tags:
 - machine-learning
+- artificial-intelligence
 - image-recognition
 - neural-networks
 - videos

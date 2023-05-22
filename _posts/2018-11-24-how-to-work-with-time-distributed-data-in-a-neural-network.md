@@ -7,6 +7,7 @@ slug: how-to-work-with-time-distributed-data-in-a-neural-network
 description:
 tags:
 - machine-learning
+- artificial-intelligence
 - neural-networks
 - image-recognition
 - videos

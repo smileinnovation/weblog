@@ -9,6 +9,7 @@ tags:
 - innovation
 - technology-trends
 - machine-learning
+- artificial-intelligence
 - gdpr
 - netflix
 author: thmil

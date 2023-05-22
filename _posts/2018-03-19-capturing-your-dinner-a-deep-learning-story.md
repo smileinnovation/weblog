@@ -6,6 +6,7 @@ subtitle: A naive approach to features extraction and R-CNN
 slug: capturing-your-dinner-a-deep-learning-story
 description:
 tags:
+- artificial-intelligence
 - machine-learning
 - data-science
 - deep-learning

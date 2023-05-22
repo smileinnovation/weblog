@@ -7,6 +7,8 @@ subtitle: 'A practical guide to answering this question: is this a screwdriver o
 slug: starting-from-scratch-how-to-embed-computer-vision-techniques-into-your-project
 description:
 tags:
+- artificial-intelligence
+- machine-learning
 - deep-learning
 - computer-vision
 - visual-search

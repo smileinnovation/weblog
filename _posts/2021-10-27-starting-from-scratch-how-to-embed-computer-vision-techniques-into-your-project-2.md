@@ -6,6 +6,8 @@ subtitle: Part 2 — Training data set
 slug: starting-from-scratch-how-to-embed-computer-vision-techniques-into-your-project-2
 description:
 tags:
+- artificial-intelligence
+- machine-learning
 - deep-learning
 - computer-vision
 - visual-search

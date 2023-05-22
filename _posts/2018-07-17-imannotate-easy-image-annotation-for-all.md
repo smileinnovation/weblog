@@ -8,6 +8,7 @@ description:
 tags:
 - docker
 - machine-learning
+- artificial-intelligence
 - image-annotation
 - image-recognition
 author: pafer

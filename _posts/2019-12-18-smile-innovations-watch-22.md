@@ -11,6 +11,7 @@ So, let’s try to catch up, with a slightly redesigned newsletter. Please welco
 tags:
 - self-driving-cars
 - artificial-intelligence
+- machine-learning
 - drones
 - netflix
 - tech4good

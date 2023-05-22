@@ -11,6 +11,7 @@ tags:
 - aws
 - greengrass
 - machine-learning
+- artificial-intelligence
 - lambda
 - embedded-systems
 author: segar

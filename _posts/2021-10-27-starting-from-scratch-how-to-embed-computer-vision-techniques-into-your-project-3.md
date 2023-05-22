@@ -9,6 +9,8 @@ tags:
 - computer-vision
 - deep-learning
 - visual-search
+- artificial-intelligence
+- machine-learning
 author: alrou
 image: assets/images/posts/1*2YA4BVDf4oi1dwXQhA1zag.jpeg
 ---

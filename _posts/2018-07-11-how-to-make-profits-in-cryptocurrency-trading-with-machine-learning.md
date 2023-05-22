@@ -7,6 +7,7 @@ slug: how-to-make-profits-in-cryptocurrency-trading-with-machine-learning
 description:
 tags:
 - machine-learning
+- artificial-intelligence
 - bitcoin
 - cryptocurrency
 - technology

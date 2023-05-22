@@ -7,6 +7,7 @@ slug: lstm-intelligence-artificielle-sur-des-données-chronologiques
 description: Explication du fonctionnement interne d’un réseau de neurones de type LSTM ou comment la donnée est traitée d’un point de vue mathématique.
 tags:
 - machine-learning
+- artificial-intelligence
 - neural-networks
 - lstm
 - mathematics

@@ -9,6 +9,7 @@ tags:
 - docker
 - sagemaker
 - machine-learning
+- artificial-intelligence
 - computer-vision
 - aws
 author: pafer
