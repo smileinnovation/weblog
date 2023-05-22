@@ -83,6 +83,8 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/osx,jekyll,linux,windows
 
+Gemfile.lock
+
 .idea
 
 **/.DS_Store
