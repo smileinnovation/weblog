@@ -2,17 +2,15 @@
 header:
   - url: /category/techwatch/
     title: Techwatch
-  - url: /tags/modern-apps/
-    title: Modern Apps
-  - url: /tags/e-commerce/
+  - url: /tag/ecommerce/
     title: E-Commerce
-  - url: /tags/machine-learning/
+  - url: /tag/machine-learning/
     title: Machine Learning
-  - url: /tags/embeded/
-    title: Embeded & Connected
+  - url: /tag/embedded-systems/
+    title: Embedded & Connected
   - url: /about/
     title: About
-  - url: https://smile.eu
+  - url: https://www.smile.eu
     title: Smile
 # - url: /yoururl
 #   title: Your title

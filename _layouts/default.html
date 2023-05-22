@@ -79,7 +79,9 @@ ga('send', 'pageview');
             </li>
 
             {% endfor %}
-        {% include search-lunr.html %}
+            {% comment %}
+            {% include search-lunr.html %}
+            {% endcomment %}
         </ul>
         {% endif %}
         <!-- End Menu -->
@@ -186,9 +188,11 @@ ga('send', 'pageview');
 
 <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
 
+{% comment %}
 {% if page.layout == 'post' %}
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
+{% endcomment %}
 
 </body>
 </html>
