@@ -13,7 +13,6 @@ tags:
 - computer-vision
 - visual-search
 author: alrou
-featured: true
 image: assets/images/posts/1*wuEUDAkSJw0qIIAOK4qoiw.jpeg
 ---
 
