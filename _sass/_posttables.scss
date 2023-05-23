@@ -1,10 +1,16 @@
 
 table.post_table {
   font-size: 0.8em;
+  color: #7b7b7b;
   border: 1px solid grey;
 
   td, th, tr {
+    padding: 2px;
     border: 1px solid grey;
+  }
+
+  td {
+    padding: 5px;
   }
 
   margin-bottom: 1em;
