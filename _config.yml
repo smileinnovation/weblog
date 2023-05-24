@@ -22,20 +22,44 @@ collections:
     output: true
 
 defaults:
-  - scope:
+  -
+    scope:
+      path: "assets/iframes/*"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "assets/js/*"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "assets/fonts/*"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "assets/css/*"
+    values:
+      sitemap: false
+  -
+    scope:
       path: ""
       type: "authors"
     values:
       layout: "author"
-  - scope:
+  -
+    scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-  - scope:
+  -
+    scope:
       path: ""
     values:
       layout: "default"
+
 # Build settings
 plugins:
   - jekyll-feed
