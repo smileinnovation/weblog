@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<section class="recent-posts author-recent-posts">
+    <div class="mainheading">
+        <!-- Author Box -->
+        <div class="row post-top-meta">
+            <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+                {% if page.avatar %}
+                <img class="author-thumb" src="{{ page.avatar | prepend: site.baseurl}}" alt="{{ page.name }}">
+                {% else %}
+                <img class="author-thumb" src="{{ page.email | gravatar}}" alt="{{ page.name }}">
+                {% endif %}
+            </div>
+            <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+                {% if page.twitter %}
+                <a target="_blank" class="link-dark" href="{{ page.twitter | prepend:" https://twitter.com/" }}">{{
+                    page.name }}</a>
+                {% else %}
+                {{ page.name }}
+                {% endif %}
+                <span class="author-description">{{ page.description }}</span>
+            </div>
+        </div>
+
+    </div>
+    <div class="section-title">
+        <h2>Archive of posts for <span>{{ page.name }}</span></h2>
+        {{ content }}
+    </div>
+    <div class="row listrecent">
+        {% assign filtered_posts = site.posts | where: 'author', page.pentagram %}
+        {% for post in filtered_posts %}
+            {% include postbox.html %}
+        {% endfor %}
+    </div>
+</section>

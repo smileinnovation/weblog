@@ -16,7 +16,7 @@ post_class: post-template
         </div>
 
         <!-- Post -->
-        {% assign author = site.data.authors | where: "pentagram", page.author | first %}
+        {% assign author = site.authors | where: "pentagram", page.author | first %}
 
         <div class="col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">
@@ -37,9 +37,7 @@ post_class: post-template
                         {% else %}
                         {{ author.name }}
                         {% endif %}
-                        {% comment %}
-                        <a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
-                        {% endcomment %}
+                        <a href="{{ author.url }}" class="btn follow" title="See more articles from {{author.name}}">See more from this author</a>
                         <span class="author-description">{{ author.description }}</span>
                     </div>
                 </div>
