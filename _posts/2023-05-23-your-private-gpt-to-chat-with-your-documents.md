@@ -126,8 +126,8 @@ So when you are using the OpenAI ChatGPT chatbot (either v3.5 or v4), its answer
 OpenAI has announced a few days ago that its ChatGPT has now the ability to automatically retrieve public data from the Internet, to generate answers. This definitely opens up a broad range of use cases we can’t yet grasp, but we still are at the assumptions phase (and we will see in this document that the current results of this new feature are not yet fully reliable).
 
 Also, although its general public access is very convenient, it also involves disadvantages in terms of security:
-Risks of private data leakage: any question that contains sensitive or private information will go through OpenAI internal processing, so it can be captured.
-To deal with sensitive subjects or to  avoid the hijacking of the discussion, the prompt engineering is critical to control the scope of the responses. Prompt is not available with the ChatGPT web application but only with the public API.
+- Risks of private data leakage: any question that contains sensitive or private information will go through OpenAI internal processing, so it can be captured.
+- To deal with sensitive subjects or to  avoid the hijacking of the discussion, the prompt engineering is critical to control the scope of the responses. Prompt is not available with the ChatGPT web application but only with the public API.
 
 In other words, at the moment, building a chatbot based on LLM that can produce answers with specific content (public or private) and compliant with a data privacy policy, you need to:
 
