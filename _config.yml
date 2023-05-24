@@ -10,7 +10,6 @@ baseurl: ''
 url: 'https://tech.smile.eu'
 google_analytics: ''
 disqus: ''
-mailchimp-list: https://medium.us18.list-manage.com/subscribe/post?u=4d3484a4e4a58a42c2bc028f5&amp;id=7db7ed73c3
 
 include:
 - _pages
