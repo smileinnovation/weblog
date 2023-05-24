@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/ddb24361f7da
+canonical_url: https://medium.com/@/ddb24361f7da
 title: Composable commerce  —  Legacy management and progressive migration
 subtitle: A spaghetti architecture with data everywhere, resources are tightly coupled, evolutions are limited due to your systems’ complexity, …
 slug: composable-commerce-legacy-management-and-progressive-migration

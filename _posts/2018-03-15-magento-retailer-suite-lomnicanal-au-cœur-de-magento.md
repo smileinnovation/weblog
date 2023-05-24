@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/fa445e6ee3a4
+canonical_url: https://medium.com/@/fa445e6ee3a4
 title: "Magento ElasticSuite for Retailers — L’omnicanal au cœur de Magento"
 subtitle: S’adapter aux nouvelles attentes des utilisateurs
 slug: magento-retailer-suite-lomnicanal-au-cœur-de-magento

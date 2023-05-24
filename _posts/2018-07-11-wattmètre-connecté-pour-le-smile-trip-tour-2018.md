@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/ad1c122ac201
+canonical_url: https://medium.com/@/ad1c122ac201
 title: "Wattmètre connecté pour le Smile Trip Tour 2018"
 subtitle: Conception Hardware et témoignage
 slug: wattmètre-connecté-pour-le-smile-trip-tour-2018

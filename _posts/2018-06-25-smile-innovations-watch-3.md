@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/6e0effb1099b
+canonical_url: https://medium.com/@/6e0effb1099b
 title: "Smile Innovation’s Watch — #3"
 subtitle: Already the third iteration of our tech watch newsletter. From the Big Bang of Github been acquired by Microsoft to the open-source…
 slug: smile-innovations-watch-3

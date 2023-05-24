@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/edb7ea33cee4
+canonical_url: https://medium.com/@/edb7ea33cee4
 title: How to make profits in cryptocurrency trading with machine learning
 subtitle: The interest around cryptocurrency technology grows day after day, and the research about Machine learning has never been so fast.
 slug: how-to-make-profits-in-cryptocurrency-trading-with-machine-learning

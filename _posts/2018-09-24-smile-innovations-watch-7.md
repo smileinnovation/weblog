@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/e2733a3eb471
+canonical_url: https://medium.com/@/e2733a3eb471
 title: "Smile Innovation’s Watch — #7"
 subtitle: Temperatures start to drop, 🍂🍁leaves start to fall from the tree, the sun starts to get shy ⛅️. No doubt Fall is coming! Time for hot choc
 slug: smile-innovations-watch-7

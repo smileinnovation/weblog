@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/9d302c723eda
+canonical_url: https://medium.com/@/9d302c723eda
 title: LSTM, Intelligence artificielle sur des données chronologiques
 subtitle: Comprendre comment sont traitées les données chronologiques  dans un réseau de neurones.
 slug: lstm-intelligence-artificielle-sur-des-données-chronologiques

@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/3b2c776fd05c
+canonical_url: https://medium.com/@/3b2c776fd05c
 title: "Imannotate, opensource collaborative image annotation for machine learning"
 subtitle: We made it collaborative, easy, and very simple to install
 slug: imannotate-easy-image-annotation-for-all

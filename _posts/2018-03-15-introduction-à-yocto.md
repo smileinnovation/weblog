@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/db56a550ae51
+canonical_url: https://medium.com/@/db56a550ae51
 title: "Introduction à Yocto (partie 1)"
 subtitle: "Yocto est devenu un standard de l’industrie pour la technologie « Linux embarqué ». Dans cette courte série de deux articles nous décrirons…"
 slug: introduction-à-yocto

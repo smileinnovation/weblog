@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/b8b39aa4ce00
+canonical_url: https://medium.com/@/b8b39aa4ce00
 title: "How to work with Time Distributed data in a neural network"
 subtitle: And how to use it for videos input, movements detection, gestures recognition…
 slug: how-to-work-with-time-distributed-data-in-a-neural-network

@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/41df4f0725e5
+canonical_url: https://medium.com/@/41df4f0725e5
 title: "Innovation Watch #15"
 subtitle: We’re still in June but entire Europe, except Portugal, is under big heat waves right now 🥵There’s nothing you can do but embrace it
 slug: innovation-watch-15

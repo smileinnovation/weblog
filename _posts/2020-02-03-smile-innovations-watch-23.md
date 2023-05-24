@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/c4ff8d83354a
+canonical_url: https://medium.com/@/c4ff8d83354a
 title: "Smile Innovation’s watch #23"
 subtitle: |-
     New year, New you!

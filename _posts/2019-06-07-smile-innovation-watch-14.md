@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/79c1b35a0160
+canonical_url: https://medium.com/@/79c1b35a0160
 title: "Smile Innovation Watch #14"
 subtitle: |-
     Is it already June? Damn how times fly 😅 It starts to be warm enough to enjoy a picnic in parks, outdoor fountains, using the 🚲 bicycle…

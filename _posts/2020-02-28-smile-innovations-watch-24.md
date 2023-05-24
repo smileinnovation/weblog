@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/876655692c05
+canonical_url: https://medium.com/@/876655692c05
 title: "Smile Innovation’s watch #24"
 subtitle: |-
     Here we are, edition 24. And this is a solid one. So long that when we sent it out, it was too big for Gmail displaying it entirely, and…

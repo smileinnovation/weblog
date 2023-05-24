@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/ec7cd09578b1
+canonical_url: https://medium.com/@/ec7cd09578b1
 title: Smile Vivatech 2019 report
 subtitle: Vivatech was everywhere during 3 days, all the cutting technology was here, accessible to the tech-savvy person you are.
 slug: smile-vivatech-2019-report

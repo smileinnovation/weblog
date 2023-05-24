@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/6df2b34801ce
+canonical_url: https://medium.com/@/6df2b34801ce
 title: "Smile Innovation #13"
 subtitle: |-
     Our second issue of 2019 will focus on #IA and #MachineLearning everywhere in your life from restaurant booking to detect animal diseases.

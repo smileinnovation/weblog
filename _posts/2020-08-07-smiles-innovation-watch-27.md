@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/6186a83da23a
+canonical_url: https://medium.com/@/6186a83da23a
 title: "Smile’s Innovation Watch #27"
 subtitle: |-
     ☀️ Summer is here, and even if most of us have a 🏡 #staycation this year and that kinda sucks, let’s take time to reflect on the way we…

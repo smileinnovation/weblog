@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/8ec2098a33b7
+canonical_url: https://medium.com/@/8ec2098a33b7
 title: "AWS Greengrass the forefront of edge computing"
 subtitle: |-
     This articles main goal is to resume briefly what AWS Greengrass is. If you want a more thorough presentation you can find it on the AWS…

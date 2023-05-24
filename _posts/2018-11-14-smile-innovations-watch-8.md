@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/370bbf9f48f1
+canonical_url: https://medium.com/@/370bbf9f48f1
 title: "Smile Innovation’s Watch — #8"
 subtitle: |-
     On our previous issues we were already ready for fall. But seems we have some ☀️🕶summer overtime

@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/27d541a62ef3
+canonical_url: https://medium.com/@/27d541a62ef3
 title: "Smile Innovation’s Watch — #10"
 subtitle: |-
     🤔Wait a minute! Is it already 2 weeks? Did we send the previous Tech watch 14 days ago? Is that email you didn’t read and staying in your…

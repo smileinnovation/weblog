@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/cc04fb92a34b
+canonical_url: https://medium.com/@/cc04fb92a34b
 title: "Smile Innovation’s Watch — #6"
 subtitle: |-
     Chatbot chatbot chatbot chatbot 🤖Everyone is talking about it around you and we’ll give you some cool knowledge about it so you’ll be able

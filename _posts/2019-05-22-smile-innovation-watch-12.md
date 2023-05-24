@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/1126957b665e
+canonical_url: https://medium.com/@/1126957b665e
 title: "Smile Innovation Watch #12"
 subtitle: That’s the first issue of 2019 and we start the year with some fresh news about machine learning, cryptocurrencies, smart devices, voice …
 slug: smile-innovation-watch-12

@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/27a7043f29dd
+canonical_url: https://medium.com/@/27a7043f29dd
 title: "Where do I start my journey to headless eCommerce?"
 subtitle: You shouldn’t think about an e-commerce platform as a one-fit-all solution because there is no such thing, the devil hides in the details…
 slug: where-do-i-start-my-journey-to-headless-ecommerce

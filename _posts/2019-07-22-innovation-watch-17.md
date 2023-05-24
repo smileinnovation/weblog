@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/3b7e114adedb
+canonical_url: https://medium.com/@/3b7e114adedb
 title: "Innovation Watch #17"
 subtitle: Brace yourself. Climate change is coming 🥵
 slug: innovation-watch-17

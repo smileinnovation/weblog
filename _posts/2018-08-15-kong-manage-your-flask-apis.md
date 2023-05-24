@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/d58ff4ea808d
+canonical_url: https://medium.com/@/d58ff4ea808d
 title: Kong, manage your Flask APIs !
 subtitle: APIs managed by interface do you think is an endless task to implement ?
 slug: kong-manage-your-flask-apis
@@ -137,7 +137,7 @@ hosts: joke.com
 uris: /joke
 methods:[all]
 upstream_layout: post
-url: https://geek-jokes.sameerkumar.website/api
+canonical_url: https://geek-jokes.sameerkumar.website/api
 ```
 
 ![Add Joke API](/assets/images/posts/1*GKD_t1BAtYnpOIaKzbmZRA@2x.gif)

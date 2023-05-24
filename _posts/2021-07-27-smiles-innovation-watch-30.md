@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/3bcaf8f7b538
+canonical_url: https://medium.com/@/3bcaf8f7b538
 title: "Smile’s Innovation Watch #30"
 subtitle: |-
     Our first techwatch of 2021. I can’t believe it’s already July, and we miss the opportunity to share with you so much great tech stuff we…

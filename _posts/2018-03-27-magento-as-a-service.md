@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/e788b6f90ed2
+canonical_url: https://medium.com/@/e788b6f90ed2
 title: Magento as a Service
 subtitle: How-to build an e-store factory
 slug: magento-as-a-service

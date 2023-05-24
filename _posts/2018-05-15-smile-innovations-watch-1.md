@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/48ef95729c18
+canonical_url: https://medium.com/@/48ef95729c18
 title: "Smile Innovation's watch - #1"
 subtitle: Our fortnightly collection of links, press article, PRs or announcement, vids & tweet that caught our attention.
 slug: smile-innovations-watch-1

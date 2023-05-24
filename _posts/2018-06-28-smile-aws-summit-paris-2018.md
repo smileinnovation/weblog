@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/e729adf11649
+canonical_url: https://medium.com/@/e729adf11649
 title: Smile @ AWS Summit Paris 2018
 subtitle: AWS Global Summits are free events that bring the cloud computing community together to connect, collaborate, and learn about AWS.
 slug: smile-aws-summit-paris-2018

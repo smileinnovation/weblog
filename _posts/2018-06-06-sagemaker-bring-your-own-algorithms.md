@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/719dd539607d
+canonical_url: https://medium.com/@/719dd539607d
 title: "SageMaker : Bring your own Algorithms"
 subtitle: With the help of Docker, you will be able to customize training and infering models using other frameworks that those provided by SageMaker
 slug: sagemaker-bring-your-own-algorithms

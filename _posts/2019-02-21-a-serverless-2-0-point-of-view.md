@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/4bb374dc4c02
+canonical_url: https://medium.com/@/4bb374dc4c02
 title: A Serverless 2.0 point of view
 subtitle: A major evolution in the serverless movement is arriving. Let’s see why you should care about it
 slug: a-serverless-2-0-point-of-view

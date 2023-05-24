@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/c8711775181f
+canonical_url: https://medium.com/@/c8711775181f
 title: "Starting from scratch, how to embed computer vision techniques into your project #4"
 subtitle: Part 4— Integration
 slug: starting-from-scratch-how-to-embed-computer-vision-techniques-into-your-project-4

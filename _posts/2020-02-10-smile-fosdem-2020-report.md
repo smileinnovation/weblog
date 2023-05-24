@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/4adf0f7080be
+canonical_url: https://medium.com/@/4adf0f7080be
 title: Smile FOSDEM 2020 report
 subtitle: The major free software and open-source event in Brussels was, as usual, full of interesting presentations and folks from all corners of…
 slug: smile-fosdem-2020-report

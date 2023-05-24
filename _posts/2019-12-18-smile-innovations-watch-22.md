@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/2acf197c406b
+canonical_url: https://medium.com/@/2acf197c406b
 title: "Smile Innovation’s watch #22"
 subtitle: |-
     Wow! What a 🏃‍♂️final sprint until the finish line of the year for us!

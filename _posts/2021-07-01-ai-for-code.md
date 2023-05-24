@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/e09ec171f4d0
+canonical_url: https://medium.com/@/e09ec171f4d0
 title: AI for code
 subtitle: AI allows us to understand and measure codebase in a new way, and those last years have been exciting with startups trying to get the best…
 slug: ai-for-code

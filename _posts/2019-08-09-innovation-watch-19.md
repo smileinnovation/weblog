@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/1bab6b532d09
+canonical_url: https://medium.com/@/1bab6b532d09
 title: "Innovation Watch #19"
 subtitle: |-
     Everyone is on holiday including me 🏖. Let’s face it. But it will not prevent us to provide you with your bi-weekly dose of tech news.

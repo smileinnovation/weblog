@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/cb9354ee8cbe
+canonical_url: https://medium.com/@/cb9354ee8cbe
 title: Starting from scratch, how to embed computer vision techniques into your project
 subtitle: 'A practical guide to answering this question: is this a screwdriver or
   a hammer?'

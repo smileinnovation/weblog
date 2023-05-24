@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/6e14949ac812
+canonical_url: https://medium.com/@/6e14949ac812
 title: "Smile Innovation's Watch - #4"
 subtitle: That's now the end of the second month of our watch over the internet for delivering you curated content about the innovation
 slug: smile-innovations-watch-4

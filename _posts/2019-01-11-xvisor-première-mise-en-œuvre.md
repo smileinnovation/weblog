@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/649a7197baad
+canonical_url: https://medium.com/@/649a7197baad
 title: Xvisor — première mise en œuvre
 subtitle: Xvisor est un hyperviseur open source en licence GPLv2. Cet hyperviseur
   est de type-1 ou natif, c’est-à-dire qu’il s’exécute directement…

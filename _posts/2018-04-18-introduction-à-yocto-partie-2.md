@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/38d979843cb7
+canonical_url: https://medium.com/@/38d979843cb7
 title: "Introduction à Yocto (partie 2)"
 subtitle: "Dans un premier article nous avons introduit les principes de Yocto et décrit comment produire une image de test pour des cibles QEMU (x86)…"
 slug: introduction-à-yocto-partie-2

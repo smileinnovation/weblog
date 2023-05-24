@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/38629d8ccff2
+canonical_url: https://medium.com/@/38629d8ccff2
 title: "Smile Innovation’s Watch #21"
 subtitle: |-
     🥶 Winter is definitely here for most of us and it’s Friday afternoon.

@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/a0e040fd6dfc
+canonical_url: https://medium.com/@/a0e040fd6dfc
 title: "Smile Innovation's watch - #2"
 subtitle: For this second edition of our watch, we wanted to show you an amazing picture first. The latest TIME's cover, made by 958 drones working…
 slug: smile-innovations-watch-2

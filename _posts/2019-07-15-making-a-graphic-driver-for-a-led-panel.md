@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/13a92c258fc9
+canonical_url: https://medium.com/@/13a92c258fc9
 title: Making a graphic driver for a led panel
 subtitle: "Part 1: Context, scope, purpose… and hardware!"
 slug: making-a-graphic-driver-for-a-led-panel

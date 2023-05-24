@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/4f253e31e59
+canonical_url: https://medium.com/@/4f253e31e59
 title: "Innovation Watch #18"
 subtitle:
 slug: innovation-watch-18

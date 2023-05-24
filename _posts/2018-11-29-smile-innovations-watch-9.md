@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/c1e917e94c72
+canonical_url: https://medium.com/@/c1e917e94c72
 title: "Smile Innovation’s Watch   #9"
 subtitle: |-
     Winter is coming ❄️🌨🧟‍♂️ (not so private jokes already used 1,934,324 times this month) and you may already have been wearing back your…

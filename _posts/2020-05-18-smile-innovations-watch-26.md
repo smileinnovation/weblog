@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/8b39d641a7dc
+canonical_url: https://medium.com/@/8b39d641a7dc
 title: "Smile Innovation’s watch #26"
 subtitle: |-
     So lockdown and remote working is our new way of living for a couple of weeks now. But that doesn’t stop us to curate a list of excellent…

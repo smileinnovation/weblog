@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/c3c5dd224058
+canonical_url: https://medium.com/@/c3c5dd224058
 title: I want my CDN Application!
 subtitle: Performance and time to interaction are key to increase conversion and retention. And for that, PWA has done an amazing job promoting a new…
 slug: i-want-my-cdn-application

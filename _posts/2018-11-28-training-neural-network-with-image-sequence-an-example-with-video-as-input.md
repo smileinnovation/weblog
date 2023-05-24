@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/c3407f7a0b0f
+canonical_url: https://medium.com/@/c3407f7a0b0f
 title: "Training neural network with image sequence, an example with video as input"
 subtitle: How can we classify actions that happen on video? How to use Time Distributed layers with image sequence? How to manage input shape?
 slug: training-neural-network-with-image-sequence-an-example-with-video-as-input
@@ -206,7 +206,7 @@ valid = train.get_validation_generator()
 After that, we can see something like this:
 
 ```
-get 3 classes for 255 files for train﻿﻿﻿
+get 3 classes for 255 files for train
 get 3 classes for 123 files for validation
 ```
 
@@ -438,7 +438,7 @@ def build_mobilenet(shape=(224, 224, 3), nbout=3):
 ```
 
 ```
-    # Keep 9 layers to train﻿﻿
+    # Keep 9 layers to train
     trainable = 9
     for layer in model.layers[:-trainable]:
         layer.trainable = False

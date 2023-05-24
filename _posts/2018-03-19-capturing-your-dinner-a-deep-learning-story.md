@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/bf8f8b65f26f
+canonical_url: https://medium.com/@/bf8f8b65f26f
 title: Capturing your dinner, a deep learning story
 subtitle: A naive approach to features extraction and R-CNN
 slug: capturing-your-dinner-a-deep-learning-story

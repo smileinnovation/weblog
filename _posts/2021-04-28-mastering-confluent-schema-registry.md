@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/9a53a0344fca
+canonical_url: https://medium.com/@/9a53a0344fca
 title: Mastering Confluent Schema Registry
 subtitle: "Part 1: What is Schema Registry"
 slug: mastering-confluent-schema-registry

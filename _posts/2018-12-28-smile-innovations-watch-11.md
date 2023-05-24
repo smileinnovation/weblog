@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/93e5a392be94
+canonical_url: https://medium.com/@/93e5a392be94
 title: "Smile Innovation’s Watch #11"
 subtitle: |-
     Oh Oh Oh 🎅🏼Hoping every one of you have a good time for this end of year celebration, with friends, family, and we have a special though f

@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/6b0b4e863f2b
+canonical_url: https://medium.com/@/6b0b4e863f2b
 title: What can we do with a Magic Leap ?
 subtitle: In this article I will briefly talk about Augmented Reality (AR), what it is and the differences with Virtual Reality (VR). Then a more in…
 slug: what-can-we-do-with-a-magic-leap

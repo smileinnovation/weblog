@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/d025e0affa67
+canonical_url: https://medium.com/@/d025e0affa67
 title: "Smile Innovation’s Tech watch #25"
 subtitle: |-
     Reading this email, you’re probably in lockdown, mandatory, or because you care about doing your best to protect people around you. Well…

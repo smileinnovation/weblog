@@ -1,6 +1,6 @@
 ---
 layout: post
-url: https://medium.com/@/e52f15c3dad2
+canonical_url: https://medium.com/@/e52f15c3dad2
 title: "Smile Innovation’s Watch — #20"
 subtitle: |-
     It’s 🏫back to school season, the public transportation will be crowded again and you’ll probably make more time to go to work. Let’s face…
