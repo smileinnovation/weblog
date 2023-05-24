@@ -7,7 +7,7 @@ description: Smile's weblog about tech. Cuting edge tech popularization, hightly
 logo: "uploads/thumbnail_logo_smile_orange-baseline.jpg"
 favicon: assets/images/logo.png'
 baseurl: ''
-url: ''
+url: 'https://tech.smile.eu'
 google_analytics: ''
 disqus: ''
 mailchimp-list: https://medium.us18.list-manage.com/subscribe/post?u=4d3484a4e4a58a42c2bc028f5&amp;id=7db7ed73c3
@@ -16,13 +16,6 @@ include:
 - _pages
 excerpt_separator: <br class="exceprt_separator">
 permalink: "/:title/"
-timezone: Europe/Luxembourg
-
-# Conversion
-excerpt_separator: '<br class="exceprt_separator">'
-
-# Outputting
-permalink: /:title/
 timezone: Europe/Luxembourg
 
 # Build settings
@@ -41,9 +34,13 @@ plugins:
 jekyll-archives:
   enabled:
     - categories
+    - tags
+    - year
+    - month
   layout: archive
   permalinks:
     category: '/category/:name/'
+    tag: 'tag/:name/'
 
 # Pagination
 paginate: 6
@@ -52,14 +49,6 @@ paginate_path: /page:num/
 feed:
     posts_limits: 20
     excerpt_only: false
-
-jekyll-archives:
-    enabled:
-        - year
-        - month
-        - categories
-        - tags
-    layout: archive
 
 markdown: kramdown
 
@@ -89,8 +78,6 @@ exclude:
 maps:
     google:
         api_key: ''
-favison: "/uploads/medium_favicon_logo_smile.jpg"
-
 
 # Have a per category feed
 #    categories:
