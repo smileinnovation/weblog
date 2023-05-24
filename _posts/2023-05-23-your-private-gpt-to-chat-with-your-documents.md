@@ -217,7 +217,7 @@ There are many databases available capable of storing and querying vector embedd
 
 They come with pros and cons, but for this use case we wanted something simple and not too expensive to run. A regular project would require to compare these products according to the expected SLA, features and company policies.
 
-So we tried Chroma, an open-source solution that requires you to run the DB engine. The similarity search worked great, but the filtering options were not yet satisfactory, as this project is still quite young.
+We started by trying Chroma, an open-source solution that requires you to run the DB engine. The similarity search worked great, but the filtering options were not yet satisfactory, as this project is still quite young.
 
 We then switched to Pinecone, a SaaS solution, that offers a free plan for a limited amount of data, but with all the expected features to store vectors and run complex queries. This offer is enough for this use case, and as the test results were satisfactory, we kept it.
 
