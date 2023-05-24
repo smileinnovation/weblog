@@ -6,7 +6,11 @@
 <meta name="google-site-verification" content="iWZ3E9Fvy4vwYj-mbwtkBgOwvyefvlyg33gL-K3BvGc" />
 <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
 
+{% if page.collection == "authors" %}
+<title>{{ page.name }} | {{site.name}}</title>
+{% else %}
 <title>{{ page.title }} | {{site.name}}</title>
+{%endif}
 
 {% seo %}
 
