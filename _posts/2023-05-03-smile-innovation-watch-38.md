@@ -24,7 +24,7 @@ tags:
 category: techwatch
 author: thmil
 featured: false
-image: /assets/images/posts/2023/05/6d8f23ea-971e-11ed-b06b-3729ef006681_1681726540974-llama_laptop_hero_1-760x380.jpg
+image: assets/images/posts/2023/05/6d8f23ea-971e-11ed-b06b-3729ef006681_1681726540974-llama_laptop_hero_1-760x380.jpg
 ---
 Hello, dear readers! ✌️
 
