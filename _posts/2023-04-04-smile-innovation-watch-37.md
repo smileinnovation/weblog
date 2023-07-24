@@ -5,6 +5,22 @@ subtitle:
 slug: smile-innovation-watch-37
 description:
 tags:
+- Meta
+- OpenAI
+- Microsoft
+- Metaverse
+- AI
+- gTLD
+- git
+- Outlook
+- Loop
+- Notion
+- Coinbase
+- SEC
+- Cryptocurrency
+- Amazon
+- TikTok
+- Healthtech
 category: techwatch
 author: thmil
 featured: false
