@@ -118,8 +118,49 @@ exclude:
 - _posts/assets
 
 maps:
-    google:
-        api_key: ''
+  google:
+    api_key: ''
+
+# Prose.io configuration
+prose:
+  media: /assets/images/posts/
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "Optional subtitle"
+      - name: "description"
+        field:
+          element: "textarea"
+          label: "Post description"
+          help: "Will be used on article list / homepage"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          alterable: true
+      - name: "featured"
+        field:
+          element: "checkbox"
+          label: "Feature this post"
+          help: "Will be displayed on top section of the homepage"
+          value: false
+      - name: "image"
+        field:
+          element: "text"
+          label: "Splash / Feature image"
+          help: "Upload pictures into /assets/images/posts/YEAR/MONTH/ and paste it here."
+
+
 
 # Have a per category feed
 #    categories:
