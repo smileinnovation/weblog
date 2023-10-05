@@ -26,7 +26,7 @@ post_class: post-template
                 <div class="row post-top-meta">
                     <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
                         {% if author.avatar %}
-                        <img class="author-thumb" src="{{site.baseurl}}/authors/{{ author.avatar }}" alt="{{ author.name }}">
+                        <img class="author-thumb" src="{{ author.avatar | prepend: site.baseurl }}" alt="{{ author.name }}">
                         {% else %}
                         <img class="author-thumb" src="{{author.email | gravatar}}" alt="{{ author.name }}">
                         {% endif %}
