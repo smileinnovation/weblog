@@ -200,13 +200,14 @@ For this test we were using the audio track of this [video : GovJobs - Présenta
 
 <span style="text-decoration:underline;">Without diarization</span>
 
-
 ![alt_text](/assets/images/posts/transcribovox/app2.png "Results without diarization, luxembourgish only")
-
 
 The detected language is German, and so the full audio is transcribed into German, with an average accuracy.
 
 <span style="text-decoration:underline;">With diarization </span>
+
+![alt_text](/assets/images/posts/transcribovox/app3.png "Results diarization, luxembourgish only #1")
+![alt_text](/assets/images/posts/transcribovox/app4.png "Results diarization, luxembourgish only #2")
 
 The diarization allows Whisper to produce better results, both in language detection accuracy. The language detection is not perfect : even if all speakers are Luxembourgish speakers, not all of their dialogs are identified as Luxembourgish, but German or Dutch.
 
@@ -219,7 +220,7 @@ We certainly reach the limit of the Whisper model regarding the Luxembourgish la
 Here no surprise, with the prompt we described previously, the LLM is producing the SRT file content without any issue
 
 
-![alt_text](/assets/images/posts/transcribovox/app3.png "Results with diarization, luxembourgish only")
+![alt_text](/assets/images/posts/transcribovox/app5.png "Results with diarization, luxembourgish only")
 
 
 ### Multilingual content
@@ -231,7 +232,7 @@ Their record was made by 4 people, speaking respectively in German, English, Fre
 <span style="text-decoration:underline;">Without diarization</span>
 
 
-![alt_text](/assets/images/posts/transcribovox/app3.png "Results without diarization, multilingual")
+![alt_text](/assets/images/posts/transcribovox/app6.png "Results without diarization, multilingual")
 
 
 Without the diarization, of course we have the same issue: everything is transcribed into German as this is the first language used during the recording. Also the word error rate is what you can expect from this behaviour.
@@ -239,8 +240,7 @@ Without the diarization, of course we have the same issue: everything is transcr
 <span style="text-decoration:underline;">With diarization</span>
 
 
-![alt_text](/assets/images/posts/transcribovox/app4.png "Results with diarization, multilingual")
-
+![alt_text](/assets/images/posts/transcribovox/app7.png "Results with diarization, multilingual")
 
 If we enable diarization, we have the 4 speakers identified, with their language. The word error rate is better for each of them, but still pretty low for Luxembourgish language.
 
@@ -249,8 +249,8 @@ If we enable diarization, we have the 4 speakers identified, with their language
 The subtitle creation is also good, either we let the original language or force a specific translation.
 
 
-![alt_text](/assets/images/posts/transcribovox/app5.png "Final subtitles #1")
-![alt_text](/assets/images/posts/transcribovox/app6.png "Final subtitles #2")
+![alt_text](/assets/images/posts/transcribovox/app8.png "Final subtitles #1")
+![alt_text](/assets/images/posts/transcribovox/app9.png "Final subtitles #2")
 
 
 ## Some numbers
