@@ -5,6 +5,7 @@ subtitle: "How to build a multilingual video automatic subtitles system"
 slug: from-multilingual-speech-to-subtitles 
 description:
 tags:
+- ai
 - artificial-intelligence
 - machine-learning
 - openai
@@ -18,9 +19,9 @@ image: assets/images/posts/transcribovox/subtitles.png
 ---
 
 ---
-# From speech to subtitles
+# From multilingual speech to subtitles
 
-## 1.  How to build a multilingual video automatic subtitles system
+## How to build a multilingual video automatic subtitles system
 
 Recently we have participated in a public tender related to the need of an innovative automatic video transcription and subtitles generation.
 
@@ -35,7 +36,7 @@ This is a challenge because all the common tools available are not always made t
 And last but not least, we had to do it with a constraint in terms of budget, for this proof of concept phase, which was approximately 10 days to work on a concept to validate our ideas.
 
 
-## 2. State-of-the-art speech to text
+## State-of-the-art speech to text
 
 For this project we looked at open source “speech to text” models capable of handling such tasks. As of today, two candidates are clearly leading the game :
 
@@ -62,7 +63,7 @@ All these criterias must be taken into account to get a proper result. In that c
 And during our tests we found that the Meta model was only capable of giving the words timestamp, no sentence structure nor their timestamp. In comparison the Whisper model is able to transcribe precisely the sentences with their timestamp.
 
 
-## 3. Which model for this proof of concept ?
+## Which model for this proof of concept ?
 
 To summarise, we need a model with multi-language transcription capabilities, with Luxembourgish support, and with a transcription that contains sentence structures and timestamps.
 
@@ -87,7 +88,7 @@ And on top of that, you also need to take into consideration the multilingual co
 That’s why we had chosen to go with the Whisper model.
 
 
-## 4. Challenge and our idea
+## Challenge and our idea
 
 Beyond the compromise made on the choice of a model, the main challenge for this project is to address multilingual video/audio content.
 
@@ -166,7 +167,7 @@ ${content}
 ${format} content:
 ```
 
-## 5. What we have built
+## What we have built
 
 To demonstrate our idea we had to build a minimal toolchain that will rely on the technologies we just described.
 
@@ -186,14 +187,14 @@ Our prototype was based on a simple web application able to:
 The remote API was running on a server equipped with a GPU (Nvidia T4/16Gb) to accelerate the AI steps.
 
 
-## 6. Does it work ?
+## Does it work ?
 
 We ran many tests to understand the performance of this prototype, especially to compare the accuracy of transcription with and without the diarization. Of course we knew that the word error rate for Luxembourgish would not be good, as our Whisper model was not trained enough for this language.
 
 But we saw a clear improvement with diarization, on both multilingual and monolingual contents.
 
 
-### 6.1. Audio with Luxembourgish only
+### Audio with Luxembourgish only
 
 For this test we were using the audio track of this [video : GovJobs - Présentation métiers : Ministère de la Justice](https://www.youtube.com/watch?v=9JJ4UORMhPU).
 
@@ -221,7 +222,7 @@ Here no surprise, with the prompt we described previously, the LLM is producing 
 ![alt_text](/assets/images/posts/transcribovox/app3.png "Results with diarization, luxembourgish only")
 
 
-### 6.2. Multilingual content
+### Multilingual content
 
 We tested several multilingual audio streams, and in this example we read the transcription of a live recording made by our client during the demo of our prototype.
 
@@ -252,7 +253,7 @@ The subtitle creation is also good, either we let the original language or force
 ![alt_text](/assets/images/posts/transcribovox/app6.png "Final subtitles #2")
 
 
-## 7. Some numbers
+## Some numbers
 
 ### Word error rate
 
@@ -274,7 +275,7 @@ With this instance (EC2 g4dn.xlarge - 1x Nvidia T4 GPU 16Gb), we have been able 
 
 This performance factor can be indeed increased by using a better GPU, but of course this will also increase the total cost of the solution.
 
-## 8. Conclusion
+## Conclusion
 
 In conclusion, the integration of diarization and transcription tracking has significantly improved the quality of subtitle generation. Our chosen Whisper model excels in sentence timestamp accuracy, which is pivotal for creating synchronised subtitles. Despite its efficacy, the model's performance in language detection and word error rate for Luxembourgish is inadequate when compared to more widely spoken languages. This was an expected trade-off, considering the model's current training data.
 
