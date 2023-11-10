@@ -26,7 +26,7 @@ tags:
 - healthcare
 - healthtech
 author: mugon
-featured: true
+featured: false
 image: assets/images/posts/2023/10/mari-lezhava-q65bNe9fW-w-unsplash.jpg
 ---
 ## Yet another LLM-based chatbot
