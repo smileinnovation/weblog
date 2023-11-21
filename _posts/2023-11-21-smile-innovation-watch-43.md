@@ -5,6 +5,24 @@ subtitle:
 slug: smile-innovation-watch-43
 description:
 tags:
+- NVIDIA
+- GPU
+- Apple
+- Health
+- OpenAI
+- Twitter
+- X
+- Meta
+- Facebook
+- Instagram
+- 23andMe
+- Terraform
+- OpenTofu
+- Mistral
+- AI
+- OpenSource
+- Privacy
+- Licensing
 category: techwatch
 author: thmil
 featured: false
