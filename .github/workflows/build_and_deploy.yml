@@ -2,6 +2,11 @@ name: CI / CD
 
 # Controls when the action will run.
 on:
+
+  # Triggers the workflow every day to build whatever schedule post are in the queue
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 0 * * *'
   # Triggers the workflow on push for the main branch
   push:
     branches: [ main ]
